@@ -16,8 +16,8 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 
 Sprint | Previsão | Status|
 |------|--------|------|
-|Kick Off | 02/09/2024 - 06/09/2024 |em andamento|
-|01 | 09/09/2024 - 29/09/2024 | a fazer|
+|Kick Off | 02/09/2024 - 06/09/2024 |finalizado|
+|01 | 09/09/2024 - 29/09/2024 |em andamento |
 |02|  07/10/2024 - 27/10/2024 | a fazer|
 |03| 04/11/2024 - 24/11/2024 | a fazer|
 |Feira de Soluções| 12/12/2024 | a fazer |
