@@ -86,7 +86,7 @@
 .fot-itens{
     display: flex;
     list-style: none;
-    margin-right: 5%;
+    margin-right: 3.3%;
     padding: 1%;
     gap: 180px;
 }
