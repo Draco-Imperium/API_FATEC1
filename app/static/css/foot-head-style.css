@@ -1,0 +1,157 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1E3A8A;
+    padding: 0% 3%;
+    gap: 15%;
+}
+
+.header>a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    flex-basis: 100px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    margin-left: 3%;
+}
+
+.search{
+    --padding: 14px;
+    display: flex;
+    width: max-content;
+    align-items: center;
+    padding: var(--padding);
+    padding: 7px;
+    border-radius: 28px;
+    background: #f6f6f6;
+    width: 600px;
+    transition: box-shadow 0.25s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.250);
+}
+
+.search:focus-within{
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.250);
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: 'Lexend', sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+}
+
+.search-input::placeholder,
+.search-icon{
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #2F4FAC;
+    justify-content: space-around;
+    height: 35px;
+}
+.nav-itens{
+    display: flex;
+    list-style: none;
+    padding: 1%;
+    gap: 180px;
+}
+
+.nav-itens>li>a{
+    text-align: center;
+    color: #f6f6f6;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-itens>li>a:hover{
+    color: #60a5fa;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #CCCCCC27;
+    justify-content: flex-start;
+    padding: 0% 3%; 
+}
+
+.fot-itens {
+    display: flex;
+    justify-self: flex-end;
+    list-style: none;
+    padding: 1%;
+    gap: 180px;
+    flex: 1;
+    justify-content: center;
+}
+.fot-itens > li > a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    transition: all 0.3s ease 0s;
+}
+
+.fot-itens > li > a:hover {
+    color: #60a5fa;
+}
+
+.caixa {
+    position: relative;
+    display: inline-block;
+}
+
+.caixa-menu {
+    display: none;
+    position: absolute;
+    background-color: #2F4FAC;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 100%;
+    left: 0%;
+    border-radius: 0% 0% 10% 10%;
+    border: none;
+    z-index: 10;
+    width: 100%;
+    text-align: center;  
+}
+
+.caixa:hover .caixa-menu {
+    display: block;
+}
+
+.caixa-menu li a {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 0% 0% 10% 10%;
+    font-size: 12px;
+}
+
+.caixa-menu li a:hover {
+    color: #60a5fa;
+}
