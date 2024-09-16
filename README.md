@@ -47,7 +47,6 @@ Adicionar video e documentos nessa seção
 
 * Jira Software
 * Python Flask
-* React
 * PyPandas
 * HTML/CSS
 * TailwindCSS
