@@ -10,6 +10,7 @@ def index():
 
 @app.route('/vereadores_geral')
 def vereadores_geral():
+    
     return render_template('vereadores_geral.html')
 
 @app.route('/vereadores_perfil')
