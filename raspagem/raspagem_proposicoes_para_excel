@@ -1,0 +1,46 @@
+import requests
+from bs4 import BeautifulSoup
+
+urlBase = 'https://camarasempapel.camarasjc.sp.gov.br/spl/'
+endpoint = 'consulta-producao.aspx?ano_proposicao=2023&autor=1274&procuraTexto=DocumentoInicial'
+#'consulta-producao.aspx?ano_proposicao=2021&autor=1140&inicio=02/05/2021&final=31/12/2021&procuraTexto=DocumentoInicial'
+#'consulta-producao.aspx?ano_proposicao=2022&autor=1140&inicio=01/01/2021&final=01/05/2021&procuraTexto=DocumentoInicial'
+requisition = urlBase+endpoint
+# Sessão para persistir cookies
+session = requests.Session()
+
+# Fazendo uma requisição GET para carregar a página e obter os parâmetros necessários
+response = session.get(requisition)
+
+# Verificando se a requisição GET foi bem-sucedida
+if response.status_code == 200:
+    # Parseando o conteúdo HTML com BeautifulSoup
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Pegando os campos ocultos necessários para o POST
+    viewstate = soup.find('input', {'id': '__VIEWSTATE'})['value']
+    eventvalidation = soup.find('input', {'id': '__EVENTVALIDATION'})['value']
+
+    # Dados do formulário para o POST simulando o clique no botão de exportação para XLS
+    data = {
+        '__VIEWSTATE': viewstate,
+        '__EVENTVALIDATION': eventvalidation,
+        '__EVENTTARGET': '',
+        '__EVENTARGUMENT': '',
+        'ctl00$ContentPlaceHolder1$btn_export_excel': 'XLS'  # Nome do botão de exportação
+    }
+
+    # Fazendo a requisição POST para simular o clique no botão de download
+    post_response = session.post(requisition, data=data)
+
+    # Verificando se o POST foi bem-sucedido
+    if post_response.status_code == 200:
+        # Salvando o arquivo XLS
+        with open('arquivo.xls', 'wb') as file:
+            file.write(post_response.content)
+
+        print("Download do arquivo XLS concluído com sucesso!")
+    else:
+        print(f"Falha ao enviar o formulário. Código de status: {post_response.status_code}")
+else:
+    print(f"Falha ao acessar a página. Código de status: {response.status_code}")
