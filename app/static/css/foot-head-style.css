@@ -1,9 +1,21 @@
+footer{
+width: 100%;
+margin-top: auto;
+padding: 1rem;
+}
+main {
+    flex: 1;
+    min-height: 100vh;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .header{
     display: flex;
     align-items: center;
@@ -91,8 +103,7 @@
 .footer {
     display: flex;
     align-items: center;
-    background-color: #CCCCCC27;
-    justify-content: flex-start;
+    background-color: #CCCCCC45;
     padding: 0% 3%; 
 }
 
