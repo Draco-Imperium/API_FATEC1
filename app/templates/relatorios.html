@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/relatorios.css">
     {% include 'headFH.html' %}
     <title>Home</title>
 </head>
@@ -10,7 +11,54 @@
 {% include 'header.html' %}
 
 <main>
-ddddddddddddddddddddddddd
+    <section class="container">
+        <article class="filtros">
+            <div class="item-filtro">
+                <p>Tipo de Proposição</p>
+                <select>
+                <option>Selecione</option>
+                </select>
+            </div>
+            <div class="item-filtro">
+                <p>Nº DE PREPOSIÇÃO</p>
+                <input type="text" placeholder="">
+            </div>
+            <div class="item-filtro">
+                <p>ANO DA PREPOSIÇÃO</p>
+                <input type="text" placeholder="Ex: 2020">
+            </div>
+            <div class="espaço-completo">
+                <button class="botão-filtro">Buscar</button>
+            </div>
+        </article>
+    </section>
+    <section class="filtros_ativos">
+        <button>Tipo: Exemplo</button>
+        <button>Número da Preposição: x</button>
+        <button>Ano Proposição: XXXX</button>
+    </section>
+    <section class="container">
+        <article class="resultados">
+            <div>
+                <h3>RESULTADO DA PESQUISA</h3>
+            </div>
+            <hr>
+            <div class="item_resultado">
+                <h3>Exemplo nº1/XXXX</h3>
+                <p>Texto explicativo sobre a proposição.</p>
+                <p><strong>Processo Nº:</strong> YYYY/XXXX <strong>Protocolo Nº:</strong> XXXX <strong>ID:</strong>  xxxx <strong>Data:</strong> 09/09/2024 <strong>Situação:</strong> arquivado</p>
+                <p><strong>Autor(es) da Proposição:</strong> vereador(a)</p>
+            </div>
+            <hr>
+            <div class="item_resultado">
+                <h3>Exemplo nº2/XXXX</h3>
+                <p>Texto explicativo sobre a proposição.</p>
+                <p><strong>Processo Nº:</strong> YYYY/XXXX <strong>Protocolo Nº:</strong> XXXX <strong>ID:</strong>  xxxx <strong>Data:</strong> 09/09/2024 <strong>Situação:</strong> Em andamento</p>
+                <p><strong>Autor(es) da Proposição:</strong> vereador(a)</p>
+            </div>
+            <hr>
+        </article>
+    </section>
 </main>
 
 {% include 'footer.html' %}
