@@ -68,7 +68,6 @@ canvas {
 .dropdown-menu {
     display: none;
     position: absolute;
-    /* background-color: #2F4FAC; */
     border-radius: 0% 0% 10% 10%;
     border: none;
     text-align: center;  
@@ -92,19 +91,25 @@ canvas {
     color: #0073ff;
 }
 .pev{
-    display: flex;
-    border-radius: 10px;
-    border: solid 1px black;
-    background-color: #0073ff;  
+    all:unset
 }
-.pev h5{
-    font-weight: 400;
-    font-size: 12px;
-    color: #fff;
-    margin: 10%;
+.pev{
+display: flex;
+align-items: center;
+justify-items: center;
+background-color: #00000010;
+border-radius: 10px;
+color: white;
+font-size: 12px;
+font-weight: 400;
+padding: 1%  2%;
+gap: 2%;
+box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.pev > div {
+display: flex;
 }
 
-/* Botão toggle */
 .onoff input.toggle {
     display: grid;
 }
@@ -126,7 +131,7 @@ canvas {
     width: 15px;
     border-radius: 30px;
     background: rgba(19, 191, 17, 0);
-    transition: 0.1s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .onoff input.toggle + label:after {
@@ -139,7 +144,7 @@ canvas {
     border-radius: 30px;
     background: #fff;
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: 0.1s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 .onoff input.toggle:checked + label:before {
