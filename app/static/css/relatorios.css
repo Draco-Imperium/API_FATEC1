@@ -81,3 +81,29 @@ body {
     margin: 0;
     padding: 0;
 }
+.sobrenos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    gap: 0 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.img-grupo{
+    width: 90%;
+    height: 15%;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75); 
+    border-radius: 5px;
+}
+.title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.text{
+    width: 90%;
+    margin-top: 20px;
+}

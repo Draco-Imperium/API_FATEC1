@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include 'headFH.html' %}
-    <title>Home</title>
+    <title>Sobre Nós</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/relatorios.css') }}">
 </head>
 <body>
 {% include 'header.html' %}
 
 <main>
-ggggggggggggggggggggggggggggggggg
+    <section class="container , sobrenos">
+        <p class="title">Sobre Nós</p>
+        <p class="text">Bem-vindo à nossa página! Somos um grupo de estudantes apaixonados por desenvolvimento de software da FATEC São José dos Campos. Juntos, exploramos o fascinante mundo da tecnologia, buscando não apenas aprender, mas também inovar e criar soluções que impactem positivamente a sociedade.
+        
+            Nosso time é formado por estudantes de diversas áreas dentro do desenvolvimento, incluindo programação, design e gerenciamento de projetos. Essa diversidade nos permite abordar os desafios de maneira colaborativa e criativa, aproveitando as habilidades individuais de cada membro.
+            
+            Estamos comprometidos com a excelência acadêmica e a prática profissional. Ao longo do curso, participamos de projetos, hackathons e workshops, sempre em busca de aprimorar nossas habilidades e expandir nosso conhecimento. Além disso, acreditamos na importância de compartilhar o que aprendemos, contribuindo para a comunidade de tecnologia e inspirando novos talentos.
+            
+            Nosso objetivo é desenvolver aplicações que funcionem perfeitamente em diferentes plataformas, utilizando as melhores práticas de programação e design. Estamos empolgados com as oportunidades que a tecnologia nos oferece e prontos para enfrentar os desafios do futuro.
+            
+            Junte-se a nós nessa jornada! Aqui, estamos sempre abertos a colaborações, trocas de ideias e novas conexões. Vamos transformar o conhecimento em inovação juntos!</p>
+    </section>
 </main>
 
 {% include 'footer.html' %}
