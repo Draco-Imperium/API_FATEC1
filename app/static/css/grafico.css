@@ -14,15 +14,13 @@ main {
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
-    width: 600px;
-    max-width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .div{
     width: 60%;
 }
 #graficoContainer {
-    width: 80%;
+    width: 800px;
     height: auto;
     margin: 1%;
 }

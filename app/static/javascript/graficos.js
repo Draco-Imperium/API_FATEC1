@@ -1,7 +1,6 @@
-// Função para criar o gráfico
 function criarGrafico(data, label) {
     const ctx = document.getElementById('meuGrafico').getContext('2d');
-    
+
     if (window.meuGrafico instanceof Chart) {
         window.meuGrafico.destroy();
     }
@@ -28,72 +27,96 @@ function criarGrafico(data, label) {
     });
 }
 
-// Funções para mostrar os gráficos
-function mostrarGraficoPresenca() {
-    const dadosPresenca = [75, 15, 10]; // Presença, Faltas Justificadas, Faltas Não Justificadas
-    criarGrafico(dadosPresenca, 'Percentual de Presença');
+function mostrarGraficoFrequencia() {
+    const dadosFrequencia = [70, 75, 80, 85, 90, 95, 100, 85, 80, 75, 70, 65];
+    criarGrafico(dadosFrequencia, 'Frequência');
 }
 
 function mostrarGraficoFaltasJustificadas() {
-    const dadosFaltasJustificadas = [20, 80]; // Exemplo de dados
+    const dadosFaltasJustificadas = [5, 10, 8, 6, 4, 3, 2, 5, 7, 8, 9, 10];
     criarGrafico(dadosFaltasJustificadas, 'Faltas Justificadas');
 }
 
 function mostrarGraficoFaltasNaoJustificadas() {
-    const dadosFaltasNaoJustificadas = [10, 90]; // Exemplo de dados
+    const dadosFaltasNaoJustificadas = [2, 3, 5, 4, 6, 7, 8, 5, 4, 3, 2, 1];
     criarGrafico(dadosFaltasNaoJustificadas, 'Faltas Não Justificadas');
 }
 
 function mostrarGraficoLeis() {
-    const dadosLeis = [30, 20, 25, 15]; // Exemplo de dados
+    const dadosLeis = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65];
     criarGrafico(dadosLeis, 'Leis');
 }
 
 function mostrarGraficoResolucao() {
-    const dadosResolucao = [10, 30, 20, 40]; // Exemplo de dados
+    const dadosResolucao = [5, 10, 15, 20, 25, 30, 35, 30, 25, 20, 15, 10];
     criarGrafico(dadosResolucao, 'Resoluções');
 }
 
 function mostrarGraficoMocoes() {
-    const dadosMocoes = [15, 25, 35, 25]; // Exemplo de dados
+    const dadosMocoes = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24];
     criarGrafico(dadosMocoes, 'Moções');
 }
 
 function mostrarGraficoEmendas() {
-    const dadosEmendas = [5, 15, 25, 55]; // Exemplo de dados
+    const dadosEmendas = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
     criarGrafico(dadosEmendas, 'Emendas');
 }
 
+
 function mostrarGraficoComissoesEspeciais() {
-    const dadosComissoesEspeciais = [10, 5]; // Exemplo de dados
+    const dadosComissoesEspeciais = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36];
     criarGrafico(dadosComissoesEspeciais, 'Comissões Especiais');
 }
 
 function mostrarGraficoComissoesPermanentes() {
-    const dadosComissoesPermanentes = [8, 12]; // Exemplo de dados
+    const dadosComissoesPermanentes = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48];
     criarGrafico(dadosComissoesPermanentes, 'Comissões Permanentes');
 }
-function mostrarGraficoEducacao() {
-    const dadosEducacao = [25, 35, 40]; // Exemplo de dados
-    criarGrafico(dadosEducacao, 'Educação e Promoção Social');
+function mostrarGraficoJustica() {
+    const dadosJustica = [5, 10, 15, 20, 25, 30, 35, 30, 25, 20, 15, 10];
+    criarGrafico(dadosJustica, 'Justiça, Redação e Direitos Humanos');
 }
 
-// Adiciona eventos de clique aos itens do menu
-document.addEventListener('DOMContentLoaded', function() {
-    // Seleciona todos os links do menu suspenso
+function mostrarGraficoEtica() {
+    const dadosEtica = [3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36];
+    criarGrafico(dadosEtica, 'Ética');
+}
+
+function mostrarGraficoPlanejamento() {
+    const dadosPlanejamento = [4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48];
+    criarGrafico(dadosPlanejamento, 'Planejamento urbano, Obras e Transportes');
+}
+
+function mostrarGraficoMeioAmbiente() {
+    const dadosMeioAmbiente = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24];
+    criarGrafico(dadosMeioAmbiente, 'Meio ambiente');
+}
+
+function mostrarGraficoEconomia() {
+    const dadosEconomia = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23];
+    criarGrafico(dadosEconomia, 'Economia, Finanças e Orçamento');
+}
+
+function mostrarGraficoEducacao() {
+    const dadosEducacao = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65];
+    criarGrafico(dadosEducacao, 'Educação e Promoção social');
+}
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
     const menuLinks = document.querySelectorAll('.dropdown-menu a');
 
-    // Adiciona um evento de clique a cada link
-    menuLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            event.preventDefault(); // Previne o comportamento padrão do link
 
-            // Verifica qual link foi clicado e chama a função correspondente
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function (event) {
+            event.preventDefault();
+
             const textoLink = this.textContent;
 
             switch (textoLink) {
                 case 'Percentual de presença':
-                    mostrarGraficoPresenca();
+                    mostrarGraficoFrequencia();
                     break;
                 case 'Faltas justificadas':
                     mostrarGraficoFaltasJustificadas();
@@ -137,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 case 'Educação e Promoção social':
                     mostrarGraficoEducacao();
                     break;
+
                 default:
                     console.log('Gráfico não encontrado para: ' + textoLink);
             }
