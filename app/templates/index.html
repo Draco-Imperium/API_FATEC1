@@ -5,14 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include 'headFH.html' %}
     <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 {% include 'header.html' %}
 
 <main>
-aaaaaaaaaaaaaaaaaaaaaaaa
+    <section id="carousel" class="carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+        </ol>
+    
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="{{ url_for('graficos') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_gráficos.png') }}" alt="Banner Gráficos">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url_for('index') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_home.png') }}" alt="Banner Home">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url_for('vereadores_perfil') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_perfil_vereadores.png') }}" alt="Banner Proposta">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url_for('proposta') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_projeto_de_lei.png') }}" alt="Banner Vereadores">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url_for('relatorios') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_relatorios.png') }}" alt="Banner Comunidade">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="{{ url_for('vereadores_geral') }}">
+                <img src="{{ url_for('static', filename='images/foto_banner_vereadores.png') }}" alt="Banner Eventos">
+                </a>
+            </div>
+        </div>
+
+        <div class="rectangle left" onclick="prevSlide()">
+            <span class="arrow left-arrow">&#9664;</span>
+        </div>
+        <div class="rectangle right" onclick="nextSlide()">
+            <span class="arrow right-arrow">&#9654;</span>
+        </div>
+
+    </section>
+
+    <section class="propostas-one">
+        <section class="propostas">
+            <h1>Nome da Proposta</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+        <section class="propostas">
+            <h1>Nome da Proposta</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+        <section class="propostas">
+            <h1>Nome da Proposta</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+    </section>
+    
+    <section class="propostas-two">
+        <section class="propostas2">
+            <img src="../static/images/Vereador Lino Bispo.jpg" alt="Vereador Lino Bispo">
+            <article class="info-vereador">
+                <p>Vereador(a): Lino Bispo</p>
+                <p>Partido: Partido Liberal (PL)</p>
+            </article>
+        </section>
+        <section class="propostas2">
+            <img src="../static/images/Vereador Marcelo Garcia.jpg" alt="Vereador Marcelo Garcia">
+            <article class="info-vereador">
+                <p>Vereador(a): Marcelo Garcia</p>
+                <p>Partido: Partido Renovação Democrática (PRD)</p>
+            </article>
+        </section>
+        <section class="propostas2">
+            <img src="../static/images/Vereador Zé Luis.jpg" alt="Vereador Zé Luis">
+            <article class="info-vereador">
+                <p>Vereador(a): Zé Luis</p>
+                <p>Partido: Partido Social Democrático (PSD)</p>
+            </article>
+        </section>
+        <section class="propostas2">
+            <img src="../static/images/Vereador Roberto do Eleven (menor).jpg" alt="Vereador Zé Luis">
+            <article class="info-vereador">
+                <p>Vereador(a): Roberto do Eleven</p>
+                <p>Partido: Partido Social Democrático (PSD)</p>
+            </article>
+        </section>
+        </div>
+    </section>
 </main>
 
 {% include 'footer.html' %}
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
