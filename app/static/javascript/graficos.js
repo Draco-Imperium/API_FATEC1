@@ -73,57 +73,73 @@ function mostrarGraficoComissoesPermanentes() {
     const dadosComissoesPermanentes = [8, 12]; // Exemplo de dados
     criarGrafico(dadosComissoesPermanentes, 'Comissões Permanentes');
 }
-
-function mostrarGraficoEconomia() {
-    const dadosEconomia = [20, 30, 50]; // Exemplo de dados
-    criarGrafico(dadosEconomia, 'Economia');
-}
-
-function mostrarGraficoSaude() {
-    const dadosSaude = [15, 25, 60]; // Exemplo de dados
-    criarGrafico(dadosSaude, 'Saúde');
-}
-
 function mostrarGraficoEducacao() {
     const dadosEducacao = [25, 35, 40]; // Exemplo de dados
-    criarGrafico(dadosEducacao, 'Educação');
-}
-
-function mostrarGraficoSeguranca() {
-    const dadosSeguranca = [30, 20, 50]; // Exemplo de dados
-    criarGrafico(dadosSeguranca, 'Segurança');
-}
-
-function mostrarGraficoMeioAmbiente() {
-    const dadosMeioAmbiente = [10, 20, 70]; // Exemplo de dados
-    criarGrafico(dadosMeioAmbiente, 'Meio Ambiente');
+    criarGrafico(dadosEducacao, 'Educação e Promoção Social');
 }
 
 // Adiciona eventos de clique aos itens do menu
 document.addEventListener('DOMContentLoaded', function() {
-    const menuItems = document.query
-})
+    // Seleciona todos os links do menu suspenso
+    const menuLinks = document.querySelectorAll('.dropdown-menu a');
 
-{/* <div class="button-container">
-    <h3>Frequência</h3>
-    <button onclick="mostrarGraficoPresenca()">Percentual de Presença</button>
-    <button onclick="mostrarGraficoFaltasJustificadas()">Faltas Justificadas</button>
-    <button onclick="mostrarGraficoFaltasNaoJustificadas()">Faltas Não Justificadas</button>
+    // Adiciona um evento de clique a cada link
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function(event) {
+            event.preventDefault(); // Previne o comportamento padrão do link
 
-    <h3>Proposições</h3>
-    <button onclick="mostrarGraficoLeis()">Leis</button>
-    <button onclick="mostrarGraficoResolucao()">Resoluções</button>
-    <button onclick="mostrarGraficoMocoes()">Moções</button>
-    <button onclick="mostrarGraficoEmendas()">Emendas</button>
+            // Verifica qual link foi clicado e chama a função correspondente
+            const textoLink = this.textContent;
 
-    <h3>Comissões</h3>
-    <button onclick="mostrarGraficoComissoesEspeciais()">Comissões Especiais</button>
-    <button onclick="mostrarGraficoComissoesPermanentes()">Comissões Permanentes</button>
-
-    <h3>Pautas</h3>
-    <button onclick="mostrarGraficoEconomia()">Economia</button>
-    <button onclick="mostrarGraficoSaude()">Saúde</button>
-    <button onclick="mostrarGraficoEducacao()">Educação</button>
-    <button onclick="mostrarGraficoSeguranca()">Segurança</button>
-    <button onclick="mostrarGraficoMeioAmbiente()">Meio Ambiente</button>
-</div> */}
+            switch (textoLink) {
+                case 'Percentual de presença':
+                    mostrarGraficoPresenca();
+                    break;
+                case 'Faltas justificadas':
+                    mostrarGraficoFaltasJustificadas();
+                    break;
+                case 'Faltas não justificadas':
+                    mostrarGraficoFaltasNaoJustificadas();
+                    break;
+                case 'Leis':
+                    mostrarGraficoLeis();
+                    break;
+                case 'Resoluções':
+                    mostrarGraficoResolucao();
+                    break;
+                case 'Moções':
+                    mostrarGraficoMocoes();
+                    break;
+                case 'Emendas':
+                    mostrarGraficoEmendas();
+                    break;
+                case 'Especiais':
+                    mostrarGraficoComissoesEspeciais();
+                    break;
+                case 'Permanentes':
+                    mostrarGraficoComissoesPermanentes();
+                    break;
+                case 'Justiça, Redação e Direitos Humanos':
+                    mostrarGraficoJustica();
+                    break;
+                case 'Ética':
+                    mostrarGraficoEtica();
+                    break;
+                case 'Planejamento urbano, Obras e Tranportes':
+                    mostrarGraficoPlanejamento();
+                    break;
+                case 'Meio ambiente':
+                    mostrarGraficoMeioAmbiente();
+                    break;
+                case 'Economia, Finanças e Orçamento':
+                    mostrarGraficoEconomia();
+                    break;
+                case 'Educação e Promoção social':
+                    mostrarGraficoEducacao();
+                    break;
+                default:
+                    console.log('Gráfico não encontrado para: ' + textoLink);
+            }
+        });
+    });
+});
