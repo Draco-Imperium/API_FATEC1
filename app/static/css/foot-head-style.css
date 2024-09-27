@@ -2,9 +2,11 @@ footer{
 width: 100%;
 margin-top: auto;
 padding: 1rem;
+flex: 1;
+min-height: 10vh;
+flex: unset
 }
 main {
-    flex: 1;
     min-height: 100vh;
 }
 
@@ -26,6 +28,7 @@ main {
 
 .header>a {
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -78,12 +81,12 @@ main {
     align-items: center;
     background-color: #2F4FAC;
     justify-content: space-around;
-    height: 35px;
+    height: 30px;
 }
 .nav-itens{
     display: flex;
     list-style: none;
-    padding: 1%;
+    padding: 0%;
     gap: 180px;
 }
 
@@ -103,7 +106,7 @@ main {
 .footer {
     display: flex;
     align-items: center;
-    background-color: #CCCCCC45;
+    background-color: rgba(204, 204, 204, 0.45);
     padding: 0% 3%; 
 }
 

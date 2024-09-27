@@ -1,30 +1,34 @@
-    <!-- Template header -->
-    <!-- Feito para importar o header para cada página individual -->
-    <!-- Use onde colocaria o <header></header> -->
-    <header>
-        <div class="header">
-            <a href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='images/Logo API.png') }}" class="logo" alt="Logo do site">
-             </a>
-            <form>
-                <div class="search">
-                    <span class="search-icon material-symbols-outlined">search</span>
-                    <input class="search-input" type="search" placeholder="Pesquisar">
-                </div>
-            </form>
-        </div>
-            <nav class="nav">
-                <ul class="nav-itens">
-                    <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li class="caixa">
-                        <a href="#">Vereadores</a>
-                        <ul class="caixa-menu">
-                            <li><a href="{{ url_for('vereadores_geral') }}">Geral</a></li>
-                            <li><a href="{{ url_for('vereadores_perfil') }}">Perfil</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{ url_for('relatorios') }}">Relatórios</a></li>
-                    <li><a href="{{ url_for('graficos') }}">Gráficos</a></li>
-                </ul>
-            </nav>
-    </header>
+<!-- Template header -->
+<!-- Feito para importar o header para cada página individual -->
+<!-- Use onde colocaria o <header></header> -->
+<header>
+  <div class="header">
+    <a href="{{ url_for('index') }}">
+      <img
+        src="{{ url_for('static', filename='images/Logo API.png') }}"
+        class="logo"
+        alt="Logo do site"
+      />
+    </a>
+    <form>
+      <div class="search">
+        <span class="search-icon material-symbols-outlined">search</span>
+        <input class="search-input" type="search" placeholder="Pesquisar" />
+      </div>
+    </form>
+  </div>
+  <nav class="nav">
+    <ul class="nav-itens">
+      <li><a href="{{ url_for('index') }}">Home</a></li>
+      <li class="caixa">
+        <a href="#">Vereadores</a>
+        <ul class="caixa-menu">
+          <li><a href="{{ url_for('vereadores_geral') }}">Geral</a></li>
+          <li><a href="{{ url_for('vereadores_perfil') }}">Perfil</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ url_for('relatorios') }}">Relatórios</a></li>
+      <li><a href="{{ url_for('graficos') }}">Gráficos</a></li>
+    </ul>
+  </nav>
+</header>

@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gráficos com Chart.js</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/grafico.css') }}">
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/grafico.css') }}"
+    />
+    {% include 'headFH.html' %}
+  </head>
+
+  <body>
+    {% include 'header.html' %}
+
+    <main class="main">
+      <div>
+        <nav class="navigation-bar">
+            <ul class="navigation-items">
+                <li class="dropdown">
+                    <a href="#">Frequência</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Percentual de presença</a></li>
+                        <li><a href="#">Faltas justificadas</a></li>
+                        <li><a href="#">Faltas não justificadas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Proposições</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Leis</a></li>
+                        <li><a href="#">Resoluções</a></li>
+                        <li><a href="#">Moções</a></li>
+                        <li><a href="#">Emendas</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Comissões</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Especiais</a></li>
+                        <li><a href="#">Permanentes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Pautas</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Economia</a></li>
+                        <li><a href="#">Saúde</a></li>
+                        <li><a href="#">Educação</a></li>
+                        <li><a href="#">Segurança</a></li>
+                        <li><a href="#">Meio ambiente</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>        
+      <div class="container">
+        <div id="graficoContainer">
+          <canvas id="meuGrafico" width="600" height="300"></canvas>
+        </div>
+      </div>
+    </main>
+
+    {% include 'footer.html' %}
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{{ url_for('static', filename='javascript/graficos.js') }}"></script>
-    {% include 'headFH.html' %}
-</head>
-
-<body class="body">
-
-{% include 'header.html' %}
-
-<main class="main">
-    <section class="container2">
-        <article class="filtros">
-            <div class="item-filtro">
-                <p>Tipo de Proposição</p>
-                <select>
-                <option>Selecione</option>
-                </select>
-            </div>
-            <div class="item-filtro">
-                <p>Nº DE PREPOSIÇÃO</p>
-                <input type="text" placeholder="">
-            </div>
-            <div class="item-filtro">
-                <p>ANO DA PREPOSIÇÃO</p>
-                <input type="text" placeholder="Ex: 2020">
-            </div>
-            <div class="espaço-completo">
-                <button class="botão-filtro">Buscar</button>
-            </div>
-        </article>
-    </section>
-    <nav class="botoes">
-        <button class="aba" onclick="mostrarGrafico('proposicoes'); toggleActive(this)">Proposições</button>
-        <button class="aba" onclick="mostrarGrafico('faltas'); toggleActive(this)">Faltas</button>
-        <button class="aba" onclick="mostrarGrafico('emendas'); toggleActive(this)">Emendas</button>
-    </nav>
-    <div class="container">
-        <div id="graficoContainer">
-            <canvas id="meuGrafico" width="600" height="300"></canvas>
-        </div>
-    </div>
-</main>
-
-{% include 'footer.html' %}
-    
-</body>
+  </body>
 </html>
