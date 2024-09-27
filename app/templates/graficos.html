@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gráficos com Chart.js</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/grafico.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/grafico.css') }}" />
     {% include 'headFH.html' %}
   </head>
 
@@ -18,41 +15,57 @@
       <div>
         <nav class="navigation-bar">
             <ul class="navigation-items">
-                <li class="dropdown">
-                    <a href="#">Frequência</a>
-                    <ul class="dropdown-menu">
+              <div class="div">
+                <nav class="navigation-bar">
+                  <ul class="navigation-items">
+                    <li class="dropdown">
+                      <a href="#">Frequência</a>
+                      <ul class="dropdown-menu">
                         <li><a href="#">Percentual de presença</a></li>
                         <li><a href="#">Faltas justificadas</a></li>
                         <li><a href="#">Faltas não justificadas</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Proposições</a>
-                    <ul class="dropdown-menu">
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Proposições</a>
+                      <ul class="dropdown-menu">
                         <li><a href="#">Leis</a></li>
                         <li><a href="#">Resoluções</a></li>
                         <li><a href="#">Moções</a></li>
                         <li><a href="#">Emendas</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Comissões</a>
-                    <ul class="dropdown-menu">
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Comissões</a>
+                      <ul class="dropdown-menu">
                         <li><a href="#">Especiais</a></li>
                         <li><a href="#">Permanentes</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#">Pautas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Economia</a></li>
-                        <li><a href="#">Saúde</a></li>
-                        <li><a href="#">Educação</a></li>
-                        <li><a href="#">Segurança</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#">Pautas</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Justiça, Redação e Direitos Humanos</a></li>
+                        <li><a href="#">Ética</a></li>
+                        <li><a href="#">Planejamento urbano, Obras e Tranportes</a></li>
                         <li><a href="#">Meio ambiente</a></li>
+                        <li><a href="#">Economia, Finanças e Orçamento</a></li>
+                        <li><a href="#">Educação e Promoção social</a></li>
                     </ul>
                 </li>
             </ul>
+          </li>
+          <section class="pev">
+            <h5>Partido</h5>
+            <div class="onoff">
+              <input type="checkbox" class="toggle" id="onoff1">
+              <label for="onoff1"></label>
+            </div>
+            <h5>Vereador</h5>
+          </section>
+          <li></li>
+        </ul>
+      </nav>
         </nav>        
       <div class="container">
         <div id="graficoContainer">
