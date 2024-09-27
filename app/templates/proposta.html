@@ -1,18 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include 'headFH.html' %}
+    <link rel="stylesheet" href="../static/css/proposta.css">
     <title>Home</title>
 </head>
+
 <body>
-{% include 'header.html' %}
+    {% include 'header.html' %}
+    <div class="container">
 
-<main>
-hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-</main>
+        <section class="tema">
+            <h2>Tema do Semestre</h2>
+            <p>Acompanhamento do Desempenho dos Vereadores em Exercício</p>
+            <p>Disponível em: <a href="https://camarasempapel.camarasjc.sp.gov.br/"
+                    target="_blank">https://camarasempapel.camarasjc.sp.gov.br/</a></p>
+        </section>
 
-{% include 'footer.html' %}
+        <section class="competencias">
+            <h2>Competências trabalhadas no semestre</h2>
+            <ul>
+                <li>Documentação de Software (backlog de produto, de sprint, briefing, etc.)</li>
+                <li>Controle de versão</li>
+                <li>Processo de desenvolvimento ágil</li>
+                <li>Fundamentos de sistemas Web</li>
+                <li>Lógica de programação básica</li>
+                <li>Persistência de dados em BD relacional</li>
+                <li>Arquitetura de Informação e boas práticas no projeto de interfaces</li>
+            </ul>
+        </section>
+
+        <section class="desafio">
+            <h2>Desafio (problema)</h2>
+            <p>O desafio proposto aos alunos é criar uma plataforma web que disponibilize informações sobre o desempenho
+                dos vereadores da cidade durante o atual mandato. As informações estão disponíveis em <a
+                    href="https://camarasempapel.camarasjc.sp.gov.br/"
+                    target="_blank">https://camarasempapel.camarasjc.sp.gov.br/</a>. O objetivo é oferecer aos eleitores
+                dados claros e acessíveis que ajudem a tomar decisões informadas nas eleições municipais que se
+                aproximam.</p>
+
+            <p>A plataforma permitirá que os cidadãos visualizem a atuação dos vereadores, incluindo:</p>
+            <ul>
+                <li>Presença nas Sessões: Percentual de presença e faltas, justificadas ou não.</li>
+                <li>Proposições Apresentadas: Projetos de lei, requerimentos e moções que o vereador apresentou durante
+                    o mandato.</li>
+                <li>Projetos de Lei Aprovados: Detalhamento das propostas aprovadas, com links para o conteúdo completo.
+                </li>
+                <li>Posicionamento em Votações: Como o vereador votou em questões-chave.</li>
+                <li>Participação em Comissões: Informações sobre o envolvimento do vereador em comissões especiais e
+                    permanentes.</li>
+            </ul>
+        </section>
+
+        <section class="funcionalidades">
+            <h2>Funcionalidades do Site</h2>
+            <ul>
+                <li>Perfil Individual de Cada Vereador</li>
+                <li>Busca e Filtros: Ferramentas que permitam buscar vereadores por nome, partido, ou atuação em temas
+                    específicos.</li>
+                <li>Painel de Estatísticas: Visualizações gráficas que mostrem a atuação geral da câmara, comparando o
+                    desempenho entre os vereadores.</li>
+                <li>Comentários e Feedback do Eleitorado: Possibilidade de cidadãos deixarem comentários ou
+                    classificarem a atuação dos vereadores, promovendo maior interatividade.</li>
+            </ul>
+        </section>
+
+        <section class="requisitos">
+            <h2>Requisitos apresentados para os alunos</h2>
+            <ul>
+                <li>RN.P.1. Desenvolver o back end com a linguagem Python 3+ e o micro framework Flask.</li>
+                <li>RN.P.2. Utilizar o sistema gerenciador de banco de dados MariaDB/MySQL.</li>
+                <li>RN.P.3. Utilizar HTML 5 para arquitetura da informação da aplicação.</li>
+                <li>RN.P.4. Utilizar CSS 3 para especificação do layout e demais características de renderização da
+                    interface com o usuário.</li>
+                <li>RN.P.5. Utilizar o GitHub para controle de versão dos artefatos de projeto.</li>
+                <li>RN.P.6. Interface com navegação intuitiva (e.g. acesso à informação com poucos “cliques”).</li>
+                <li>RN.P.7. Sistema responsivo.</li>
+                <li>RN.P.8. Evitar de usar framework de mapeamento objeto-relacional para implementar as operações em
+                    banco de dados.</li>
+            </ul>
+        </section>
+    </div>
+    {% include 'footer.html' %}
 </body>
+
 </html>

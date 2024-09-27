@@ -1,0 +1,58 @@
+@import url('grafico.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    justify-content: center;
+    display: grid;
+    margin: auto;
+}
+
+.head {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.head p {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cliente {
+    color: blue;
+}

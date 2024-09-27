@@ -1,9 +1,23 @@
+footer{
+width: 100%;
+margin-top: auto;
+padding: 1rem;
+flex: 1;
+min-height: 10vh;
+flex: unset
+}
+main {
+    min-height: 100vh;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 .header{
     display: flex;
     align-items: center;
@@ -14,6 +28,7 @@
 
 .header>a {
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -66,12 +81,12 @@
     align-items: center;
     background-color: #2F4FAC;
     justify-content: space-around;
-    height: 35px;
+    height: 30px;
 }
 .nav-itens{
     display: flex;
     list-style: none;
-    padding: 1%;
+    padding: 0%;
     gap: 180px;
 }
 
@@ -91,8 +106,7 @@
 .footer {
     display: flex;
     align-items: center;
-    background-color: #CCCCCC27;
-    justify-content: flex-start;
+    background-color: rgba(204, 204, 204, 0.45);
     padding: 0% 3%; 
 }
 
