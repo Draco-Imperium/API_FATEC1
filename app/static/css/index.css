@@ -190,3 +190,17 @@ body {
   padding: 2%;
   text-align: left;
 }
+
+.button {
+  background-color: #2F4FAC;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 1%;
+}
+.button:hover {
+  background-color: #1d3a7e; /* Cor mais escura no hover */
+}
