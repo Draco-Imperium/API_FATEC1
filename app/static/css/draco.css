@@ -5,7 +5,7 @@
 }
 
 main{
-    margin: 5% 10% 5% 10%;
+    margin: 5% 10%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,12 +15,15 @@ main{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+    max-width: 100%;
+    height: auto;
 }
 
 .card-container{
     display: flex;
     background-color: #ccc;
     width: 400px;
+    height: auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 10px;

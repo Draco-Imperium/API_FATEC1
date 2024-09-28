@@ -112,12 +112,12 @@ main {
 
 .fot-itens {
     display: flex;
-    justify-self: flex-end;
     list-style: none;
     padding: 1%;
-    gap: 180px;
+    gap: 280px;
     flex: 1;
     justify-content: center;
+    align-items: center;
 }
 .fot-itens > li > a {
     color: #000000;
@@ -145,15 +145,16 @@ main {
     margin: 0;
     top: 100%;
     left: 0%;
-    border-radius: 0% 0% 10% 10%;
-    border: none;
-    z-index: 10;
+    border-radius: 0% 0% 10px 10px;
     width: 100%;
     text-align: center;  
 }
 
 .caixa:hover .caixa-menu {
     display: block;
+    border: #203d93 solid 1px;
+    border-top: none;
+    z-index: 1;
 }
 
 .caixa-menu li a {

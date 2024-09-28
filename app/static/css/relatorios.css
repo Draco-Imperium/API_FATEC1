@@ -20,8 +20,14 @@ select {
     display: flex;
     justify-content: flex-start;
 }
-.botão-filtro {
+.botão-filtro1 {
+    margin-top: 25px;
+    border-radius: 15px;
+}
+.botão-filtro2 {
     margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 15px;
 }
 hr {
     border: 0;
@@ -67,7 +73,7 @@ hr {
 button{
     background-color: #2F4FAC;
     color: #ffffff;
-    border-radius: 8px;          
+    border-radius: 10px;          
     padding: 6px 8px;         
     font-size: 14px;
     font-weight: 300;
@@ -87,11 +93,11 @@ body {
     justify-content: center;
     border: 1px solid #ddd;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     gap: 0 80px;
-    margin-bottom: 50px;
     margin-top: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
 }
 .img-grupo{
     width: 90%;
