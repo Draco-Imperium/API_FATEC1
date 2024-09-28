@@ -14,13 +14,12 @@ flex: unset
     box-sizing: border-box;
 }
 
-
 .header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #1E3A8A;
     padding: 0% 3%;
-    /* gap: 20%; */
 }
 
 .header>a {
@@ -51,6 +50,11 @@ flex: unset
     width: 600px;
     transition: box-shadow 0.25s;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.250);
+}
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .search:focus-within{
