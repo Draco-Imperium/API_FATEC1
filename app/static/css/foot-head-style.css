@@ -6,9 +6,6 @@ flex: 1;
 min-height: 10vh;
 flex: unset
 }
-/* main {
-    min-height: 100vh;
-} */
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -23,7 +20,7 @@ flex: unset
     align-items: center;
     background-color: #1E3A8A;
     padding: 0% 3%;
-    gap: 15%;
+    /* gap: 20%; */
 }
 
 .header>a {
