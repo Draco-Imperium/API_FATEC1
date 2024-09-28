@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/leis_aprovadas.css">
+    {% include 'headFH.html' %}
+    <title>Relatórios</title>
+</head>
+<body>
+{% include 'header.html' %}
+
+<main>
+    <section class="container">
+        <article class="filtros">
+            <div class="barra-de-pesquisa">
+                <input class="search-input" type="search" placeholder="termos da busca">
+            </div>
+            <div class="item-filtro">
+                <p>Nº DO PROCESSO</p>
+                <input type="text" placeholder="">
+            </div>
+            <div class="item-filtro">
+                <p>Nº DE PREPOSIÇÃO</p>
+                <input type="text" placeholder="">
+            </div>
+            <div class="item-filtro">
+                <p>ANO DA PREPOSIÇÃO</p>
+                <input type="text" placeholder="Ex: 2020">
+            </div>
+            <div class="espaço-completo">
+                <button class="botão-filtro">Buscar</button>
+            </div>
+        </article>
+    </section>
+    <section class="filtros_ativos">
+        <button>Nº do Processo: x</button>
+        <button>Nº da Preposição: x</button>
+        <button>Ano Proposição: XXXX</button>
+    </section>
+    <section class="container">
+        <article class="resultados">
+            <div>
+                <h3>RESULTADO DA PESQUISA</h3>
+            </div>
+            <hr>
+            <div class="item_resultado">               
+                <h3>Lei Aprovada nº1/XXXX</h3>
+                <p>Texto explicativo sobre o projeto.</p>
+                <p><strong>Processo Nº:</strong> YYYY/XXXX <strong>Protocolo Nº:</strong> XXXX<strong>ID:</strong>  xxxx <strong>Data:</strong> 09/09/2024 <strong>Situação:</strong> arquivado</p>
+                <p><strong>Autor(es) da Proposição:</strong> vereador(a)</p>
+          </div>
+            <hr>
+            <div class="item_resultado">
+                <h3>Lei Aprovada nº2/XXXX</h3>
+                <p>Texto explicativo sobre o projeto.</p>
+                <p><strong>Processo Nº:</strong> YYYY/XXXX <strong>Protocolo Nº:</strong> XXXX <strong>ID:</strong>  xxxx <strong>Data:</strong> 09/09/2024 <strong>Situação:</strong> Em andamento</p>
+                <p><strong>Autor(es) da Proposição:</strong> vereador(a)</p>
+            </div>
+            <hr>
+        </article>
+    </section>
+</main>
+
+{% include 'footer.html' %}
+</body>
+</html>
