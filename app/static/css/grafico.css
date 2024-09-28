@@ -6,6 +6,9 @@ main {
   font-family: "Poppins", sans-serif;
   background-color: rgba(204, 204, 204, 0.25);
 }
+.widht{
+    margin: 2.5% auto;
+}
 
 .container {
   display: flex;

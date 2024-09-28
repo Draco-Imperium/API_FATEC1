@@ -6,9 +6,9 @@ flex: 1;
 min-height: 10vh;
 flex: unset
 }
-main {
+/* main {
     min-height: 100vh;
-}
+} */
 
 *{
     font-family: 'Poppins', sans-serif;
