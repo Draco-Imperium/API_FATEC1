@@ -11,8 +11,8 @@ body{
 .conteúdo-vereador{
     display: grid;
     grid-template-columns: 5fr 5fr;
-    max-width: 1200px;
-    margin: 5% auto;
+    max-width: 85%;
+    margin: 2.5% auto;
     padding: 20px;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -61,8 +61,7 @@ body{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    max-width: 1200px;
+    max-width: 85%;
     margin: auto;
     margin-bottom: 2%;
 }

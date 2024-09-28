@@ -1,10 +1,13 @@
-main {
+.main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
     font-family: 'Poppins', sans-serif;
     background-color: rgba(204, 204, 204, 0.23);
+}
+.widht{
+    margin: 2.5% auto;
 }
 
 .container {
@@ -17,7 +20,7 @@ main {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .div{
-    width: 60%;
+    width: 100%;
 }
 #graficoContainer {
     width: 800px;

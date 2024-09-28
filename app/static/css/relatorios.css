@@ -41,16 +41,21 @@ hr {
     margin-bottom: 20px;
 }
 .filtros_ativos{
-    max-width: 1200px;
-    margin: auto;
+    max-width: 85%;
+    margin: 0 auto;
     display: flex;
     gap: 20px;
-    padding: 0 30px;
+    padding: 0;
 }
-.container {
-    max-width: 1200px;     
-    margin: 0 auto;        
-    padding: 20px;
+.container-relatorios{
+    max-width: 85%;     
+    margin: 2.5% auto 4% auto;
+    padding: 0;        
+}
+.container-relatorios2{
+    max-width: 85%;     
+    margin: 1% auto 2.5% auto;
+    padding: 0;        
 }
 .filtros {
     flex-wrap: wrap;
@@ -80,30 +85,4 @@ body {
     background-color: #cccccc45;
     margin: 0;
     padding: 0;
-}
-.sobrenos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    border: 1px solid #ddd;
-    background-color: white;
-    border-radius: 5px;
-    gap: 0 80px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.img-grupo{
-    width: 90%;
-    height: 15%;
-    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75); 
-    border-radius: 5px;
-}
-.title{
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-.text{
-    width: 90%;
-    margin-top: 20px;
 }

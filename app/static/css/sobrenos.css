@@ -1,0 +1,30 @@
+body {
+    background-color: #cccccc45;
+    margin: 0;
+    padding: 0;
+}
+.sobrenos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 85%;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    margin: 2.5% auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.img-grupo{
+    width: 90%;
+    height: 15%;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.75); 
+    border-radius: 5px;
+}
+.title{
+    margin: 20px auto;
+    font-size: 30px;
+}
+.text{
+    width: 90%;
+    margin: 20px 0;
+}

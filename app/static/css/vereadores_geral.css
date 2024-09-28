@@ -11,8 +11,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 50px;
-    max-width: 1000px;
-    margin: 5% auto;
+    max-width: 85%;
+    margin: 2.5% auto;
 }
 .vereador{
     display: flex;
