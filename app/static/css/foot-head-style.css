@@ -1,10 +1,21 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
 footer{
-width: 100%;
-margin-top: auto;
-padding: 1rem;
-flex: 1;
-min-height: 10vh;
 flex: unset
+
 }
 
 
@@ -114,7 +125,6 @@ flex: unset
 
 .fot-itens {
     display: flex;
-    justify-content: center;
     list-style: none;
     padding: 1%;
     gap: 280px;
@@ -122,13 +132,13 @@ flex: unset
     justify-content: center;
     align-items: center;
 }
+
 .fot-itens > li > a {
     color: #000000;
     text-decoration: none;
     font-weight: 400;
     font-size: 12px;
     transition: all 0.3s ease 0s;
-    
 }
 
 .proposta_foot{
