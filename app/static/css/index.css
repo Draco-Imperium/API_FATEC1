@@ -14,30 +14,23 @@ body {
   position: relative;
   width: 100%;
   height: 300px;
-  background-color: rgb(255, 255, 255);
+  background-color: #fff;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
 }
 
 .carousel-indicators {
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
 }
 
-.carousel-inner {
+.carousel-inner,
+.carousel-item {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .carousel-item {
-  position: relative;
   display: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
 }
 
 .carousel-item.active {
@@ -48,19 +41,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(100%);
-}
-
-.carousel-item {
-  position: relative;
-  display: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.carousel-item:hover .rectangle {
-  display: block;
 }
 
 .rectangle {
@@ -69,12 +49,13 @@ body {
   height: 100px;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  transition: opacity 0.3s;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
-  color: white;
+  color: #fff;
+  transition: opacity 0.3s;
+  border-radius: 15px;
 }
 
 .rectangle.left {
@@ -91,6 +72,29 @@ body {
 
 .carousel:hover .rectangle {
   opacity: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 7%;
+  opacity: 0.8;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
 }
 
 .propostas-one {
