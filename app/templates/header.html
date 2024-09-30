@@ -19,13 +19,13 @@
     <ul class="nav-itens">
       <li><a href="{{ url_for('index') }}">Home</a></li>
       <li class="caixa">
-        <a href="#">Vereadores</a>
-        <ul class="caixa-menu">
+        <a href="{{ url_for('vereadores_geral')}}">Vereadores</a>
+        <!-- <ul class="caixa-menu">
           <li><a href="{{ url_for('vereadores_geral') }}">Geral</a></li>
           <li><a href="{{ url_for('vereadores_perfil') }}">Perfil</a></li>
-        </ul>
+        </ul> -->
       </li>
-      <li><a href="{{ url_for('relatorios') }}">Relatórios</a></li>
+      <li><a href="{{ url_for('relatorios') }}">Proposições</a></li>
       <li><a href="{{ url_for('graficos') }}">Gráficos</a></li>
     </ul>
   </nav>

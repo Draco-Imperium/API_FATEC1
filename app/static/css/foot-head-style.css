@@ -7,6 +7,7 @@ min-height: 10vh;
 flex: unset
 }
 
+
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -113,6 +114,7 @@ flex: unset
 
 .fot-itens {
     display: flex;
+    justify-content: center;
     list-style: none;
     padding: 1%;
     gap: 280px;
@@ -126,6 +128,11 @@ flex: unset
     font-weight: 400;
     font-size: 12px;
     transition: all 0.3s ease 0s;
+    
+}
+
+.proposta_foot{
+    font-size: 14px;
 }
 
 .fot-itens > li > a:hover {
@@ -171,3 +178,4 @@ flex: unset
 .caixa-menu li a:hover {
     color: #60a5fa;
 }
+
