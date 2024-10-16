@@ -118,3 +118,7 @@ body {
     width: 90%;
     margin-top: 20px;
 }
+.page-link{
+    background-color: #2F4FAC !important;
+    color: #fff !important;
+}

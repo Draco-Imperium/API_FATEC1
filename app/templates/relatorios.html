@@ -44,20 +44,22 @@
                 <h3>RESULTADO DA PESQUISA</h3>
             </div>
             <hr>
+            {% for proposicao in proposicoes %}
             <div class="item_resultado">
-                <h3>Emenda nº3/2021</h3>
-                <p>Acrescenta um § 3º, ao art. 30</p>
-                <p><strong>Processo Nº:</strong> 12781/2021 <strong>Protocolo Nº:</strong> 18221 <strong>Data:</strong> 16/12/2021 <strong>Situação:</strong> Arquivado</p>
-                <p><strong>Autor(es) da Proposição:</strong> Ver. Amélia Naomi </p>
+                <h3>{{ proposicao[2] }}  n° {{proposicao[7]}}/{{proposicao[6]}}</h3>
+                <p>{{proposicao[8]}}</p>
+                <p><strong>Processo Nº:</strong> {{proposicao[5]}}/{{proposicao[6]}} <strong>Protocolo Nº:</strong> {{proposicao[0]}} <strong>Data:</strong> {{proposicao[4]}} <strong>Situação:</strong> {{proposicao[3]}}</p>
+                <p><strong>Autor(es) da Proposição:</strong> {{proposicao[1]}} </p>
             </div>
             <hr>
-            <div class="item_resultado">
-                <h3>Projeto de Lei nº650/2021</h3>
-                <p>Considera pessoa com deficiência, inclusive para os fins de ingresso na reserva percentual de vagas para o provimento de cargos e empregos públicos, o indivíduo diagnosticado com audição unilateral no âmbito do Município de São José dos Campos e dá outras providências.</p>
-                <p><strong>Processo Nº:</strong> 13492/2021 <strong>Protocolo Nº:</strong> 18061 <strong>Data:</strong> 13/12/2021 <strong>Situação:</strong> Arquivado</p>
-                <p><strong>Autor(es) da Proposição:</strong> Ver. Dr. Elton</p>
-            </div>
-            <hr>
+            {% endfor %}
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Anterior</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Próximo</a></li>
+            </ul>
         </article>
     </section>
 </main>

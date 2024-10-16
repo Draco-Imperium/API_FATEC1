@@ -1,8 +1,19 @@
 from flask import Flask, render_template
+from flask_mysqldb import MySQL
 import sys
 sys.setrecursionlimit(1500)
 
 app = Flask(__name__)
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = 'fatec'
+app.config['MYSQL_DB'] = 'api'
+
+mysql = MySQL(app)
+
+def conectar_db():
+    conectar = mysql.connect()
 
 @app.route('/')
 def index():
@@ -19,7 +30,11 @@ def vereadores_perfil():
 
 @app.route('/relatorios')
 def relatorios():
-    return render_template('relatorios.html')
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT * FROM proposicoes")
+    proposicoes = cur.fetchall()
+    cur.close()
+    return render_template('relatorios.html', proposicoes=proposicoes)
 
 @app.route('/graficos')
 def graficos():
