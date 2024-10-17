@@ -46,6 +46,7 @@
             
             {%for prop in proposicao['Data']%}
             <hr>
+            {% for proposicao in proposicoes %}
             <div class="item_resultado">
                 <h3>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h3>
                 <p>{{ prop['assunto'] }}</p>

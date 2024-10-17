@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_mysqldb import MySQL
 import sys
 import requests 
 from getFunctions import *
