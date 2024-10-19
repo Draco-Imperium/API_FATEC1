@@ -12,17 +12,20 @@
 
 <main>
     <section class="Vereadores-geral">
+        {% for parlamentar in parlamentares %}
         <section class="vereador">
-            <img src="../static/images/Vereador Roberto do Eleven (menor).jpg" alt="Vereador Roberto do Eleven">
+            <img src="{{parlamentar['parlamentarFoto']}}" alt="Vereador">
             <article class="info-vereador">
-                <p>Vereador(a): Roberto do Eleven</p>
-                <p>Partido: Partido Social Democrático (PSD)</p>
+                <p>Vereador(a): {{ parlamentar['parlamentarNome'] }}</p>
+                <p>Partido:  {{ parlamentar['partidoNome'] }} ({{parlamentar['partidoSigla'] }})</p>
             </article>
             <article class="button-container">
                <a href=" {{ url_for('vereadores_perfil')}}"><button class="button" type="button" >Ver Perfil</button></a> 
             </article>
         </section>
-        <section class="vereador">
+        {%endfor%}
+
+        <!-- <section class="vereador">
             <img src="../static/images/Vereador Lino Bispo.jpg" alt="Vereador Lino Bispo">
             <article class="info-vereador">
                 <p>Vereador(a): Lino Bispo</p>
@@ -71,7 +74,7 @@
             <article class="button-container">
                 <button class="button" type="button">Ver Perfil</button>
             </article>
-        </section>
+        </section> -->
     </section>
 </main>
 

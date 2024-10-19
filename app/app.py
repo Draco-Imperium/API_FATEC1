@@ -1,19 +1,12 @@
 from flask import Flask, render_template
 from flask_mysqldb import MySQL
 import sys
+import requests 
+from getFunctions import *
 sys.setrecursionlimit(1500)
 
 app = Flask(__name__)
 
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'fatec'
-app.config['MYSQL_DB'] = 'api'
-
-mysql = MySQL(app)
-
-def conectar_db():
-    conectar = mysql.connect()
 
 @app.route('/')
 def index():
@@ -21,20 +14,17 @@ def index():
 
 @app.route('/vereadores_geral')
 def vereadores_geral():
-    
-    return render_template('vereadores_geral.html')
+    parlamentares = get_parlamentar()  # Obtém as comissões da API
+    return render_template('vereadores_geral.html', parlamentares=parlamentares)
 
 @app.route('/vereadores_perfil')
 def vereadores_perfil():
     return render_template('vereadores_perfil.html')
 
-@app.route('/relatorios')
-def relatorios():
-    cur = mysql.connection.cursor()
-    cur.execute("SELECT * FROM proposicoes")
-    proposicoes = cur.fetchall()
-    cur.close()
-    return render_template('relatorios.html', proposicoes=proposicoes)
+@app.route('/proposicoes')
+def proposicoes():
+    proposicao = get_prop()
+    return render_template('proposicoes.html', proposicao=proposicao)
 
 @app.route('/graficos')
 def graficos():
