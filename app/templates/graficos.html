@@ -12,48 +12,81 @@
 <body>
   {% include 'header.html' %}
 
-    <main class="main">
-      <div class="widht">
-        <nav class="navigation-bar">
-            <ul class="navigation-items">
-              <div class="div">
-                <nav class="navigation-bar">
-                  <ul class="navigation-items">
-                    <li class="dropdown">
-                      <a href="#">Frequência</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Percentual de presença</a></li>
-                        <li><a href="#">Faltas justificadas</a></li>
-                        <li><a href="#">Faltas não justificadas</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Proposições</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Leis</a></li>
-                        <li><a href="#">Resoluções</a></li>
-                        <li><a href="#">Moções</a></li>
-                        <li><a href="#">Emendas</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Comissões</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Especiais</a></li>
-                        <li><a href="#">Permanentes</a></li>
-                      </ul>
-                    </li>
-                    <li class="dropdown">
-                      <a href="#">Pautas</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#">Justiça, Redação e Direitos Humanos</a></li>
-                        <li><a href="#">Ética</a></li>
-                        <li><a href="#">Planejamento urbano, Obras e Tranportes</a></li>
-                        <li><a href="#">Meio ambiente</a></li>
-                        <li><a href="#">Economia, Finanças e Orçamento</a></li>
-                        <li><a href="#">Educação e Promoção social</a></li>
-                    </ul>
+  <main class="main">
+    <div>
+      <nav class="navigation-bar">
+        <ul class="navigation-items">
+          <div class="div">
+            <nav class="navigation-bar">
+              <ul class="navigation-items">
+                <li class="dropdown">
+                  <a href="#">Frequência</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Percentual de presença</a></li>
+                    <li><a href="#">Faltas justificadas</a></li>
+                    <li><a href="#">Faltas não justificadas</a></li>
+                  </ul>
                 </li>
+                <li class="dropdown">
+                  <a href="#">Proposições</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Leis</a></li>
+                    <li><a href="#">Resoluções</a></li>
+                    <li><a href="#">Moções</a></li>
+                    <li><a href="#">Emendas</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Comissões</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Especiais</a></li>
+                    <li><a href="#">Permanentes</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Pautas</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Justiça, Redação e Direitos Humanos</a></li>
+                    <li><a href="#">Ética</a></li>
+                    <li><a href="#">Planejamento urbano, Obras e Tranportes</a></li>
+                    <li><a href="#">Meio ambiente</a></li>
+                    <li><a href="#">Economia, Finanças e Orçamento</a></li>
+                    <li><a href="#">Educação e Promoção social</a>
+                  </ul>
+                </li>
+              </ul>
+              <section class="date-filter-section">             
+                <form class="date-filter-form">
+                  <input type="date" id="start-date" name="start-date" value="2021-01-01" required>             
+                  <input type="date" id="end-date" name="end-date" value="2024-12-31" required>
+                </form>
+              </section>
+            </nav>
+                  <!-- botão feio do lucas
+                  <section class="pev">
+                    <h5>Partido</h5>
+                    <div class="onoff">
+                      <input type="checkbox" class="toggle" id="onoff1">
+                      <label for="onoff1"></label>
+                    </div>
+                    <h5>Vereador</h5>
+                  </section> -->
+            <div class="container2">
+              <section class="desc">
+                <p id="descricao">Selecione um gráfico</p>
+              </section>
+            </div> 
+            <div class="container"> 
+              <div id="graficoContainer">
+                <canvas id="meuGrafico" width="800" height="400"></canvas>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </nav>        
+    </div>
+  </main>
+                <!-- 
                 <section class="pev">
                   <a>Partido</a>
                   <div class="onoff">
@@ -62,13 +95,7 @@
                   </div>
                   <a>Vereador</a>
                 </section>
-                <section class="date-filter-section">             
-                  <form class="date-filter-form">
-                    <input type="date" id="start-date" name="start-date" value="2021-01-01" required>             
-                    <input type="date" id="end-date" name="end-date" value="2024-12-31" required>   
-                  </form>
-
-                </section>
+                -->
                 <!-- Botão para ordenar, não está funcionando ainda.
                 <section class="sorting-section">
                   <button class="sort-toggle-btn" onclick="toggleOptions()">
@@ -87,21 +114,7 @@
                     </button>
                   </div>
                 </section> -->
-            </ul>
-        </ul>
-      </nav>
-      <div class="container2">
-      <section class="desc">
-        <p id="descricao">Selecione um gráfico</p>
-      </section>
-    </div> 
-      <div class="container"> 
-        <div id="graficoContainer">
-          <canvas id="meuGrafico" width="800" height="400"></canvas>
-        </div>
-      </div>
-  </main>
-
+                
   {% include 'footer.html' %}
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
