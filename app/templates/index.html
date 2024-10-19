@@ -5,66 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include 'headFH.html' %}
     <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
 </head>
 <body>
 {% include 'header.html' %}
 
 <main>
-    <section id="carousel" class="carousel" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel" data-slide-to="1"></li>
-            <li data-target="#carousel" data-slide-to="2"></li>
-            <li data-target="#carousel" data-slide-to="3"></li>
-            <li data-target="#carousel" data-slide-to="4"></li>
-            <li data-target="#carousel" data-slide-to="5"></li>
-        </ol>
-    
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5" class="active"></button>
+      </div>
+         
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <a href="{{ url_for('graficos') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_gráficos.png') }}" alt="Banner Gráficos">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_home.png') }}" alt="Banner Home">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url_for('vereadores_perfil') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_perfil_vereadores.png') }}" alt="Banner Proposta">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url_for('proposta') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_projeto_de_lei.png') }}" alt="Banner Vereadores">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url_for('proposicoes') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_relatorios.png') }}" alt="Banner Comunidade">
-                </a>
-            </div>
-            <div class="carousel-item">
-                <a href="{{ url_for('vereadores_geral') }}">
-                <img src="{{ url_for('static', filename='images/foto_banner_vereadores.png') }}" alt="Banner Eventos">
-                </a>
-            </div>
+          <div class="carousel-item active">
+              <a href="{{ url_for('graficos') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_gráficos.png') }}" alt="Banner Gráficos">
+              </a>
+  </div>
+          <div class="carousel-item">
+              <a href="{{ url_for('index') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_home.png') }}" alt="Banner Home">
+              </a>
+          </div>
+          <div class="carousel-item">
+              <a href="{{ url_for('vereadores_perfil') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_perfil_vereadores.png') }}" alt="Banner Proposta">
+              </a>
+          </div>
+          <div class="carousel-item">
+              <a href="{{ url_for('proposta') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_projeto_de_lei.png') }}" alt="Banner Vereadores">
+              </a>
+          </div>
+          <div class="carousel-item">
+              <a href="{{ url_for('proposicoes') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_relatorios.png') }}" alt="Banner Comunidade">
+              </a>
+          </div>
+          <div class="carousel-item">
+              <a href="{{ url_for('vereadores_geral') }}">
+              <img src="{{ url_for('static', filename='images/foto_banner_vereadores.png') }}" alt="Banner Eventos">
+              </a>
+          </div>
+      </div>
+         
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
         </div>
-
-        <div class="rectangle left" onclick="prevSlide()">
-            <span class="arrow left-arrow">&#9664;</span>
-        </div>
-        <div class="rectangle right" onclick="nextSlide()">
-            <span class="arrow right-arrow">&#9654;</span>
-        </div>
-        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-          </a> 
-    </section>
 
     <section class="propostas-one">
         <section class="propostas-title">
@@ -119,5 +117,6 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
