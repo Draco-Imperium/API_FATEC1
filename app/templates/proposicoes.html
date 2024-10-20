@@ -46,6 +46,7 @@
                     <h3>RESULTADO DA PESQUISA</h3>
                 </div>
 
+<<<<<<< Updated upstream
                 {% for prop in proposicao['Data'] %}
                 <hr>
                 <div class="item_resultado">
@@ -79,7 +80,25 @@
     </main>
 
     {% include 'footer.html' %}
+=======
+{% include 'footer.html' %}
+<script>
+    function toggleMenu() {
+        const navMenu = document.getElementById('nav-menu');
+        navMenu.classList.toggle('open');
+>>>>>>> Stashed changes
 
+        const hamburger = document.querySelector('.hamburger');
+        hamburger.classList.toggle('active');
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const hamburger = document.querySelector('.hamburger');
+        if (hamburger) {
+            hamburger.addEventListener('click', toggleMenu);
+        }
+    });
+</script>
 </body>
 
 </html>

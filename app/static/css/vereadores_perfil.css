@@ -1,151 +1,286 @@
-*{
-    font-family: 'Poppins', sans-serif;
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+    --cor-primaria: #1E3A8A;
+    --cor-secundaria: #2F4FAC;
+    --cor-terciaria: #60a5fa;
+    --cor-clara: #f6f6f6;
+    --cor-escura: #333333;
+    --sombra-suave: 0 0 5px rgba(0, 0, 0, 0.15);
+    --borda: 1px solid #ccc;
+    --radius-pequeno: 4px;
+    --radius-medio: 8px;
+    --radius-grande: 10px;
+    --cor-texto-secundario: #555;
+    --cor-texto-usuario: #888;
+    --tamanho-texto-pequeno: 0.9em;
+    --tamanho-texto-normal: 16px;
+}
+
+* {
+    font-family: var(--fonte-principal);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: rgba(204, 204, 204, 0.27);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-/* Informações Vereador */
-.conteúdo-vereador{
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-clara);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteudo-vereador {
     display: grid;
-    grid-template-columns: 5fr 5fr;
+    grid-template-columns: 1fr 1fr;
     max-width: 85%;
     margin: 2.5% auto;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    background-color: var(--cor-clara);
+    box-shadow: var(--sombra-suave);
+    border-radius: var(--radius-grande);
     width: 100%;
 }
-.select{
+
+.select {
     width: 100%;
-    max-width: 700px;
-    height: 30px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    height: auto;
+    font-size: var(--tamanho-texto-normal);
+    border: var(--borda);
+    background-color: var(--cor-clara);
+    box-shadow: var(--sombra-suave);
+    border-radius: var(--radius-grande);
+    margin-left: 0;
+    margin-top: 2.5%;
 }
-.chart{
-    padding: 2%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    min-height: 10vh;
-    margin-top: 8%;
+
+.chart {
+    padding: 0;
+    border: var(--borda);
+    border-radius: var(--radius-grande);
+    background: var(--cor-clara);
+    box-shadow: var(--sombra-suave);
+    max-width: 95%;
+    margin-top: 6%;
 }
-.img-vereador{
-    width: 60%;
-    max-width: 380px;
+
+.img-vereador {
+    width: 100%;
+    max-width: 80%;
     height: auto;
     border-radius: 2%;
     margin: 3%;
 }
-.info-vereador{
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+
+.info-vereador {
+    background-color: var(--cor-clara);
+    box-shadow: var(--sombra-suave);
+    border-radius: var(--radius-grande);
     overflow: hidden;
-    width: 65%;
+    width: 80%;
+    margin: 3%;
     padding: 1%;
-    margin-left: 0.6%; 
 }
-/* section sobre o verador */
-.sobre-vereador{
-    grid-column: 1/3;
+
+.sobre-vereador {
+    grid-column: 1 / 3;
     margin-top: 2%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+    background-color: var(--cor-clara);
+    border-radius: var(--radius-medio);
+    box-shadow: var(--sombra-suave);
+    padding: 20px;
 }
 
+.sobre-vereador > ul {
+    list-style: none;
+}
 
-/* Comentários */
-.comentários{
+.sobre-vereador > p {
+    padding-left: 3px;
+    padding-bottom: 10px;
+}
+
+.comentarios {
     display: grid;
-    background-color: rgb(255, 255, 255);
+    width: 85%;
+    background-color: var(--cor-clara);
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 85%;
+    border-radius: var(--radius-medio);
+    box-shadow: var(--sombra-suave);
     margin: auto;
     margin-bottom: 2%;
 }
-.caixa-comentário h3 {
+
+.caixa-comentario h3 {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaço entre o ícone e o texto */
-    margin: 2% 0 2% 0;
+    gap: 10px;
+    margin: 2% 0;
 }
-.lista-comentário {
+
+.lista-comentario {
     list-style-type: none;
     padding: 0;
 }
-.comentário {
+
+.comentario {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: var(--borda);
 }
-.usuário {
-    font-size: 0.9em;
-    color: #888;
+
+.usuario {
+    font-size: var(--tamanho-texto-pequeno);
+    color: var(--cor-texto-usuario);
 }
-.texto-comentário {
+
+.texto-comentario {
     margin: 0 0 5px 0;
-    color: #555;
+    color: var(--cor-texto-secundario);
 }
-/* Box para Comentários */
+
 .box-comment {
     margin-bottom: 15px;
 }
+
 .box-comment label {
     display: block;
     margin-bottom: 5px;
-    color: #555;
+    color: var(--cor-texto-secundario);
 }
-.box-comment input{
+
+.box-comment input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+    border: var(--borda);
+    border-radius: var(--radius-pequeno);
+    font-size: var(--tamanho-texto-normal);
 }
+
 .button-container {
     display: flex;
-    justify-content: flex-end; /* Alinha o botão à direita */
+    justify-content: flex-end;
     margin-top: 10px;
 }
+
 .button {
-    background-color: #2F4FAC;
-    color: white;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-clara);
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: var(--radius-pequeno);
     cursor: pointer;
-    font-size: 16px;
+    font-size: var(--tamanho-texto-normal);
 }
+
 .button:hover {
-    background-color: #1d3a7e; /* Cor mais escura no hover */
+    background-color: var(--cor-terciaria);
 }
-/* Avaliando o Candidato */
-.avaliar{
+
+.avaliar {
     display: flex;
     align-items: center;
     gap: 25px;
+    border: none;
 }
-.avaliação{display: flex}
-.star-icon{
-    list-style-type: none; 
-    border: 1px solid #fff;
+
+.avaliacao {
+    display: flex;
+}
+
+.star-icon {
+    list-style-type: none;
+    border: none;
     cursor: pointer;
-    color: #ffe500;  
+    color: #ffe500;
     font-size: 25px;
 }
-.star-icon::before{content: '\2605' /* Código Estrela Preenchida */}
-.star-icon.ativo ~ .star-icon::before{content: '\2606' /* Código Estrela Vazia */}
-.avaliação:hover .star-icon::before{content: '\2605'}
-.star-icon:hover ~ .star-icon::before{content: '\2606'}
+
+.star-icon::before {
+    content: '\2605';
+}
+
+.star-icon.ativo ~ .star-icon::before {
+    content: '\2606';
+}
+
+.avaliacao:hover .star-icon::before {
+    content: '\2605';
+}
+
+.star-icon:hover ~ .star-icon::before {
+    content: '\2606';
+}
+
+.select {
+    max-width: 75%;
+}
+
+@media (max-width: 768px) {
+
+    .conteudo-vereador {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px;
+        margin: 5%;
+        padding: 0;
+        background-color: var(--cor-clara);
+        border-radius: var(--radius-grande);
+    }
+
+
+    .imgecoisas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        padding: 20px 1px ;
+    }
+    .info-vereador {
+        width: 90%;
+        margin: 1%;
+        padding: 1%;
+    }
+    .chart {
+        padding: 0;
+        max-width: 90%;
+        margin-top: 6%;
+    }
+    .relatorios{
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: 10%;
+    }
+    .select{
+        margin-left: 7.5%;
+        margin-top: 5%;
+    }
+    .sobre-vereador{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .comentarios{
+        margin-top: 5%;
+        padding: 5%;
+        margin: 10%;
+    }
+}
