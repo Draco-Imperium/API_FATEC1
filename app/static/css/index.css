@@ -1,17 +1,11 @@
 :root {
-  --espacamento: 14px;
   --fonte-principal: 'Poppins', sans-serif;
-  --tamanho-fonte-pequeno: 12px;
-  --tamanho-fonte-medio: 14px;
-  --tamanho-fonte-grande: 16px;
   --cor-primaria: #1E3A8A;
   --cor-secundaria: #2F4FAC;
   --cor-terciaria: #60a5fa;
   --cor-clara: #f6f6f6;
   --cor-escura: #333333;
-  --cor-cinza: rgba(204, 204, 204, 0.45);
-  --transicao: all 0.3s ease 0s;
-  --sombra-caixa: 10px 10px 10px rgba(0, 0, 0, 0.250);
+  --sombra-caixa: 10px 10px 10px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -32,7 +26,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: rgba(204, 204, 204, 0.27);
-  font-family: var(--fonte-principal);
 }
 
 main {
@@ -41,7 +34,6 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   background-color: var(--cor-clara);
 }
 
@@ -70,19 +62,19 @@ main {
 }
 
 .hero p {
-  font-size: var(--tamanho-fonte-grande);
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
 .hero button {
   padding: 10px 20px;
-  font-size: var(--tamanho-fonte-medio);
+  font-size: 14px;
   color: var(--cor-primaria);
   background-color: var(--cor-clara);
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: var(--transicao);
+  transition: all 0.3s ease;
 }
 
 .hero button:hover {
@@ -103,7 +95,7 @@ main {
   padding: 20px;
   border-radius: 10px;
   box-shadow: var(--sombra-caixa);
-  transition: var(--transicao);
+  transition: all 0.3s ease;
 }
 
 .card:hover {
@@ -117,7 +109,7 @@ main {
 }
 
 .card p {
-  font-size: var(--tamanho-fonte-medio);
+  font-size: 14px;
 }
 
 .carousel {
@@ -127,6 +119,9 @@ main {
   height: 300px;
   background-color: #fff;
   overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .carousel-indicators {
@@ -217,7 +212,7 @@ main {
   border-radius: 10px;
 }
 
-.propostas-one h1{
+.propostas-one h1 {
   font-size: 18px;
   padding: 10px;
 }
@@ -228,11 +223,11 @@ main {
   gap: 40px;
   max-width: 85%;
   margin: 8% auto 2.5% auto;
-  background-color: rgba(212, 212, 212, 0.0);
+  background-color: rgba(212, 212, 212, 0);
   border-radius: 10px;
 }
 
-.propostas h1{
+.propostas h1 {
   font-size: 18px;
 }
 
@@ -251,7 +246,7 @@ main {
   width: 90%;
 }
 
-.propostas-title{
+.propostas-title {
   grid-column: 1/4;
   display: flex;
   justify-content: center;
@@ -259,12 +254,12 @@ main {
   margin-top: 1%;
 }
 
-.propostas-title h2{
+.propostas-title h2 {
   font-size: 18px;
   padding: 10px;
 }
 
-.propostas button{
+.propostas button {
   padding: 5px;
 }
 
@@ -324,33 +319,30 @@ main {
 }
 
 @media (max-width: 768px) {
-  .hero h1 {
-      font-size: 2em;
+
+  .propostas-one {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 8% auto 2.5% auto;
+    background-color: white;
+    border-radius: 10px;
   }
 
-  .hero p {
-      font-size: var(--tamanho-fonte-medio);
+  .carousel {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    overflow: hidden;
   }
 
-  .hero button {
-      font-size: var(--tamanho-fonte-pequeno);
-  }
-}
-
-@media (max-width: 480px) {
-  .hero {
-      padding: 20px;
-  }
-
-  .hero h1 {
-      font-size: 1.5em;
-  }
-
-  .hero p {
-      font-size: var(--tamanho-fonte-pequeno);
-  }
-
-  .cards {
-      grid-template-columns: 1fr;
+  img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
   }
 }
