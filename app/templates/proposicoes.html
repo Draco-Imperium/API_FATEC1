@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,71 +8,78 @@
     {% include 'headFH.html' %}
     <title>Relatórios</title>
 </head>
+
 <body>
-    
-{% include 'header.html' %}
 
-<main>
-    <section class="container-relatorios">
-        <article class="filtros">
-            <div class="item-filtro">
-                <p>Tipo de Proposição</p>
-                <select>
-                <option>Selecione</option>
-                </select>
-            </div>
-            <div class="item-filtro">
-                <p>Nº DE PROPOSIÇÃO</p>
-                <input class="input" text" placeholder="">
-            </div>
-            <div class="item-filtro">
-                <p>ANO DA PROPOSIÇÃO</p>
-                <input class="input" type="text" placeholder="Ex: 2020">
-            </div>
-            <div class="espaço-completo">
-                <button class="botão-filtro1">Buscar</button>
-            </div>
-        </article>
-    </section>
-    <section class="filtros_ativos">
-        <button class="botão-filtro2">Tipo: Exemplo</button>
-        <button class="botão-filtro2">Número da Proposição: x</button>
-        <button class="botão-filtro2">Ano Proposição: XXXX</button>
-    </section>
-    <section class="container-relatorios2">
-        <article class="resultados">
-            <div>
-                <h3>RESULTADO DA PESQUISA</h3>
-            </div>
-            
-            {%for prop in proposicao['Data']%}
-            
-            <hr>
-            <div class="item_resultado">
-                <h3>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h3>
-                <p>{{ prop['assunto'] }}</p>
-                <p>
-                    <strong>Processo Nº:</strong> {{ prop['processo'] }} <strong>Protocolo Nº:</strong> {{ prop['protocolo'] }} 
-                    <strong>Data:</strong> {{ prop['data'] }} <strong>Situação:</strong> {{ prop['situacao'] }}
-                </p>
-                <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }} </p>
-                <p><a href="{{ prop['arquivo'] }}" target="_blank">Ver Arquivo</a></p>
+    {% include 'header.html' %}
 
-            </div>
-            {%endfor%}
-            <!-- <hr>
-            <div class="item_resultado">
-                <h3>Projeto de Lei nº650/2021</h3>
-                <p>Considera pessoa com deficiência, inclusive para os fins de ingresso na reserva percentual de vagas para o provimento de cargos e empregos públicos, o indivíduo diagnosticado com audição unilateral no âmbito do Município de São José dos Campos e dá outras providências.</p>
-                <p><strong>Processo Nº:</strong> 13492/2021 <strong>Protocolo Nº:</strong> 18061 <strong>Data:</strong> 13/12/2021 <strong>Situação:</strong> Arquivado</p>
-                <p><strong>Autor(es) da Proposição:</strong> Ver. Dr. Elton</p>
-            </div>
-            <hr> -->
-        </article>
-    </section>
-</main>
+    <main>
+        <section class="container-relatorios">
+            <article class="filtros">
+                <div class="item-filtro">
+                    <p>Tipo de Proposição</p>
+                    <select>
+                        <option>Selecione</option>
+                    </select>
+                </div>
+                <div class="item-filtro">
+                    <p>Nº DE PROPOSIÇÃO</p>
+                    <input class="input" text" placeholder="">
+                </div>
+                <div class="item-filtro">
+                    <p>ANO DA PROPOSIÇÃO</p>
+                    <input class="input" type="text" placeholder="Ex: 2020">
+                </div>
+                <div class="espaço-completo">
+                    <button class="botão-filtro1">Buscar</button>
+                </div>
+            </article>
+        </section>
+        <section class="filtros_ativos">
+            <button class="botão-filtro2">Tipo: Exemplo</button>
+            <button class="botão-filtro2">Número da Proposição: x</button>
+            <button class="botão-filtro2">Ano Proposição: XXXX</button>
+        </section>
+        <section class="container-relatorios2">
+            <article class="resultados">
+                <div>
+                    <h3>RESULTADO DA PESQUISA</h3>
+                </div>
 
-{% include 'footer.html' %}
+                {% for prop in proposicao['Data'] %}
+                <hr>
+                <div class="item_resultado">
+                    <h3>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h3>
+                    <p>{{ prop['assunto'] }}</p>
+                    <p>
+                        <strong>Processo Nº:</strong> {{ prop['processo'] }} <strong>Protocolo Nº:</strong> {{
+                        prop['protocolo'] }}
+                        <strong>Data:</strong> {{ prop['data'] }} <strong>Situação:</strong> {{ prop['situacao'] }}
+                    </p>
+                    <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }} </p>
+                    <p><a href="{{ prop['arquivo'] }}" target="_blank" class="botao-paginacao">Ver Arquivo</a></p>
+                </div>
+                {% endfor %}
+
+                <hr>
+
+                <!-- Seção de paginação -->
+                <div id="pagination-controls">
+                    {% if current_page > 1 %}
+                    <a href="?page={{ current_page - 1 }}" class="botao-paginacao">Anterior</a>
+                    {% endif %}
+
+                    <span>Página {{ current_page }} de {{ total_pages }}</span>
+
+                    {% if current_page < total_pages %} <a href="?page={{ current_page + 1 }}" class="botao-paginacao">Próxima</a>
+                        {% endif %}
+                </div>
+            </article>
+        </section>
+    </main>
+
+    {% include 'footer.html' %}
 
 </body>
+
 </html>

@@ -41,14 +41,14 @@ def get_parlamentar():
 
 
 
-def get_prop():
-    api_url = 'https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?autorID=1160&qtd=99'
+def get_prop(pag=1):
+    api_url = f'https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?autorID=1160&qtd=10&pag={pag}'
 
     try:
         response = requests.get(api_url)
         response.raise_for_status()  # Verifica se houve erro na requisição
         data = response.json()
-        return data
+        return data  # Retorna todo o JSON para a view
     except requests.HTTPError as e:
         print(f'Erro na requisição: {e}')
     except requests.ConnectionError:
@@ -57,4 +57,4 @@ def get_prop():
         print('Tempo de requisição esgotado')
     except requests.JSONDecodeError:
         print('Erro ao decodificar JSON')
-    return []
+    return None

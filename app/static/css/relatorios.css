@@ -122,3 +122,11 @@ body {
     background-color: #2F4FAC !important;
     color: #fff !important;
 }
+.botao-paginacao {
+    background-color: #2F4FAC;
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}

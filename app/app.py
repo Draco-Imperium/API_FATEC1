@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 import sys
 import requests 
@@ -23,8 +23,12 @@ def vereadores_perfil():
 
 @app.route('/proposicoes')
 def proposicoes():
-    proposicao = get_prop()
-    return render_template('proposicoes.html', proposicao=proposicao)
+    page_number = request.args.get('page', default=1, type=int)  
+    proposicao = get_prop(pag=page_number) 
+
+    total_pages = (proposicao['total'] // 10) + (1 if proposicao['total'] % 10 > 0 else 0) if proposicao else 0
+
+    return render_template('proposicoes.html', proposicao=proposicao, current_page=page_number, total_pages=total_pages)
 
 @app.route('/graficos')
 def graficos():
