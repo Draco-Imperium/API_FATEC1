@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import sys
-import requests
 from getFunctions import *
+
 sys.setrecursionlimit(1500)
 
 app = Flask(__name__)
@@ -17,16 +17,16 @@ def vereadores_geral():
 
 @app.route('/vereadores_perfil/<int:parlamentar_id>')
 def vereadores_perfil(parlamentar_id):
-    parlamentar = get_parlamentar_por_id(parlamentar_id)  
+    parlamentar = get_parlamentar_por_id(parlamentar_id)
+    if parlamentar is None:
+        return render_template('404.html'), 404
     return render_template('vereadores_perfil.html', parlamentar=parlamentar)
-
-
 
 @app.route('/proposicoes')
 def proposicoes():
     page_number = request.args.get('page', default=1, type=int)
     proposicao = get_prop(pag=page_number)
-
+    
     total_pages = (proposicao['total'] // 10) + (1 if proposicao['total'] % 10 > 0 else 0) if proposicao else 0
 
     return render_template('proposicoes.html', proposicao=proposicao, current_page=page_number, total_pages=total_pages)

@@ -13,14 +13,8 @@
     <main>
       <section class="conteudo-vereador">
         <section class="imgecoisas">
-          <img src="../static/images/Vereador Roberto do Eleven.jpg"
           <!-- Dados dinâmicos fornecidos pelo Flask -->
-          <img
-            src="{{ parlamentar['parlamentarFoto'] }}"
-            class="img-vereador"
-            alt="Vereador Roberto do Eleven"/>
-            alt="Vereador {{ parlamentar['parlamentarNome'] }}"
-          />
+          <img src="{{ parlamentar['parlamentarFoto'] }}" class="img-vereador" alt=" Vereador {{ parlamentar['parlamentarNome'] }}"/>
           <section class="info-vereador">
             <p>Vereador: {{ parlamentar['parlamentarNome'] }}</p>
           </section>
