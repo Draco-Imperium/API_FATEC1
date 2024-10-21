@@ -12,7 +12,8 @@
     {% include 'header.html' %}
 
     <main>
-      <section class="container-relatorios">
+      
+      <section class="container-relatorios2">
         <article class="filtros">
           <div class="item-filtro">
             <p>Tipo de Proposição</p>
@@ -31,14 +32,13 @@
           <div class="espaço-completo">
             <button class="botao-filtro1">Buscar</button>
           </div>
+          <section class="filtros_ativos">
+            <button class="botao-filtro2">Tipo: Exemplo</button>
+            <button class="botao-filtro2">Número da Proposição: x</button>
+            <button class="botao-filtro2">Ano Proposição: XXXX</button>
+          </section>
         </article>
-      </section>
-      <section class="filtros_ativos">
-        <button class="botao-filtro2">Tipo: Exemplo</button>
-        <button class="botao-filtro2">Número da Proposição: x</button>
-        <button class="botao-filtro2">Ano Proposição: XXXX</button>
-      </section>
-      <section class="container-relatorios2">
+        
         <article class="resultados">
           <div>
             <h3>RESULTADO DA PESQUISA</h3>
@@ -67,6 +67,7 @@
             >
           </div>
           {% endfor %}
+          <hr>
           <div id="pagination-controls">
             {% if current_page > 1 %}
             <a href="?page={{ current_page - 1 }}" class="botao-paginacao"

@@ -93,7 +93,7 @@ hr {
 }
 
 .container-relatorios2 {
-  margin: 1% auto 2.5% auto;
+  margin: 5% 0;
 }
 
 .filtros {
@@ -165,7 +165,7 @@ button {
 .item_resultado {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: var(--gap-pequeno);
 }
 
