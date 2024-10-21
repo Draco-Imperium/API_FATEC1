@@ -1,12 +1,10 @@
 from flask import Flask, render_template, request
-from flask_mysqldb import MySQL
 import sys
-import requests 
+import requests
 from getFunctions import *
 sys.setrecursionlimit(1500)
 
 app = Flask(__name__)
-
 
 @app.route('/')
 def index():
@@ -14,7 +12,7 @@ def index():
 
 @app.route('/vereadores_geral')
 def vereadores_geral():
-    parlamentares = get_parlamentar()  # Obtém as comissões da API
+    parlamentares = get_parlamentar()
     return render_template('vereadores_geral.html', parlamentares=parlamentares)
 
 @app.route('/vereadores_perfil')
@@ -23,8 +21,8 @@ def vereadores_perfil():
 
 @app.route('/proposicoes')
 def proposicoes():
-    page_number = request.args.get('page', default=1, type=int)  
-    proposicao = get_prop(pag=page_number) 
+    page_number = request.args.get('page', default=1, type=int)
+    proposicao = get_prop(pag=page_number)
 
     total_pages = (proposicao['total'] // 10) + (1 if proposicao['total'] % 10 > 0 else 0) if proposicao else 0
 

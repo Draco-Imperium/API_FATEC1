@@ -1,104 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/relatorios.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/relatorios.css" />
     {% include 'headFH.html' %}
     <title>Relatórios</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     {% include 'header.html' %}
 
     <main>
-        <section class="container-relatorios">
-            <article class="filtros">
-                <div class="item-filtro">
-                    <p>Tipo de Proposição</p>
-                    <select>
-                        <option>Selecione</option>
-                    </select>
-                </div>
-                <div class="item-filtro">
-                    <p>Nº DE PROPOSIÇÃO</p>
-                    <input class="input" text" placeholder="">
-                </div>
-                <div class="item-filtro">
-                    <p>ANO DA PROPOSIÇÃO</p>
-                    <input class="input" type="text" placeholder="Ex: 2020">
-                </div>
-                <div class="espaço-completo">
-                    <button class="botão-filtro1">Buscar</button>
-                </div>
-            </article>
-        </section>
-        <section class="filtros_ativos">
-            <button class="botão-filtro2">Tipo: Exemplo</button>
-            <button class="botão-filtro2">Número da Proposição: x</button>
-            <button class="botão-filtro2">Ano Proposição: XXXX</button>
-        </section>
-        <section class="container-relatorios2">
-            <article class="resultados">
-                <div>
-                    <h3>RESULTADO DA PESQUISA</h3>
-                </div>
+      <section class="container-relatorios">
+        <article class="filtros">
+          <div class="item-filtro">
+            <p>Tipo de Proposição</p>
+            <select>
+              <option>Selecione</option>
+            </select>
+          </div>
+          <div class="item-filtro">
+            <p>Nº DE PROPOSIÇÃO</p>
+            <input class="input" type="text" placeholder="" />
+          </div>
+          <div class="item-filtro">
+            <p>ANO DA PROPOSIÇÃO</p>
+            <input class="input" type="text" placeholder="Ex: 2020" />
+          </div>
+          <div class="espaço-completo">
+            <button class="botao-filtro1">Buscar</button>
+          </div>
+        </article>
+      </section>
+      <section class="filtros_ativos">
+        <button class="botao-filtro2">Tipo: Exemplo</button>
+        <button class="botao-filtro2">Número da Proposição: x</button>
+        <button class="botao-filtro2">Ano Proposição: XXXX</button>
+      </section>
+      <section class="container-relatorios2">
+        <article class="resultados">
+          <div>
+            <h3>RESULTADO DA PESQUISA</h3>
+          </div>
 
-<<<<<<< Updated upstream
-                {% for prop in proposicao['Data'] %}
-                <hr>
-                <div class="item_resultado">
-                    <h3>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h3>
-                    <p>{{ prop['assunto'] }}</p>
-                    <p>
-                        <strong>Processo Nº:</strong> {{ prop['processo'] }} <strong>Protocolo Nº:</strong> {{
-                        prop['protocolo'] }}
-                        <strong>Data:</strong> {{ prop['data'] }} <strong>Situação:</strong> {{ prop['situacao'] }}
-                    </p>
-                    <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }} </p>
-                    <p><a href="{{ prop['arquivo'] }}" target="_blank" class="botao-paginacao">Ver Arquivo</a></p>
-                </div>
-                {% endfor %}
+          {% for prop in proposicao['Data'] %}
+          <hr />
+          <div class="item_resultado">
+            <h3>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h3>
+            <p>{{ prop['assunto'] }}</p>
+            <p>
+              <strong>Processo Nº:</strong> {{ prop['processo'] }}
+              <strong>Protocolo Nº:</strong> {{ prop['protocolo'] }}
+              <strong>Data:</strong> {{ prop['data'] }}
+              <strong>Situação:</strong> {{ prop['situacao'] }}
+            </p>
+            <p>
+              <strong>Autor(es) da Proposição:</strong> {{
+              prop['AutorRequerenteDados']['nomeRazao'] }}
+            </p>
+            <a
+              href="{{ prop['arquivo'] }}"
+              target="_blank"
+              class="botao-paginacao"
+              >Ver Arquivo</a
+            >
+          </div>
+          {% endfor %}
+          <div id="pagination-controls">
+            {% if current_page > 1 %}
+            <a href="?page={{ current_page - 1 }}" class="botao-paginacao"
+              >Anterior</a
+            >
+            {% endif %}
 
-                <hr>
+            <span> {{ current_page }} de {{ total_pages }}</span>
 
-                <!-- Seção de paginação -->
-                <div id="pagination-controls">
-                    {% if current_page > 1 %}
-                    <a href="?page={{ current_page - 1 }}" class="botao-paginacao">Anterior</a>
-                    {% endif %}
-
-                    <span>Página {{ current_page }} de {{ total_pages }}</span>
-
-                    {% if current_page < total_pages %} <a href="?page={{ current_page + 1 }}" class="botao-paginacao">Próxima</a>
-                        {% endif %}
-                </div>
-            </article>
-        </section>
+            {% if current_page < total_pages %}
+            <a href="?page={{ current_page + 1 }}" class="botao-paginacao"
+              >Próxima</a
+            >
+            {% endif %}
+          </div>
+        </article>
+      </section>
     </main>
-
     {% include 'footer.html' %}
-=======
-{% include 'footer.html' %}
-<script>
-    function toggleMenu() {
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.classList.toggle('open');
->>>>>>> Stashed changes
 
-        const hamburger = document.querySelector('.hamburger');
-        hamburger.classList.toggle('active');
-    }
+    <script>
+      function toggleMenu() {
+        const navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("open");
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const hamburger = document.querySelector('.hamburger');
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.classList.toggle("active");
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
         if (hamburger) {
-            hamburger.addEventListener('click', toggleMenu);
+          hamburger.addEventListener("click", toggleMenu);
         }
-    });
-</script>
-</body>
-
+      });
+    </script>
+  </body>
 </html>

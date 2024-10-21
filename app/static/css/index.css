@@ -1,7 +1,7 @@
 :root {
-  --fonte-principal: 'Poppins', sans-serif;
-  --cor-primaria: #1E3A8A;
-  --cor-secundaria: #2F4FAC;
+  --fonte-principal: "Poppins", sans-serif;
+  --cor-primaria: #1e3a8a;
+  --cor-secundaria: #2f4fac;
   --cor-terciaria: #60a5fa;
   --cor-clara: #f6f6f6;
   --cor-escura: #333333;
@@ -15,7 +15,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -240,12 +241,23 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  background: linear-gradient(to bottom, white 100%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    white 100%,
+    rgba(255, 255, 255, 0) 100%
+  );
   text-align: center;
   height: auto;
   width: 90%;
 }
-
+.propostas > button {
+  margin-left: 25%;
+  margin-bottom: 10%;
+  width: 50%;
+}
+.propostas button {
+  margin-top: 5%;
+}
 .propostas-title {
   grid-column: 1/4;
   display: flex;
@@ -271,7 +283,11 @@ main {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  background: linear-gradient(to bottom, white 100%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    white 100%,
+    rgba(255, 255, 255, 0) 100%
+  );
   align-items: center;
   text-align: left;
 }
@@ -304,7 +320,7 @@ main {
 }
 
 .button {
-  background-color: #2F4FAC;
+  background-color: #2f4fac;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -317,14 +333,17 @@ main {
 .button:hover {
   background-color: #1d3a7e;
 }
-
+footer {
+  background-color: rgba(204, 204, 204, 0.27);
+  padding: 20px 0px;
+  width: 100%;
+}
 @media (max-width: 768px) {
-
   .propostas-one {
     display: flex;
     flex-direction: column;
     max-width: 85%;
-    margin: 8% auto 2.5% auto;
+    margin: 10% 2%;
     background-color: white;
     border-radius: 10px;
   }

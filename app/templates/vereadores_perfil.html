@@ -11,13 +11,15 @@
     {% include 'header.html' %}
 
     <main>
-      <section class="conteudo-vereador"> 
+      <section class="conteudo-vereador">
         <section class="imgecoisas">
-          <img src="../static/images/Vereador Roberto do Eleven.jpg"
+          <img
+            src="../static/images/Vereador Roberto do Eleven.jpg"
             class="img-vereador"
-            alt="Vereador Roberto do Eleven"/>
+            alt="Vereador Roberto do Eleven"
+          />
           <section class="info-vereador">
-            <option>Vereador:  Roberto do Eleven</option>
+            <option>Vereador: Roberto do Eleven</option>
           </section>
           <article class="info-vereador">
             <p>Partido: Partido Social Democrático (PSD)</p>
@@ -116,27 +118,27 @@
                 }
               });
             </script>
-            <script>
-                function toggleMenu() {
-                    const navMenu = document.getElementById('nav-menu');
-                    navMenu.classList.toggle('open');
-            
-                    const hamburger = document.querySelector('.hamburger');
-                    hamburger.classList.toggle('active');
-                }
-            
-                document.addEventListener("DOMContentLoaded", function() {
-                    const hamburger = document.querySelector('.hamburger');
-                    if (hamburger) {
-                        hamburger.addEventListener('click', toggleMenu);
-                    }
-                });
-            </script>
           </article>
         </section>
       </section>
     </main>
 
     {% include 'footer.html' %}
+    <script>
+      function toggleMenu() {
+        const navMenu = document.getElementById("nav-menu");
+        navMenu.classList.toggle("open");
+
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.classList.toggle("active");
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        if (hamburger) {
+          hamburger.addEventListener("click", toggleMenu);
+        }
+      });
+    </script>
   </body>
 </html>

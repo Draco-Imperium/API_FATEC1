@@ -6,8 +6,8 @@ main {
   font-family: "Poppins", sans-serif;
   background-color: rgba(204, 204, 204, 0.25);
 }
-.widht{
-    margin: 2.5% auto;
+.widht {
+  margin: 2.5% auto;
 }
 
 .container {
@@ -100,6 +100,12 @@ canvas {
   color: #0073ff;
 }
 
+footer {
+  background-color: rgba(204, 204, 204, 0.27);
+  padding: 20px 0px;
+  width: 100%;
+  margin-top: 20px;
+}
 /*
 .pev {
   all: unset;

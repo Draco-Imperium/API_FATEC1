@@ -9,9 +9,8 @@
 </head>
 <body>
 {% include 'header.html' %}
-
 <main>
-    <section class="Vereadores-geral">
+    <section class="vereadores-geral">
         {% for parlamentar in parlamentares %}
         <section class="vereador">
             <img src="{{parlamentar['parlamentarFoto']}}" alt="Vereador">
@@ -24,61 +23,9 @@
             </article>
         </section>
         {%endfor%}
+    </main>
+        {% include 'footer.html' %}
 
-        <!-- <section class="vereador">
-            <img src="../static/images/Vereador Lino Bispo.jpg" alt="Vereador Lino Bispo">
-            <article class="info-vereador">
-                <p>Vereador(a): Lino Bispo</p>
-                <p>Partido: Partido Liberal (PL)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Milton Vieira Filho.jpg" alt="Vereador Milton Vieira Filho">
-            <article class="info-vereador">
-                <p>Vereador(a): Milton Vieira Filho</p>
-                <p>Partido: Republicanos (Republicados)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Thomaz Henrique.jpg" alt="Thomaz Henrique">
-            <article class="info-vereador">
-                <p>Vereador(a): Thomaz Henrique</p>
-                <p>Partido: Partido Liberal (PL)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Marcelo Garcia.jpg" alt="Marcelo Garcia">
-            <article class="info-vereador">
-                <p>Vereador(a): Marcelo Garcia</p>
-                <p>Partido: Partido Renovação Democrática (PRD)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Zé Luis.jpg" alt="Vereador Zé Luis">
-            <article class="info-vereador">
-                <p>Vereador(a): Zé Luis</p>
-                <p>Partido: Partido Social Democrático (PSD)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section> -->
-    </section>
-</main>
-
-{% include 'footer.html' %}
 <script>
     function toggleMenu() {
         const navMenu = document.getElementById('nav-menu');
