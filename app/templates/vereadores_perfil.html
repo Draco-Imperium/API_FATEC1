@@ -13,22 +13,24 @@
     <main>
       <section class="conteudo-vereador">
         <section class="imgecoisas">
+          <!-- Dados dinâmicos fornecidos pelo Flask -->
           <img
-            src="../static/images/Vereador Roberto do Eleven.jpg"
+            src="{{ parlamentar['parlamentarFoto'] }}"
             class="img-vereador"
-            alt="Vereador Roberto do Eleven"
+            alt="Vereador {{ parlamentar['parlamentarNome'] }}"
           />
           <section class="info-vereador">
-            <option>Vereador: Roberto do Eleven</option>
+            <p>Vereador: {{ parlamentar['parlamentarNome'] }}</p>
           </section>
           <article class="info-vereador">
-            <p>Partido: Partido Social Democrático (PSD)</p>
+            <p>Partido: {{ parlamentar['partidoNome'] }} ({{ parlamentar['partidoSigla'] }})</p>
             <hr />
-            <p>Telefone(s): (12)3925-6568</p>
+            <p>Telefone(s): {{ parlamentar['parlamentarTelefone'] }}</p>
             <hr />
-            <p>Email: robertodoeleven@camarasjc.sp.gov.br</p>
+            <p>Email: <a href="mailto:{{ parlamentar['parlamentarEmail'] }}">{{ parlamentar['parlamentarEmail'] }}</a></p>
           </article>
         </section>
+
         <section class="relatorios">
           <select class="select">
             <option>Frequência em Plenário</option>
@@ -43,51 +45,51 @@
           <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
           <script src="../static/javascript/perfil.js"></script>
         </section>
+
         <section class="sobre-vereador">
           <h1>Sobre o vereador</h1>
           <p>
-            Roberto Do Eleven (número de urna 55111) é candidato à Prefeitura de
-            São José Dos Campos pelo PSD nas Eleições 2024. Nascido em Caxambu
-            (MG) em 02/11/1964, tem 59 anos, é comerciante com superior completo
-            e separado judicialmente.
+            {{ parlamentar['parlamentarPerfil'] | safe }}
           </p>
+
           <h1>Eleições anteriores</h1>
           <ul>
+            <!-- Iteração sobre as eleições do vereador -->
+            {% for eleicao in parlamentar['eleicoes'] %}
             <li>
-              <strong>ANO:</strong> 2012 <strong>CARGO:</strong> VEREADOR
-              <strong>PARTIDO:</strong> PP <strong>SITUAÇÃO:</strong> ELEITO POR
-              QP
+              <strong>ANO:</strong> {{ eleicao['ano'] }}
+              <strong>CARGO:</strong> {{ eleicao['cargo'] }}
+              <strong>PARTIDO:</strong> {{ eleicao['partido'] }}
+              <strong>SITUAÇÃO:</strong> {{ eleicao['situacao'] }}
             </li>
-            <li>
-              <strong>ANO:</strong> 2016 <strong>CARGO:</strong> VEREADOR
-              <strong>PARTIDO:</strong> PRB <strong>SITUAÇÃO:</strong> ELEITO
-              POR MÉDIA
-            </li>
-            <li>
-              <strong>ANO:</strong> 2020 <strong>CARGO:</strong> VEREADOR
-              <strong>PARTIDO:</strong> PSDB <strong>SITUAÇÃO:</strong> ELEITO
-              POR MÉDIA
-            </li>
+            {% else %}
+            <li>Nenhuma eleição registrada.</li>
+            {% endfor %}
           </ul>
         </section>
       </section>
+
+      <!-- Seção de comentários -->
       <section class="comentarios">
         <section class="caixa-comentario">
           <h3>Comentários</h3>
           <ul class="lista-comentario">
-            <li class="comentario">
-              <span class="usuario">Anônimo</span>
-              <p class="texto-comentario">Este é um comentário anônimo.</p>
-            </li>
-            <li class="comentario">
-              <span class="usuario">Anônimo</span>
-              <p class="texto-comentario">Outro comentário interessante.</p>
-            </li>
+            <!-- Iteração sobre os comentários -->
+              <!-- {% for comentario in comentarios %}
+              <li class="comentario">
+                <span class="usuario">{{ comentario['usuario'] }}</span>
+                <p class="texto-comentario">{{ comentario['texto'] }}</p>
+              </li>
+              {% else %}
+              <li>Nenhum comentário ainda. Seja o primeiro a comentar!</li>
+              {% endfor %} -->
           </ul>
         </section>
+
+        <!-- Formulário de novo comentário -->
         <section class="caixa-comentario">
           <h3>Deixe seu comentário</h3>
-          <form action="#" method="post">
+          <form action="" method="post">
             <article class="box-comment">
               <label for="comment">Comentário:</label>
               <input name="comment" type="text" id="comment" />
@@ -96,6 +98,7 @@
               <button class="button" type="submit">Enviar</button>
             </article>
           </form>
+
           <article class="avaliar">
             <h4>Avalie o Candidato</h4>
             <ul class="avaliacao">
@@ -105,25 +108,14 @@
               <li class="star-icon" data-avaliacao="4"></li>
               <li class="star-icon" data-avaliacao="5"></li>
             </ul>
-            <script>
-              var stars = document.querySelectorAll(".star-icon");
-              document.addEventListener("click", function (e) {
-                var classStar = e.target.classList;
-                if (!classStar.contains("ativo")) {
-                  stars.forEach(function (star) {
-                    star.classList.remove("ativo");
-                  });
-                  classStar.add("ativo");
-                  console.log(e.target.getAttribute("data-avaliacao"));
-                }
-              });
-            </script>
+
           </article>
         </section>
       </section>
     </main>
 
     {% include 'footer.html' %}
+
     <script>
       function toggleMenu() {
         const navMenu = document.getElementById("nav-menu");

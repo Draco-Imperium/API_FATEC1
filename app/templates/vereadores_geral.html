@@ -19,7 +19,9 @@
                 <p>Partido:  {{ parlamentar['partidoNome'] }} ({{parlamentar['partidoSigla'] }})</p>
             </article>
             <article class="button-container">
-               <a href=" {{ url_for('vereadores_perfil')}}"><button class="button" type="button" >Ver Perfil</button></a> 
+                <a href="{{ url_for('vereadores_perfil', parlamentar_id=parlamentar['parlamentarID']) }}">
+                    <button class="button" type="button">Ver Perfil</button>
+                </a> 
             </article>
         </section>
         {%endfor%}

@@ -15,9 +15,12 @@ def vereadores_geral():
     parlamentares = get_parlamentar()
     return render_template('vereadores_geral.html', parlamentares=parlamentares)
 
-@app.route('/vereadores_perfil')
-def vereadores_perfil():
-    return render_template('vereadores_perfil.html')
+@app.route('/vereadores_perfil/<int:parlamentar_id>')
+def vereadores_perfil(parlamentar_id):
+    parlamentar = get_parlamentar_por_id(parlamentar_id)  
+    return render_template('vereadores_perfil.html', parlamentar=parlamentar)
+
+
 
 @app.route('/proposicoes')
 def proposicoes():
