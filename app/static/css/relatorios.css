@@ -86,6 +86,8 @@ hr {
 .container-relatorios2 {
   margin: 0 auto;
   padding: 0;
+  margin-left: 200px;
+  margin-bottom: 20px;
 }
 
 .container-relatorios {

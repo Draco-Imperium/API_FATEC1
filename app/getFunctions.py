@@ -62,9 +62,23 @@ def get_parlamentar_por_id(parlamentar_id):
     
     return None
 
-def get_prop(pag=1):
-    api_url = f"https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?dataInicio=01-01-2021&qtd=10&pag={pag}"
-    
+def get_prop(tipo='', numero='', ano='', pag=1):
+    base_url = "https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?"
+    params = {
+        'dataInicio': '01-01-2021',  
+        'qtd': 10,  
+        'pag': pag
+    }
+
+    if tipo:
+        params['tipo'] = tipo
+    if numero:
+        params['numero'] = numero
+    if ano:
+        params['ano'] = ano
+
+    api_url = base_url + '&'.join([f"{key}={value}" for key, value in params.items()])
+
     try:
         response = requests.get(api_url)
         response.raise_for_status()
@@ -78,5 +92,5 @@ def get_prop(pag=1):
         print("Tempo de requisição esgotado")
     except requests.JSONDecodeError:
         print("Erro ao decodificar JSON")
-    
+
     return None
