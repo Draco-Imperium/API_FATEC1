@@ -7,25 +7,30 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 <br>
 
 ## Índice
-* [Projeto](#projeto)
-* [Requisitos](#requisitos)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Sprints](#sprints)
-* [Protótipo](#protótipo)
-* [Backlog do Produto](#backlog-do-produto)
-* [Funcionalidades e Registros (vídeos e apresentações) das Sprints](#funcionalidades-e-registros-das-sprints)
-* [Autores](#autores)
+* <a href ="#projeto"> Projeto </a>
+* <a href ="#requisitos"> Requisitos </a>
+* <a href ="#tecnologias"> Tecnologias Utilizadas </a>
+* <a href ="#sprints"> Sprints </a>
+* <a href ="#protótipo"> Protótipo </a>
+* <a href ="#backlog"> Backlog </a>
+* <a href ="#stories"> User Story </a>
+* <a href ="#registros"> Funcionalidades e Registros das Sprints </a>
+* <a href ="#autores"> Autores </a>
 
 <br>
 
-## Projeto
+<span id="projeto">
+
+## 📋 O Projeto
 > **Status do Projeto: Em Desenvolvimento**
  
 Desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos vereadores da cidade de São José dos Campos durante o atual mandato. O objetivo é oferecer aos eleitores dados claros e acessíveis que ajudem a tomar decisões informadas nas eleições municipais. A plataforma permitirá que os cidadãos visualizem a atuação dos vereadores.
  
 <br>
  
-## Requisitos
+<span id="requisitos">
+
+## 📍 Requisitos
 > **Requisitos Funcionais**
 
 * Desenvolver interfaces contendo informação de cada vereador. 
@@ -38,17 +43,17 @@ Desenvolver uma plataforma web que disponibilize informações sobre o desempenh
  
 > **Requisitos Não-Funcionais**
 
-* Protótipo criado no Figma.
-
-* Documentação API – Application Programming Interface.
+* Interface Responsiva.
 
 * Modelagem de Banco de Dados.
 
-* Interface Responsiva.
+* Documentação API – Application Programming Interface.
  
 <br>
+
+<span id="tecnologias">
  
-## Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
  
 | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) |
 | --- | --- | --- | --- |
@@ -56,7 +61,9 @@ Desenvolver uma plataforma web que disponibilize informações sobre o desempenh
  
 <br>
  
-## Sprints
+ <span id="sprints">
+
+## 📊 Sprints
  
 Sprint | Previsão | Status|
 |------|--------|------|
@@ -90,29 +97,82 @@ Sprint | Previsão | Status|
 
 - [ ] Realizar a raspagem de dados;
 
-- [ ] Criação e configuração do banco de dados;
+- [ ] Criação e configuração do banco de dados.
 
 <br>
 
 ### Sprint 3:
 
-- [ ] Reajustes e alguns aprimoramentos;
+- [ ] Reajustes e alguns aprimoramentos.
  
 <br>
 
-## Protótipo
+<span id="protótipo">
+
+## 💡 Protótipo
 **:link: Clique no link abaixo para visualizar o modelo do projeto.**  
 > [Protótipo do Projeto](https://www.figma.com/design/75zFqMGWcZlj7JWskOkAoZ/Prot%C3%B3tipo-API?node-id=0-1&node-type=canvas&t=gyVSh7zrezDvNxOd-0)
 
 <br>
 
-## Backlog do Produto
+<span id="backlog">
+
+## 📊 Backlog do Produto
 **:link: Clique no link abaixo para visualizar o backlog do produto.**  
 > [Backlog do Produto](https://docs.google.com/spreadsheets/d/1GGyWTlDJbr3FQQHrF86TRRULOvAlcv2O_oML9wXXxIM/edit?gid=0#gid=0)
 
+<details>
+     <summary>Backlog - Sprint 1</summary>
+      <div align="center">
+      <br>
+
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
+| BL01 | ALTA | Listagem de Vereadores |Como um eleitor, quero visualizar uma lista de todos os vereadores para ver seu desempenho.| 6 |
+| BL02 | ALTA | Visualização do Perfil do Vereador |Como um eleitor, quero visualizar o perfil detalhado de um vereador para entender melhor sua atuação.| 6 |
+
+  </details>
+
 <br>
 
-## Funcionalidades e Registros das Sprints
+<details>
+     <summary>Backlog - Sprint 2</summary>
+      <div align="center">
+      <br>
+
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
+| BL03 | ALTA | Proposições Apresentadas |Como um eleitor, quero ver as proposições apresentadas por um vereador para avaliar seu trabalho legislativo.| 2 |
+| BL04 | ALTA | Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.| 3 |
+| BL05 | ALTA | Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.| 4 |
+| BL06 | ALTA | Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.| 5 |
+| BL07 | ALTA | Vizualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
+| BL08 | ALTA | Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 9 |
+
+  </details>
+
+<br>
+
+<span id="stories">
+
+## 📖 User Story
+
+|          Título           |                     User Story                      |
+| :-------------------: | :----------------------------------------------------------: |
+| Listagem de Vereadores |Como um eleitor, quero visualizar uma lista de todos os vereadores para ver seu desempenho.|
+| Visualização do Perfil do Vereador |Como um eleitor, quero visualizar o perfil detalhado de um vereador para entender melhor sua atuação.|
+| Proposições Apresentadas |Como um eleitor, quero ver as proposições apresentadas por um vereador para avaliar seu trabalho legislativo.|
+| Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.|
+| Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.|
+| Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.|
+| Vizualização estatística de cada verador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 
+| Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 
+
+<br>
+
+<span id="registros">
+
+## 📸 Funcionalidades e Registros das Sprints
 
 Confira a seguir uma demonstração das funcionalidades do sistema:
 
@@ -120,7 +180,9 @@ https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
 
 <br>
 
-## Autores
+<span id="autores">
+
+## 📋 Autores
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
 | :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Product Owner |   Emmanuel Yokoyama         |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuelyokoyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/EmmanuelJYokoyama)              |
