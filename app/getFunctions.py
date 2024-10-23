@@ -65,7 +65,6 @@ def get_parlamentar_por_id(parlamentar_id):
 def get_prop(tipo='', numero='', ano='', pag=1):
     base_url = "https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?"
     params = {
-        'dataInicio': '01-01-2021',  
         'qtd': 10,  
         'pag': pag
     }

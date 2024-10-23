@@ -81,13 +81,17 @@ hr {
   margin-bottom: var(--margem-media);
 }
 
-.filtros_ativos,
 .container-relatorios,
 .container-relatorios2 {
   margin: 0 auto;
   padding: 0;
   margin-left: 200px;
   margin-bottom: 20px;
+}
+
+.filtros_ativos {
+  margin-left: 17%;
+  padding: 20px;
 }
 
 .container-relatorios {
