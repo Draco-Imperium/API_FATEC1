@@ -4,10 +4,10 @@ main {
   justify-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
-  background-color: rgba(204, 204, 204, 0.25);
 }
-.widht {
-  margin: 2.5% auto;
+
+body {
+  background-color: rgba(204, 204, 204, 0.25);
 }
 
 .container {
@@ -39,18 +39,22 @@ canvas {
   display: flex;
   justify-content: space-between;
   padding: 2px;
+  padding-top: 0;
   align-items: center;
   background-color: #2f4eac;
   border-radius: 10px 10px 0px 0px;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .navigation-items {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 15px;
+  gap: 20px;
   margin: 0;
   padding: 5px;
+  padding-top: 0;
 }
 
 .navigation-items > li > a {
@@ -60,6 +64,10 @@ canvas {
   font-weight: 400;
   font-size: 12px;
   transition: all 0.3s ease 0s;
+}
+
+.navigation-items ul li {
+  list-style: none;
 }
 
 .navigation-items > li > a:hover {
@@ -106,93 +114,21 @@ footer {
   width: 100%;
   margin-top: 20px;
 }
-/*
-.pev {
-  all: unset;
-}
-.pev {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  background-color: #00000010;
-  border-radius: 10px;
-  color: white;
-  font-size: 12px;
-  font-weight: 400;
-  padding: 1.5% 2.5%;
-  gap: 2%;
-  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.3);
-  margin-top: 1%;
-}
- 
-.pev > div {
-  display: flex;
-}
-
-.onoff input.toggle {
-  display: grid;
-}
-
-.onoff input.toggle + label {
-  display: inline-block;
-  position: relative;
-  box-shadow: inset 0 0 0px 1px #d5d5d5;
-  height: 15px;
-  width: 30px;
-  border-radius: 30px;
-  background: #2f4fac;
-}
-
-.onoff input.toggle + label:before {
-  content: "";
-  display: block;
-  height: 15px;
-  width: 15px;
-  border-radius: 30px;
-  background: #2f4fac;
-  transition: 0.3s ease-in-out;
-  border: none;
-}
-
-.onoff input.toggle + label:after {
-  content: "";
-  position: absolute;
-  height: 15px;
-  width: 15px;
-  top: 0;
-  left: 0px;
-  background: #2f4fac;
-  border-radius: 30px;
-  background: #fff;
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
-  transition: 0.3s ease-in-out;
-}
-
-.onoff input.toggle:checked + label:before {
-  width: 30px;
-  background: #2f4fac;
-  box-shadow: inset 0 0 0px 1px #d5d5d5;
-}
-
-.onoff input.toggle:checked + label:after {
-  left: 15px;
-}
-
-*/
 
 .desc {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   border: 1px solid #ddd;
   background-color: white;
   border-radius: 10px;
   padding: 1%;
-  margin: 0% 2%;
-  margin-top: 1%;
+  padding-top: 0%;
+  margin: 1% 2%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 600px;
-  height: auto;
+  height: 50px
 }
 .desc p {
   font-weight: 400;
@@ -240,61 +176,6 @@ footer {
   font-size: 10px;
   font-weight: 400;
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 23%;
+  padding-left: 10%;
   height: 20px;
 }
-
-/* Botão para ordenar, não está funcionando ainda. 
-
-  .sorting-section {
-    display: flex;
-  }
-  
-  .sort-toggle-btn {
-    display: flex;
-    background-color: #2F4FAC;
-    color: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 6px;
-    font-size: 12px;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sort-toggle-btn i {
-    margin-right: 0px;
-  }
-  
-  .sort-toggle-btn:hover {
-    background-color: #0073ff;
-    transition: 0.3s ease-in-out;
-  }
-  
-  .sorting-options {
-    display: none;
-    margin-top: 10px;
-  }
-  
-  .sort-btn {
-    display: flex;
-    padding: 10px;
-    margin: 3px 2px;
-    background-color: #2F4FAC;
-    color: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    font-size: 12px;
-    cursor: pointer; 
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .sort-btn i {
-    margin-right: 8px;
-  }
-  
-  .sort-btn:hover {
-    background-color: #0073ff;
-  } */
