@@ -46,18 +46,16 @@
             {{ parlamentar['parlamentarPerfil'] | safe }}
           </p>
 
-          <h1>Eleições anteriores</h1>
+          <h1>Comissão Atuante</h1>
           <ul>
             <!-- Iteração sobre as eleições do vereador -->
-            {% for eleicao in parlamentar['eleicoes'] %}
+            {% for comissao in parlamentar['comissoesAtuantes'] %}
             <li>
-              <strong>ANO:</strong> {{ eleicao['ano'] }}
-              <strong>CARGO:</strong> {{ eleicao['cargo'] }}
-              <strong>PARTIDO:</strong> {{ eleicao['partido'] }}
-              <strong>SITUAÇÃO:</strong> {{ eleicao['situacao'] }}
+              <strong>Comissão:</strong> {{ comissao['comissaoNome'] }} <br>
+              <strong>Cargo:</strong> {{ comissao['comissaoCargo'] }}<br><br>
+              
             </li>
-            {% else %}
-            <li>Nenhuma eleição registrada.</li>
+            
             {% endfor %}
           </ul>
         </section>
