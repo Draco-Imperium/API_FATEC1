@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "parlamentarID": 35,
         "parlamentarNome": "Ver. Amélia Naomi",
         "frequencia": [
             {
@@ -118,11 +119,20 @@
     },
 
     {
+        "parlamentarID": 37,
         "parlamentarNome": "Ver. Dr. Elton",
         "frequencia": [
             {
                 "frequenciaSituacaoNome": "Presente",
                 "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
                 {
                     "ano": 2022,
                     "quantidade": 49
@@ -137,6 +147,14 @@
                 "frequenciaSituacaoNome": "Falta",
                 "frequenciaSituacaoAnos": [
                 {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
+                {
                     "ano": 2022,
                     "quantidade": 8
                 },
@@ -149,6 +167,14 @@
             {
                 "frequenciaSituacaoNome": "Falta Justificada",
                 "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
                 {
                 "ano": 2022,
                 "quantidade": 1
@@ -213,6 +239,7 @@
     },
 
     {
+        "parlamentarID": 238,
         "parlamentarNome": "Ver. Dr. José Claudio",
         "frequencia": [
             {
@@ -330,6 +357,7 @@
         ]
     },
     {
+        "parlamentarID": 38,
         "parlamentarNome": "Ver. Dulce Rita",
         "frequencia": [
             {
@@ -446,7 +474,8 @@
             }
         ]
     },
-    {
+    {   
+        "parlamentarID": 247,
         "parlamentarNome": "Ver. Fabião Zagueiro",
         "frequencia": [
             {
@@ -563,7 +592,8 @@
             }
         ]
     },
-    {
+    {   
+        "parlamentarID": 40,
         "parlamentarNome": "Ver. Fernando Petiti",
         "frequencia": [
             {
@@ -680,7 +710,8 @@
             }
         ]
     },
-    {
+    {   
+        "parlamentarID": 43,
         "parlamentarNome": "Ver. Juliana Fraga",
         "frequencia": [
             {
@@ -793,6 +824,7 @@
         ]
     },
     {
+        "parlamentarID": 246,
         "parlamentarNome": "Ver. Júnior da Farmácia",
         "frequencia": [
             {
@@ -910,6 +942,7 @@
         ]
     },
     {
+        "parlamentarID": 44,
         "parlamentarNome": "Ver. Juvenil Silvério",
         "frequencia": [
             {
@@ -1032,6 +1065,7 @@
         ]
     },
     {
+        "parlamentarID": 45,
         "parlamentarNome": "Ver. Lino Bispo",
         "frequencia": [
             {
@@ -1149,6 +1183,7 @@
         ]
     },
     {
+        "parlamentarID": 47,
         "parlamentarNome": "Ver. Marcão da Academia",
         "frequencia": [
             {
@@ -1266,6 +1301,7 @@
         ]
     },
     {
+        "parlamentarID": 243,
         "parlamentarNome": "ver. Rafael Pascucci",
         "frequencia": [
             {
@@ -1383,6 +1419,7 @@
         ]
     },
     {
+        "parlamentarID": 245,
         "parlamentarNome": "Ver. Renato Santiago",
         "frequencia": [
             {
@@ -1505,6 +1542,7 @@
         ]
     },
     {
+        "parlamentarID": 50,
         "parlamentarNome": "Ver. Robertinho da Padaria",
         "frequencia": [
             {
@@ -1627,6 +1665,7 @@
         ]
     },
     {
+        "parlamentarID": 240,
         "parlamentarNome": "Ver. Roberto Chagas",
         "frequencia": [
             {
@@ -1744,6 +1783,7 @@
         ]
     },
     {
+        "parlamentarID": 249,
         "parlamentarNome": "Ver. Rogério da ACASEM",
         "frequencia": [
             {
@@ -1760,6 +1800,10 @@
                     {
                         "ano": 2022,
                         "quantidade": 24
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
                     }
                 ]
             },
@@ -1776,6 +1820,10 @@
                     },
                     {
                         "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
                         "quantidade": 0
                     }
                 ]
@@ -1794,6 +1842,10 @@
                     {
                         "ano": 2022,
                         "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
                     }
                 ]
             }
@@ -1839,6 +1891,7 @@
         ]
     },
     {
+        "parlamentarID": 55,
         "parlamentarNome": "Ver. Walter Hayashi",
         "frequencia": [
             {
@@ -1956,6 +2009,7 @@
         ]
     },
     {
+        "parlamentarID": 234,
         "parlamentarNome": "Ver. Roberto do Eleven",
         "frequencia": [
             {
@@ -2073,6 +2127,7 @@
         ]
     },
     {
+        "parlamentarID": 242,
         "parlamentarNome": "Ver. Milton Vieira Filho",
         "frequencia": [
             {
@@ -2190,6 +2245,7 @@
         ]
     },
     {
+        "parlamentarID": 244,
         "parlamentarNome": "Ver. Marcelo Garcia",
         "frequencia": [
             {
@@ -2307,6 +2363,7 @@
         ]
     },
     {
+        "parlamentarID": 237,
         "parlamentarNome": "Ver. Zé Luis",
         "frequencia": [
             {
@@ -2424,6 +2481,7 @@
         ]
     },
     {
+        "parlamentarID": 239,
         "parlamentarNome": "Ver. Thomaz Henrique",
         "frequencia": [
             {

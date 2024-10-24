@@ -1,3 +1,5 @@
+let flag_init = true
+
 let dadosVereadores = [];
 
 async function carregarDadosVereadores() {
@@ -63,6 +65,7 @@ function mostrarGraficoFrequencia() {
     });
     const descricao = "Este gráfico ilustra o percentual de presenças ao longo do período analisado.";
     criarGrafico(dadosFrequencia, "Frequência", descricao);
+    flag_init = false;
 }
 
 function mostrarGraficoFaltasJustificadas() {
@@ -174,6 +177,7 @@ function getAnoFiltro() {
 
 document.addEventListener("DOMContentLoaded", async function () {
     await carregarDadosVereadores();
+    mostrarGraficoFrequencia();
     const menuLinks = document.querySelectorAll(".dropdown-menu a");
 
     menuLinks.forEach((link) => {
