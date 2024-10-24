@@ -13,7 +13,6 @@
     <main>
       <section class="conteudo-vereador">
         <section class="imgecoisas">
-          <!-- Dados dinâmicos fornecidos pelo Flask -->
           <img src="{{ parlamentar['parlamentarFoto'] }}" class="img-vereador" alt=" Vereador {{ parlamentar['parlamentarNome'] }}"/>
           <section class="info-vereador">
             <p>Vereador: {{ parlamentar['parlamentarNome'] }}</p>
@@ -46,7 +45,6 @@
 
           <h1>Comissão Atuante</h1>
           <ul>
-            <!-- Iteração sobre as eleições do vereador -->
             {% for comissao in parlamentar['comissoesAtuantes'] %}
             <li>
               <strong>Comissão:</strong> {{ comissao['comissaoNome'] }} <br>
@@ -58,8 +56,6 @@
           </ul>
         </section>
       </section>
-
-      <!-- Seção de comentários -->
       <section class="comentarios">
         <section class="caixa-comentario">
           <h3>Comentários</h3>
@@ -76,7 +72,6 @@
           </ul>
         </section>
 
-        <!-- Formulário de novo comentário -->
         <section class="caixa-comentario">
           <h3>Deixe seu comentário</h3>
           <form action="" method="post">
