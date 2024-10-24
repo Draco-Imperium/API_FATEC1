@@ -137,8 +137,6 @@ Sprint | Previsão | Status|
 
   </details>
 
-<br>
-
 <details>
      <summary>Backlog - Sprint 2</summary>
       <div align="center">

@@ -4,30 +4,128 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../static/css/vereadores_perfil.css" />
-    {% include 'headFH.html' %}
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Perfil Individual Vereadores</title>
   </head>
   <body>
     {% include 'header.html' %}
-
     <main>
       <section class="conteudo-vereador">
-        <section class="imgecoisas">
-          <img src="{{ parlamentar['parlamentarFoto'] }}" class="img-vereador" alt=" Vereador {{ parlamentar['parlamentarNome'] }}"/>
-          <section class="info-vereador">
-            <p>Vereador: {{ parlamentar['parlamentarNome'] }}</p>
-          </section>
-          <article class="info-vereador">
-            <p>Partido: {{ parlamentar['partidoNome'] }} ({{ parlamentar['partidoSigla'] }})</p>
-            <hr />
-            <p>Telefone(s): {{ parlamentar['parlamentarTelefone'] }}</p>
-            <hr />
-            <p>Email: <a href="mailto:{{ parlamentar['parlamentarEmail'] }}">{{ parlamentar['parlamentarEmail'] }}</a></p>
-          </article>
-        </section>
-
+        <div class="flex flex-wrap md:flex-nowrap">
+          <div class="info">
+            <div class="card bg-white shadow-md rounded-lg flex flex-col p-4 m-4">
+              <img
+              src="https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/70878385417st6d28o4c.jpg"
+              alt="Foto de Amélia Naomi"
+              class="info-img"
+            />
+            </div>
+            <div class="w-full md:w-3/3 p-4 flex-grow">
+              <div
+                class="card sticky-bottom bg-white shadow-md rounded-lg flex flex-col"
+              >
+                <div class="card-body text-center p-4 flex-grow">
+                  <h2 class="text-xl font-semibold mt-2">AMÉLIA NAOMI</h2>
+                  <p>Vereador - São José Dos Campos/SP</p>
+                  <p>Partido: PT</p>
+                  <p>CNPJ: 56.446.027/0001-67</p>
+                  <p>Número: 13500</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-2">
+          </div>
+          <div class="w-full md:w-2/3 p-4 flex-grow">
+            <form>
+              <div
+                class="card bg-white shadow-md rounded-lg h-full flex flex-col"
+              >
+                <div class="card-body p-4 flex-grow">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <label class="font-semibold">Nome Completo:</label>
+                      <span>AMÉLIA NAOMI OMURA</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Data de Nascimento:</label>
+                      <span>12/06/1960</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Gênero:</label>
+                      <span>Feminino</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Cor / Raça:</label>
+                      <span>Amarela</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Estado Civil:</label>
+                      <span>Casado(a)</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Grau de Instrução:</label>
+                      <span>Superior Completo</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold">Ocupação:</label>
+                      <span>Assistente Social</span>
+                    </div>
+                    <div class="col-span-2">
+                      <label class="font-semibold"
+                        >Nacionalidade / Naturalidade:</label
+                      >
+                      <span>Brasileira Nata / SP-Aparecida D'oeste</span>
+                    </div>
+                    <div>
+                      <label class="font-semibold"
+                        >Candidato a reeleição:</label
+                      >
+                      <span>Sim</span>
+                    </div>
+                    <div class="col-span-2">
+                      <label class="font-semibold">Federação:</label>
+                      <span
+                        >Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do
+                        B/PV)</span
+                      >
+                    </div>
+                    <div class="col-span-2">
+                      <label class="font-semibold"
+                        >Limite Legal de Gastos 1º Turno:</label
+                      >
+                      <span class="badge bg-secondary">R$ 243.956,56</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card bg-white shadow-md rounded-lg h-full flex flex-col"
+              >
+                <div class="card-body p-4 flex-grow">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                      <p> SOBRE </p>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="conteudo-vereador">
         <section class="relatorios">
-          <select class="select" >
+          <select class="select">
             <option>Frequência em Plenário</option>
             <option>Proposições Apresentadas</option>
             <option>Leis de sua Autoria</option>
@@ -36,32 +134,13 @@
             <canvas id="GraficoPerfil" width="100%" height="100%"></canvas>
           </div>
         </section>
-
-        <section class="sobre-vereador">
-          <h1>Sobre o vereador</h1>
-          <p>
-            {{ parlamentar['parlamentarPerfil'] | safe }}
-          </p>
-
-          <h1>Comissão Atuante</h1>
-          <ul>
-            {% for comissao in parlamentar['comissoesAtuantes'] %}
-            <li>
-              <strong>Comissão:</strong> {{ comissao['comissaoNome'] }} <br>
-              <strong>Cargo:</strong> {{ comissao['comissaoCargo'] }}<br><br>
-              
-            </li>
-            
-            {% endfor %}
-          </ul>
-        </section>
       </section>
       <section class="comentarios">
         <section class="caixa-comentario">
           <h3>Comentários</h3>
           <ul class="lista-comentario">
             <!-- Iteração sobre os comentários -->
-              <!-- {% for comentario in comentarios %}
+            <!-- {% for comentario in comentarios %}
               <li class="comentario">
                 <span class="usuario">{{ comentario['usuario'] }}</span>
                 <p class="texto-comentario">{{ comentario['texto'] }}</p>
@@ -93,7 +172,6 @@
               <li class="star-icon" data-avaliacao="4"></li>
               <li class="star-icon" data-avaliacao="5"></li>
             </ul>
-
           </article>
         </section>
       </section>
