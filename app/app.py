@@ -90,7 +90,7 @@ def vereadores_geral():
         return render_template('500.html'), 500
 
 @app.route('/perfil/<string:NM_URNA_CANDIDATO>')
-@cache.cached(timeout=300)
+# @cache.cached(timeout=300)
 def perfil(NM_URNA_CANDIDATO):
     try:
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')

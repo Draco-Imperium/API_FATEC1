@@ -11,7 +11,7 @@
   --radius-medio: 8px;
   --radius-grande: 10px;
   --cor-texto-secundario: #555;
-  --cor-texto-usuario: #888;
+  --cor-texto-usuario: #ccc;
   --tamanho-texto-pequeno: 0.9em;
   --tamanho-texto-normal: 16px;
 }
@@ -230,6 +230,24 @@ main {
 
 .star-icon:hover ~ .star-icon::before {
   content: "\2606";
+}
+
+.botaobe{
+  display: flex;
+  background-color: white;
+  border-radius: var(--radius-pequeno);
+  padding: 8px;
+  width: 102%;
+  font-family: var(--fonte-principal);
+  font-weight: 777;
+  align-items: flex-start;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.231);;
+  padding-left: 10px;
+  transition: 0.3s;
+}
+.botaobe:hover{
+background-color: rgb(224, 224, 224);
+padding: 8px;
 }
 
 footer {
