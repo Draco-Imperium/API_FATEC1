@@ -72,8 +72,9 @@ main {
 }
 
 .chart {
-  height: 83.5%;
-  padding: 0;
+  height: auto;
+  width: auto;
+  padding: 5px;
   border: var(--borda);
   border-radius: var(--radius-grande);
   background: var(--cor-clara);

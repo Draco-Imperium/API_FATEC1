@@ -28,16 +28,14 @@
         </section>
 
         <section class="relatorios">
-          <select class="select">
+          <select class="select" >
             <option>Frequência em Plenário</option>
             <option>Proposições Apresentadas</option>
             <option>Leis de sua Autoria</option>
-            <option>Posicionamento em Votações</option>
-            <option>Comissões</option>
           </select>
-          <article class="chart">
-            <canvas id="BarChart" width="100%" height="100%"></canvas>
-          </article>
+          <div class="chart">
+            <canvas id="GraficoPerfil" width="100%" height="100%"></canvas>
+          </div>
         </section>
 
         <section class="sobre-vereador">
@@ -125,6 +123,6 @@
       });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="../static/javascript/perfil.js"></script>
+    <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>
   </body>
 </html>
