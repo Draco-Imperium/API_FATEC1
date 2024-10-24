@@ -91,18 +91,22 @@ Sprint | Previsão | Status|
 
 - [ ] Criação de toda documentação necessária do projeto;
 
-- [ ] Aplicar responsividade às telas;
+- [x] Aplicar responsividade às telas;
 
-- [ ] Implementação de funcionalidades do sistema (barra de busca, comentários); 
+- [ ]  Implementação de mais funcionalidades e informações nas telas.
 
-- [ ] Realizar a raspagem de dados;
+- [x] Realizar a raspagem de dados;
 
-- [ ] Criação e configuração do banco de dados.
+- [x] Criação e configuração do banco de dados.
+
+- [ ] Deixar filtros e gráficos funcionais.
 
 <br>
 
 ### Sprint 3:
 
+- [ ] Implementação de funcionalidades do sistema (barra de busca, comentários);
+      
 - [ ] Reajustes e alguns aprimoramentos.
  
 <br>
@@ -176,7 +180,11 @@ Sprint | Previsão | Status|
 
 Confira a seguir uma demonstração das funcionalidades do sistema:
 
+<h3>📍Sprint 1</h3>
+
 https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
+
+<h3>📍Sprint 2</h3>
 
 <br>
 
