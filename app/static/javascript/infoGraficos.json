@@ -66,7 +66,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -94,7 +93,6 @@
                 "quantidade": 4583
             }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -118,7 +116,6 @@
             }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Dr. José Claudio",
         "frequencia": [
@@ -186,7 +183,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -214,7 +210,6 @@
                 "quantidade": 650
             }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -238,7 +233,6 @@
             }
         ]
     },
-    
     {
         "parlamentarNome": "Ver. Dulce Rita",
         "frequencia": [
@@ -306,7 +300,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -334,7 +327,6 @@
                 "quantidade": 11156
             }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -358,75 +350,73 @@
             }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Fabião Zagueiro",
         "frequencia": [
             {
                 "frequenciaSituacaoNome": "Presente",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 60
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 80
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 84
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 86
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
                 ]
             },
             {
                 "frequenciaSituacaoNome": "Falta",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 0
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
                 ]
             },
             {
                 "frequenciaSituacaoNome": "Falta Justificada",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 0
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -454,7 +444,6 @@
                 "quantidade": 243
             }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -476,10 +465,8 @@
                 "tipo": "Resolução",
                 "quantidade": 1
             }
-            
         ]
     },
-
     {
         "parlamentarNome": "Ver. Fernando Petiti",
         "frequencia": [
@@ -547,7 +534,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -573,9 +559,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 1906
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -596,15 +581,14 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Juliana Fraga",
         "frequencia": [
             {
-                "frequenciaSituacaoNome": "Presente", 
+                "frequenciaSituacaoNome": "Presente",
                 "frequenciaSituacaoAnos": [
                     {
                         "ano": 2024,
@@ -665,9 +649,8 @@
                         "quantidade": 2
                     }
                 ]
-            }                          
+            }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -695,7 +678,6 @@
                 "quantidade": 1968
             }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -711,10 +693,9 @@
                 "tipoID": 22,
                 "tipo": "Lei Ordinária",
                 "quantidade": 27
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Júnior da Farmácia",
         "frequencia": [
@@ -780,9 +761,8 @@
                         "quantidade": 3
                     }
                 ]
-            }                        
+            }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -808,9 +788,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 1295
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -831,14 +810,13 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Juvenil Silvério",
         "frequencia": [
-            { 
+            {
                 "frequenciaSituacaoNome": "Presente",
                 "frequenciaSituacaoAnos": [
                     {
@@ -857,7 +835,7 @@
                         "ano": 2021,
                         "quantidade": 80
                     }
-            ]
+                ]
             },
             {
                 "frequenciaSituacaoNome": "Falta",
@@ -902,7 +880,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -928,9 +905,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 944
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -956,10 +932,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Lino Bispo",
         "frequencia": [
@@ -1027,7 +1002,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1053,9 +1027,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 396
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1076,10 +1049,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Marcão da Academia",
         "frequencia": [
@@ -1147,7 +1119,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1173,9 +1144,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 1749
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1196,10 +1166,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "ver. Rafael Pascucci",
         "frequencia": [
@@ -1267,7 +1236,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1278,7 +1246,7 @@
                 "tipoID": 347,
                 "tipo": "Emenda",
                 "quantidade": 124
-            }, 
+            },
             {
                 "tipoID": 319,
                 "tipo": "Indicação",
@@ -1293,9 +1261,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 291
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1316,10 +1283,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Renato Santiago",
         "frequencia": [
@@ -1387,7 +1353,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1413,9 +1378,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 801
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1441,78 +1405,76 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Robertinho da Padaria",
         "frequencia": [
             {
                 "frequenciaSituacaoNome": "Presente",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 57
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 79
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 83
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 83
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 57
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 83
+                    }
                 ]
             },
             {
                 "frequenciaSituacaoNome": "Falta",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 0
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 1
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 1
+                    }
                 ]
             },
             {
                 "frequenciaSituacaoNome": "Falta Justificada",
                 "frequenciaSituacaoAnos": [
-                {
-                    "ano": 2024,
-                    "quantidade": 3
-                },
-                {
-                    "ano": 2023,
-                    "quantidade": 1
-                },
-                {
-                    "ano": 2022,
-                    "quantidade": 1
-                },
-                {
-                    "ano": 2021,
-                    "quantidade": 2
-                }
+                    {
+                        "ano": 2024,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 2
+                    }
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1538,9 +1500,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 514
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1566,10 +1527,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Roberto Chagas",
         "frequencia": [
@@ -1637,7 +1597,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1663,9 +1622,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 340
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1686,10 +1644,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-    
     {
         "parlamentarNome": "Ver. Rogério da ACASEM",
         "frequencia": [
@@ -1745,7 +1702,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1771,9 +1727,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 584
-            }   
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1784,10 +1739,9 @@
                 "tipoID": 22,
                 "tipo": "Lei Ordinária",
                 "quantidade": 22
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Walter Hayashi",
         "frequencia": [
@@ -1855,7 +1809,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -1881,9 +1834,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 1186
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -1904,10 +1856,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 7
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Roberto do Eleven",
         "frequencia": [
@@ -1975,7 +1926,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -2001,9 +1951,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 381
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -2024,11 +1973,10 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 2
-            }            
+            }
         ]
     },
-
-     {
+    {
         "parlamentarNome": "Ver. Milton Vieira Filho",
         "frequencia": [
             {
@@ -2050,7 +1998,7 @@
                         "ano": 2021,
                         "quantidade": 78
                     }
-                ]               
+                ]
             },
             {
                 "frequenciaSituacaoNome": "Falta",
@@ -2095,7 +2043,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -2121,9 +2068,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 155
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -2144,11 +2090,10 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
-     },
-
-     {
+    },
+    {
         "parlamentarNome": "Ver. Marcelo Garcia",
         "frequencia": [
             {
@@ -2215,7 +2160,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -2241,9 +2185,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 355
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -2264,11 +2207,10 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
-     },
-
-     {
+    },
+    {
         "parlamentarNome": "Ver. Zé Luis",
         "frequencia": [
             {
@@ -2335,7 +2277,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -2361,9 +2302,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 708
-            }  
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -2384,10 +2324,9 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     },
-
     {
         "parlamentarNome": "Ver. Thomaz Henrique",
         "frequencia": [
@@ -2455,7 +2394,6 @@
                 ]
             }
         ],
-
         "proposicoesApresentadas": [
             {
                 "tipoID": 347,
@@ -2481,9 +2419,8 @@
                 "tipoID": 340,
                 "tipo": "Requerimento",
                 "quantidade": 215
-            }            
+            }
         ],
-
         "normasApresentadas": [
             {
                 "tipoID": 25,
@@ -2504,7 +2441,7 @@
                 "tipoID": 24,
                 "tipo": "Resolução",
                 "quantidade": 1
-            }            
+            }
         ]
     }
 ]
