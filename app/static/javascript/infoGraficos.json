@@ -116,6 +116,102 @@
             }
         ]
     },
+
+    {
+        "parlamentarNome": "Ver. Dr. Elton",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2022,
+                    "quantidade": 49
+                },
+                {
+                    "ano": 2021,
+                    "quantidade": 78
+                }
+            ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2022,
+                    "quantidade": 8
+                },
+                {
+                    "ano": 2021,
+                    "quantidade": 2
+                }
+            ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                {
+                "ano": 2022,
+                "quantidade": 1
+                },
+                {
+                "ano": 2021,
+                "quantidade": 6
+                }
+            ]
+            }
+        ],
+
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 66
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 110
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 152
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 83
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 403
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 16
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 30
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+
     {
         "parlamentarNome": "Ver. Dr. José Claudio",
         "frequencia": [
