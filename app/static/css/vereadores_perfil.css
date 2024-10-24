@@ -69,6 +69,7 @@ main {
   margin-left: 0;
   margin-top: 0;
   max-width: 100%;
+  padding-left: 5px;
 }
 
 .chart {
@@ -258,7 +259,11 @@ footer {
     flex-direction: column;
     width: 100%;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
+
   .info-vereador {
     max-width: 100%;
     margin: 1%;
@@ -275,7 +280,8 @@ footer {
     margin-bottom: 10%;
   }
   .select {
-    margin-left: 7.5%;
+    width: auto;
+    margin-left: 5%;
     margin-top: 5%;
   }
   .sobre-vereador {
