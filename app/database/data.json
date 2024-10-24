@@ -1,4 +1,5 @@
-[
+{
+  "parlamentares": [
   {
     "ID_VER": 35,
     "DT_GERACAO": "9/30/2024",
@@ -18,8 +19,8 @@
     "DS_CARGO": "VEREADOR",
     "SQ_CANDIDATO": 250000753710,
     "NR_CANDIDATO": 13500,
-    "NM_CANDIDATO": "AMÉLIA NAOMI OMURAtestesteste",
-    "NM_URNA_CANDIDATO": "AMÉLIA NAOMItestetestet",
+    "NM_CANDIDATO": "AMÉLIA NAOMI OMURA",
+    "NM_URNA_CANDIDATO": "AMÉLIA NAOMI",
     "FT_CANDIDATO": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/70878385417st6d28o4c.jpg",
     "NM_SOCIAL_CANDIDATO": "#NULO#",
     "NR_CPF_CANDIDATO": 1933848847,
@@ -1232,3 +1233,4 @@
     "SOBRE": "2024. Aos 51 anos, é casado e possui ensino superior completo. Ele se destaca por sua conexão com a população e se propõe a trabalhar em melhorias"
   }
 ]
+}

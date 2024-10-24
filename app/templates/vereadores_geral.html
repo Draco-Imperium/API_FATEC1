@@ -8,41 +8,41 @@
     <title>Vereadores</title>
 </head>
 <body>
-{% include 'header.html' %}
-<main>
-    <section class="vereadores-geral">
-        {% for parlamentar in parlamentares %}
-        <section class="vereador">
-            <img src="{{parlamentar['parlamentarFoto']}}" alt="Vereador">
-            <article class="info-vereador">
-                <p>Vereador(a): {{ parlamentar['parlamentarNome'] }}</p>
-                <p>Partido:  {{ parlamentar['partidoNome'] }} ({{parlamentar['partidoSigla'] }})</p>
-            </article>
-            <article class="button-container">
-                <a href="{{ url_for('vereadores_perfil', parlamentar_id=parlamentar['parlamentarID']) }}">
-                    <button class="button" type="button">Ver Perfil</button>
-                </a> 
-            </article>
+    {% include 'header.html' %}
+    <main>
+        <section class="vereadores-geral">
+            {% for parlamentar in parlamentares %}
+            <section class="vereador">
+                <img src="{{ parlamentar['FT_CANDIDATO'] }}" alt="Candidato {{ parlamentar['NM_CANDIDATO'] }}">
+                <article class="info-vereador">
+                    <h2>{{ parlamentar['NM_URNA_CANDIDATO'] }}</h2>
+                    <p>{{ parlamentar['NM_PARTIDO'] }} ({{ parlamentar['SG_PARTIDO'] }})</p>
+                </article>
+                <article class="button-container">
+                    <a href="{{ url_for('perfil', NM_URNA_CANDIDATO=parlamentar['NM_URNA_CANDIDATO'] | format_name) }}">
+                        <button class="button" type="button">Ver Perfil</button>
+                    </a> 
+                </article>
+            </section>
+            {% endfor %}
         </section>
-        {%endfor%}
     </main>
-        {% include 'footer.html' %}
+    {% include 'footer.html' %}
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('open');
 
-<script>
-    function toggleMenu() {
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.classList.toggle('open');
-
-        const hamburger = document.querySelector('.hamburger');
-        hamburger.classList.toggle('active');
-    }
-
-    document.addEventListener("DOMContentLoaded", function() {
-        const hamburger = document.querySelector('.hamburger');
-        if (hamburger) {
-            hamburger.addEventListener('click', toggleMenu);
+            const hamburger = document.querySelector('.hamburger');
+            hamburger.classList.toggle('active');
         }
-    });
-</script>
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const hamburger = document.querySelector('.hamburger');
+            if (hamburger) {
+                hamburger.addEventListener('click', toggleMenu);
+            }
+        });
+    </script>
 </body>
 </html>
