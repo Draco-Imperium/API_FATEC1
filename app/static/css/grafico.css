@@ -127,8 +127,7 @@ footer {
   padding-top: 0%;
   margin: 1% 2%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 600px;
-  height: 50px
+  width: 67%;
 }
 .desc p {
   font-weight: 400;
@@ -162,20 +161,36 @@ footer {
   border-radius: 10px;
   text-align: center;
   padding-bottom: 5px;
+  margin-right: 2.5%;
 }
 
-.date-filter-form {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
 
-.date-filter-form input[type="date"] {
+.date-filter-section select {
   border: 1px solid #ccc;
   border-radius: 10px;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 400;
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 10%;
-  height: 20px;
+  padding: 10% 10%;
+}
+
+#meuGrafico{
+  width: auto; 
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  *{
+    font-size: 12px;
+  }
+  #graficoContainer{
+      padding: 0;
+      width: 50%;
+      margin-top: 6%;
+  }
+  #meuGrafico{
+    width: 100%;
+    height: 500px;
+  }
+  
 }

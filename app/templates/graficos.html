@@ -30,18 +30,30 @@
                 <li class="dropdown">
                   <a href="#">Proposições</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Leis</a></li>
-                    <li><a href="#">Resoluções</a></li>
+                    <li><a href="#">Projetos de Lei</a></li>
+                    <li><a href="#">Indicação</a></li>
                     <li><a href="#">Moções</a></li>
                     <li><a href="#">Emendas</a></li>
+                    <li><a href="#">Requerimento</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">Normas</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Decreto Legislativo</a></li>
+                    <li><a href="#">Emenda à Lei Orgânica</a></li>
+                    <li><a href="#">Lei Ordinária</a></li>
+                    <li><a href="#">Resolução</a></li>
                   </ul>
                 </li>
               </ul>
               <section class="date-filter-section">             
-                <form class="date-filter-form">
-                  <input type="date" id="start-date" name="start-date" value="2021-01-01" required>             
-                  <input type="date" id="end-date" name="end-date" value="2024-12-31" required>
-                </form>
+                <select name="anoSelect" id="anoSelect">
+                  <option>2021</option>
+                  <option>2022</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                </select>
               </section>
             </nav>
             <div class="container2">
@@ -51,7 +63,7 @@
             </div> 
             <div class="container"> 
               <div id="graficoContainer">
-                <canvas id="meuGrafico" width="800" height="400"></canvas>
+                <canvas id="meuGrafico"></canvas>
               </div>
             </div>
           </div>
