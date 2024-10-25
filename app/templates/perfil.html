@@ -56,8 +56,8 @@
                       <span class="flex text-lg">{{ parlamentar['DT_NASCIMENTO'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold flex text-xl">Cor / Raça:</label>
-                      <span class="flex text-lg">{{ parlamentar['DS_COR_RACA'] }}</span>
+                      <label class="font-semibold flex text-xl">Naturalidade:</label>
+                      <span class="flex text-lg">{{ parlamentar['VR_NAT'] }}</span>
                     </div>
                     <div>
                       <label class="font-semibold flex text-xl">Grau de Instrução:</label>
@@ -79,7 +79,7 @@
                     <li class="dropdown">
                         <span class="botaobe">Biografia <i class="fa-solid fa-chevron-down"></i></span>
                         <ul class="dropdown-menu">
-                            <li class="texto-be">{{ parlamentar['SOBRE'] }}</li>
+                          <li class="texto-be">{{ parlamentar['SOBRE'] | safe }}</li>
                         </ul>
                     </li>
                 </ul>
@@ -88,11 +88,10 @@
                 <ul class="navigation-items">
                   <li class="dropdown">
                       <span class="botaobe">Eleições <i class="fa-solid fa-chevron-down"></i></span>
-                      <ul class="dropdown-menu">
-                          <li class="texto-be">{{ parlamentar['DS_SIT_TOT_TURNO'] }}</li>                    
-                      </ul>
-                  </li>
+                      <ul class="dropdown-menu"></li>
+                        <li class="texto-be">{{ parlamentar['DS_SIT_TOT_TURNO'] | safe }}</li>                   
               </ul>
+            </ul>
               </div>
             </form>
           </div>
@@ -114,6 +113,7 @@
         <section class="caixa-comentario">
           <h3>Comentários</h3>
           <ul class="lista-comentario">
+
             <!-- Iteração sobre os comentários -->
             <!-- {% for comentario in comentarios %}
               <li class="comentario">
@@ -123,6 +123,7 @@
               {% else %}
               <li>Nenhum comentário ainda. Seja o primeiro a comentar!</li>
               {% endfor %} -->
+              
           </ul>
         </section>
 

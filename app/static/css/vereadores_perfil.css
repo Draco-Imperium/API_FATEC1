@@ -258,19 +258,23 @@ padding: 8px;
 .dropdown-menu {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease-out;
   list-style-type: none;
   padding: 0 10px;
   background-color: #f9f9f9;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 .dropdown.open .dropdown-menu {
   max-height: 100%; 
+  font-size: 14px;
 }
 .texto-be{
   padding: 10px;
-  background-color: #fff;
-  border-radius: 8px;
+  background-color: white;
+  white-space: pre-wrap; 
+}
+
+.texto-be > li{
+  font-size: 6px;
 }
 
 footer {
