@@ -1710,3 +1710,715 @@ Exception: Este é um erro simulado para testar o tratamento de erros 500.
 2024-10-25 11:56:06,671-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
 2024-10-25 11:56:06,762-INFO- * Restarting with stat
 2024-10-25 11:56:32,599-INFO- * Restarting with stat
+2024-10-25 12:13:30,286-INFO- * Restarting with stat
+2024-10-25 12:15:15,096-INFO- * Restarting with stat
+2024-10-25 12:16:30,758-INFO- * Restarting with stat
+2024-10-25 12:16:35,090-INFO- * Restarting with stat
+2024-10-25 12:16:38,436-INFO- * Restarting with stat
+2024-10-25 12:16:47,790-INFO- * Restarting with stat
+2024-10-25 12:16:48,374-WARNING- * Debugger is active!
+2024-10-25 12:16:48,375-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:16:58,428-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:16:58,452-INFO- * Restarting with stat
+2024-10-25 12:16:59,787-INFO- * Restarting with stat
+2024-10-25 12:17:01,110-INFO- * Restarting with stat
+2024-10-25 12:17:02,454-INFO- * Restarting with stat
+2024-10-25 12:17:03,002-WARNING- * Debugger is active!
+2024-10-25 12:17:03,002-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:17:05,026-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:17:05,101-INFO- * Restarting with stat
+2024-10-25 12:17:07,507-INFO- * Restarting with stat
+2024-10-25 12:17:14,860-INFO- * Restarting with stat
+2024-10-25 12:17:23,190-INFO- * Restarting with stat
+2024-10-25 12:17:23,750-WARNING- * Debugger is active!
+2024-10-25 12:17:23,750-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:17:25,777-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:17:25,817-INFO- * Restarting with stat
+2024-10-25 12:17:54,267-INFO- * Restarting with stat
+2024-10-25 12:17:58,641-INFO- * Restarting with stat
+2024-10-25 12:17:59,985-INFO- * Restarting with stat
+2024-10-25 12:18:00,586-WARNING- * Debugger is active!
+2024-10-25 12:18:00,586-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:19:27,598-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:27,610-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:27,614-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:27,614-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:27,629-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 12:19:27,739-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:27,739-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:19:27,739-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:19:27,739-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:19:27,770-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:27,771-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:27,771-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:19:27,771-INFO-127.0.0.1 - - [25/Oct/2024 12:19:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,168-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:29,168-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:29,168-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:29,168-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:29,890-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "GET / HTTP/1.1" 200 -
+2024-10-25 12:19:29,920-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,924-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,925-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,926-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,928-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,950-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,966-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,984-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:19:29,991-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:29,992-INFO-127.0.0.1 - - [25/Oct/2024 12:19:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:35,060-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:35,060-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:35,061-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:35,062-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:35,070-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 12:19:35,089-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:35,089-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:35,090-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:19:35,108-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:35,109-INFO-127.0.0.1 - - [25/Oct/2024 12:19:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:43,389-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:43,389-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:43,389-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:43,389-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:43,389-INFO-Cache used for key: view//vereadores_geral
+2024-10-25 12:19:43,389-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 12:19:43,412-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:43,412-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:43,413-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:19:43,428-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:43,428-INFO-127.0.0.1 - - [25/Oct/2024 12:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:44,672-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:44,672-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:44,674-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:44,674-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:44,678-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 12:19:44,697-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:44,698-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:19:44,700-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:19:44,702-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:19:44,722-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:19:44,723-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:19:44,724-INFO-127.0.0.1 - - [25/Oct/2024 12:19:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,118-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:14,118-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:14,118-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:14,118-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:14,118-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 12:20:14,144-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,144-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,144-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,149-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,186-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:14,187-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:14,195-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:20:14,202-INFO-127.0.0.1 - - [25/Oct/2024 12:20:14] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,149-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:47,149-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:47,165-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:47,165-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:47,181-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 12:20:47,208-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,208-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,212-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,212-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,241-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:20:47,250-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:20:47,251-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:20:47,255-INFO-127.0.0.1 - - [25/Oct/2024 12:20:47] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,303-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:21:11,304-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:21:11,305-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:21:11,307-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:21:11,328-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 12:21:11,343-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,346-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,348-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,349-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,384-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:21:11,384-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:21:11,392-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:21:11,398-INFO-127.0.0.1 - - [25/Oct/2024 12:21:11] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:23:16,039-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:23:16,078-INFO- * Restarting with stat
+2024-10-25 12:23:16,737-WARNING- * Debugger is active!
+2024-10-25 12:23:16,738-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:23:26,797-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:23:26,824-INFO- * Restarting with stat
+2024-10-25 12:23:27,395-WARNING- * Debugger is active!
+2024-10-25 12:23:27,397-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:23:31,425-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:23:31,462-INFO- * Restarting with stat
+2024-10-25 12:23:36,806-INFO- * Restarting with stat
+2024-10-25 12:24:10,272-INFO- * Restarting with stat
+2024-10-25 12:24:12,616-INFO- * Restarting with stat
+2024-10-25 12:25:38,369-INFO- * Restarting with stat
+2024-10-25 12:25:38,908-WARNING- * Debugger is active!
+2024-10-25 12:25:38,909-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:25:51,136-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 12:25:51,136-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 12:25:51,137-INFO- * Restarting with stat
+2024-10-25 12:25:51,638-WARNING- * Debugger is active!
+2024-10-25 12:25:51,638-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:25:54,453-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:25:54,456-INFO-127.0.0.1 - - [25/Oct/2024 12:25:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:25:55,109-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "GET / HTTP/1.1" 200 -
+2024-10-25 12:25:55,232-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,232-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,247-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,251-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,251-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,266-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,270-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,271-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:25:55,332-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:25:55,332-INFO-127.0.0.1 - - [25/Oct/2024 12:25:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:10,251-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:10,251-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:10,271-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:10,272-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:10,284-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 12:26:10,308-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:10,310-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:10,311-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:26:10,325-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 12:26:10,343-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:10,344-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:10,345-INFO-127.0.0.1 - - [25/Oct/2024 12:26:10] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:26:11,961-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:11,961-INFO-127.0.0.1 - - [25/Oct/2024 12:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:11,961-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:11,961-INFO-127.0.0.1 - - [25/Oct/2024 12:26:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:24,402-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:24,404-INFO-127.0.0.1 - - [25/Oct/2024 12:26:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:24,405-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:24,406-INFO-127.0.0.1 - - [25/Oct/2024 12:26:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:25,242-INFO-127.0.0.1 - - [25/Oct/2024 12:26:25] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 12:26:25,261-INFO-127.0.0.1 - - [25/Oct/2024 12:26:25] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:25,261-INFO-127.0.0.1 - - [25/Oct/2024 12:26:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:25,272-INFO-127.0.0.1 - - [25/Oct/2024 12:26:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:26:25,332-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:25,333-INFO-127.0.0.1 - - [25/Oct/2024 12:26:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:31,291-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:31,292-INFO-127.0.0.1 - - [25/Oct/2024 12:26:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:31,293-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:31,294-INFO-127.0.0.1 - - [25/Oct/2024 12:26:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:32,128-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "GET /proposicoes?tipo=&numero=&ano= HTTP/1.1" 200 -
+2024-10-25 12:26:32,147-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:32,149-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:32,149-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:26:32,165-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:32,165-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:32,175-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:32,175-INFO-127.0.0.1 - - [25/Oct/2024 12:26:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:38,438-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:38,438-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:38,448-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:38,449-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:38,467-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 12:26:38,489-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:38,489-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:38,490-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:26:38,513-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:38,513-INFO-127.0.0.1 - - [25/Oct/2024 12:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:45,062-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:45,063-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:45,065-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:45,065-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:45,074-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:26:45,106-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:26:45,106-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:26:45,107-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:26:45,111-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:26:45,217-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:45,218-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:26:45,222-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:26:45,232-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:26:45,232-INFO-127.0.0.1 - - [25/Oct/2024 12:26:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:19,597-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:19,597-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:19,597-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:19,597-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:19,612-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:19,645-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:19,645-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:19,645-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:19,645-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:19,675-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:19,675-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:19,682-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:19,700-INFO-127.0.0.1 - - [25/Oct/2024 12:27:19] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:22,746-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:22,746-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:22,761-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:22,761-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:22,761-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:22,783-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:22,783-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:22,783-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:22,783-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:27:22,807-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:22,814-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:22,817-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:22,817-INFO-127.0.0.1 - - [25/Oct/2024 12:27:22] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,059-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,060-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,062-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,063-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,064-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:33,080-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,080-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:27:33,080-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,080-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,105-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,106-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,106-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,138-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,403-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,415-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,416-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,416-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,416-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:33,433-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,433-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,433-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,449-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,472-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,472-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,472-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,482-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,616-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,616-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,635-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,636-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,637-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:33,664-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,664-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,664-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,664-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,685-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:33,686-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:33,688-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:33,707-INFO-127.0.0.1 - - [25/Oct/2024 12:27:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,527-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:35,527-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:35,527-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:35,527-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:35,543-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:35,558-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,571-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,574-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,574-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,625-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:35,631-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:35,633-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:35,633-INFO-127.0.0.1 - - [25/Oct/2024 12:27:35] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,049-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:36,049-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:36,049-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:36,049-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:36,049-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:27:36,078-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,078-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,081-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,084-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,117-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:27:36,117-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:27:36,120-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:27:36,130-INFO-127.0.0.1 - - [25/Oct/2024 12:27:36] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:27:54,603-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 12:27:54,603-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 12:27:54,603-INFO- * Restarting with stat
+2024-10-25 12:27:55,183-WARNING- * Debugger is active!
+2024-10-25 12:27:55,183-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:28:07,345-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:07,353-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:07,353-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:07,353-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:07,361-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:07,487-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:07,487-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:07,487-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:07,487-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:07,508-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:07,508-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:07,508-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:07,537-INFO-127.0.0.1 - - [25/Oct/2024 12:28:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:34,383-INFO- * Detected change in 'C:\\Users\\Manhã\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 12:28:34,421-INFO- * Restarting with stat
+2024-10-25 12:28:34,994-WARNING- * Debugger is active!
+2024-10-25 12:28:34,995-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:28:35,222-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:35,227-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:35,227-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:35,227-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:35,243-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:35,337-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:35,337-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:35,353-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:35,355-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:35,367-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:35,368-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:35,369-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:35,381-INFO-127.0.0.1 - - [25/Oct/2024 12:28:35] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,630-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:45,646-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:45,646-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:45,646-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:45,646-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:45,661-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,661-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,661-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,661-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,722-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:45,722-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:45,726-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:45,727-INFO-127.0.0.1 - - [25/Oct/2024 12:28:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:56,446-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:56,447-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:56,448-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:56,449-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:56,453-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:56,469-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:56,470-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:56,471-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:56,476-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:28:56,520-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:56,521-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:56,524-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:56,526-INFO-127.0.0.1 - - [25/Oct/2024 12:28:56] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:57,976-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:57,981-INFO-127.0.0.1 - - [25/Oct/2024 12:28:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:57,982-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:57,983-INFO-127.0.0.1 - - [25/Oct/2024 12:28:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:57,986-INFO-127.0.0.1 - - [25/Oct/2024 12:28:57] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,001-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,004-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,004-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,010-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:28:58,053-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,054-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,058-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,064-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,172-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,182-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,183-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,184-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,188-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,205-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,206-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,208-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,210-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,227-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,227-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,229-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,257-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,333-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,333-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,335-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,336-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,339-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,364-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,364-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,367-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,369-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,386-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,386-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,386-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,401-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,500-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,501-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,502-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,502-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,506-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,522-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,524-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,525-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,527-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,544-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,545-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,547-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,554-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,666-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,666-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,666-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,666-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,673-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,691-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,691-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,692-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,694-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,736-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,737-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,739-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,741-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,835-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,835-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,835-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,847-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,854-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:58,871-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,872-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,872-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,873-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,893-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:58,894-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:58,896-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:58,904-INFO-127.0.0.1 - - [25/Oct/2024 12:28:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,001-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,001-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,001-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,001-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,001-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:59,025-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,027-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,028-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,028-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,052-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,053-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,066-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,073-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,165-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,165-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,165-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,165-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,174-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:28:59,200-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,200-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,215-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,216-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,233-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:28:59,234-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:28:59,237-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:28:59,249-INFO-127.0.0.1 - - [25/Oct/2024 12:28:59] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:03,731-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:03,731-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:03,731-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:03,731-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:03,750-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:03,766-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:03,767-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:03,770-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:03,778-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:03,799-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:03,799-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:03,803-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:03,806-INFO-127.0.0.1 - - [25/Oct/2024 12:29:03] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,218-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:04,218-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:04,219-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:04,220-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:04,224-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:04,239-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,241-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,243-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,244-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,281-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:04,282-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:04,287-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:04,291-INFO-127.0.0.1 - - [25/Oct/2024 12:29:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,160-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:07,175-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:07,175-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:07,175-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:07,199-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:07,214-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,214-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,214-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,214-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,240-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:07,240-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:07,241-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:07,258-INFO-127.0.0.1 - - [25/Oct/2024 12:29:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:08,750-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:08,750-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:08,770-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:08,771-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:08,775-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:08,791-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:08,792-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:08,793-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:08,798-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:08,820-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:08,821-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:08,824-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:08,832-INFO-127.0.0.1 - - [25/Oct/2024 12:29:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,260-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:10,260-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:10,260-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:10,260-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:10,260-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:10,290-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,290-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,292-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,293-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,337-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:10,338-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:10,340-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:10,341-INFO-127.0.0.1 - - [25/Oct/2024 12:29:10] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,231-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,246-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,248-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,249-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,252-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:12,274-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,275-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,278-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,279-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,301-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,301-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,310-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,313-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,574-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,575-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,575-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,576-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,580-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:12,600-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,602-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,603-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,610-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:12,630-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,631-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,635-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,639-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,846-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,846-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,848-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,850-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,853-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:12,868-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,870-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,871-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,873-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,908-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:12,909-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:12,911-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:12,922-INFO-127.0.0.1 - - [25/Oct/2024 12:29:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,037-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:13,037-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:13,038-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:13,038-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:13,043-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:13,058-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,059-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,059-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,063-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,080-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:13,081-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:13,084-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:13,117-INFO-127.0.0.1 - - [25/Oct/2024 12:29:13] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,897-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:21,897-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:21,897-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:21,897-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:21,897-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:21,926-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,926-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,927-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,930-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,958-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:21,959-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:21,966-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:21,968-INFO-127.0.0.1 - - [25/Oct/2024 12:29:21] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:23,819-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:23,819-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:23,819-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:23,827-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:23,830-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:23,845-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:23,848-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:23,849-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:23,854-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:23,898-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:23,900-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:23,904-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:23,913-INFO-127.0.0.1 - - [25/Oct/2024 12:29:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,684-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,685-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,686-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,687-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,703-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:27,718-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,719-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,719-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,719-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,740-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,741-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,744-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,757-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,924-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,926-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,943-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,943-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,948-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:27,964-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,965-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,966-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,967-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:27,989-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:27,992-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:27,996-INFO-127.0.0.1 - - [25/Oct/2024 12:29:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,006-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,145-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:28,153-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:28,156-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:28,156-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:28,160-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:28,181-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,182-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,185-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,191-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:28,205-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:28,205-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:28,206-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:28,223-INFO-127.0.0.1 - - [25/Oct/2024 12:29:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,140-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:33,140-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:33,140-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:33,147-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:33,162-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:33,179-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,181-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,182-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,183-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,202-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:33,203-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:33,205-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:33,219-INFO-127.0.0.1 - - [25/Oct/2024 12:29:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:34,814-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:34,814-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:34,814-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:34,814-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:34,839-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:34,886-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:34,886-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:29:34,887-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:34,889-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:34,907-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:34,907-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:34,909-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:34,923-INFO-127.0.0.1 - - [25/Oct/2024 12:29:34] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:29:36,933-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:36,933-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:36,933-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:36,933-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:36,950-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-10-25 12:29:36,965-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:36,967-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:29:36,969-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:29:36,970-INFO-127.0.0.1 - - [25/Oct/2024 12:29:36] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:29:37,003-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 12:29:37,004-INFO-127.0.0.1 - - [25/Oct/2024 12:29:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 12:29:37,021-INFO-127.0.0.1 - - [25/Oct/2024 12:29:37] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:29:37,024-INFO-127.0.0.1 - - [25/Oct/2024 12:29:37] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:30:14,047-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.2.11:5000
+2024-10-25 12:30:14,047-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 12:30:14,047-INFO- * Restarting with stat
+2024-10-25 12:30:14,581-WARNING- * Debugger is active!
+2024-10-25 12:30:14,581-INFO- * Debugger PIN: 806-284-244

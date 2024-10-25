@@ -26,7 +26,6 @@ def index():
         leis = json.load(file)      
     leis = leis['leis']
     ultimas = prepos() 
-<<<<<<< Updated upstream
     return render_template('index.html', ultimas=ultimas, leis=leis )
 
     
@@ -35,7 +34,7 @@ def index():
 
 def get_dados2():
     try:
-        with open('app/database/leis','r') as file:
+        with open('app/database/leis.json','r') as file:
             data = json.load(file)
         return jsonify(data)
     except FileNotFoundError:
@@ -43,9 +42,6 @@ def get_dados2():
     except json.JSONDecodeError:
         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
-=======
-    return render_template('index.html', ultimas=ultimas)
->>>>>>> Stashed changes
 
 @app.route('/proposicoes')
 def proposicoes():
@@ -154,10 +150,6 @@ def not_found(error):
 def internal_error(error):
     logging.error(f"Erro interno: {error}")
     return render_template('500.html'), 500
-
-@app.route('/simular_erro')
-def simular_erro():
-    raise Exception("Este é um erro simulado para testar o tratamento de erros 500.")
 
 if __name__ == '__main__':
     app.run(debug=True)
