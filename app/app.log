@@ -2422,3 +2422,103 @@ Exception: Este é um erro simulado para testar o tratamento de erros 500.
 2024-10-25 12:30:14,047-INFO- * Restarting with stat
 2024-10-25 12:30:14,581-WARNING- * Debugger is active!
 2024-10-25 12:30:14,581-INFO- * Debugger PIN: 806-284-244
+2024-10-25 12:33:33,480-WARNING- * Debugger is active!
+2024-10-25 12:33:33,480-INFO- * Debugger PIN: 944-250-408
+2024-10-25 12:34:25,509-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-10-25 12:34:25,651-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:34:25,653-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:25,654-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:34:25,654-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-10-25 12:34:25,789-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-10-25 12:34:25,820-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 12:34:25,820-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-10-25 12:34:25,820-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-10-25 12:34:25,837-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-10-25 12:34:25,863-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:34:25,898-INFO-127.0.0.1 - - [25/Oct/2024 12:34:25] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,868-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "GET / HTTP/1.1" 200 -
+2024-10-25 12:34:27,916-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,929-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,929-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,929-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,929-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,954-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,959-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:27,960-INFO-127.0.0.1 - - [25/Oct/2024 12:34:27] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:44,345-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 12:34:44,345-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 12:34:44,347-INFO- * Restarting with stat
+2024-10-25 12:34:44,979-WARNING- * Debugger is active!
+2024-10-25 12:34:44,981-INFO- * Debugger PIN: 944-250-408
+2024-10-25 12:34:55,531-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "GET / HTTP/1.1" 200 -
+2024-10-25 12:34:55,783-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "GET / HTTP/1.1" 200 -
+2024-10-25 12:34:55,911-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,928-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,928-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,928-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,935-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,942-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,943-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,944-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:55,963-INFO-127.0.0.1 - - [25/Oct/2024 12:34:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,433-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "GET / HTTP/1.1" 200 -
+2024-10-25 12:34:59,470-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,472-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,477-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,477-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,478-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,505-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,506-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:34:59,508-INFO-127.0.0.1 - - [25/Oct/2024 12:34:59] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 12:35:00,080-INFO-127.0.0.1 - - [25/Oct/2024 12:35:00] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 12:35:00,139-INFO-127.0.0.1 - - [25/Oct/2024 12:35:00] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 12:35:00,141-INFO-127.0.0.1 - - [25/Oct/2024 12:35:00] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:35:00,144-INFO-127.0.0.1 - - [25/Oct/2024 12:35:00] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:35:49,293-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:35:49,350-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:35:49,352-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:35:49,355-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:35:49,355-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:35:49,396-INFO-127.0.0.1 - - [25/Oct/2024 12:35:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,740-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:27,771-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,782-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,788-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,791-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-10-25 12:36:27,810-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,844-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,859-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:27,890-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,894-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,894-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,894-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:36:27,931-INFO-127.0.0.1 - - [25/Oct/2024 12:36:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,007-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:28,060-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,063-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,066-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,066-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,082-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:28,112-INFO-127.0.0.1 - - [25/Oct/2024 12:36:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,534-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:44,549-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,565-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,565-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,565-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-10-25 12:36:44,595-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,613-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,659-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:44,698-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,700-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,700-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,701-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,718-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,743-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,779-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-10-25 12:36:44,810-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,829-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,829-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,829-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,861-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 12:36:44,878-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -

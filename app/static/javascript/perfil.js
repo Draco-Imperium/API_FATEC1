@@ -5,14 +5,17 @@ const labelsMap = {
     label3: "Faltas Justificadas"
   },
   proposicoes: {
-    label1: "Proposições",
-    label2: "Indicação",
-    label3: "Requerimentos"
+    label1: "Emenda",
+    label2: "Projeto de Lei",
+    label3: "Indicação",
+    label4: "Moção",
+    label5: "Requerimento"
   },
   leis: {
-    label1: "Leis",
-    label2: "Leis Aprovadas",
-    label3: "Leis Não-Aprovadas"
+    label1: "Decreto Legislativo",
+    label2: "Emenda à Lei Orgânica",
+    label3: "Lei Ordinária",
+    label4: "Resolução"
   }
 };
 
@@ -25,12 +28,15 @@ const colorsMap = {
   proposicoes: {
     color1: "#2196F3",
     color2: "#FF9800",
-    color3: "#9C27B0"
+    color3: "#9C27B0",
+    color4: "#4CAF50",
+    color5: "#FF5722"
   },
   leis: {
     color1: "#3F51B5",
     color2: "#4CAF50",
-    color3: "#FF5722"
+    color3: "#FF5722",
+    color4: "#FF9800"
   }
 };
 
@@ -38,15 +44,13 @@ document.addEventListener("DOMContentLoaded", async function () {
   function getVereadorIdFromUrl() {
     const url = window.location.href;
     const parts = url.split('/');
-    const vereadorId = parts[parts.length - 1];
-    return vereadorId;
+    return parts[parts.length - 1];
   }
 
   async function getVereadorData() {
     try {
       const response = await fetch('/static/javascript/infoGraficos.json');
-      const data = await response.json();
-      return data;
+      return await response.json();
     } catch (error) {
       console.error("Erro ao carregar o JSON:", error);
     }
@@ -54,8 +58,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   async function getVereadorInfoById(vereadorId) {
     const vereadoresData = await getVereadorData();
-    const vereador = vereadoresData.find(v => v.parlamentarID == vereadorId);
-    return vereador;
+    return vereadoresData.find(v => v.parlamentarID == vereadorId);
   }
 
   function criarGrafico(dataIn, labelCategory) {
@@ -68,33 +71,19 @@ document.addEventListener("DOMContentLoaded", async function () {
     const labels = labelsMap[labelCategory];
     const colors = colorsMap[labelCategory];
 
+    const datasets = Object.keys(labels).map((key, index) => ({
+      label: labels[key],
+      data: dataIn[index],
+      backgroundColor: colors[`color${index + 1}`],
+      borderColor: colors[`color${index + 1}`],
+      borderWidth: 1,
+    }));
+
     window.GraficoPerfil = new Chart(ctx, {
       type: 'bar',
       data: {
         labels: ['2024', '2023', '2022', '2021'],
-        datasets: [
-          {
-            label: labels.label1,
-            data: dataIn[0],
-            backgroundColor: colors.color1,
-            borderColor: colors.color1,
-            borderWidth: 1,
-          },
-          {
-            label: labels.label2,
-            data: dataIn[1],
-            backgroundColor: colors.color2,
-            borderColor: colors.color2,
-            borderWidth: 1,
-          },
-          {
-            label: labels.label3,
-            data: dataIn[2],
-            backgroundColor: colors.color3,
-            borderColor: colors.color3,
-            borderWidth: 1,
-          }
-        ]
+        datasets: datasets
       },
       options: {
         indexAxis: 'y',
@@ -118,16 +107,23 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   function mostrarGraficoProposicoes(vereador) {
     const proposicoes = vereador.proposicoesApresentadas;
-    const dadosProposicoes = proposicoes.map(p => p.quantidade);
+    const emendas = proposicoes.filter(p => p.tipo === 'Emenda').map(p => p.quantidade);
+    const projetosDeLei = proposicoes.filter(p => p.tipo === 'Projeto de Lei').map(p => p.quantidade);
+    const indicacoes = proposicoes.filter(p => p.tipo === 'Indicação').map(p => p.quantidade);
+    const mocao = proposicoes.filter(p => p.tipo === 'Moção').map(p => p.quantidade);
+    const requerimento = proposicoes.filter(p => p.tipo === 'Requerimento').map(p => p.quantidade);
 
-    criarGrafico([dadosProposicoes], 'proposicoes');
+    criarGrafico([emendas, projetosDeLei, indicacoes, mocao, requerimento], 'proposicoes');
   }
 
   function mostrarGraficoLeis(vereador) {
     const normas = vereador.normasApresentadas;
-    const dadosNormas = normas.map(n => n.quantidade);
+    const decretosLegislativos = normas.filter(n => n.tipo === 'Decreto Legislativo').map(n => n.quantidade);
+    const emendasLeiOrganica = normas.filter(n => n.tipo === 'Emenda à Lei Orgânica').map(n => n.quantidade);
+    const leisOrdinarias = normas.filter(n => n.tipo === 'Lei Ordinária').map(n => n.quantidade);
+    const resolucoes = normas.filter(n => n.tipo === 'Resolução').map(n => n.quantidade);
 
-    criarGrafico([dadosNormas], 'leis');
+    criarGrafico([decretosLegislativos, emendasLeiOrganica, leisOrdinarias, resolucoes], 'leis');
   }
 
   function atualizarGrafico(vereador) {
