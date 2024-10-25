@@ -1,10 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 
-urlBase = 'https://camarasempapel.camarasjc.sp.gov.br/spl/'
-endpoint = 'consulta-producao.aspx?ano_proposicao=2023&autor=1274&procuraTexto=DocumentoInicial'
-#'consulta-producao.aspx?ano_proposicao=2021&autor=1140&inicio=02/05/2021&final=31/12/2021&procuraTexto=DocumentoInicial'
-#'consulta-producao.aspx?ano_proposicao=2022&autor=1140&inicio=01/01/2021&final=01/05/2021&procuraTexto=DocumentoInicial'
+urlBase = 'https://camarasempapel.camarasjc.sp.gov.br/legislacao/'
+endpoint = 'consulta-legislacao.aspx?interno=1&inicio=01-01-2023&final=31-12-2024'
+
 requisition = urlBase+endpoint
 # Sessão para persistir cookies
 session = requests.Session()
