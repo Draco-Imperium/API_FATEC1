@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/index.css') }}"
     />
+    <script src="{{url_for('static', filename='javascript/carrossel.js')}}"></script>
+
   </head>
   <body>
     {% include 'header.html' %}
@@ -36,35 +38,17 @@
             data-bs-slide-to="2"
           ></button>
           <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="3"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="4"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#demo"
-            data-bs-slide-to="5"
-          ></button>
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="3"
+        ></button>
         </div>
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="{{ url_for('graficos') }}">
-              <img
-                src="{{ url_for('static', filename='images/foto_banner_gráficos.png') }}"
-                alt="Banner Gráficos"
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
             <a href="{{ url_for('index') }}">
               <img
-                src="{{ url_for('static', filename='images/foto_banner_home.png') }}"
+                src="{{ url_for('static', filename='images/banner_home.jpg') }}"
                 alt="Banner Home"
               />
             </a>
@@ -72,15 +56,7 @@
           <div class="carousel-item">
             <a href="{{ url_for('vereadores_geral') }}">
               <img
-                src="{{ url_for('static', filename='images/foto_banner_perfil_vereadores.png') }}"
-                alt="Banner Proposta"
-              />
-            </a>
-          </div>
-          <div class="carousel-item">
-            <a href="{{ url_for('proposicoes') }}">
-              <img
-                src="{{ url_for('static', filename='images/foto_banner_projeto_de_lei.png') }}"
+                src="{{ url_for('static', filename='images/banner_vereadores.jpg') }}"
                 alt="Banner Vereadores"
               />
             </a>
@@ -88,16 +64,16 @@
           <div class="carousel-item">
             <a href="{{ url_for('proposicoes') }}">
               <img
-                src="{{ url_for('static', filename='images/foto_banner_relatorios.png') }}"
-                alt="Banner Comunidade"
+                src="{{ url_for('static', filename='images/banner_proposicoes.jpg') }}"
+                alt="Banner Proposta"
               />
             </a>
           </div>
           <div class="carousel-item">
-            <a href="{{ url_for('vereadores_geral') }}">
+            <a href="{{ url_for('graficos') }}">
               <img
-                src="{{ url_for('static', filename='images/foto_banner_vereadores.png') }}"
-                alt="Banner Eventos"
+                src="{{ url_for('static', filename='images/banner_graficos.jpg') }}"
+                alt="Banner Vereadores"
               />
             </a>
           </div>
