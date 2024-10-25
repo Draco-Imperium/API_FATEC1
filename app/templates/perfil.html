@@ -51,8 +51,7 @@
             <form>
               <div
                 class="card bg-white shadow-md rounded-lg">
-
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-1 p-4">
+                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                     <div>
                       <label class="font-semibold">Nome Completo:</label>
                       <span>AMÉLIA NAOMI OMURA</span>
@@ -107,19 +106,30 @@
                       <span class="badge bg-secondary">R$ 243.956,56</span>
                     </div>
                   </div>
-
               </div>
               <div class="">
                 <div class="p-2">
-                  <button class="botaobe">
-                    Biografia
-                  </button>
-                  
+                  <ul class="navigation-items">
+                    <li class="dropdown">
+                        <span class="botaobe">Biografia <i class="fa-solid fa-chevron-down"></i></span>
+                        <ul class="dropdown-menu">
+                            <li class="texto-be">Amélia Naomi é vereadora pelo PT, em São José dos Campos. Iniciou sua trajetória no movimento estudantil. 
+                              Sua atuação é marcada pelas lutas contra a violência doméstica, pelos direitos dos trabalhadores, em defesa do meio ambiente e da cidade.</li>
+                        </ul>
+                    </li>
+                </ul>
                 </div>
               <div class="p-2">
-                <button class="botaobe">
-                  Eleições anteriores
-                </button>
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                      <span class="botaobe">Eleições <i class="fa-solid fa-chevron-down"></i></span>
+                      <ul class="dropdown-menu">
+                          <li class="texto-be">Candidato a Vereador/São José Dos Campos partido PT em 2024 Eleito por QP</li>
+                          <li class="texto-be">Candidato a Vereador/São José Dos Campos partido PT em 2020 Eleito por QP</li>
+                          <li class="texto-be">Candidato a Deputado Federal/São Paulo partido PT em 2018 Suplente</li>                     
+                      </ul>
+                  </li>
+              </ul>
               </div>
             </form>
           </div>
@@ -196,6 +206,12 @@
           hamburger.addEventListener("click", toggleMenu);
         }
       });
+      document.querySelectorAll('.botaobe').forEach(button => {
+            button.addEventListener('click', function() {
+                const dropdown = this.parentElement;
+                dropdown.classList.toggle('open');
+            });
+        });      
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>

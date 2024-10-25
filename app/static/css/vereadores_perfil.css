@@ -233,21 +233,44 @@ main {
 }
 
 .botaobe{
+  cursor: pointer;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: white;
   border-radius: var(--radius-pequeno);
   padding: 8px;
-  width: 102%;
+  width: 100%;
   font-family: var(--fonte-principal);
   font-weight: 777;
   align-items: flex-start;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.231);;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.231);
   padding-left: 10px;
   transition: 0.3s;
 }
 .botaobe:hover{
 background-color: rgb(224, 224, 224);
 padding: 8px;
+}
+.botaobe > i{
+  padding-top: 0.5%;
+}
+.dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  list-style-type: none;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+  margin-top: 5px;
+}
+.dropdown.open .dropdown-menu {
+  max-height: 100%; 
+}
+.texto-be{
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 footer {
@@ -344,7 +367,7 @@ footer {
 }
 
 .bg-secondary {
-  background-color: #6c757d;
+  background-color: var(--cor-secundaria);
   color: #fff;
 }
 
