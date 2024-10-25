@@ -333,6 +333,12 @@ main {
 .button:hover {
   background-color: #1d3a7e;
 }
+
+.button a{
+  color: white;
+  text-decoration: none;
+}
+
 footer {
   background-color: rgba(204, 204, 204, 0.27);
   padding: 20px 0px;

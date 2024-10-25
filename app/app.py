@@ -18,9 +18,10 @@ def format_name(name):
 app.jinja_env.filters['format_name'] = format_name
 
 @app.route('/')
-@cache.cached(timeout=300)
 def index():
-    return render_template('index.html')
+    ultimas = prepos() 
+    return render_template('index.html', ultimas=ultimas )
+
 
 @app.route('/proposicoes')
 def proposicoes():

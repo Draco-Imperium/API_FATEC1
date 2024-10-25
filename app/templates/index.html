@@ -125,130 +125,47 @@
         <section class="propostas-title">
           <h2>Últimas proposições apresentadas</h2>
         </section>
+        {% for prop in ultimas %} 
         <section class="propostas">
-          <h1>Emenda nº3/2021</h1>
-          <p>Acrescenta um § 3º, ao art. 30</p>
-          <p>
-            <strong>Processo Nº:</strong> 12781/2021 <br />
-            <strong>Protocolo Nº:</strong> 18221 <br />
-            <strong>Data:</strong> 16/12/2021 <br />
-            <strong>Situação:</strong> Arquivado
-          </p>
-          <button class="button">
-            Conteúdo Completo<a
-              href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52337"
-            ></a>
-          </button>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Amélia Naomi</p>
+            <h1>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h1>
+            <p>{{ prop['assunto'] }}</p>
+            <p>
+                <strong>Processo Nº:</strong> {{ prop['processo'] }} <br>
+                <strong>Protocolo Nº:</strong> {{ prop['protocolo'] }} <br>
+                <strong>Data:</strong> {{ prop['data'] }} <br>
+                <strong>Situação:</strong> {{ prop['situacao'] }}<br>
+                <a href="{{ prop['arquivo'] }}" download target="_blank">
+                  <button class="button">Conteúdo Completo</button>
+                </a>
+              
+            </p>
+            <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }}</p>
         </section>
-        <section class="propostas">
-          <h1>Projeto de Lei nº650/2021</h1>
-          <p>
-            Considera pessoa com deficiência, inclusive para os fins de ingresso
-            na reserva percentual de vagas para o provimento de cargos e
-            empregos públicos, o indivíduo diagnosticado com audição unilateral
-            no âmbito do Município de São José dos Campos e dá outras
-            providências.
-          </p>
-          <p>
-            <strong>Processo Nº:</strong> 13492/2021 <br />
-            <strong>Protocolo Nº:</strong> 18061 <br />
-            <strong>Data:</strong> 13/12/2021 <br />
-            <strong>Situação:</strong> Arquivado
-          </p>
-          <button class="button">
-            Conteúdo Completo<a
-              href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52337"
-            ></a>
-          </button>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Dr. Elton</p>
-        </section>
-        <section class="propostas">
-          <h1>Indicação nº7093/2021</h1>
-          <p>
-            Solicita à Prefeitura Municipal, estudo técnico para implantação de
-            “Abrigo de Ônibus”, em área situada à altura do nº 755, da Rua
-            Beijoeiro, no bairro Pousada do Vale.
-          </p>
-          <p>
-            <strong>Processo Nº:</strong> 13512/2021 <br />
-            <strong>Protocolo Nº:</strong> 18084 <br />
-            <strong>Data:</strong> 13/12/2021 <br />
-            <strong>Situação:</strong> Tramitando
-          </p>
-          <button class="button">
-            Conteúdo Completo<a
-              href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52337"
-            ></a>
-          </button>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Dr. José Claudio</p>
-        </section>
+    {% endfor %}
       </section>
 
       <section class="propostas-one">
         <section class="propostas-title">
           <h2>Últimas leis aprovadas</h2>
         </section>
+        {% for prop in aprovado %} 
         <section class="propostas">
-          <h1>Projeto de Lei nº645/2021</h1>
+          <h1>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h1>
+          <p>{{ prop['assunto'] }}</p>
           <p>
-            Denomina o Auditório da Casa de Cultura Cine Santana, de “Auditório
-            José Soares da Silva (Zé da Viola)”.
+              <strong>Processo Nº:</strong> {{ prop['processo'] }} <br>
+              <strong>Protocolo Nº:</strong> {{ prop['protocolo'] }} <br>
+              <strong>Data:</strong> {{ prop['data'] }} <br>
+              <strong>Situação:</strong> {{ prop['situacao'] }}<br>
+              <a href="{{ prop['arquivo'] }}" download target="_blank">
+                  <button class="button">Conteúdo Completo</button>
+              </a>
           </p>
-          <p>
-            <strong>Processo Nº:</strong> 13298/2021 <br />
-            <strong>Protocolo Nº:</strong> 17789 <br />
-            <strong>Data:</strong> 08/12/2021 <br />
-            <strong>Situação:</strong> Arquivado <br />
-            <button class="button">
-              Conteúdo Completo<a
-                href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52337"
-              ></a>
-            </button>
-          </p>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Fernando Petiti</p>
-        </section>
-        <section class="propostas">
-          <h1>Projeto de Lei nº577/2021</h1>
-          <p>
-            Denomina a Rua 20, localizada no loteamento Terras Alpha de São José
-            dos Campos, na Região Oeste (Urbanova), como "Rua Professor Osvaldo
-            Ferreira Cunha".
-          </p>
-          <p>
-            <strong>Processo Nº:</strong> 12208/2021 <br />
-            <strong>Protocolo Nº:</strong> 16262 <br />
-            <strong>Data:</strong> 08/11/2021 <br />
-            <strong>Situação:</strong> Arquivado <br />
-            <button class="button">
-              Conteúdo Completo<a
-                href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52335"
-              ></a>
-            </button>
-          </p>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Dr. José Claudio</p>
-        </section>
-        <section class="propostas">
-          <h1>Projeto de Lei nº596/2021</h1>
-          <p>
-            Denomina a área verde, localizada na Rua Benedito Fraga e Silva,
-            fronte ao n. 610, no Residencial Galo Branco, de Área Verde
-            Francisco Ubiratan Rodrigues.
-          </p>
-          <p>
-            <strong>Processo Nº:</strong> 12479/2021 <br />
-            <strong>Protocolo Nº:</strong> 16627 <br />
-            <strong>Data:</strong> 17/11/2021 <br />
-            <strong>Situação:</strong> Arquivado <br />
-            <button class="button">
-              Conteúdo Completo<a
-                href="https://camarasempapel.camarasjc.sp.gov.br/legislacao/norma.aspx?id=52336"
-              ></a>
-            </button>
-          </p>
-          <p><strong>Autor(es) da Proposição:</strong> Ver. Dulce Rita</p>
-        </section>
+          <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }}</p>
       </section>
+    {% endfor %}
+      </section>
+
     </main>
 
     {% include 'footer.html' %}

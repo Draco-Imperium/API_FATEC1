@@ -93,3 +93,26 @@ def get_prop(tipo='', numero='', ano='', pag=1):
         print("Erro ao decodificar JSON")
 
     return None
+
+
+def prepos():
+    api_url = 'https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?qtd=3'
+
+    try:
+        response = requests.get(api_url)
+        response.raise_for_status()
+        data = response.json()
+
+        for proposta in data['Data']:
+            print(proposta.get('AutorRequerenteDados'))
+
+        return data['Data'] if 'Data' in data else []
+    except requests.HTTPError as e:
+        print(f'Erro na requisição: {e}')
+    except requests.ConnectionError:
+        print('Erro de conexão')
+    except requests.Timeout:
+        print('Tempo de requisição esgotado')
+    except requests.JSONDecodeError:
+        print('Erro ao decodificar JSON')
+    return []
