@@ -113,7 +113,6 @@
                 <a href="{{ prop['arquivo'] }}" download target="_blank">
                   <button class="button">Conteúdo Completo</button>
                 </a>
-              
             </p>
             <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }}</p>
         </section>
@@ -124,20 +123,20 @@
         <section class="propostas-title">
           <h2>Últimas leis aprovadas</h2>
         </section>
-        {% for prop in aprovado %} 
+        {% for lei in leis[:3]%} 
         <section class="propostas">
-          <h1>{{ prop['tipo'] }} Nº{{ prop['numero'] }}/{{ prop['ano'] }}</h1>
-          <p>{{ prop['assunto'] }}</p>
+          <h1>{{ lei['Lei'] }} Nº{{ lei['Numero'] }}/{{ lei['Ano'] }}</h1>
+          <p>{{ lei['Ementa'] }}</p>
           <p>
-              <strong>Processo Nº:</strong> {{ prop['processo'] }} <br>
-              <strong>Protocolo Nº:</strong> {{ prop['protocolo'] }} <br>
-              <strong>Data:</strong> {{ prop['data'] }} <br>
-              <strong>Situação:</strong> {{ prop['situacao'] }}<br>
-              <a href="{{ prop['arquivo'] }}" download target="_blank">
-                  <button class="button">Conteúdo Completo</button>
+              <strong>Processo Nº:</strong> {{ lei['Numero'] }} <br>
+              <strong>Protocolo Nº:</strong> {{ lei['cod'] }} <br>
+              <strong>Data:</strong> {{ lei['Data'] }} <br>
+              <strong>Situação:</strong> {{ lei['Situação'] }}<br>
+              <a>
+                <button class="button">Conteúdo Completo</button>
               </a>
           </p>
-          <p><strong>Autor(es) da Proposição:</strong> {{ prop['AutorRequerenteDados']['nomeRazao'] }}</p>
+          <p><strong>Autor(es) da Proposição:</strong> {{ lei['Autor'] }}</p>
       </section>
     {% endfor %}
       </section>

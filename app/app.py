@@ -19,8 +19,26 @@ app.jinja_env.filters['format_name'] = format_name
 
 @app.route('/')
 def index():
+    file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'leis.json')
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+        leis = json.load(file)      
+    leis = leis['leis']
     ultimas = prepos() 
-    return render_template('index.html', ultimas=ultimas )
+    return render_template('index.html', ultimas=ultimas, leis=leis )
+
+    
+    
+@app.route('/dados2', methods=['GET'])
+
+def get_dados2():
+    try:
+        with open('app/database/leis','r') as file:
+            data = json.load(file)
+        return jsonify(data)
+    except FileNotFoundError:
+        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+    except json.JSONDecodeError:
+        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
 
 @app.route('/proposicoes')
