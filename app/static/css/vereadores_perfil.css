@@ -264,7 +264,11 @@ padding: 8px;
   margin-top: 10px;
 }
 .dropdown.open .dropdown-menu {
+<<<<<<< Updated upstream
   max-height: 100%; 
+=======
+  max-height: 100%;
+>>>>>>> Stashed changes
   font-size: 14px;
 }
 .texto-be{
@@ -272,11 +276,13 @@ padding: 8px;
   background-color: white;
   white-space: pre-wrap; 
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .texto-be > li{
   font-size: 6px;
 }
-
 footer {
   background-color: rgba(204, 204, 204, 0.27);
   padding: 20px 0px;

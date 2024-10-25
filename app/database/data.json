@@ -40,7 +40,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PT",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "6/12/1960",
+    "DT_NASCIMENTO": "06/12/1960",
     "NR_TITULO_ELEITORAL_CANDIDATO": 46202420116,
     "CD_GENERO": 4,
     "DS_GENERO": "FEMININO",
@@ -52,9 +52,9 @@
     "DS_COR_RACA": "AMARELA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "ASSISTENTE SOCIAL",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Aparecida D'oeste - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PT em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2020 Eleito por QP\r\n\r\nCandidato a Deputado Federal/São Paulo partido PT em 2018 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2016 Eleito por QP\r\n\r\nCandidato a Deputado Federal/São Paulo partido PT em 2014 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2012 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2008 Eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2004 Eleito",
-    "SOBRE": "Amélia Naomi é vereadora pelo PT, em São José dos Campos. Iniciou sua trajetória no movimento estudantil. Sua atuação é marcada pelas lutas contra a violência doméstica, pelos direitos dos trabalhadores, em defesa do meio ambiente e da cidade."
+    "SOBRE": "Amélia Naomi Omura é vereadora de São José dos Campos e tem se destacado em sua atuação nas áreas de educação, saúde e assistência social. Ela busca promover políticas públicas que melhorem a qualidade de vida da população, especialmente em relação ao atendimento às crianças e às famílias em situação de vulnerabilidade. Além disso, Amélia tem se engajado em projetos voltados para a inclusão social e a valorização da diversidade cultural. Sua trajetória política é marcada pelo compromisso com a transparência e a participação cidadã, promovendo diálogos com a comunidade para entender suas necessidades e demandas."
   },
   {
     "ID_VER": 37,
@@ -96,7 +96,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "MDB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "7/8/1974",
+    "DT_NASCIMENTO": "07/08/1974",
     "NR_TITULO_ELEITORAL_CANDIDATO": 239940780141,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -108,9 +108,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 111,
     "DS_OCUPACAO": "MÉDICO",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "São José Dos Campos - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Prefeito/São José Dos Campos partido UNIÃO em 2024 Não eleito\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PSC em 2022 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido MDB em 2020 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PMDB em 2016 Eleito por QP",
-    "SOBRE": "Dr. Elton Junior é médico, cirurgião geral e cristão. Casado com a Dra. Regina, é pai de três filhos e atualmente é vereador de São José dos Campos."
+    "SOBRE": "Elton Alves Ribeiro de Carvalho Júnior é vereador de São José dos Campos e tem se destacado em sua atuação nas áreas de infraestrutura, mobilidade urbana e segurança pública. Ele busca implementar melhorias na qualidade das vias e no transporte público, além de promover ações voltadas para a segurança da população. Elton é conhecido por seu engajamento com a comunidade, ouvindo as demandas dos cidadãos e buscando soluções efetivas para os problemas enfrentados no dia a dia. Sua atuação é marcada pelo compromisso com a transparência e a participação ativa dos moradores nas decisões que impactam a cidade."
   },
   {
     "ID_VER": 238,
@@ -152,7 +152,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSDB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "9/30/1966",
+    "DT_NASCIMENTO": "30/09/1966",
     "NR_TITULO_ELEITORAL_CANDIDATO": 33828160141,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -164,9 +164,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 111,
     "DS_OCUPACAO": "MÉDICO",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Paraibuna - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSDB em 2024 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2020 Eleito por média\r\n\r\nCandidato a Deputado Federal/São Paulo partido PV em 2018 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido DEM em 2016 Não eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2012 Suplente\r\n\r\nCandidato a Deputado Federal/São Paulo partido PP em 2010 Suplente\r\n\r\nCandidato a Vice-prefeito/Paraibuna partido PP em 2008\r\n\r\nCandidato a Vice-prefeito/Paraibuna partido PMDB em 2004",
-    "SOBRE": "Na sua primeira eleição, obteve 6.617 votos, sendo o 5º vereador mais votado, e na reeleição, alcançou 7.395 votos, tornando-se o 3º mais votado."
+    "SOBRE": "José Cláudio Mancilha de Faria Barbosa é vereador de São José dos Campos e tem se destacado em sua atuação em áreas como educação, saúde e meio ambiente. Ele busca promover políticas que melhorem a qualidade de vida dos cidadãos, focando em projetos que atendam às necessidades da comunidade. Além disso, José Cláudio é conhecido por seu engajamento em iniciativas que visam a preservação ambiental e o desenvolvimento sustentável da cidade. Sua abordagem é marcada pela proximidade com os cidadãos e pelo diálogo constante para entender e atender suas demandas."
   },
   {
     "ID_VER": 38,
@@ -208,7 +208,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSDB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "5/26/1950",
+    "DT_NASCIMENTO": "26/05/1950",
     "NR_TITULO_ELEITORAL_CANDIDATO": 117582210124,
     "CD_GENERO": 4,
     "DS_GENERO": "FEMININO",
@@ -220,9 +220,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Campos Do Jordão - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vice-prefeito/São José Dos Campos partido UNIÃO em 2024 Não eleito\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PSDB em 2022 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2016 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2012 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PV em 2008 Eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2004 Eleito",
-    "SOBRE": "Ele presidiu a Comissão de Saúde do Legislativo por duas vezes consecutivas e tem trabalhos consolidados na área de saúde mental e no apoio a pessoas com diabetes."
+    "SOBRE": "Dulce Rita Chaves de Andrade Dabkiwicz é vereadora de São José dos Campos e atua em diversas áreas, incluindo saúde, educação e direitos humanos. Ela é conhecida por seu compromisso com a inclusão social e a defesa de políticas que promovam o bem-estar da população. Dulce também tem se destacado em projetos voltados para a valorização da mulher e a proteção de grupos vulneráveis. Seu trabalho é caracterizado pela busca de soluções que atendam às necessidades da comunidade, sempre mantendo um diálogo aberto com os cidadãos."
   },
   {
     "ID_VER": 247,
@@ -264,7 +264,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "SOLIDARIEDADE",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "6/6/1975",
+    "DT_NASCIMENTO": "06/06/1975",
     "NR_TITULO_ELEITORAL_CANDIDATO": 240109660108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -276,9 +276,9 @@
     "DS_COR_RACA": "PRETA",
     "CD_OCUPACAO": 999,
     "DS_OCUPACAO": "OUTROS",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "São José Dos Campos - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido SOLIDARIEDADE em 2020 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido SD em 2016 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PV em 2012 Suplente",
-    "SOBRE": "Dr. José Claudio, é médico cardiologista e candidato a vereador em São José dos Campos pelo PSDB nas Eleições de 2024."
+    "SOBRE": "Fábio Leandro Ramos é vereador de São José dos Campos e tem se destacado em sua atuação nas áreas de saúde, educação e infraestrutura. Ele busca implementar melhorias que beneficiem a comunidade, focando em projetos que promovam o desenvolvimento social e econômico da cidade. Fábio é conhecido por seu envolvimento direto com os cidadãos, ouvindo suas demandas e trabalhando em prol de soluções eficazes. Sua atuação é marcada pelo compromisso com a transparência e a participação ativa da população nas decisões que impactam o município."
   },
   {
     "ID_VER": 43,
@@ -320,7 +320,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PT",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "9/22/1977",
+    "DT_NASCIMENTO": "22/09/1977",
     "NR_TITULO_ELEITORAL_CANDIDATO": 219756750191,
     "CD_GENERO": 4,
     "DS_GENERO": "FEMININO",
@@ -332,9 +332,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Mogi Das Cruzes - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PT em 2024 Eleito por média\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PT em 2022 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2020 Eleito por média\r\n\r\nCandidato a Deputado Federal/São Paulo partido PT em 2018\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2016 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2012 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PT em 2008 Suplente",
-    "SOBRE": "Dulce Rita é economista e candidata à Prefeitura de São José dos Campos pelo UNIÃO nas eleições de 2024."
+    "SOBRE": "Juliana Fraga e Silva de Souza é vereadora de São José dos Campos, destacando-se por seu trabalho nas áreas de saúde, educação e assistência social. Ela tem se empenhado em promover políticas públicas que melhorem a qualidade de vida da população, com foco na inclusão e na proteção dos direitos dos cidadãos. Juliana é conhecida por seu engajamento com a comunidade, buscando sempre ouvir as demandas e preocupações dos moradores. Sua atuação é caracterizada pelo compromisso com a transparência e o fortalecimento da participação cidadã nas decisões municipais."
   },
   {
     "ID_VER": 246,
@@ -388,9 +388,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 169,
     "DS_OCUPACAO": "COMERCIANTE",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "São Sepé - RS",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido MDB em 2024 Não eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSL em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PRB em 2016 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PR em 2012 Não eleito",
-    "SOBRE": "Nascida em 26 de maio de 1950, em Campos do Jordão, SP, ela tem 74 anos e é viúva, mãe e avó. Servidora pública aposentada, é reconhecida por sua atuação"
+    "SOBRE": "Bernardo Castro Junior é vereador de São José dos Campos, conhecido por seu trabalho nas áreas de inovação, tecnologia e desenvolvimento econômico. Ele busca promover iniciativas que incentivem o crescimento da cidade, apoiando startups e projetos que integrem tecnologia aos serviços públicos. Bernardo também se destaca pela defesa de melhorias na infraestrutura urbana e na mobilidade. Seu compromisso com a transparência e a participação popular é um aspecto importante de sua atuação, buscando sempre dialogar com a comunidade para entender suas necessidades e prioridades."
   },
   {
     "ID_VER": 44,
@@ -432,7 +432,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSDB",
     "SG_UF_NASCIMENTO": "PR",
-    "DT_NASCIMENTO": "5/28/1970",
+    "DT_NASCIMENTO": "28/05/1970",
     "NR_TITULO_ELEITORAL_CANDIDATO": 163861170108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -444,9 +444,9 @@
     "DS_COR_RACA": "PARDA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Jaboti - PR",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Suplente\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PSD em 2022 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2016 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2012 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2008 Média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2004 Média",
-    "SOBRE": "em causas sociais, especialmente na defesa dos direitos das mulheres e das pessoas com TEA, e se dedica a promover políticas públicas voltadas ao bem-estar"
+    "SOBRE": "Juvenil de Almeida Silvério é vereador de São José dos Campos, conhecido por sua atuação em áreas como saúde, educação e esporte. Ele se dedica a promover políticas que visem o bem-estar da população, buscando melhorias nos serviços públicos e incentivo a atividades esportivas. Juvenil também é reconhecido por seu trabalho em prol da inclusão social e por fomentar iniciativas que atendam às demandas da comunidade. Sua atuação é marcada pelo diálogo aberto com os cidadãos, sempre buscando entender suas necessidades e propor soluções eficazes."
   },
   {
     "ID_VER": 45,
@@ -488,7 +488,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PL",
     "SG_UF_NASCIMENTO": "PR",
-    "DT_NASCIMENTO": "8/31/1962",
+    "DT_NASCIMENTO": "31/08/1962",
     "NR_TITULO_ELEITORAL_CANDIDATO": 45189720124,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -500,9 +500,9 @@
     "DS_COR_RACA": "PARDA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Florestópolis - PR",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PL em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PL em 2020 Eleito por média\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PR em 2018 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PR em 2016 Eleito por QP\r\n\r\nCandidato a Deputado Federal/São Paulo partido PR em 2014 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PMN em 2012 Não eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PMDB em 2008 Não eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PHS em 2004 Eleito",
-    "SOBRE": "social, educação e saúde."
+    "SOBRE": "Lino Bispo da Rocha é vereador de São José dos Campos, com destaque em sua atuação nas áreas de saúde, segurança e assistência social. Ele tem se empenhado em promover políticas públicas que visem a melhoria da qualidade de vida dos cidadãos, com foco em ações que atendam às demandas da comunidade. Lino é conhecido por seu compromisso com a transparência e a participação ativa da população nas decisões municipais, buscando sempre dialogar com os moradores para entender suas necessidades e propor soluções efetivas."
   },
   {
     "ID_VER": 244,
@@ -544,7 +544,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PTB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "6/10/1974",
+    "DT_NASCIMENTO": "10/06/1974",
     "NR_TITULO_ELEITORAL_CANDIDATO": 234233640183,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -556,9 +556,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 910,
     "DS_OCUPACAO": "SACERDOTE OU MEMBRO DE ORDEM OU SEITA RELIGIOSA",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Jacareí - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PRD em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PTB em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PTB em 2016 Suplente",
-    "SOBRE": "Júnior Da Farmácia, nascido em 11 de outubro de 1973 em São Sepé, RS, é comerciante e candidato a vereador em São José dos Campos pelo MDB nas eleições de"
+    "SOBRE": "Marcelo Marcelino Garcia é vereador de São José dos Campos e tem se destacado em sua atuação nas áreas de saúde, educação e meio ambiente. Ele busca implementar políticas que promovam o desenvolvimento sustentável e a melhoria da qualidade de vida na cidade. Marcelo é conhecido por seu envolvimento com a comunidade, ouvindo as demandas dos cidadãos e trabalhando para trazer soluções que atendam às suas necessidades. Sua abordagem é marcada pelo compromisso com a transparência e o fortalecimento da participação popular nas decisões municipais."
   },
   {
     "ID_VER": 242,
@@ -600,7 +600,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "REPUBLICANOS",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "1/2/1983",
+    "DT_NASCIMENTO": "02/01/1983",
     "NR_TITULO_ELEITORAL_CANDIDATO": 308213980108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -612,9 +612,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 257,
     "DS_OCUPACAO": "EMPRESÁRIO",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "São Paulo - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido REPUBLICANOS em 2024 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido REPUBLICANOS em 2020 Eleito por média",
-    "SOBRE": "destacando a importância da criação de centros especializados de saúde que ofereçam atendimento integral e humanizado."
+    "SOBRE": "Ricelli Martins Pinto é vereadora de São José dos Campos, atuando principalmente nas áreas de educação, saúde e direitos humanos. Ela tem se empenhado em promover políticas que garantam a inclusão social e a proteção de grupos vulneráveis. Ricelli é conhecida por seu compromisso com a transparência e a participação cidadã, buscando sempre ouvir as demandas da comunidade e implementar soluções que melhorem a qualidade de vida dos cidadãos. Sua atuação é caracterizada pelo engajamento em projetos voltados para o fortalecimento da educação e a promoção dos direitos da mulher."
   },
   {
     "ID_VER": 47,
@@ -656,7 +656,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "DEM",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "4/5/1979",
+    "DT_NASCIMENTO": "05/04/1979",
     "NR_TITULO_ELEITORAL_CANDIDATO": 287102260124,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -668,9 +668,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "São José Dos Campos - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido DEM em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PTB em 2016 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2012 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2008 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PP em 2004 Suplente",
-    "SOBRE": "Fabião Zagueiro é candidato a vereador de São José Dos Campos pelo PSD nas Eleições 2024. Nascido em São José Dos Campos (SP) em 06/06/1975, tem 49 anos,"
+    "SOBRE": "Marco Aurélio Simão Rodrigues é vereador de São José dos Campos, destacando-se em sua atuação nas áreas de segurança pública, mobilidade urbana e infraestrutura. Ele busca implementar melhorias que atendam às necessidades da comunidade, promovendo um diálogo constante com os cidadãos. Marco Aurélio é conhecido por seu comprometimento em trabalhar por políticas que visem o desenvolvimento sustentável e a qualidade de vida na cidade. Sua abordagem é marcada pela transparência e pela busca de soluções eficazes para os desafios enfrentados pela população."
   },
   {
     "ID_VER": 40,
@@ -712,7 +712,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "MDB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "6/10/1970",
+    "DT_NASCIMENTO": "10/06/1970",
     "NR_TITULO_ELEITORAL_CANDIDATO": 180883330108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -724,9 +724,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 137,
     "DS_OCUPACAO": "RELAÇÕES-PÚBLICAS",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "São José Dos Campos - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSDB em 2024 Eleito por QP\r\n\r\nCandidato a Deputado Estadual/São Paulo partido MDB em 2022 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido MDB em 2020 Eleito por QP\r\n\r\nCandidato a Deputado Estadual/São Paulo partido MDB em 2018 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2016 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2012 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2008 Eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PFL em 2004 Eleito",
-    "SOBRE": "Nascido em Paraibuna, SP, em 30 de setembro de 1966, tem 58 anos, casado e com ensino superior completo."
+    "SOBRE": "Fernando Luiz Isoppo Petiti é vereador de São José dos Campos, com foco em áreas como educação, saúde e desenvolvimento econômico. Ele busca promover políticas que melhorem a qualidade dos serviços públicos e incentivem o crescimento da cidade. Fernando é conhecido por seu engajamento com a comunidade, ouvindo as demandas dos cidadãos e trabalhando em soluções que atendam às suas necessidades. Sua atuação é marcada pelo compromisso com a transparência e a participação ativa da população nas decisões que impactam o município."
   },
   {
     "ID_VER": 243,
@@ -768,7 +768,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PTB",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "5/30/1984",
+    "DT_NASCIMENTO": "30/05/1984",
     "NR_TITULO_ELEITORAL_CANDIDATO": 327549370183,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -780,9 +780,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 298,
     "DS_OCUPACAO": "SERVIDOR PÚBLICO MUNICIPAL",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "São Paulo - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PTB em 2020 Eleito por média",
-    "SOBRE": "é empresário com ensino superior completo e casado(a)."
+    "SOBRE": "Rafael Afonso Pascucci é vereador de São José dos Campos, conhecido por sua atuação em áreas como saúde, educação e inovação. Ele se dedica a promover políticas que busquem melhorias na qualidade dos serviços públicos e o desenvolvimento sustentável da cidade. Rafael é reconhecido por seu envolvimento com a comunidade, sempre disposto a ouvir as demandas dos cidadãos e a trabalhar em soluções efetivas. Sua abordagem inclui um forte compromisso com a transparência e a participação popular nas decisões que afetam a vida dos moradores."
   },
   {
     "ID_VER": 245,
@@ -824,7 +824,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSDB",
     "SG_UF_NASCIMENTO": "MG",
-    "DT_NASCIMENTO": "6/19/1977",
+    "DT_NASCIMENTO": "19/06/1977",
     "NR_TITULO_ELEITORAL_CANDIDATO": 117678740213,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -836,9 +836,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 266,
     "DS_OCUPACAO": "PROFESSOR DE ENSINO MÉDIO",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Juiz De Fora - MG",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido UNIÃO em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2016 Suplente",
-    "SOBRE": "Fernando Petiti, nascido em 10 de junho de 1970 em São José dos Campos, é vereador e candidato à reeleição pelo PSDB nas eleições de 2024."
+    "SOBRE": "Renato Camargo Santiago é vereador de São José dos Campos e tem se destacado por sua atuação em áreas como saúde, segurança pública e urbanismo. Ele busca implementar políticas que melhorem a qualidade de vida dos cidadãos, focando em soluções práticas para os desafios enfrentados pela comunidade. Renato é conhecido por seu engajamento e disposição para ouvir as demandas dos moradores, promovendo um diálogo aberto e buscando atender suas necessidades. Sua atuação é marcada pelo compromisso com a transparência e a responsabilidade na gestão pública."
   },
   {
     "ID_VER": 50,
@@ -880,7 +880,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "CIDADANIA",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "5/7/1968",
+    "DT_NASCIMENTO": "07/05/1968",
     "NR_TITULO_ELEITORAL_CANDIDATO": 117455420132,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -892,9 +892,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 169,
     "DS_OCUPACAO": "COMERCIANTE",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Igaratá - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido CIDADANIA em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PPS em 2016 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PPS em 2012 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PPS em 2008 Eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido PMDB em 2004 Eleito",
-    "SOBRE": "Aos 54 anos, é casado e possui ensino superior completo. Ele tem se dedicado à defesa dos direitos das pessoas com deficiência,"
+    "SOBRE": "Roberto da Penha Ramos é vereador de São José dos Campos, atuando em diversas áreas, incluindo saúde, educação e infraestrutura. Ele se dedica a promover melhorias nos serviços públicos e a atender às necessidades da comunidade. Roberto é reconhecido por seu envolvimento com os cidadãos, buscando sempre ouvir suas demandas e trabalhar em soluções eficazes. Sua abordagem é marcada pela transparência e pelo compromisso com a participação ativa da população nas decisões que afetam a cidade."
   },
   {
     "ID_VER": 240,
@@ -936,7 +936,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PL",
     "SG_UF_NASCIMENTO": "MG",
-    "DT_NASCIMENTO": "12/22/1979",
+    "DT_NASCIMENTO": "22/12/1979",
     "NR_TITULO_ELEITORAL_CANDIDATO": 309478040191,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -948,9 +948,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 999,
     "DS_OCUPACAO": "OUTROS",
-    "CD_SIT_TOT_TURNO": 2,
+    "VR_NAT": "Itajubá - MG",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PL em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PL em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSD em 2016 Suplente",
-    "SOBRE": "portadores de doenças raras e indivíduos com Transtorno do Espectro Autista (TEA). Além disso, atua em áreas como saúde pública, proteção animal,"
+    "SOBRE": "Roberto de Assis Chagas é vereador de São José dos Campos e tem se destacado em sua atuação nas áreas de saúde, educação e desenvolvimento urbano. Ele busca promover políticas que melhorem a qualidade dos serviços públicos e atendam às necessidades da população. Roberto é conhecido por seu engajamento com a comunidade, sempre disposto a ouvir as demandas dos cidadãos e trabalhar em soluções práticas. Sua atuação é caracterizada pelo compromisso com a transparência e a participação ativa dos moradores nas decisões que impactam a cidade."
   },
   {
     "ID_VER": 249,
@@ -992,7 +992,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "MDB",
     "SG_UF_NASCIMENTO": "PR",
-    "DT_NASCIMENTO": "7/25/1975",
+    "DT_NASCIMENTO": "25/07/1975",
     "NR_TITULO_ELEITORAL_CANDIDATO": 259921160159,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -1004,9 +1004,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 243,
     "DS_OCUPACAO": "TÉCNICO DE ENFERMAGEM E ASSEMELHADOS (EXCETO ENFERMEIRO)",
-    "CD_SIT_TOT_TURNO": 5,
+    "VR_NAT": "São Jerônimo Da Serra - PR",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PP em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido MDB em 2020 Suplente",
-    "SOBRE": "apoio ao terceiro setor e incentivo aos microempreendedores."
+    "SOBRE": "Rogério Cristóvão Alves é vereador de São José dos Campos, com destaque em sua atuação nas áreas de saúde, segurança pública e assistência social. Ele se empenha em promover políticas que busquem melhorias nos serviços públicos e que atendam às necessidades da população. Rogério é conhecido por sua proximidade com a comunidade, sempre ouvindo as demandas dos cidadãos e buscando soluções efetivas para os desafios enfrentados. Sua abordagem é marcada pelo compromisso com a transparência e a participação ativa nas decisões que impactam a vida dos moradores da cidade."
   },
   {
     "ID_VER": 234,
@@ -1048,7 +1048,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSDB",
     "SG_UF_NASCIMENTO": "MG",
-    "DT_NASCIMENTO": "11/2/1964",
+    "DT_NASCIMENTO": "02/11/1964",
     "NR_TITULO_ELEITORAL_CANDIDATO": 46581430108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -1060,12 +1060,12 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 169,
     "DS_OCUPACAO": "COMERCIANTE",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Aparecida D'oeste - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSDB em 2020 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PRB em 2016 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PP em 2012 Eleito por QP",
-    "SOBRE": "Aos 47 anos, é casada e possui ensino superior completo. Juliana é uma defensora de políticas inclusivas que atendam às reais necessidades da população,"
+    "SOBRE": "José Roberto de Castro Morais é vereador de São José dos Campos, com foco em áreas como saúde, educação e infraestrutura. Ele tem se dedicado a promover políticas públicas que melhorem a qualidade de vida dos cidadãos e atendam às necessidades da comunidade. José Roberto é conhecido por seu engajamento com os moradores, buscando sempre ouvir suas demandas e trabalhar em soluções eficazes. Sua atuação é caracterizada pelo compromisso com a transparência e a participação ativa da população nas decisões que impactam a cidade."
   },
   {
-    "ID_VER": null,
+    "ID_VER": 239,
     "DT_GERACAO": "9/30/2024",
     "HH_GERACAO": "12/30/1899",
     "ANO_ELEICAO": 2020,
@@ -1104,7 +1104,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "NOVO",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "12/14/1990",
+    "DT_NASCIMENTO": "14/12/1990",
     "NR_TITULO_ELEITORAL_CANDIDATO": 373348080183,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -1116,9 +1116,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 171,
     "DS_OCUPACAO": "JORNALISTA E REDATOR",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Jacareí - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PL em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido NOVO em 2020 Eleito por média",
-    "SOBRE": "no sistema de saúde, modernização da infraestrutura urbana e promoção da educação e qualificação profissional."
+    "SOBRE": "Thomaz Henrique Barbosa da Silva é vereador de São José dos Campos, conhecido por sua atuação em áreas como saúde, educação e desenvolvimento urbano. Ele se dedica a promover políticas que visem melhorias na infraestrutura da cidade e na qualidade dos serviços públicos. Thomaz é reconhecido por sua interação com a comunidade, ouvindo as demandas dos cidadãos e buscando soluções práticas para os desafios enfrentados. Sua atuação é marcada pelo compromisso com a transparência e a participação ativa da população nas decisões que impactam o município."
   },
   {
     "ID_VER": 55,
@@ -1141,7 +1141,7 @@
     "NR_CANDIDATO": 20100,
     "NM_CANDIDATO": "WALTER KATSUNORI HAYASHI",
     "NM_URNA_CANDIDATO": "WALTER HAYASHI",
-    "FT_CANDIDATO": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/os1860xrd1r4ti771ven.jpg",
+    "FT_CANDIDATO": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/walter hayashi.jpg",
     "NM_SOCIAL_CANDIDATO": "#NULO#",
     "NR_CPF_CANDIDATO": 78738687887,
     "DS_EMAIL": "walterhayashi@camarasjc.sp.gov.br",
@@ -1160,7 +1160,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSC",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "3/24/1946",
+    "DT_NASCIMENTO": "24/03/1946",
     "NR_TITULO_ELEITORAL_CANDIDATO": 46545280108,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -1172,9 +1172,9 @@
     "DS_COR_RACA": "AMARELA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 3,
+    "VR_NAT": "Garça - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido UNIÃO em 2024 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSC em 2020 Eleito por média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSC em 2016 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2012 Eleito por QP\r\n\r\nCandidato a Deputado Estadual/São Paulo partido PSB em 2010 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2008 Média\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSB em 2004 Eleito",
-    "SOBRE": "Juliana Fraga, nascida em 22 de setembro de 1977 em São Paulo, é vereadora e candidata à reeleição em São José dos Campos pelo PT nas Eleições de 2024."
+    "SOBRE": "Walter Katsunori Hayashi é vereador de São José dos Campos, com foco em áreas como saúde, educação e cultura. Ele se dedica a promover políticas que melhorem a qualidade de vida da população e a valorização da diversidade cultural da cidade. Walter é conhecido por seu engajamento com a comunidade, buscando ouvir as demandas dos cidadãos e implementar soluções eficazes. Sua atuação é caracterizada pelo compromisso com a transparência e a participação ativa dos moradores nas decisões que afetam a vida da cidade."
   },
   {
     "ID_VER": 237,
@@ -1216,7 +1216,7 @@
     "NM_COLIGACAO": "PARTIDO ISOLADO",
     "DS_COMPOSICAO_COLIGACAO": "PSD",
     "SG_UF_NASCIMENTO": "SP",
-    "DT_NASCIMENTO": "1/14/1970",
+    "DT_NASCIMENTO": "14/01/1970",
     "NR_TITULO_ELEITORAL_CANDIDATO": 163846640124,
     "CD_GENERO": 2,
     "DS_GENERO": "MASCULINO",
@@ -1228,9 +1228,9 @@
     "DS_COR_RACA": "BRANCA",
     "CD_OCUPACAO": 278,
     "DS_OCUPACAO": "VEREADOR",
-    "CD_SIT_TOT_TURNO": 2,
+    "   ": "São José Dos Campos - SP",
     "DS_SIT_TOT_TURNO": "Candidato a Vereador/São José Dos Campos partido PSD em 2024 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSD em 2020 Eleito por QP\r\n\r\nCandidato a Vereador/São José Dos Campos partido PSD em 2016 Suplente\r\n\r\nCandidato a Vice-prefeito/São José Dos Campos partido DEM em 2012 Não eleito\r\n\r\nCandidato a Vereador/São José Dos Campos partido DEM em 2008 Suplente\r\n\r\nCandidato a Vereador/São José Dos Campos partido PMN em 2004 Eleito",
-    "SOBRE": "2024. Aos 51 anos, é casado e possui ensino superior completo. Ele se destaca por sua conexão com a população e se propõe a trabalhar em melhorias"
+    "SOBRE": "José Luis Nunes do Couto é vereador de São José dos Campos, destacando-se em sua atuação nas áreas de saúde, educação e mobilidade urbana. Ele busca implementar políticas públicas que melhorem a qualidade de vida dos cidadãos e atendam às necessidades da comunidade. José Luis é conhecido por seu comprometimento em ouvir as demandas dos moradores e trabalhar em soluções práticas e eficazes. Sua atuação é marcada pelo foco na transparência e na participação ativa da população nas decisões que impactam a cidade."
   }
 ]
 }
