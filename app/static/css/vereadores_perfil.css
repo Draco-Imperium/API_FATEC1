@@ -244,7 +244,7 @@ main {
   font-family: var(--fonte-principal);
   font-weight: 777;
   align-items: flex-start;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.231);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.316);
   padding-left: 10px;
   transition: 0.3s;
 }

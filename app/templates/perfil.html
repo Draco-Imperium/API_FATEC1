@@ -25,22 +25,18 @@
         <div class="flex flex-wrap md:flex-nowrap">
           <div class="info">
             <div class="card bg-white shadow-md rounded-lg flex flex-col p-4 m-4">
-              <img
-              src="https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/70878385417st6d28o4c.jpg"
-              alt="Foto de Amélia Naomi"
-              class="info-img"
-            />
+              <img src="{{ parlamentar['FT_CANDIDATO'] }}" alt="Candidato {{ parlamentar['NM_CANDIDATO'] }}" alt="Foto de Amélia Naomi" class="info-img"/>
             </div>
             <div class="w-full md:w-3/3 p-4 flex-grow">
               <div
                 class="card sticky-bottom bg-white shadow-md rounded-lg flex flex-col"
               >
                 <div class="card-bodyp-4 flex-grow">
-                  <h2 class="text-center text-xl font-semibold mt-2">AMÉLIA NAOMI</h2>
-                  <p class="text-center">Partido dos Trabalhores (PT)</p>
-                  <p class="text-center text-xl font-semibold">13500</p>
-                  <p class="text-left text-sm p-2">Telefone(s): (12) 3925-6588</p>
-                  <p class="text-left text-sm p-2">Email(s): amelia@camarasjc.sp.gov.br</p>
+                  <h2 class="text-center text-xl font-semibold mt-2">{{ parlamentar['NM_URNA_CANDIDATO'] }}</h2>
+                  <p class="text-center">{{ parlamentar['NM_PARTIDO'] }} ({{ parlamentar['SG_PARTIDO'] }})</p>
+                  <p class="text-center text-xl font-semibold">{{ parlamentar['NR_CANDIDATO'] }}</p>
+                  <p class="text-center text-sm p-2">Telefone(s): {{ parlamentar['DS_TEL'] }}</p>
+                  <p class="text-center text-sm p-2">Email(s): {{ parlamentar['DS_EMAIL'] }}</p>
                 </div>
               </div>
             </div>
@@ -49,61 +45,31 @@
           </div>
           <div class="w-full md:w-2/3 p-4 flex-grow">
             <form>
-              <div
-                class="card bg-white shadow-md rounded-lg">
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
+              <div class="card bg-white shadow-md rounded-lg">
+                  <div class="grid grid-cols-2 md:grid-cols-2 gap-6 p-6 h-80">
                     <div>
-                      <label class="font-semibold">Nome Completo:</label>
-                      <span>AMÉLIA NAOMI OMURA</span>
-                    </div>
-                    <div>
-                      <label class="font-semibold">Data de Nascimento:</label>
-                      <span>12/06/1960</span>
+                      <label class="font-semibold flex text-xl">Nome Completo:</label>
+                      <span class="flex text-lg">{{ parlamentar['NM_CANDIDATO'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold">Gênero:</label>
-                      <span>Feminino</span>
+                      <label class="font-semibold flex text-xl">Data de Nascimento:</label>
+                      <span class="flex text-lg">{{ parlamentar['DT_NASCIMENTO'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold">Cor / Raça:</label>
-                      <span>Amarela</span>
+                      <label class="font-semibold flex text-xl">Cor / Raça:</label>
+                      <span class="flex text-lg">{{ parlamentar['DS_COR_RACA'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold">Estado Civil:</label>
-                      <span>Casado(a)</span>
+                      <label class="font-semibold flex text-xl">Grau de Instrução:</label>
+                      <span class="flex text-lg">{{ parlamentar['DS_GRAU_INSTRUCAO'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold">Grau de Instrução:</label>
-                      <span>Superior Completo</span>
+                      <label class="font-semibold flex text-xl">Ocupação:</label>
+                      <span class="flex text-lg">{{ parlamentar['DS_OCUPACAO'] }}</span>
                     </div>
                     <div>
-                      <label class="font-semibold">Ocupação:</label>
-                      <span>Assistente Social</span>
-                    </div>
-                    <div class="col-span-2">
-                      <label class="font-semibold"
-                        >Nacionalidade / Naturalidade:</label
-                      >
-                      <span>Brasileira Nata / SP-Aparecida D'oeste</span>
-                    </div>
-                    <div>
-                      <label class="font-semibold"
-                        >Candidato a reeleição:</label
-                      >
-                      <span>Sim</span>
-                    </div>
-                    <div class="col-span-2">
-                      <label class="font-semibold">Federação:</label>
-                      <span
-                        >Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do
-                        B/PV)</span
-                      >
-                    </div>
-                    <div class="col-span-2">
-                      <label class="font-semibold"
-                        >Limite Legal de Gastos 1º Turno:</label
-                      >
-                      <span class="badge bg-secondary">R$ 243.956,56</span>
+                      <label class="font-semibold flex text-xl"> CPF:</label>
+                      <span class="flex text-lg">{{ parlamentar['NR_CPF_CANDIDATO'] }}</span>
                     </div>
                   </div>
               </div>
@@ -113,8 +79,7 @@
                     <li class="dropdown">
                         <span class="botaobe">Biografia <i class="fa-solid fa-chevron-down"></i></span>
                         <ul class="dropdown-menu">
-                            <li class="texto-be">Amélia Naomi é vereadora pelo PT, em São José dos Campos. Iniciou sua trajetória no movimento estudantil. 
-                              Sua atuação é marcada pelas lutas contra a violência doméstica, pelos direitos dos trabalhadores, em defesa do meio ambiente e da cidade.</li>
+                            <li class="texto-be">{{ parlamentar['SOBRE'] }}</li>
                         </ul>
                     </li>
                 </ul>
@@ -124,9 +89,7 @@
                   <li class="dropdown">
                       <span class="botaobe">Eleições <i class="fa-solid fa-chevron-down"></i></span>
                       <ul class="dropdown-menu">
-                          <li class="texto-be">Candidato a Vereador/São José Dos Campos partido PT em 2024 Eleito por QP</li>
-                          <li class="texto-be">Candidato a Vereador/São José Dos Campos partido PT em 2020 Eleito por QP</li>
-                          <li class="texto-be">Candidato a Deputado Federal/São Paulo partido PT em 2018 Suplente</li>                     
+                          <li class="texto-be">{{ parlamentar['DS_SIT_TOT_TURNO'] }}</li>                    
                       </ul>
                   </li>
               </ul>
