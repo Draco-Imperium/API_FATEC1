@@ -3,3 +3,6 @@ app/__pycache__/app.cpython-312.pyc
 *.pyc
 app/app.log
 *.log
+*.pyc
+*.pyc
+*.pyc
