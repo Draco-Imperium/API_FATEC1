@@ -5,7 +5,7 @@ const labelsMap = {
     label3: "Faltas Justificadas"
   },
   proposicoes: {
-    label1: "Emenda",
+    label1: "Proposições",
     label2: "Projeto de Lei",
     label3: "Indicação",
     label4: "Moção",
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     window.GraficoPerfil = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['2024', '2023', '2022', '2021'],
+        labels: labelCategory === 'frequencia' ? ['2024', '2023', '2022', '2021'] : [labelCategory === 'proposicoes' ? 'Proposições' : 'Leis'],
         datasets: datasets
       },
       options: {
@@ -149,8 +149,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   const vereador = await getVereadorInfoById(vereadorId);
 
   if (vereador) {
-    mostrarGraficoFrequencia(vereador);
-    
+    mostrarGraficoFrequencia(vereador); // Exibe o gráfico de frequência por padrão
+
     const select = document.querySelector('.select');
     select.addEventListener('change', () => atualizarGrafico(vereador));
   } else {
