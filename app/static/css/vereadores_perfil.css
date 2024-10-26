@@ -281,6 +281,41 @@ footer {
   width: 100%;
 }
 
+.card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.bg-secondary {
+  background-color: var(--cor-secundaria);
+  color: #fff;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0; 
+}
+
+.info-img{
+  border-radius: 10px;
+}
 @media (max-width: 768px) {
   *{
     font-size: 12px;
@@ -323,7 +358,7 @@ footer {
   }
   .select {
     width: auto;
-    margin-left: 5%;
+    margin-left: 12%;
     margin-top: 5%;
   }
   .sobre-vereador {
@@ -344,40 +379,4 @@ footer {
   main{
     background-size: cover;
   }
-}
-
-.card {
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 5px;
-}
-
-.card-body {
-  padding: 20px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.badge {
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-.bg-secondary {
-  background-color: var(--cor-secundaria);
-  color: #fff;
-}
-
-.sticky-bottom {
-  position: sticky;
-  bottom: 0; 
-}
-
-.info-img{
-  border-radius: 10px;
 }

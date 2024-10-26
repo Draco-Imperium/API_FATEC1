@@ -62,7 +62,7 @@ def proposicoes():
                            ano=ano)
 
 @app.route('/graficos')
-@cache.cached(timeout=300)
+# @cache.cached(timeout=300)
 def graficos():
     return render_template('graficos.html')
 

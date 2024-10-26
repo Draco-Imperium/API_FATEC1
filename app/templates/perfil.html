@@ -46,7 +46,7 @@
           <div class="w-full md:w-2/3 p-4 flex-grow">
             <form>
               <div class="card bg-white shadow-md rounded-lg">
-                  <div class="grid grid-cols-2 md:grid-cols-2 gap-6 p-6 h-80">
+                  <div class="grid grid-cols-2 md:grid-cols-2 gap-8 p-6 h-100">
                     <div>
                       <label class="font-semibold flex text-xl">Nome Completo:</label>
                       <span class="flex text-lg">{{ parlamentar['NM_CANDIDATO'] }}</span>
@@ -177,6 +177,5 @@
         });      
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>
   </body>
 </html>

@@ -138,10 +138,16 @@ main {
 
 .carousel-item {
   display: none;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .carousel-item.active {
   display: block;
+  opacity: 1;
+}
+
+.carousel-item:not(.active) {
+  opacity: 0;
 }
 
 .carousel img {
@@ -186,14 +192,14 @@ main {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 7%;
-  opacity: 0.8;
-  transition: opacity 0.15s ease;
+  width: 5%;
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .carousel-control-prev {
@@ -202,6 +208,7 @@ main {
 
 .carousel-control-next {
   right: 0;
+  z-index: 10;
 }
 
 .propostas-one {
@@ -344,6 +351,55 @@ footer {
   padding: 20px 0px;
   width: 100%;
 }
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 1%, rgb(0, 0, 0));
+  z-index: 1;
+}
+
+.carousel-item img {
+  max-height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 75%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  color: white;
+  padding: 2rem;
+}
+
+.course-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+
+.course-card {
+  min-width: 250px;
+  max-width: 250px;
+}
+
 @media (max-width: 768px) {
   .propostas-one {
     display: flex;
@@ -364,10 +420,16 @@ footer {
     background-color: #fff;
     overflow: hidden;
   }
-
+  .propostas-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 10px;
+  }
   img {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
 }
