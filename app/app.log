@@ -6812,3 +6812,7 @@ jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'AutorRequerent
 2024-10-25 22:38:55,098-INFO-127.0.0.1 - - [25/Oct/2024 22:38:55] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
 2024-10-25 22:38:55,100-INFO-127.0.0.1 - - [25/Oct/2024 22:38:55] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
 2024-10-25 22:38:55,117-INFO-127.0.0.1 - - [25/Oct/2024 22:38:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:50:28,476-INFO- * Detected change in 'C:\\Users\\lucas\\Desktop\\API_FATEC1\\app\\app.py', reloading
+2024-10-25 22:50:28,575-INFO- * Restarting with stat
+2024-10-25 22:50:29,635-WARNING- * Debugger is active!
+2024-10-25 22:50:29,638-INFO- * Debugger PIN: 728-119-020
