@@ -1,97 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gráficos com Chart.js</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/grafico.css') }}" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     {% include 'headFH.html' %}
-  </head>
+</head>
 
 <body>
-  {% include 'header.html' %}
+    {% include 'header.html' %}
 
-  <main class="main">
-    <div>
-      <nav class="navigation-bar">
-        <ul class="navigation-items">
-          <div class="div">
+    <main class="main">
+        <div class="container">
             <nav class="navigation-bar">
-              <ul class="navigation-items">
-                <li class="dropdown">
-                  <a href="#">Frequência</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Percentual de presença</a></li>
-                    <li><a href="#">Faltas justificadas</a></li>
-                    <li><a href="#">Faltas não justificadas</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#">Proposições</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Projetos de Lei</a></li>
-                    <li><a href="#">Indicação</a></li>
-                    <li><a href="#">Moções</a></li>
-                    <li><a href="#">Emendas</a></li>
-                    <li><a href="#">Requerimento</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown">
-                  <a href="#">Normas</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Decreto Legislativo</a></li>
-                    <li><a href="#">Emenda à Lei Orgânica</a></li>
-                    <li><a href="#">Lei Ordinária</a></li>
-                    <li><a href="#">Resolução</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <section class="date-filter-section">             
-                <select name="anoSelect" id="anoSelect">
-                  <option>2021</option>
-                  <option>2022</option>
-                  <option>2023</option>
-                  <option>2024</option>
-                </select>
-              </section>
+                <ul class="navigation-items">
+                    <li class="dropdown">
+                        <a href="#">Frequência</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Percentual de presença</a></li>
+                            <li><a href="#">Faltas justificadas</a></li>
+                            <li><a href="#">Faltas não justificadas</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Proposições</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Projetos de Lei</a></li>
+                            <li><a href="#">Indicação</a></li>
+                            <li><a href="#">Moções</a></li>
+                            <li><a href="#">Emendas</a></li>
+                            <li><a href="#">Requerimento</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Normas</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Decreto Legislativo</a></li>
+                            <li><a href="#">Emenda à Lei Orgânica</a></li>
+                            <li><a href="#">Lei Ordinária</a></li>
+                            <li><a href="#">Resolução</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <section class="date-filter-section">
+                    <select name="anoSelect" id="anoSelect">
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                    </select>
+                </section>
             </nav>
+
             <div class="container2">
-              <section class="desc">
-                <p id="descricao">Selecione um gráfico</p>
-              </section>
-            </div> 
-            <div class="container"> 
-              <div id="graficoContainer">
-                <canvas id="meuGrafico"></canvas>
-              </div>
+                <section class="desc">
+                    <p id="descricao">Selecione um gráfico</p>
+                </section>
             </div>
-          </div>
-        </ul>
-      </nav>        
-    </div>
-  </main>
-      
-  {% include 'footer.html' %}
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="{{ url_for('static', filename='javascript/graficos.js') }}"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script>
-    function toggleMenu() {
-        const navMenu = document.getElementById('nav-menu');
-        navMenu.classList.toggle('open');
+            <div class="container">
+                <div id="graficoContainer">
+                    <canvas id="meuGrafico"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
 
-        const hamburger = document.querySelector('.hamburger');
-        hamburger.classList.toggle('active');
-    }
+    {% include 'footer.html' %}
 
-    document.addEventListener("DOMContentLoaded", function() {
-        const hamburger = document.querySelector('.hamburger');
-        if (hamburger) {
-            hamburger.addEventListener('click', toggleMenu);
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ url_for('static', filename='javascript/graficos.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('open');
+
+            const hamburger = document.querySelector('.hamburger');
+            hamburger.classList.toggle('active');
         }
-    });
-</script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const hamburger = document.querySelector('.hamburger');
+            if (hamburger) {
+                hamburger.addEventListener('click', toggleMenu);
+            }
+        });
+    </script>
 </body>
 </html>
