@@ -3154,3 +3154,79 @@ Exception: Este é um erro simulado para testar o tratamento de erros 500.
 2024-10-25 22:34:52,102-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
 2024-10-25 22:34:52,103-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
 2024-10-25 22:34:52,106-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 23:01:52,446-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2024-10-25 23:01:52,446-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 23:01:52,447-INFO- * Restarting with stat
+2024-10-25 23:01:53,548-WARNING- * Debugger is active!
+2024-10-25 23:01:53,552-INFO- * Debugger PIN: 728-119-020
+2024-10-25 23:01:56,975-INFO-127.0.0.1 - - [25/Oct/2024 23:01:56] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 23:01:57,085-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 23:01:57,091-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 23:01:57,113-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:01:57,119-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:01:57,181-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 23:01:57,181-INFO-127.0.0.1 - - [25/Oct/2024 23:01:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,292-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "GET / HTTP/1.1" 200 -
+2024-10-25 23:01:59,325-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,329-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,332-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,346-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,348-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,348-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-10-25 23:01:59,389-INFO-127.0.0.1 - - [25/Oct/2024 23:01:59] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:04,908-INFO-127.0.0.1 - - [25/Oct/2024 23:02:04] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 23:02:04,942-INFO-127.0.0.1 - - [25/Oct/2024 23:02:04] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:04,943-INFO-127.0.0.1 - - [25/Oct/2024 23:02:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:04,943-INFO-127.0.0.1 - - [25/Oct/2024 23:02:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:04,974-INFO-127.0.0.1 - - [25/Oct/2024 23:02:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:06,446-INFO-127.0.0.1 - - [25/Oct/2024 23:02:06] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 23:02:06,472-INFO-127.0.0.1 - - [25/Oct/2024 23:02:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:06,480-INFO-127.0.0.1 - - [25/Oct/2024 23:02:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:06,481-INFO-127.0.0.1 - - [25/Oct/2024 23:02:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:06,613-INFO-127.0.0.1 - - [25/Oct/2024 23:02:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:27,613-INFO-127.0.0.1 - - [25/Oct/2024 23:02:27] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 23:02:27,630-INFO-127.0.0.1 - - [25/Oct/2024 23:02:27] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:27,630-INFO-127.0.0.1 - - [25/Oct/2024 23:02:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:27,632-INFO-127.0.0.1 - - [25/Oct/2024 23:02:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:27,659-INFO-127.0.0.1 - - [25/Oct/2024 23:02:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:35,807-INFO-127.0.0.1 - - [25/Oct/2024 23:02:35] "GET /proposicoes?tipoID=391&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 23:02:35,827-INFO-127.0.0.1 - - [25/Oct/2024 23:02:35] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:35,829-INFO-127.0.0.1 - - [25/Oct/2024 23:02:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:35,830-INFO-127.0.0.1 - - [25/Oct/2024 23:02:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:35,841-INFO-127.0.0.1 - - [25/Oct/2024 23:02:35] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:38,893-INFO-127.0.0.1 - - [25/Oct/2024 23:02:38] "GET /proposicoes?numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 23:02:38,907-INFO-127.0.0.1 - - [25/Oct/2024 23:02:38] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:38,907-INFO-127.0.0.1 - - [25/Oct/2024 23:02:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:38,907-INFO-127.0.0.1 - - [25/Oct/2024 23:02:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:38,946-INFO-127.0.0.1 - - [25/Oct/2024 23:02:38] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:41,138-INFO-127.0.0.1 - - [25/Oct/2024 23:02:41] "GET /proposicoes?tipoID=&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 23:02:41,161-INFO-127.0.0.1 - - [25/Oct/2024 23:02:41] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:41,162-INFO-127.0.0.1 - - [25/Oct/2024 23:02:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:41,163-INFO-127.0.0.1 - - [25/Oct/2024 23:02:41] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:41,173-INFO-127.0.0.1 - - [25/Oct/2024 23:02:41] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:43,002-INFO-127.0.0.1 - - [25/Oct/2024 23:02:43] "GET /proposicoes?tipoID=&numero=&autor= HTTP/1.1" 200 -
+2024-10-25 23:02:43,025-INFO-127.0.0.1 - - [25/Oct/2024 23:02:43] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:43,030-INFO-127.0.0.1 - - [25/Oct/2024 23:02:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:43,035-INFO-127.0.0.1 - - [25/Oct/2024 23:02:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:43,045-INFO-127.0.0.1 - - [25/Oct/2024 23:02:43] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,211-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 23:02:44,234-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,235-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,238-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,238-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,254-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 23:02:44,265-INFO-127.0.0.1 - - [25/Oct/2024 23:02:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:49,053-INFO-Cache used for key: view//vereadores_geral
+2024-10-25 23:02:49,054-INFO-127.0.0.1 - - [25/Oct/2024 23:02:49] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 23:02:49,077-INFO-127.0.0.1 - - [25/Oct/2024 23:02:49] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:49,080-INFO-127.0.0.1 - - [25/Oct/2024 23:02:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:49,082-INFO-127.0.0.1 - - [25/Oct/2024 23:02:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:49,133-INFO-127.0.0.1 - - [25/Oct/2024 23:02:49] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 23:02:50,682-INFO-127.0.0.1 - - [25/Oct/2024 23:02:50] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 23:02:50,700-INFO-127.0.0.1 - - [25/Oct/2024 23:02:50] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:50,703-INFO-127.0.0.1 - - [25/Oct/2024 23:02:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 23:02:50,704-INFO-127.0.0.1 - - [25/Oct/2024 23:02:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 23:02:50,822-INFO-127.0.0.1 - - [25/Oct/2024 23:02:50] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
