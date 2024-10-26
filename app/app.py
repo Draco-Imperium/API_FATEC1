@@ -45,11 +45,13 @@ def get_dados2():
 
 @app.route('/proposicoes')
 def proposicoes():
-    tipo = request.args.get('tipo', '')
+    tipoID = request.args.get('tipoID', '')
+    print(f"Tipo recebido: {tipoID}")
     numero = request.args.get('numero', '')
     ano = request.args.get('ano', '')
+    autor = request.args.get('autor', '')
     page_number = request.args.get('page', default=1, type=int)
-    proposicao = get_prop(tipo=tipo, numero=numero, ano=ano, pag=page_number)
+    proposicao = get_prop(tipoID=tipoID, numero=numero, ano=ano, autor=autor, pag=page_number)
 
     total_pages = (proposicao['total'] // 10) + (1 if proposicao['total'] % 10 > 0 else 0) if proposicao else 0
 
@@ -57,9 +59,10 @@ def proposicoes():
                            proposicao=proposicao, 
                            current_page=page_number, 
                            total_pages=total_pages, 
-                           tipo=tipo, 
+                           tipoID=tipoID, 
                            numero=numero, 
-                           ano=ano)
+                           ano=ano, 
+                           autor=autor)
 
 @app.route('/graficos')
 @cache.cached(timeout=300)

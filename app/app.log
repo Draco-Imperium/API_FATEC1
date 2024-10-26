@@ -2522,3 +2522,635 @@ Exception: Este é um erro simulado para testar o tratamento de erros 500.
 2024-10-25 12:36:44,829-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
 2024-10-25 12:36:44,861-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
 2024-10-25 12:36:44,878-INFO-127.0.0.1 - - [25/Oct/2024 12:36:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 16:37:45,835-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 16:37:45,836-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 16:37:45,838-INFO- * Restarting with stat
+2024-10-25 16:37:47,000-WARNING- * Debugger is active!
+2024-10-25 16:37:47,004-INFO- * Debugger PIN: 813-497-240
+2024-10-25 16:38:35,398-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 16:38:35,399-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 16:38:35,402-INFO- * Restarting with stat
+2024-10-25 16:38:36,559-WARNING- * Debugger is active!
+2024-10-25 16:38:36,564-INFO- * Debugger PIN: 813-497-240
+2024-10-25 16:38:57,646-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET / HTTP/1.1" 200 -
+2024-10-25 16:38:57,803-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-10-25 16:38:57,824-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-10-25 16:38:57,834-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/images/banner_vereadores.jpg HTTP/1.1" 200 -
+2024-10-25 16:38:57,845-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/images/banner_home.jpg HTTP/1.1" 200 -
+2024-10-25 16:38:57,857-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/javascript/carrossel.js HTTP/1.1" 200 -
+2024-10-25 16:38:57,858-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/images/banner_proposicoes.jpg HTTP/1.1" 200 -
+2024-10-25 16:38:57,873-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/images/banner_graficos.jpg HTTP/1.1" 200 -
+2024-10-25 16:38:57,889-INFO-127.0.0.1 - - [25/Oct/2024 16:38:57] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-10-25 16:39:05,417-INFO-127.0.0.1 - - [25/Oct/2024 16:39:05] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 16:39:05,437-INFO-127.0.0.1 - - [25/Oct/2024 16:39:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:39:05,439-INFO-127.0.0.1 - - [25/Oct/2024 16:39:05] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:39:05,450-INFO-127.0.0.1 - - [25/Oct/2024 16:39:05] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-10-25 16:39:07,418-INFO-127.0.0.1 - - [25/Oct/2024 16:39:07] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 16:39:07,430-INFO-127.0.0.1 - - [25/Oct/2024 16:39:07] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-10-25 16:39:07,453-INFO-127.0.0.1 - - [25/Oct/2024 16:39:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:39:07,462-INFO-127.0.0.1 - - [25/Oct/2024 16:39:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:39:17,287-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 16:39:17,361-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-10-25 16:39:17,373-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:39:17,374-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:39:17,411-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-10-25 16:39:17,562-INFO-127.0.0.1 - - [25/Oct/2024 16:39:17] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-10-25 16:40:07,004-INFO-127.0.0.1 - - [25/Oct/2024 16:40:07] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 16:40:07,051-INFO-127.0.0.1 - - [25/Oct/2024 16:40:07] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 16:40:07,074-INFO-127.0.0.1 - - [25/Oct/2024 16:40:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:40:07,108-INFO-127.0.0.1 - - [25/Oct/2024 16:40:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:57:40,164-INFO-127.0.0.1 - - [25/Oct/2024 16:57:40] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 16:57:40,312-INFO-127.0.0.1 - - [25/Oct/2024 16:57:40] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 16:57:40,317-INFO-127.0.0.1 - - [25/Oct/2024 16:57:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:57:40,321-INFO-127.0.0.1 - - [25/Oct/2024 16:57:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:57:43,617-INFO-127.0.0.1 - - [25/Oct/2024 16:57:43] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-10-25 16:58:42,756-INFO-127.0.0.1 - - [25/Oct/2024 16:58:42] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 16:58:42,795-INFO-127.0.0.1 - - [25/Oct/2024 16:58:42] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 16:58:42,798-INFO-127.0.0.1 - - [25/Oct/2024 16:58:42] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 16:58:42,799-INFO-127.0.0.1 - - [25/Oct/2024 16:58:42] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 16:58:42,800-INFO-127.0.0.1 - - [25/Oct/2024 16:58:42] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 16:58:43,016-INFO-127.0.0.1 - - [25/Oct/2024 16:58:43] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,072-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "GET / HTTP/1.1" 200 -
+2024-10-25 17:01:17,162-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,164-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,226-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,228-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,240-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,243-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,284-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 17:01:17,284-INFO-127.0.0.1 - - [25/Oct/2024 17:01:17] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 17:02:38,386-INFO-127.0.0.1 - - [25/Oct/2024 17:02:38] "GET /static/images/banner_home_mobile.jpg HTTP/1.1" 200 -
+2024-10-25 17:02:38,421-INFO-127.0.0.1 - - [25/Oct/2024 17:02:38] "GET /static/images/banner_vereadores_mobile.jpg HTTP/1.1" 200 -
+2024-10-25 17:02:38,423-INFO-127.0.0.1 - - [25/Oct/2024 17:02:38] "GET /static/images/banner_proposicoes_mobile.jpg HTTP/1.1" 200 -
+2024-10-25 17:02:38,423-INFO-127.0.0.1 - - [25/Oct/2024 17:02:38] "GET /static/images/banner_graficos_mobile.jpg HTTP/1.1" 200 -
+2024-10-25 17:03:23,168-INFO-127.0.0.1 - - [25/Oct/2024 17:03:23] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 17:03:23,185-INFO-127.0.0.1 - - [25/Oct/2024 17:03:23] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:03:23,199-INFO-127.0.0.1 - - [25/Oct/2024 17:03:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:03:23,200-INFO-127.0.0.1 - - [25/Oct/2024 17:03:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:03:49,952-INFO-127.0.0.1 - - [25/Oct/2024 17:03:49] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 17:03:49,964-INFO-127.0.0.1 - - [25/Oct/2024 17:03:49] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 17:03:49,975-INFO-127.0.0.1 - - [25/Oct/2024 17:03:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:03:49,979-INFO-127.0.0.1 - - [25/Oct/2024 17:03:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:03:49,981-INFO-127.0.0.1 - - [25/Oct/2024 17:03:49] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 17:03:50,060-INFO-127.0.0.1 - - [25/Oct/2024 17:03:50] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 17:30:44,595-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:30:57,255-INFO- * Restarting with stat
+2024-10-25 17:31:05,999-WARNING- * Debugger is active!
+2024-10-25 17:31:06,008-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:31:11,167-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:31:11,434-INFO- * Restarting with stat
+2024-10-25 17:31:12,856-WARNING- * Debugger is active!
+2024-10-25 17:31:12,861-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:31:44,171-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:31:44,333-INFO- * Restarting with stat
+2024-10-25 17:31:46,842-WARNING- * Debugger is active!
+2024-10-25 17:31:46,849-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:31:47,882-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:31:47,947-INFO- * Restarting with stat
+2024-10-25 17:31:49,458-WARNING- * Debugger is active!
+2024-10-25 17:31:49,466-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:31:51,536-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:31:51,651-INFO- * Restarting with stat
+2024-10-25 17:31:53,837-WARNING- * Debugger is active!
+2024-10-25 17:31:53,842-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:31:58,911-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 17:31:59,007-INFO- * Restarting with stat
+2024-10-25 17:32:00,703-WARNING- * Debugger is active!
+2024-10-25 17:32:00,714-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:32:13,519-INFO-127.0.0.1 - - [25/Oct/2024 17:32:13] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 17:32:13,676-INFO-127.0.0.1 - - [25/Oct/2024 17:32:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:32:13,677-INFO-127.0.0.1 - - [25/Oct/2024 17:32:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:32:13,678-INFO-127.0.0.1 - - [25/Oct/2024 17:32:13] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 17:32:16,002-INFO-127.0.0.1 - - [25/Oct/2024 17:32:16] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 17:32:16,017-INFO-127.0.0.1 - - [25/Oct/2024 17:32:16] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:32:16,027-INFO-127.0.0.1 - - [25/Oct/2024 17:32:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:32:16,028-INFO-127.0.0.1 - - [25/Oct/2024 17:32:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:32:54,125-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:32:54,241-INFO- * Restarting with stat
+2024-10-25 17:32:57,196-WARNING- * Debugger is active!
+2024-10-25 17:32:57,203-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:32:59,240-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:32:59,348-INFO- * Restarting with stat
+2024-10-25 17:33:02,695-INFO- * Restarting with stat
+2024-10-25 17:33:16,647-INFO- * Restarting with stat
+2024-10-25 17:33:21,742-INFO- * Restarting with stat
+2024-10-25 17:33:42,822-INFO- * Restarting with stat
+2024-10-25 17:33:47,775-INFO- * Restarting with stat
+2024-10-25 17:33:49,452-WARNING- * Debugger is active!
+2024-10-25 17:33:49,460-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:33:51,492-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:33:51,558-INFO- * Restarting with stat
+2024-10-25 17:33:53,123-WARNING- * Debugger is active!
+2024-10-25 17:33:53,127-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:33:54,149-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:33:54,246-INFO- * Restarting with stat
+2024-10-25 17:33:56,035-INFO- * Restarting with stat
+2024-10-25 17:33:57,477-WARNING- * Debugger is active!
+2024-10-25 17:33:57,484-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:33:59,537-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:33:59,661-INFO- * Restarting with stat
+2024-10-25 17:34:01,185-WARNING- * Debugger is active!
+2024-10-25 17:34:01,193-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:34:05,299-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:34:05,410-INFO- * Restarting with stat
+2024-10-25 17:34:08,160-INFO- * Restarting with stat
+2024-10-25 17:34:09,585-WARNING- * Debugger is active!
+2024-10-25 17:34:09,590-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:34:22,685-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:34:22,788-INFO- * Restarting with stat
+2024-10-25 17:34:24,423-WARNING- * Debugger is active!
+2024-10-25 17:34:24,430-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:34:42,292-INFO-127.0.0.1 - - [25/Oct/2024 17:34:42] "[35m[1mGET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1[0m" 500 -
+2024-10-25 17:34:43,550-INFO-127.0.0.1 - - [25/Oct/2024 17:34:43] "GET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-10-25 17:34:44,300-INFO-127.0.0.1 - - [25/Oct/2024 17:34:44] "GET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-10-25 17:34:44,387-INFO-127.0.0.1 - - [25/Oct/2024 17:34:44] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=CJBpYw5grfFZkTv1oiIw HTTP/1.1" 200 -
+2024-10-25 17:34:44,545-INFO-127.0.0.1 - - [25/Oct/2024 17:34:44] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-10-25 17:37:09,812-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:37:09,889-INFO- * Restarting with stat
+2024-10-25 17:37:11,506-WARNING- * Debugger is active!
+2024-10-25 17:37:11,514-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:37:13,560-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 17:37:13,630-INFO- * Restarting with stat
+2024-10-25 17:37:16,467-INFO- * Restarting with stat
+2024-10-25 17:37:18,189-WARNING- * Debugger is active!
+2024-10-25 17:37:18,194-INFO- * Debugger PIN: 813-497-240
+2024-10-25 17:37:22,086-INFO-127.0.0.1 - - [25/Oct/2024 17:37:22] "GET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 17:37:22,153-INFO-127.0.0.1 - - [25/Oct/2024 17:37:22] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:22,166-INFO-127.0.0.1 - - [25/Oct/2024 17:37:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:37:22,177-INFO-127.0.0.1 - - [25/Oct/2024 17:37:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:22,260-INFO-127.0.0.1 - - [25/Oct/2024 17:37:22] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 17:37:29,739-INFO-127.0.0.1 - - [25/Oct/2024 17:37:29] "GET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 17:37:29,754-INFO-127.0.0.1 - - [25/Oct/2024 17:37:29] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:29,758-INFO-127.0.0.1 - - [25/Oct/2024 17:37:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:37:29,763-INFO-127.0.0.1 - - [25/Oct/2024 17:37:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:45,925-INFO-127.0.0.1 - - [25/Oct/2024 17:37:45] "GET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 17:37:45,938-INFO-127.0.0.1 - - [25/Oct/2024 17:37:45] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:45,942-INFO-127.0.0.1 - - [25/Oct/2024 17:37:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:37:45,946-INFO-127.0.0.1 - - [25/Oct/2024 17:37:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:38:10,634-INFO-127.0.0.1 - - [25/Oct/2024 17:38:10] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 17:38:10,647-INFO-127.0.0.1 - - [25/Oct/2024 17:38:10] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:10,660-INFO-127.0.0.1 - - [25/Oct/2024 17:38:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:10,662-INFO-127.0.0.1 - - [25/Oct/2024 17:38:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:38:26,345-INFO-127.0.0.1 - - [25/Oct/2024 17:38:26] "GET /proposicoes?tipo=Moção&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 17:38:26,357-INFO-127.0.0.1 - - [25/Oct/2024 17:38:26] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:26,366-INFO-127.0.0.1 - - [25/Oct/2024 17:38:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:26,367-INFO-127.0.0.1 - - [25/Oct/2024 17:38:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:38:34,476-INFO-127.0.0.1 - - [25/Oct/2024 17:38:34] "GET /proposicoes?tipo=Indicação&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 17:38:34,490-INFO-127.0.0.1 - - [25/Oct/2024 17:38:34] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:34,497-INFO-127.0.0.1 - - [25/Oct/2024 17:38:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:34,501-INFO-127.0.0.1 - - [25/Oct/2024 17:38:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:38:43,610-INFO-127.0.0.1 - - [25/Oct/2024 17:38:43] "[35m[1mGET /proposicoes?tipo=&numero=248&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 17:38:43,626-INFO-127.0.0.1 - - [25/Oct/2024 17:38:43] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:38:43,667-INFO-127.0.0.1 - - [25/Oct/2024 17:38:43] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 17:38:43,707-INFO-127.0.0.1 - - [25/Oct/2024 17:38:43] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=JrCIKRlJQBesbqQrgj4C HTTP/1.1" 200 -
+2024-10-25 17:38:43,755-INFO-127.0.0.1 - - [25/Oct/2024 17:38:43] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 17:39:03,441-INFO-127.0.0.1 - - [25/Oct/2024 17:39:03] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 17:39:03,456-INFO-127.0.0.1 - - [25/Oct/2024 17:39:03] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:03,465-INFO-127.0.0.1 - - [25/Oct/2024 17:39:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:03,466-INFO-127.0.0.1 - - [25/Oct/2024 17:39:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:39:14,107-INFO-127.0.0.1 - - [25/Oct/2024 17:39:14] "GET /proposicoes?tipo=&numero=2&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 17:39:14,120-INFO-127.0.0.1 - - [25/Oct/2024 17:39:14] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:14,130-INFO-127.0.0.1 - - [25/Oct/2024 17:39:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:14,130-INFO-127.0.0.1 - - [25/Oct/2024 17:39:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 17:39:55,704-INFO-127.0.0.1 - - [25/Oct/2024 17:39:55] "GET /proposicoes?page=2&tipo=&numero=2&ano= HTTP/1.1" 200 -
+2024-10-25 17:39:55,719-INFO-127.0.0.1 - - [25/Oct/2024 17:39:55] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:55,727-INFO-127.0.0.1 - - [25/Oct/2024 17:39:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 17:39:55,728-INFO-127.0.0.1 - - [25/Oct/2024 17:39:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 18:06:23,869-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\views.py', reloading
+2024-10-25 18:06:27,736-INFO- * Restarting with stat
+2024-10-25 18:06:29,875-WARNING- * Debugger is active!
+2024-10-25 18:06:29,882-INFO- * Debugger PIN: 813-497-240
+2024-10-25 18:06:31,347-INFO-127.0.0.1 - - [25/Oct/2024 18:06:31] "GET /proposicoes?page=2&tipo=&numero=2&ano= HTTP/1.1" 200 -
+2024-10-25 18:06:31,473-INFO-127.0.0.1 - - [25/Oct/2024 18:06:31] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:31,496-INFO-127.0.0.1 - - [25/Oct/2024 18:06:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:31,512-INFO-127.0.0.1 - - [25/Oct/2024 18:06:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 18:06:31,643-INFO-127.0.0.1 - - [25/Oct/2024 18:06:31] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 18:06:39,216-INFO-127.0.0.1 - - [25/Oct/2024 18:06:39] "GET /proposicoes?page=3&tipo=&numero=2&ano= HTTP/1.1" 200 -
+2024-10-25 18:06:39,231-INFO-127.0.0.1 - - [25/Oct/2024 18:06:39] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:39,242-INFO-127.0.0.1 - - [25/Oct/2024 18:06:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:39,242-INFO-127.0.0.1 - - [25/Oct/2024 18:06:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 18:06:48,071-INFO-127.0.0.1 - - [25/Oct/2024 18:06:48] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 18:06:48,092-INFO-127.0.0.1 - - [25/Oct/2024 18:06:48] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:48,092-INFO-127.0.0.1 - - [25/Oct/2024 18:06:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 18:06:48,094-INFO-127.0.0.1 - - [25/Oct/2024 18:06:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 18:06:58,181-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\views.py', reloading
+2024-10-25 18:06:58,260-INFO- * Restarting with stat
+2024-10-25 18:07:00,636-WARNING- * Debugger is active!
+2024-10-25 18:07:00,648-INFO- * Debugger PIN: 813-497-240
+2024-10-25 18:48:20,717-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 18:48:26,348-INFO- * Restarting with stat
+2024-10-25 18:48:36,098-WARNING- * Debugger is active!
+2024-10-25 18:48:36,105-INFO- * Debugger PIN: 813-497-240
+2024-10-25 18:49:08,314-INFO-127.0.0.1 - - [25/Oct/2024 18:49:08] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 18:49:08,578-INFO-127.0.0.1 - - [25/Oct/2024 18:49:08] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 18:49:08,580-INFO-127.0.0.1 - - [25/Oct/2024 18:49:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 18:49:08,595-INFO-127.0.0.1 - - [25/Oct/2024 18:49:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:03:20,656-INFO-127.0.0.1 - - [25/Oct/2024 19:03:20] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 19:03:20,756-INFO-127.0.0.1 - - [25/Oct/2024 19:03:20] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:03:20,758-INFO-127.0.0.1 - - [25/Oct/2024 19:03:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:03:20,763-INFO-127.0.0.1 - - [25/Oct/2024 19:03:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:03:20,947-INFO-127.0.0.1 - - [25/Oct/2024 19:03:20] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 19:03:26,536-INFO-127.0.0.1 - - [25/Oct/2024 19:03:26] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 19:03:26,641-INFO-127.0.0.1 - - [25/Oct/2024 19:03:26] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:03:26,651-INFO-127.0.0.1 - - [25/Oct/2024 19:03:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:03:26,656-INFO-127.0.0.1 - - [25/Oct/2024 19:03:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:04:06,657-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-25 19:04:06,658-INFO-[33mPress CTRL+C to quit[0m
+2024-10-25 19:04:06,660-INFO- * Restarting with stat
+2024-10-25 19:04:07,932-WARNING- * Debugger is active!
+2024-10-25 19:04:07,940-INFO- * Debugger PIN: 813-497-240
+2024-10-25 19:04:50,448-INFO-127.0.0.1 - - [25/Oct/2024 19:04:50] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 19:04:50,551-INFO-127.0.0.1 - - [25/Oct/2024 19:04:50] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:04:50,552-INFO-127.0.0.1 - - [25/Oct/2024 19:04:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:04:50,555-INFO-127.0.0.1 - - [25/Oct/2024 19:04:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:04:50,590-INFO-127.0.0.1 - - [25/Oct/2024 19:04:50] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 19:04:56,968-INFO-127.0.0.1 - - [25/Oct/2024 19:04:56] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 19:04:56,980-INFO-127.0.0.1 - - [25/Oct/2024 19:04:56] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:04:56,982-INFO-127.0.0.1 - - [25/Oct/2024 19:04:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:04:56,987-INFO-127.0.0.1 - - [25/Oct/2024 19:04:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:05:07,221-INFO-127.0.0.1 - - [25/Oct/2024 19:05:07] "GET /proposicoes?tipo=&numero=&ano=2022&autor=Ver.+Amélia+Naomi HTTP/1.1" 200 -
+2024-10-25 19:05:07,236-INFO-127.0.0.1 - - [25/Oct/2024 19:05:07] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:05:07,238-INFO-127.0.0.1 - - [25/Oct/2024 19:05:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:05:07,245-INFO-127.0.0.1 - - [25/Oct/2024 19:05:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:14:03,158-INFO-127.0.0.1 - - [25/Oct/2024 19:14:03] "GET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 19:14:03,179-INFO-127.0.0.1 - - [25/Oct/2024 19:14:03] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:14:03,182-INFO-127.0.0.1 - - [25/Oct/2024 19:14:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:14:03,193-INFO-127.0.0.1 - - [25/Oct/2024 19:14:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:14:17,469-INFO-127.0.0.1 - - [25/Oct/2024 19:14:17] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Milton+Vieira+Filho HTTP/1.1" 200 -
+2024-10-25 19:14:17,522-INFO-127.0.0.1 - - [25/Oct/2024 19:14:17] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:14:17,525-INFO-127.0.0.1 - - [25/Oct/2024 19:14:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:14:17,528-INFO-127.0.0.1 - - [25/Oct/2024 19:14:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:16:43,211-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 19:16:45,862-INFO- * Restarting with stat
+2024-10-25 19:16:54,171-WARNING- * Debugger is active!
+2024-10-25 19:16:54,179-INFO- * Debugger PIN: 813-497-240
+2024-10-25 19:17:46,636-INFO-127.0.0.1 - - [25/Oct/2024 19:17:46] "GET /proposicoes?tipo=&numero=&ano=&autor=Ver.+Milton+Vieira+Filho HTTP/1.1" 200 -
+2024-10-25 19:17:46,738-INFO-127.0.0.1 - - [25/Oct/2024 19:17:46] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:17:46,741-INFO-127.0.0.1 - - [25/Oct/2024 19:17:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:17:46,750-INFO-127.0.0.1 - - [25/Oct/2024 19:17:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:17:46,813-INFO-127.0.0.1 - - [25/Oct/2024 19:17:46] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 19:18:26,554-INFO-127.0.0.1 - - [25/Oct/2024 19:18:26] "GET /proposicoes?tipo=&numero=&ano=&autor=dulce+rita HTTP/1.1" 200 -
+2024-10-25 19:18:26,582-INFO-127.0.0.1 - - [25/Oct/2024 19:18:26] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 19:18:26,594-INFO-127.0.0.1 - - [25/Oct/2024 19:18:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 19:18:26,595-INFO-127.0.0.1 - - [25/Oct/2024 19:18:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 19:22:46,004-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 19:22:46,100-INFO- * Restarting with stat
+2024-10-25 19:22:49,816-WARNING- * Debugger is active!
+2024-10-25 19:22:49,826-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:13:52,503-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:13:55,240-INFO- * Restarting with stat
+2024-10-25 20:14:01,699-WARNING- * Debugger is active!
+2024-10-25 20:14:01,704-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:16:50,317-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:16:50,430-INFO- * Restarting with stat
+2024-10-25 20:16:52,509-WARNING- * Debugger is active!
+2024-10-25 20:16:52,515-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:17:04,627-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:17:04,824-INFO- * Restarting with stat
+2024-10-25 20:17:06,699-WARNING- * Debugger is active!
+2024-10-25 20:17:06,705-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:18:22,358-INFO-127.0.0.1 - - [25/Oct/2024 20:18:22] "GET /proposicoes?tipo=&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 20:18:22,883-INFO-127.0.0.1 - - [25/Oct/2024 20:18:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:18:22,884-INFO-127.0.0.1 - - [25/Oct/2024 20:18:22] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:18:22,900-INFO-127.0.0.1 - - [25/Oct/2024 20:18:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:18:44,144-INFO-127.0.0.1 - - [25/Oct/2024 20:18:44] "GET /proposicoes?tipo=&numero=&ano=&autor=dulce+rita HTTP/1.1" 200 -
+2024-10-25 20:18:44,160-INFO-127.0.0.1 - - [25/Oct/2024 20:18:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:18:44,161-INFO-127.0.0.1 - - [25/Oct/2024 20:18:44] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:18:44,163-INFO-127.0.0.1 - - [25/Oct/2024 20:18:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:23:07,441-INFO-127.0.0.1 - - [25/Oct/2024 20:23:07] "[35m[1mGET /proposicoes?tipo=&numero=248&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:23:07,465-INFO-127.0.0.1 - - [25/Oct/2024 20:23:07] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:23:07,684-INFO-127.0.0.1 - - [25/Oct/2024 20:23:07] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:23:08,233-INFO-127.0.0.1 - - [25/Oct/2024 20:23:08] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=qVIipcSCLrT62JjUTEtl HTTP/1.1" 200 -
+2024-10-25 20:24:38,896-INFO-127.0.0.1 - - [25/Oct/2024 20:24:38] "GET /proposicoes?tipo=&numero=2&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:24:38,911-INFO-127.0.0.1 - - [25/Oct/2024 20:24:38] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:24:38,922-INFO-127.0.0.1 - - [25/Oct/2024 20:24:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:24:38,924-INFO-127.0.0.1 - - [25/Oct/2024 20:24:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:25:07,575-INFO-127.0.0.1 - - [25/Oct/2024 20:25:07] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 20:25:07,592-INFO-127.0.0.1 - - [25/Oct/2024 20:25:07] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:25:07,601-INFO-127.0.0.1 - - [25/Oct/2024 20:25:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:25:07,605-INFO-127.0.0.1 - - [25/Oct/2024 20:25:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:26:29,903-INFO-127.0.0.1 - - [25/Oct/2024 20:26:29] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 20:26:30,047-INFO-127.0.0.1 - - [25/Oct/2024 20:26:30] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:26:30,050-INFO-127.0.0.1 - - [25/Oct/2024 20:26:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:26:30,052-INFO-127.0.0.1 - - [25/Oct/2024 20:26:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:26:30,187-INFO-127.0.0.1 - - [25/Oct/2024 20:26:30] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:26:38,633-INFO-127.0.0.1 - - [25/Oct/2024 20:26:38] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 20:26:38,653-INFO-127.0.0.1 - - [25/Oct/2024 20:26:38] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:26:38,661-INFO-127.0.0.1 - - [25/Oct/2024 20:26:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:26:38,667-INFO-127.0.0.1 - - [25/Oct/2024 20:26:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:29:33,634-INFO-127.0.0.1 - - [25/Oct/2024 20:29:33] "GET /proposicoes?tipo=&numero=248&ano=2022&autor= HTTP/1.1" 200 -
+2024-10-25 20:29:33,650-INFO-127.0.0.1 - - [25/Oct/2024 20:29:33] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:29:33,675-INFO-127.0.0.1 - - [25/Oct/2024 20:29:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:29:33,695-INFO-127.0.0.1 - - [25/Oct/2024 20:29:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:29:33,723-INFO-127.0.0.1 - - [25/Oct/2024 20:29:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:29:40,375-INFO-127.0.0.1 - - [25/Oct/2024 20:29:40] "[35m[1mGET /proposicoes?tipo=&numero=247&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:29:40,396-INFO-127.0.0.1 - - [25/Oct/2024 20:29:40] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:29:40,498-INFO-127.0.0.1 - - [25/Oct/2024 20:29:40] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:29:40,579-INFO-127.0.0.1 - - [25/Oct/2024 20:29:40] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=qVIipcSCLrT62JjUTEtl HTTP/1.1[0m" 304 -
+2024-10-25 20:29:47,678-INFO-127.0.0.1 - - [25/Oct/2024 20:29:47] "GET /proposicoes?tipo=&numero=222&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:29:47,708-INFO-127.0.0.1 - - [25/Oct/2024 20:29:47] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:29:47,711-INFO-127.0.0.1 - - [25/Oct/2024 20:29:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:29:47,712-INFO-127.0.0.1 - - [25/Oct/2024 20:29:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:30:10,041-INFO-127.0.0.1 - - [25/Oct/2024 20:30:10] "GET /proposicoes?page=2&tipo=&numero=222&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:30:10,058-INFO-127.0.0.1 - - [25/Oct/2024 20:30:10] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:10,067-INFO-127.0.0.1 - - [25/Oct/2024 20:30:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:10,068-INFO-127.0.0.1 - - [25/Oct/2024 20:30:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:30:15,230-INFO-127.0.0.1 - - [25/Oct/2024 20:30:15] "GET /proposicoes?page=3&tipo=&numero=222&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:30:15,251-INFO-127.0.0.1 - - [25/Oct/2024 20:30:15] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:15,262-INFO-127.0.0.1 - - [25/Oct/2024 20:30:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:15,269-INFO-127.0.0.1 - - [25/Oct/2024 20:30:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:30:26,056-INFO-127.0.0.1 - - [25/Oct/2024 20:30:26] "GET /proposicoes?page=4&tipo=&numero=222&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:30:26,070-INFO-127.0.0.1 - - [25/Oct/2024 20:30:26] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:26,080-INFO-127.0.0.1 - - [25/Oct/2024 20:30:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:30:26,081-INFO-127.0.0.1 - - [25/Oct/2024 20:30:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:32:04,345-INFO-127.0.0.1 - - [25/Oct/2024 20:32:04] "GET /proposicoes?page=4&tipo=&numero=222&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:32:04,361-INFO-127.0.0.1 - - [25/Oct/2024 20:32:04] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:32:04,370-INFO-127.0.0.1 - - [25/Oct/2024 20:32:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:32:04,371-INFO-127.0.0.1 - - [25/Oct/2024 20:32:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:32:04,417-INFO-127.0.0.1 - - [25/Oct/2024 20:32:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:32:08,372-INFO-127.0.0.1 - - [25/Oct/2024 20:32:08] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:32:08,389-INFO-127.0.0.1 - - [25/Oct/2024 20:32:08] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:32:08,399-INFO-127.0.0.1 - - [25/Oct/2024 20:32:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:32:08,400-INFO-127.0.0.1 - - [25/Oct/2024 20:32:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:33:45,298-INFO-127.0.0.1 - - [25/Oct/2024 20:33:45] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:33:45,313-INFO-127.0.0.1 - - [25/Oct/2024 20:33:45] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:33:45,323-INFO-127.0.0.1 - - [25/Oct/2024 20:33:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:33:45,325-INFO-127.0.0.1 - - [25/Oct/2024 20:33:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:33:45,368-INFO-127.0.0.1 - - [25/Oct/2024 20:33:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:33:48,334-INFO-127.0.0.1 - - [25/Oct/2024 20:33:48] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:33:48,353-INFO-127.0.0.1 - - [25/Oct/2024 20:33:48] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:33:48,369-INFO-127.0.0.1 - - [25/Oct/2024 20:33:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:33:48,372-INFO-127.0.0.1 - - [25/Oct/2024 20:33:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:34:05,650-INFO-127.0.0.1 - - [25/Oct/2024 20:34:05] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:34:05,664-INFO-127.0.0.1 - - [25/Oct/2024 20:34:05] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:05,677-INFO-127.0.0.1 - - [25/Oct/2024 20:34:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:05,683-INFO-127.0.0.1 - - [25/Oct/2024 20:34:05] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:34:22,406-INFO-127.0.0.1 - - [25/Oct/2024 20:34:22] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:34:22,431-INFO-127.0.0.1 - - [25/Oct/2024 20:34:22] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:22,432-INFO-127.0.0.1 - - [25/Oct/2024 20:34:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:22,433-INFO-127.0.0.1 - - [25/Oct/2024 20:34:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:34:22,476-INFO-127.0.0.1 - - [25/Oct/2024 20:34:22] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:34:27,029-INFO-127.0.0.1 - - [25/Oct/2024 20:34:27] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:34:27,060-INFO-127.0.0.1 - - [25/Oct/2024 20:34:27] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:27,062-INFO-127.0.0.1 - - [25/Oct/2024 20:34:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:34:27,063-INFO-127.0.0.1 - - [25/Oct/2024 20:34:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:34:54,578-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:34:56,178-INFO- * Restarting with stat
+2024-10-25 20:35:02,252-WARNING- * Debugger is active!
+2024-10-25 20:35:02,265-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:08,402-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:35:08,607-INFO- * Restarting with stat
+2024-10-25 20:35:12,977-WARNING- * Debugger is active!
+2024-10-25 20:35:12,989-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:25,153-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:35:25,367-INFO- * Restarting with stat
+2024-10-25 20:35:28,900-WARNING- * Debugger is active!
+2024-10-25 20:35:28,907-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:35,199-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 20:35:35,377-INFO- * Restarting with stat
+2024-10-25 20:35:38,981-WARNING- * Debugger is active!
+2024-10-25 20:35:38,989-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:41,041-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 20:35:41,157-INFO- * Restarting with stat
+2024-10-25 20:35:43,777-WARNING- * Debugger is active!
+2024-10-25 20:35:43,785-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:47,891-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\getFunctions.py', reloading
+2024-10-25 20:35:48,160-INFO- * Restarting with stat
+2024-10-25 20:35:50,312-WARNING- * Debugger is active!
+2024-10-25 20:35:50,320-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:35:52,978-INFO-127.0.0.1 - - [25/Oct/2024 20:35:52] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:35:53,192-INFO-127.0.0.1 - - [25/Oct/2024 20:35:53] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:35:53,193-INFO-127.0.0.1 - - [25/Oct/2024 20:35:53] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:35:53,220-INFO-127.0.0.1 - - [25/Oct/2024 20:35:53] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1" 200 -
+2024-10-25 20:35:53,259-INFO-127.0.0.1 - - [25/Oct/2024 20:35:53] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 20:39:44,356-INFO-127.0.0.1 - - [25/Oct/2024 20:39:44] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:39:44,415-INFO-127.0.0.1 - - [25/Oct/2024 20:39:44] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:39:44,454-INFO-127.0.0.1 - - [25/Oct/2024 20:39:44] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:39:44,525-INFO-127.0.0.1 - - [25/Oct/2024 20:39:44] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1[0m" 304 -
+2024-10-25 20:39:44,556-INFO-127.0.0.1 - - [25/Oct/2024 20:39:44] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 20:39:45,614-INFO-127.0.0.1 - - [25/Oct/2024 20:39:45] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:39:45,714-INFO-127.0.0.1 - - [25/Oct/2024 20:39:45] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:39:45,718-INFO-127.0.0.1 - - [25/Oct/2024 20:39:45] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:39:45,829-INFO-127.0.0.1 - - [25/Oct/2024 20:39:45] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1[0m" 304 -
+2024-10-25 20:39:45,853-INFO-127.0.0.1 - - [25/Oct/2024 20:39:45] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 20:39:46,429-INFO-127.0.0.1 - - [25/Oct/2024 20:39:46] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:39:46,453-INFO-127.0.0.1 - - [25/Oct/2024 20:39:46] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:39:46,463-INFO-127.0.0.1 - - [25/Oct/2024 20:39:46] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:39:46,495-INFO-127.0.0.1 - - [25/Oct/2024 20:39:46] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1[0m" 304 -
+2024-10-25 20:39:46,562-INFO-127.0.0.1 - - [25/Oct/2024 20:39:46] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 20:39:47,161-INFO-127.0.0.1 - - [25/Oct/2024 20:39:47] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:39:47,186-INFO-127.0.0.1 - - [25/Oct/2024 20:39:47] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:39:47,437-INFO-127.0.0.1 - - [25/Oct/2024 20:39:47] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:39:47,467-INFO-127.0.0.1 - - [25/Oct/2024 20:39:47] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1[0m" 304 -
+2024-10-25 20:39:47,534-INFO-127.0.0.1 - - [25/Oct/2024 20:39:47] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 20:39:51,530-INFO-127.0.0.1 - - [25/Oct/2024 20:39:51] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:39:57,384-INFO-127.0.0.1 - - [25/Oct/2024 20:39:57] "[35m[1mGET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 20:39:57,424-INFO-127.0.0.1 - - [25/Oct/2024 20:39:57] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:39:57,425-INFO-127.0.0.1 - - [25/Oct/2024 20:39:57] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 20:39:57,492-INFO-127.0.0.1 - - [25/Oct/2024 20:39:57] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=L5qCccpTo95tChB2QP3I HTTP/1.1[0m" 304 -
+2024-10-25 20:42:28,998-INFO- * Detected change in 'C:\\Users\\mathe\\OneDrive\\Documentos\\API_FATEC1\\API_FATEC1-4\\app\\app.py', reloading
+2024-10-25 20:42:29,128-INFO- * Restarting with stat
+2024-10-25 20:42:32,513-WARNING- * Debugger is active!
+2024-10-25 20:42:32,519-INFO- * Debugger PIN: 813-497-240
+2024-10-25 20:42:33,731-INFO-127.0.0.1 - - [25/Oct/2024 20:42:33] "GET /proposicoes?tipo=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:42:33,824-INFO-127.0.0.1 - - [25/Oct/2024 20:42:33] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:42:33,839-INFO-127.0.0.1 - - [25/Oct/2024 20:42:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:42:33,846-INFO-127.0.0.1 - - [25/Oct/2024 20:42:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:42:33,892-INFO-127.0.0.1 - - [25/Oct/2024 20:42:33] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:42:55,601-INFO-127.0.0.1 - - [25/Oct/2024 20:42:55] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:42:55,614-INFO-127.0.0.1 - - [25/Oct/2024 20:42:55] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:42:55,623-INFO-127.0.0.1 - - [25/Oct/2024 20:42:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:42:55,624-INFO-127.0.0.1 - - [25/Oct/2024 20:42:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:43:46,135-INFO-127.0.0.1 - - [25/Oct/2024 20:43:46] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:43:46,151-INFO-127.0.0.1 - - [25/Oct/2024 20:43:46] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:43:46,160-INFO-127.0.0.1 - - [25/Oct/2024 20:43:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:43:46,161-INFO-127.0.0.1 - - [25/Oct/2024 20:43:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:43:46,218-INFO-127.0.0.1 - - [25/Oct/2024 20:43:46] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:43:59,816-INFO-127.0.0.1 - - [25/Oct/2024 20:43:59] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:43:59,833-INFO-127.0.0.1 - - [25/Oct/2024 20:43:59] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:43:59,842-INFO-127.0.0.1 - - [25/Oct/2024 20:43:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:43:59,842-INFO-127.0.0.1 - - [25/Oct/2024 20:43:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:44:38,837-INFO-127.0.0.1 - - [25/Oct/2024 20:44:38] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:44:38,878-INFO-127.0.0.1 - - [25/Oct/2024 20:44:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:38,878-INFO-127.0.0.1 - - [25/Oct/2024 20:44:38] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:38,904-INFO-127.0.0.1 - - [25/Oct/2024 20:44:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:44:39,042-INFO-127.0.0.1 - - [25/Oct/2024 20:44:39] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 20:44:43,766-INFO-127.0.0.1 - - [25/Oct/2024 20:44:43] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 20:44:43,780-INFO-127.0.0.1 - - [25/Oct/2024 20:44:43] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:43,803-INFO-127.0.0.1 - - [25/Oct/2024 20:44:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:43,814-INFO-127.0.0.1 - - [25/Oct/2024 20:44:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 20:44:55,232-INFO-127.0.0.1 - - [25/Oct/2024 20:44:55] "GET /proposicoes?tipoID=340&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 20:44:55,248-INFO-127.0.0.1 - - [25/Oct/2024 20:44:55] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:55,261-INFO-127.0.0.1 - - [25/Oct/2024 20:44:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 20:44:55,266-INFO-127.0.0.1 - - [25/Oct/2024 20:44:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:56:13,647-INFO-127.0.0.1 - - [25/Oct/2024 21:56:13] "GET /proposicoes?tipoID=340&numero=&ano=&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 21:56:15,193-INFO-127.0.0.1 - - [25/Oct/2024 21:56:15] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:56:15,216-INFO-127.0.0.1 - - [25/Oct/2024 21:56:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:56:15,216-INFO-127.0.0.1 - - [25/Oct/2024 21:56:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:56:15,513-INFO-127.0.0.1 - - [25/Oct/2024 21:56:15] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 21:57:01,478-INFO-127.0.0.1 - - [25/Oct/2024 21:57:01] "GET /proposicoes?tipoID=341&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 21:57:01,497-INFO-127.0.0.1 - - [25/Oct/2024 21:57:01] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:01,526-INFO-127.0.0.1 - - [25/Oct/2024 21:57:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:01,527-INFO-127.0.0.1 - - [25/Oct/2024 21:57:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:57:04,452-INFO-127.0.0.1 - - [25/Oct/2024 21:57:04] "GET /proposicoes?tipoID=341&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 21:57:04,470-INFO-127.0.0.1 - - [25/Oct/2024 21:57:04] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:04,482-INFO-127.0.0.1 - - [25/Oct/2024 21:57:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:04,504-INFO-127.0.0.1 - - [25/Oct/2024 21:57:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:57:04,544-INFO-127.0.0.1 - - [25/Oct/2024 21:57:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 21:57:07,047-INFO-127.0.0.1 - - [25/Oct/2024 21:57:07] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 21:57:07,132-INFO-127.0.0.1 - - [25/Oct/2024 21:57:07] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:07,174-INFO-127.0.0.1 - - [25/Oct/2024 21:57:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:07,176-INFO-127.0.0.1 - - [25/Oct/2024 21:57:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:57:13,973-INFO-127.0.0.1 - - [25/Oct/2024 21:57:13] "GET /proposicoes?tipoID=341&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 21:57:14,006-INFO-127.0.0.1 - - [25/Oct/2024 21:57:14] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:14,006-INFO-127.0.0.1 - - [25/Oct/2024 21:57:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:14,043-INFO-127.0.0.1 - - [25/Oct/2024 21:57:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 21:57:53,966-INFO-127.0.0.1 - - [25/Oct/2024 21:57:53] "GET /proposicoes?tipoID=334&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 21:57:53,999-INFO-127.0.0.1 - - [25/Oct/2024 21:57:53] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:54,001-INFO-127.0.0.1 - - [25/Oct/2024 21:57:54] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 21:57:54,010-INFO-127.0.0.1 - - [25/Oct/2024 21:57:54] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:00:50,707-INFO-127.0.0.1 - - [25/Oct/2024 22:00:50] "GET /proposicoes?tipoID=334&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:00:50,721-INFO-127.0.0.1 - - [25/Oct/2024 22:00:50] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:50,729-INFO-127.0.0.1 - - [25/Oct/2024 22:00:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:50,731-INFO-127.0.0.1 - - [25/Oct/2024 22:00:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:00:50,764-INFO-127.0.0.1 - - [25/Oct/2024 22:00:50] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:00:52,066-INFO-127.0.0.1 - - [25/Oct/2024 22:00:52] "GET /proposicoes?tipoID=334&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:00:52,079-INFO-127.0.0.1 - - [25/Oct/2024 22:00:52] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:52,105-INFO-127.0.0.1 - - [25/Oct/2024 22:00:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:52,106-INFO-127.0.0.1 - - [25/Oct/2024 22:00:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:00:52,137-INFO-127.0.0.1 - - [25/Oct/2024 22:00:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:00:53,954-INFO-127.0.0.1 - - [25/Oct/2024 22:00:53] "GET /proposicoes?tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:00:53,968-INFO-127.0.0.1 - - [25/Oct/2024 22:00:53] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:53,979-INFO-127.0.0.1 - - [25/Oct/2024 22:00:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:00:53,979-INFO-127.0.0.1 - - [25/Oct/2024 22:00:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:11:12,326-INFO-127.0.0.1 - - [25/Oct/2024 22:11:12] "GET /proposicoes?tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:11:12,460-INFO-127.0.0.1 - - [25/Oct/2024 22:11:12] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:11:12,462-INFO-127.0.0.1 - - [25/Oct/2024 22:11:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:11:12,462-INFO-127.0.0.1 - - [25/Oct/2024 22:11:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:11:12,779-INFO-127.0.0.1 - - [25/Oct/2024 22:11:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:11:29,760-INFO-127.0.0.1 - - [25/Oct/2024 22:11:29] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:11:29,787-INFO-127.0.0.1 - - [25/Oct/2024 22:11:29] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:11:29,791-INFO-127.0.0.1 - - [25/Oct/2024 22:11:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:11:29,799-INFO-127.0.0.1 - - [25/Oct/2024 22:11:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:14:18,353-INFO-127.0.0.1 - - [25/Oct/2024 22:14:18] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:14:18,405-INFO-127.0.0.1 - - [25/Oct/2024 22:14:18] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:18,405-INFO-127.0.0.1 - - [25/Oct/2024 22:14:18] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:18,408-INFO-127.0.0.1 - - [25/Oct/2024 22:14:18] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:14:18,468-INFO-127.0.0.1 - - [25/Oct/2024 22:14:18] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:14:20,681-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 22:14:20,710-INFO-127.0.0.1 - - [25/Oct/2024 22:14:20] "[33mGET /proposicoes.html HTTP/1.1[0m" 404 -
+2024-10-25 22:14:21,303-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 22:14:21,304-INFO-127.0.0.1 - - [25/Oct/2024 22:14:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-25 22:14:28,848-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 22:14:28,849-INFO-127.0.0.1 - - [25/Oct/2024 22:14:28] "[33mGET /proposicoes.html HTTP/1.1[0m" 404 -
+2024-10-25 22:14:31,729-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-10-25 22:14:31,729-INFO-127.0.0.1 - - [25/Oct/2024 22:14:31] "[33mGET /proposicoes.html HTTP/1.1[0m" 404 -
+2024-10-25 22:14:34,371-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "GET / HTTP/1.1" 200 -
+2024-10-25 22:14:34,406-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,464-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,466-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,469-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,471-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,685-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,686-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:14:34,757-INFO-127.0.0.1 - - [25/Oct/2024 22:14:34] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:14:38,293-INFO-127.0.0.1 - - [25/Oct/2024 22:14:38] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 22:14:38,371-INFO-127.0.0.1 - - [25/Oct/2024 22:14:38] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:38,371-INFO-127.0.0.1 - - [25/Oct/2024 22:14:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:14:38,393-INFO-127.0.0.1 - - [25/Oct/2024 22:14:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:59,300-INFO-127.0.0.1 - - [25/Oct/2024 22:14:59] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:14:59,408-INFO-127.0.0.1 - - [25/Oct/2024 22:14:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:14:59,412-INFO-127.0.0.1 - - [25/Oct/2024 22:14:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:14:59,413-INFO-127.0.0.1 - - [25/Oct/2024 22:14:59] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:15:03,060-INFO-127.0.0.1 - - [25/Oct/2024 22:15:03] "GET /proposicoes HTTP/1.1" 200 -
+2024-10-25 22:15:03,084-INFO-127.0.0.1 - - [25/Oct/2024 22:15:03] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:15:03,099-INFO-127.0.0.1 - - [25/Oct/2024 22:15:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:15:03,104-INFO-127.0.0.1 - - [25/Oct/2024 22:15:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:15:50,739-INFO-127.0.0.1 - - [25/Oct/2024 22:15:50] "GET /proposicoes?tipoID=340&numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:15:50,761-INFO-127.0.0.1 - - [25/Oct/2024 22:15:50] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:15:50,765-INFO-127.0.0.1 - - [25/Oct/2024 22:15:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:15:50,781-INFO-127.0.0.1 - - [25/Oct/2024 22:15:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:16:58,293-INFO-127.0.0.1 - - [25/Oct/2024 22:16:58] "GET /proposicoes?tipoID=340&numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:16:58,315-INFO-127.0.0.1 - - [25/Oct/2024 22:16:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:16:58,316-INFO-127.0.0.1 - - [25/Oct/2024 22:16:58] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:16:58,326-INFO-127.0.0.1 - - [25/Oct/2024 22:16:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:16:58,499-INFO-127.0.0.1 - - [25/Oct/2024 22:16:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:17:00,961-INFO-127.0.0.1 - - [25/Oct/2024 22:17:00] "GET /proposicoes?numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:17:00,977-INFO-127.0.0.1 - - [25/Oct/2024 22:17:00] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:17:00,988-INFO-127.0.0.1 - - [25/Oct/2024 22:17:00] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:17:00,990-INFO-127.0.0.1 - - [25/Oct/2024 22:17:00] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:19:20,004-INFO-127.0.0.1 - - [25/Oct/2024 22:19:20] "GET /proposicoes?numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:19:20,021-INFO-127.0.0.1 - - [25/Oct/2024 22:19:20] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:19:20,029-INFO-127.0.0.1 - - [25/Oct/2024 22:19:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:19:20,032-INFO-127.0.0.1 - - [25/Oct/2024 22:19:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:19:20,075-INFO-127.0.0.1 - - [25/Oct/2024 22:19:20] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:19:28,456-INFO-127.0.0.1 - - [25/Oct/2024 22:19:28] "GET /proposicoes?tipoID=340&numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:19:28,476-INFO-127.0.0.1 - - [25/Oct/2024 22:19:28] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:19:28,477-INFO-127.0.0.1 - - [25/Oct/2024 22:19:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:19:28,478-INFO-127.0.0.1 - - [25/Oct/2024 22:19:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:22:17,924-INFO-127.0.0.1 - - [25/Oct/2024 22:22:17] "GET /proposicoes?tipoID=340&numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:22:17,940-INFO-127.0.0.1 - - [25/Oct/2024 22:22:17] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:22:17,948-INFO-127.0.0.1 - - [25/Oct/2024 22:22:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:22:17,955-INFO-127.0.0.1 - - [25/Oct/2024 22:22:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:22:18,010-INFO-127.0.0.1 - - [25/Oct/2024 22:22:18] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-10-25 22:22:20,083-INFO-127.0.0.1 - - [25/Oct/2024 22:22:20] "GET /proposicoes?numero=&ano=2022&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:22:20,103-INFO-127.0.0.1 - - [25/Oct/2024 22:22:20] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:22:20,106-INFO-127.0.0.1 - - [25/Oct/2024 22:22:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:22:20,110-INFO-127.0.0.1 - - [25/Oct/2024 22:22:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:27:18,683-INFO-127.0.0.1 - - [25/Oct/2024 22:27:18] "[35m[1mGET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1[0m" 500 -
+2024-10-25 22:27:19,038-INFO-127.0.0.1 - - [25/Oct/2024 22:27:19] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-10-25 22:27:19,063-INFO-127.0.0.1 - - [25/Oct/2024 22:27:19] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:27:19,230-INFO-127.0.0.1 - - [25/Oct/2024 22:27:19] "GET /proposicoes?__debugger__=yes&cmd=resource&f=console.png&s=0e3SP0zm605nEBppOURA HTTP/1.1" 200 -
+2024-10-25 22:27:19,380-INFO-127.0.0.1 - - [25/Oct/2024 22:27:19] "[36mGET /proposicoes?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-10-25 22:28:25,657-INFO-127.0.0.1 - - [25/Oct/2024 22:28:25] "GET /proposicoes?tipoID=340&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-10-25 22:28:25,689-INFO-127.0.0.1 - - [25/Oct/2024 22:28:25] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:28:25,733-INFO-127.0.0.1 - - [25/Oct/2024 22:28:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:28:25,734-INFO-127.0.0.1 - - [25/Oct/2024 22:28:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:32:04,769-INFO-127.0.0.1 - - [25/Oct/2024 22:32:04] "GET /proposicoes?tipoID=340&numero=4032&ano=2024&autor=amélia+naomi HTTP/1.1" 200 -
+2024-10-25 22:32:04,783-INFO-127.0.0.1 - - [25/Oct/2024 22:32:04] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:04,788-INFO-127.0.0.1 - - [25/Oct/2024 22:32:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:04,789-INFO-127.0.0.1 - - [25/Oct/2024 22:32:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:32:11,064-INFO-127.0.0.1 - - [25/Oct/2024 22:32:11] "GET /proposicoes?numero=4032&ano=2024&autor=amélia%20naomi HTTP/1.1" 200 -
+2024-10-25 22:32:11,080-INFO-127.0.0.1 - - [25/Oct/2024 22:32:11] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:11,089-INFO-127.0.0.1 - - [25/Oct/2024 22:32:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:11,090-INFO-127.0.0.1 - - [25/Oct/2024 22:32:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:32:21,190-INFO-127.0.0.1 - - [25/Oct/2024 22:32:21] "GET /proposicoes?tipoID=&numero=4032&ano=2024 HTTP/1.1" 200 -
+2024-10-25 22:32:21,203-INFO-127.0.0.1 - - [25/Oct/2024 22:32:21] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:21,212-INFO-127.0.0.1 - - [25/Oct/2024 22:32:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:21,212-INFO-127.0.0.1 - - [25/Oct/2024 22:32:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:32:30,942-INFO-127.0.0.1 - - [25/Oct/2024 22:32:30] "GET /proposicoes?tipoID=&ano=2024&autor= HTTP/1.1" 200 -
+2024-10-25 22:32:30,958-INFO-127.0.0.1 - - [25/Oct/2024 22:32:30] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:30,977-INFO-127.0.0.1 - - [25/Oct/2024 22:32:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:32:30,977-INFO-127.0.0.1 - - [25/Oct/2024 22:32:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:33:16,350-INFO-127.0.0.1 - - [25/Oct/2024 22:33:16] "GET /proposicoes?tipoID=&numero=&autor= HTTP/1.1" 200 -
+2024-10-25 22:33:16,366-INFO-127.0.0.1 - - [25/Oct/2024 22:33:16] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-10-25 22:33:16,372-INFO-127.0.0.1 - - [25/Oct/2024 22:33:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:33:16,381-INFO-127.0.0.1 - - [25/Oct/2024 22:33:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:33:58,585-INFO-127.0.0.1 - - [25/Oct/2024 22:33:58] "GET /graficos HTTP/1.1" 200 -
+2024-10-25 22:33:58,608-INFO-127.0.0.1 - - [25/Oct/2024 22:33:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:33:58,610-INFO-127.0.0.1 - - [25/Oct/2024 22:33:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:33:58,627-INFO-127.0.0.1 - - [25/Oct/2024 22:33:58] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-10-25 22:33:58,827-INFO-127.0.0.1 - - [25/Oct/2024 22:33:58] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-10-25 22:33:59,078-INFO-127.0.0.1 - - [25/Oct/2024 22:33:59] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 22:34:38,977-INFO-127.0.0.1 - - [25/Oct/2024 22:34:38] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-10-25 22:34:39,021-INFO-127.0.0.1 - - [25/Oct/2024 22:34:39] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-10-25 22:34:39,043-INFO-127.0.0.1 - - [25/Oct/2024 22:34:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:34:39,053-INFO-127.0.0.1 - - [25/Oct/2024 22:34:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:34:44,480-INFO-127.0.0.1 - - [25/Oct/2024 22:34:44] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-10-25 22:34:44,503-INFO-127.0.0.1 - - [25/Oct/2024 22:34:44] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-10-25 22:34:44,512-INFO-127.0.0.1 - - [25/Oct/2024 22:34:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:34:44,514-INFO-127.0.0.1 - - [25/Oct/2024 22:34:44] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-10-25 22:34:44,515-INFO-127.0.0.1 - - [25/Oct/2024 22:34:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:34:45,032-INFO-127.0.0.1 - - [25/Oct/2024 22:34:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-10-25 22:34:51,797-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "GET / HTTP/1.1" 200 -
+2024-10-25 22:34:51,872-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-10-25 22:34:51,902-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-10-25 22:34:51,976-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-10-25 22:34:51,977-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "[36mGET /static/javascript/carrossel.js HTTP/1.1[0m" 304 -
+2024-10-25 22:34:51,987-INFO-127.0.0.1 - - [25/Oct/2024 22:34:51] "[36mGET /static/images/banner_home.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:34:52,102-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_vereadores.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:34:52,103-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_proposicoes.jpg HTTP/1.1[0m" 304 -
+2024-10-25 22:34:52,106-INFO-127.0.0.1 - - [25/Oct/2024 22:34:52] "[36mGET /static/images/banner_graficos.jpg HTTP/1.1[0m" 304 -

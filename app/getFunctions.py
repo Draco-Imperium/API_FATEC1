@@ -62,19 +62,21 @@ def get_parlamentar_por_id(parlamentar_id):
     
     return None
 
-def get_prop(tipo='', numero='', ano='', pag=1):
+def get_prop(tipoID='', numero='', ano='', autor='', pag=1):
     base_url = "https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?"
     params = {
         'qtd': 10,  
         'pag': pag
     }
 
-    if tipo:
-        params['tipo'] = tipo
+    if tipoID:
+        params['tipoID'] = tipoID
     if numero:
         params['numero'] = numero
     if ano:
         params['ano'] = ano
+    if autor:
+        params['autor'] = autor
 
     api_url = base_url + '&'.join([f"{key}={value}" for key, value in params.items()])
 

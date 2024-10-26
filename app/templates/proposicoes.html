@@ -19,20 +19,54 @@
         <article class="filtros">
           <div class="item-filtro">
             <p>Tipo de Proposição</p>
-            <select name="tipo">
+            <select name="tipoID">
               <option value="">Selecione</option>
-              <option value="Projeto de Lei">Projeto de Lei</option>
-              <option value="Moção">Moção</option>
-              <option value="Indicação">Indicação</option>
+              <option value="391">Atas Anais</option>
+              <option value="390">Ata Legal</option>
+              <option value="401">Ata sessão extraordinária</option>
+              <option value="397">Ata Sessão Ordinária</option>
+              <option value="400">Ata Sessão Solene</option>
+              <option value="371">Documentos Diversos</option>
+              <option value="347">Emenda</option>
+              <option value="378">Emenda ao Substitutivo</option>
+              <option value="319">Indicação</option>
+              <option value="392">Manifestação AD HOC</option>
+              <option value="499">Manifestação de Suplente</option>
+              <option value="341">Moção</option>
+              <option value="405">Parecer da Comissão Conjunta de Justiça e Economia - Rito Prioritário</option>
+              <option value="343">Parecer da Comissão de Cultura e Esportes</option>
+              <option value="353">Parecer da Comissão de Economia, Finanças e Orçamento</option>
+              <option value="357">Parecer da Comissão de Educação e Promoção Social</option>
+              <option value="355">Parecer da Comissão de Ética</option>
+              <option value="350">Parecer da Comissão de Justiça, Redação e Direitos Humanos </option>
+              <option value="356">Parecer da Comissão de Meio Ambiente</option>
+              <option value="352">Parecer da Comissão de Planejamento Urbano, Obras e Transportes</option>
+              <option value="354">Parecer da Comissão de Saúde</option>
+              <option value="369">Parecer Jurídico</option>
+              <option value="316">Projeto de Decreto Legislativo</option>
+              <option value="348">Projeto de Lei</option>
+              <option value="367">Projeto de Lei Complementar</option>
+              <option value="344">Projeto de Resolução</option>
+              <option value="346">Proposta de Emenda a Lei Orgânica</option>
+              <option value="406">Recurso contra Ato do Presidente</option>
+              <option value="359">Redação Final</option>
+              <option value="340">Requerimento</option>
+              <option value="370">Subemendal</option>
+              <option value="345">Substitutivo</option>
+              <option value="334">Tribunal de Contas</option>
             </select>
           </div>
           <div class="item-filtro">
             <p>Nº DE PROPOSIÇÃO</p>
-              <input class="input" type="text" name="numero" placeholder="Ex: 123" />
+            <input class="input" type="text" name="numero" placeholder="Ex: 123" />
           </div>
           <div class="item-filtro">
             <p>ANO DA PROPOSIÇÃO</p>
             <input class="input" type="text" name="ano" placeholder="Ex: 2020" />
+          </div>
+          <div>
+            <p>AUTOR DA PROPOSIÇÃO</p>
+            <input class="input" type="text" name="autor" placeholder="" />
           </div>
           <div class="espaço-completo">
             <button class="botao-filtro1" type="submit">Buscar</button>
@@ -40,14 +74,23 @@
         </article>
       </form>
       <section class="filtros_ativos">
-        {% if tipo %}
-        <button class="botao-filtro2">Tipo: {{ tipo }}</button>
+        {% if tipoID %}
+        <button class="botao-filtro2"
+          onclick="window.location.href='/proposicoes?numero={{ numero }}&ano={{ ano }}&autor={{ autor }}'">
+          Tipo: {{ tipoID }}
+        </button>
         {% endif %}
         {% if numero %}
-        <button class="botao-filtro2">Número da Proposição: {{ numero }}</button>
+        <button class="botao-filtro2" 
+        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&ano={{ ano }}&autor={{ autor }}'">Número da Proposição: {{ numero }}</button>
         {% endif %}
         {% if ano %}
-        <button class="botao-filtro2">Ano Proposição: {{ ano }}</button>
+        <button class="botao-filtro2" 
+        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&autor={{ autor }}'">Ano Proposição: {{ ano }}</button>
+        {% endif %}
+        {% if autor %}
+        <button class="botao-filtro2" 
+        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}'">Autor: {{ autor }}</button>
         {% endif %}
       </section>
       <article class="resultados">
@@ -76,15 +119,19 @@
         <hr>
         <div id="pagination-controls">
           {% if current_page > 1 %}
-          <a href="?page={{ current_page - 1 }}&tipo={{ tipo }}&numero={{ numero }}&ano={{ ano }}" class="botao-paginacao">Anterior</a>
+          <a href="?page={{ current_page - 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+            class="botao-paginacao">Anterior</a>
+
           {% endif %}
-        
+
           <span> {{ current_page }} de {{ total_pages }}</span>
-        
-          {% if current_page < total_pages %}
-          <a href="?page={{ current_page + 1 }}&tipo={{ tipo }}&numero={{ numero }}&ano={{ ano }}" class="botao-paginacao">Próxima</a>
-          {% endif %}
+
+          {% if current_page < total_pages %} <a
+            href="?page={{ current_page + 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+            class="botao-paginacao">Próxima</a>
+            {% endif %}
         </div>
+
       </article>
     </section>
   </main>
