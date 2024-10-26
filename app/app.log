@@ -6816,3 +6816,7 @@ jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'AutorRequerent
 2024-10-25 22:50:28,575-INFO- * Restarting with stat
 2024-10-25 22:50:29,635-WARNING- * Debugger is active!
 2024-10-25 22:50:29,638-INFO- * Debugger PIN: 728-119-020
+2024-10-25 22:50:47,860-INFO- * Detected change in 'C:\\Users\\lucas\\Desktop\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-10-25 22:50:47,952-INFO- * Restarting with stat
+2024-10-25 22:50:49,184-WARNING- * Debugger is active!
+2024-10-25 22:50:49,188-INFO- * Debugger PIN: 728-119-020
