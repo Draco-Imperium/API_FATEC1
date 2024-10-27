@@ -64,34 +64,51 @@ main {
   position: relative;
 }
 
+.dropdown-button {
+  background-color: #2f4eac;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.dropdown-button:hover {
+  background-color: #1e3a8a;
+}
+
 .dropdown-menu {
   display: none;
   position: absolute;
   background-color: #2f4fac;
   border-radius: 4px;
-  text-align: center;
+  text-align: left;
+  transform: translateX(-18%) translateY(-2%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+  z-index: 1;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+}
+
+.dropdown-menu li {
+  padding: 10px;
   list-style: none;
 }
 
 .dropdown-menu li a {
-  padding: 10px;
-  width: 100%;
-  display: block;
   color: #ffffff;
-  font-size: 12px;
-  transition: color 0.3s;
   text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
 }
 
 .dropdown-menu li a:hover {
-  color: #0073ff;
+  background-color: #0073ff;
 }
 
 .desc {
@@ -119,9 +136,8 @@ main {
 #graficoContainer {
   border-radius: 10px;
   margin-bottom: 3%;
-  width: 123%;
+  width: 100%;
   height: 400px;
-  margin-left: 25%;
 }
 
 canvas {
@@ -145,7 +161,7 @@ canvas {
   background-color: #2f4fac;
   border-radius: 10px;
   padding: 5px;
-  width: 10%;
+  width: 100%;
 }
 
 .date-filter-section select {
@@ -154,7 +170,7 @@ canvas {
   font-size: 15px;
   font-weight: 400;
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-  padding: 10% 10%;
+  padding: 5px;
 }
 
 footer {
@@ -165,12 +181,60 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .navigation-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px;
+    padding-left: 7%;
+  }
+
+  .navigation-items {
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .navigation-items > li {
+    width: 100%;
+  }
+  .navigation-items > li > a {
+    font-size: 14px;
+  }
+
+  .dropdown {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .dropdown-button {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+  }
+
+  .date-filter-section {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
   #graficoContainer {
-      width: 100%;
-      height: 300px;
+    height: 300px;
+    margin-left: 0;
   }
 
   .desc {
-      flex-direction: column;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
   }
 }

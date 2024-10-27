@@ -1,5 +1,4 @@
-let flag_init = true
-
+let flag_init = true;
 let dadosVereadores = [];
 
 async function carregarDadosVereadores() {
@@ -18,15 +17,13 @@ function criarGrafico(data, label, descricao) {
         type: "bar",
         data: {
             labels: [
-                "Amélia Naomi", "Dr. Elton", "Dr. José Claudio", "Dulce Rita", 
-                "Fabião Zagueiro", "Fernando Petiti", "Juliana Fraga", 
-                "Júnior da Farmácia",
-                 "Juvenil Silvério", "Lino Bispo", "Marcão da Academia", 
-                 "Rafael Pascucci", "Renato Santiago", "Robertinho da Padaria", 
-                 "Roberto Chagas", "Rogério da ACASEM", 
-                 "Walter Hayashi", "Roberto do Eleven", "Milton Vieira Filho", 
-                 "Marcelo Garcia", 
-                 "Zé Luis", "Thomaz Henrique"
+                "Amélia Naomi", "Dr. Elton", "Dr. José Claudio", "Dulce Rita",
+                "Fabião Zagueiro", "Fernando Petiti", "Juliana Fraga",
+                "Júnior da Farmácia", "Juvenil Silvério", "Lino Bispo", "Marcão da Academia",
+                "Rafael Pascucci", "Renato Santiago", "Robertinho da Padaria",
+                "Roberto Chagas", "Rogério da ACASEM",
+                "Walter Hayashi", "Roberto do Eleven", "Milton Vieira Filho",
+                "Marcelo Garcia", "Zé Luis", "Thomaz Henrique"
             ],
             datasets: [{
                 label: label,
@@ -45,9 +42,10 @@ function criarGrafico(data, label, descricao) {
                 y: {
                     beginAtZero: true,
                 }
-            }
-        },
-        responsive: true
+            },
+            responsive: true,
+            maintainAspectRatio: false
+        }
     });
 
     const descricaoElemento = document.getElementById("descricao");
@@ -116,7 +114,7 @@ function mostrarGraficoMocoes() {
 function mostrarGraficoEmendas() {
     const dadosEmendas = dadosVereadores.map(vereador => {
         const emendas = vereador.proposicoesApresentadas.find(p => p.tipo === "Emenda");
-        return emendas.quantidade;
+        return emendas?.quantidade;
     });
     const descricao = "Este gráfico ilustra as emendas propostas ao longo do mandato.";
     criarGrafico(dadosEmendas, "Emendas", descricao);
@@ -125,9 +123,9 @@ function mostrarGraficoEmendas() {
 function mostrarGraficoRequerimento() {
     const dadosrequerimento = dadosVereadores.map(vereador => {
         const requerimentos = vereador.proposicoesApresentadas.find(p => p.tipo === "Requerimento");
-        return requerimentos.quantidade;
+        return requerimentos?.quantidade;
     });
-    const descricao = "Este gráfico ilustra os requetimentos propostos ao longo do mandato.";
+    const descricao = "Este gráfico ilustra os requerimentos propostos ao longo do mandato.";
     criarGrafico(dadosrequerimento, "Requerimentos", descricao);
 }
 
@@ -136,7 +134,7 @@ function mostrarGraficoDecretolegislativo() {
         const Decretolegislativo = vereador.normasApresentadas.find(n => n.tipo === "Decreto Legislativo");
         return Decretolegislativo?.quantidade;
     });
-    const descricao = "Este gráfico ilustra os decretos legislativo aprovados ao longo do mandato.";
+    const descricao = "Este gráfico ilustra os decretos legislativos aprovados ao longo do mandato.";
     criarGrafico(dadosDecretolegislativo, "Decreto Legislativo", descricao);
 }
 
@@ -163,16 +161,13 @@ function mostrarGraficoResolucao() {
         const Resolucao = vereador.normasApresentadas.find(n => n.tipo === "Resolução");
         return Resolucao?.quantidade;
     });
-    const descricao = "Este gráfico ilustra as Resoluções aprovados ao longo do mandato.";
+    const descricao = "Este gráfico ilustra as resoluções aprovadas ao longo do mandato.";
     criarGrafico(dadosResolucao, "Resolução", descricao);
 }
 
 function getAnoFiltro() {
     const inicio = document.getElementById("anoSelect").value;
-    const anoInicio = parseInt(inicio);
-    const out = anoInicio;
-    console.log(out);
-    return out;
+    return parseInt(inicio);
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
@@ -183,7 +178,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     menuLinks.forEach((link) => {
         link.addEventListener("click", function (event) {
             event.preventDefault();
-
             const textoLink = this.textContent;
 
             switch (textoLink) {
@@ -224,17 +218,8 @@ document.addEventListener("DOMContentLoaded", async function () {
                     mostrarGraficoResolucao();
                     break;
                 default:
-                    console.log("Gráfico não encontrado para: " + textoLink);
+                    break;
             }
         });
     });
 });
-
-function toggleOptions() {
-    var options = document.getElementById("sorting-options");
-    if (options.style.display === "block") {
-        options.style.display = "none";
-    } else {
-        options.style.display = "block";
-    }
-}
