@@ -69,7 +69,7 @@ Sprint | Previsão | Status|
 |------|--------|------|
 |Kick Off | 02/09/2024 - 06/09/2024 |finalizado|
 |01 | 09/09/2024 - 29/09/2024 |finalizado|
-|02|  07/10/2024 - 27/10/2024 |em andamento|
+|02|  07/10/2024 - 27/10/2024 |finalizado|
 |03| 04/11/2024 - 24/11/2024 |a fazer|
 |Feira de Soluções| 12/12/2024 |a fazer|
  
@@ -93,13 +93,13 @@ Sprint | Previsão | Status|
 
 - [x] Aplicar responsividade às telas;
 
-- [ ]  Implementação de mais funcionalidades e informações nas telas.
+- [x]  Implementação de mais funcionalidades e informações nas telas.
 
 - [x] Realizar a raspagem de dados;
 
 - [x] Criação e configuração do banco de dados.
 
-- [ ] Deixar filtros e gráficos funcionais.
+- [x] Deixar filtros e gráficos funcionais.
 
 <br>
 
@@ -148,7 +148,7 @@ Sprint | Previsão | Status|
 | BL04 | ALTA | Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.| 3 |
 | BL05 | ALTA | Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.| 4 |
 | BL06 | ALTA | Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.| 5 |
-| BL07 | ALTA | Vizualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
+| BL07 | ALTA | Visualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
 | BL08 | ALTA | Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 9 |
 
   </details>
@@ -167,7 +167,7 @@ Sprint | Previsão | Status|
 | Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.|
 | Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.|
 | Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.|
-| Vizualização estatística de cada verador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 
+| Visualização estatística de cada verador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 
 | Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 
 
 <br>
@@ -183,6 +183,8 @@ Confira a seguir uma demonstração das funcionalidades do sistema:
 https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
 
 <h3>📍Sprint 2</h3>
+
+https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
 
 <br>
 
