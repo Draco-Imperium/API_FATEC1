@@ -72,16 +72,16 @@ main {
 }
 
 .chart {
-  height: auto;
-  width: auto;
   padding: 5px;
   border: var(--borda);
   border-radius: var(--radius-grande);
   background: var(--cor-clara);
   box-shadow: var(--sombra-suave);
-  max-width: 100%;
+  max-width: 70%;
+  height: 100%;
   margin-top: 6%;
 }
+
 
 .img-vereador {
   max-width: 70%;
@@ -315,6 +315,9 @@ footer {
 
 .info-img{
   border-radius: 10px;
+}
+.relatorios{
+  justify-content: center;
 }
 @media (max-width: 768px) {
   *{
