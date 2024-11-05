@@ -70,7 +70,7 @@ Sprint | Previsão | Status|
 |Kick Off | 02/09/2024 - 06/09/2024 |finalizado|
 |01 | 09/09/2024 - 29/09/2024 |finalizado|
 |02|  07/10/2024 - 27/10/2024 |finalizado|
-|03| 04/11/2024 - 24/11/2024 |a fazer|
+|03| 04/11/2024 - 24/11/2024 |em andamento|
 |Feira de Soluções| 12/12/2024 |a fazer|
  
 <br>
@@ -89,25 +89,25 @@ Sprint | Previsão | Status|
  
 ### Sprint 2:
 
-- [ ] Criação de toda documentação necessária do projeto;
+- [x] Aplicação de responsividade às telas;
 
-- [x] Aplicar responsividade às telas;
+- [x]  Implementação de mais informações nas telas;
 
-- [x]  Implementação de mais funcionalidades e informações nas telas.
+- [x] Realização da raspagem de dados;
 
-- [x] Realizar a raspagem de dados;
+- [x] Criação e configuração do banco de dados;
 
-- [x] Criação e configuração do banco de dados.
-
-- [x] Deixar filtros e gráficos funcionais.
+- [x] Implementação de filtros e gráficos funcionais.
 
 <br>
 
 ### Sprint 3:
 
 - [ ] Implementação de funcionalidades do sistema (barra de busca, comentários);
+
+- [ ] Reajustes e alguns aperfeiçoamentos;
       
-- [ ] Reajustes e alguns aprimoramentos.
+- [ ] Criação de toda documentação necessária do projeto.
  
 <br>
 
@@ -146,9 +146,19 @@ Sprint | Previsão | Status|
 | --- | --- | --- | --- | --- |
 | BL03 | ALTA | Proposições Apresentadas |Como um eleitor, quero ver as proposições apresentadas por um vereador para avaliar seu trabalho legislativo.| 2 |
 | BL04 | ALTA | Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.| 3 |
+| BL07 | ALTA | Visualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
+
+  </details>
+
+<details>
+     <summary>Backlog - Sprint 3</summary>
+      <div align="center">
+      <br>
+
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
 | BL05 | ALTA | Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.| 4 |
 | BL06 | ALTA | Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.| 5 |
-| BL07 | ALTA | Visualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
 | BL08 | ALTA | Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 9 |
 
   </details>
@@ -200,4 +210,3 @@ https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
 |  Team Member  | Ana Beatriz |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abeatrizcoelho/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/abeatrizdscoelho)   |
 |  Team Member  | João Vitor |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/joaovvsilva)          |
 |  Team Member  | Matheus Roberto |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheus-Roberto-Castro)          |
-|  Team Member  | Décio Souza |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/decio-souza-ba0740328/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Deciosouza)          |
