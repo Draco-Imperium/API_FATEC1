@@ -93,40 +93,70 @@
       </div>
     </section>
 
-    <!-- Seção de comentários -->
+    <section class="conteudo-vereador">
+      <section class="relatorios">
+        <select class="select">
+          <option>Frequência em Plenário</option>
+          <option>Proposições Apresentadas</option>
+          <option>Leis de sua Autoria</option>
+        </select>
+        <div class="chart">
+          <canvas id="GraficoPerfil" width="100%" height="100%"></canvas>
+          <canvas id="GraficoPerfil2" width="100%" height="100%"></canvas>
+          <canvas id="GraficoPerfil3" width="100%" height="100%"></canvas>
+        </div>
+      </section>
+    </section>
     <section class="comentarios">
       <section class="caixa-comentario">
         <h3>Comentários</h3>
         <ul class="lista-comentario">
-          {% for comentario in comentarios %}
+        </ul>
+      </section>
+
+      <!-- Seção de comentários -->
+      <section class="comentarios">
+        <section class="caixa-comentario">
+          <h3>Comentários</h3>
+          <ul class="lista-comentario">
+            {% for comentario in comentarios %}
             <li class="comentario">
               <span class="usuario">{{ comentario['usuario'] }}</span>
               <p class="texto-comentario">{{ comentario['conteudo'] }}</p>
               <span class="data">{{ comentario['data_comentario'] }}</span>
+              <span class="avaliacao">Avaliação: {{ comentario['star_value'] }}</span>
             </li>
-          {% else %}
-          <li>Nenhum comentário ainda. Seja o primeiro a comentar!</li>
-          {% endfor %}
-        </ul>
-      </section>
+            {% else %}
+            <li>Nenhum comentário ainda. Seja o primeiro a comentar!</li>
+            {% endfor %}
+          </ul>
+        </section>
 
-      <section class="caixa-comentario">
-        <h3>Deixe seu comentário</h3>
-        <form action="{{ url_for('perfil', NM_URNA_CANDIDATO=parlamentar['NM_URNA_CANDIDATO'] | format_name) }}"method="post">
-          <article class="box-comment">
-            <label for="comment">Comentário:</label>
-            <input name="comment" type="text" id="comment" />
-          </article>
-          <article class="box-rating">
-            <label for="avaliacao">Avaliação:</label>
-            <input name="avaliacao" type="number" id="avaliacao" min="1" max="5" />
-          </article>
-          <article class="button-container">
-            <button class="button" type="submit">Enviar</button>
-          </article>
-        </form>
+        <section class="caixa-comentario">
+          <h3>Deixe seu comentário</h3>
+          <form id="comentario-form">
+            <article class="box-comment">
+              <label for="comment">Comentário:</label>
+              <input name="comment" type="text" id="comment" />
+            </article>
+            <article class="avaliar">
+              <h4>Avalie o Candidato</h4>
+              <ul class="avaliacao">
+                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+            </article>
+
+            <input type="hidden" id="NM_URNA_CANDIDATO" value="{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}">
+            <article class="button-container">
+              <button class="button" type="button" onclick="enviarComentario()">Enviar</button>
+            </article>
+          </form>
+        </section>
       </section>
-    </section>
   </main>
 
   {% include 'footer.html' %}
@@ -153,6 +183,35 @@
         dropdown.classList.toggle('open');
       });
     });
+
+    // Função para enviar comentário via AJAX
+    function enviarComentario() {
+      const comentario = document.getElementById('comment').value;
+      const avaliacao = document.getElementById('avaliacao').value;
+      const NM_URNA_CANDIDATO = "{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}"; // ID do candidato no servidor
+
+      fetch('/comentar', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: `comment=${encodeURIComponent(comentario)}&avaliacao=${encodeURIComponent(avaliacao)}&NM_URNA_CANDIDATO=${encodeURIComponent(NM_URNA_CANDIDATO)}`
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.status === 'success') {
+           // Limpa o formulário após adicionar o comentário
+        } else {
+          alert('Erro ao enviar comentário.');
+        }
+      })
+      .catch(error => {
+        console.error('Erro:', error);
+      });
+      setInterval(location.reload(true), 3000);
+  }
+
+
   </script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>

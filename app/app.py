@@ -135,59 +135,69 @@ def vereadores_geral():
         return render_template('500.html'), 500
     
 #--------------------------------------------------------------------------------------------------------
-
-@app.route('/perfil/<string:NM_URNA_CANDIDATO>', methods=['GET', 'POST'])
+@app.route('/perfil/<string:NM_URNA_CANDIDATO>', methods=['GET'])
 def perfil(NM_URNA_CANDIDATO):
     try:
-        
         # Carrega o arquivo JSON
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
         with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
             data = json.load(file)
-        
+
         # Encontra o parlamentar pelo nome formatado
         parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == NM_URNA_CANDIDATO), None)
         if parlamentar is None:
             logging.warning(f"Parlamentar com NM_URNA_CANDIDATO '{NM_URNA_CANDIDATO}' não encontrado.")
             return render_template('404.html'), 404
 
-        if request.method == 'POST':
-            conteudo = request.form.get('comment')
-            #star_value = request.form.get('avaliacao')
-            vereador_id = parlamentar.get("ID_VER")  
-            print(vereador_id)
-            user_ip = get('https://api.ipify.org').content.decode('utf8')
-            print(user_ip)  
-
-            if conteudo and vereador_id:
-                user_id = criar_usuario_anonimo(user_ip)
-                print(user_id)
-
-                if user_id:
-                    # Insere o comentário no banco de dados
-                    inserir_comentario(conteudo, 5, vereador_id, user_ip)
-                    comentarios = obter_comentarios(vereador_id) 
-                    logging.info("Comentário adicionado com sucesso.")
-
-                    # Redireciona para a mesma página para evitar reenvio do formulário
-                    return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
-                else:
-                    logging.error("Erro ao criar ou obter o usuário anônimo.")
-            else:
-                logging.warning("Comentário, avaliação ou ID do vereador ausente no formulário.")
-        
-        comentarios = obter_comentarios(vereador_id) 
-        print(comentarios) # Função para obter comentários com base no ID do vereador
+        vereador_id = parlamentar.get("ID_VER")
+        comentarios = obter_comentarios(vereador_id)
 
         # Renderiza a página de perfil com os comentários
         return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
-    
+
     except FileNotFoundError:
         logging.error("Arquivo não encontrado")
         return render_template('404.html'), 404
     except json.JSONDecodeError:
         logging.error("Erro ao decodificar JSON")
         return render_template('500.html'), 500
+
+
+# Nova rota para enviar comentários via AJAX
+@app.route('/comentar', methods=['POST'])
+def comentar():
+    try:
+        # Recebe os dados do formulário
+        conteudo = request.form.get('comment')
+        NM_URNA_CANDIDATO = request.form.get('NM_URNA_CANDIDATO')
+        user_ip = request.remote_addr  # Obtém o IP do usuário
+
+        # Carrega o arquivo JSON para obter o vereador ID
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            data = json.load(file)
+
+        parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == NM_URNA_CANDIDATO), None)
+        vereador_id = parlamentar.get("ID_VER") if parlamentar else None
+
+        if conteudo and vereador_id:
+            user_id = criar_usuario_anonimo(user_ip)
+
+            if user_id:
+                # Insere o comentário no banco de dados
+                inserir_comentario(conteudo, 5, vereador_id, user_ip)
+                logging.info("Comentário adicionado com sucesso.")
+                return jsonify({"status": "success", "message": "Comentário adicionado com sucesso."})
+            else:
+                logging.error("Erro ao criar ou obter o usuário anônimo.")
+                return jsonify({"status": "error", "message": "Erro ao criar ou obter o usuário anônimo."}), 500
+        else:
+            logging.warning("Comentário ou ID do vereador ausente.")
+            return jsonify({"status": "error", "message": "Comentário ou ID do vereador ausente."}), 400
+
+    except Exception as e:
+        logging.error(f"Erro ao adicionar comentário: {e}")
+        return jsonify({"status": "error", "message": "Erro interno no servidor."}), 500
     
 
 #----------------------------------------------------------------------------------------
