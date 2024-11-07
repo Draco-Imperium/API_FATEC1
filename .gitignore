@@ -7,3 +7,4 @@ app/app.log
 *.pyc
 *.pyc
 *.log
+*.env

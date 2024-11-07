@@ -8140,3 +8140,1769 @@ Exception: Este é um erro simulado para testar o tratamento de erros 500.
 2024-11-05 08:08:35,789-INFO-127.0.0.1 - - [05/Nov/2024 08:08:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
 2024-11-05 08:08:35,790-INFO-127.0.0.1 - - [05/Nov/2024 08:08:35] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
 2024-11-05 08:08:35,891-INFO-127.0.0.1 - - [05/Nov/2024 08:08:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 11:28:44,176-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-05 11:28:44,176-INFO-[33mPress CTRL+C to quit[0m
+2024-11-05 11:28:44,191-INFO- * Restarting with stat
+2024-11-05 11:28:46,570-WARNING- * Debugger is active!
+2024-11-05 11:28:46,593-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:29:08,383-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-05 11:29:08,383-INFO-[33mPress CTRL+C to quit[0m
+2024-11-05 11:29:08,391-INFO- * Restarting with stat
+2024-11-05 11:29:10,012-WARNING- * Debugger is active!
+2024-11-05 11:29:10,025-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:29:45,732-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-05 11:29:45,732-INFO-[33mPress CTRL+C to quit[0m
+2024-11-05 11:30:06,518-INFO-127.0.0.1 - - [05/Nov/2024 11:30:06] "GET / HTTP/1.1" 200 -
+2024-11-05 11:30:07,120-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 11:30:07,143-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-05 11:30:07,251-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-05 11:30:07,295-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-05 11:30:07,297-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 11:30:07,296-INFO-127.0.0.1 - - [05/Nov/2024 11:30:07] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-05 11:30:08,067-INFO-127.0.0.1 - - [05/Nov/2024 11:30:08] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-05 11:30:11,328-INFO-127.0.0.1 - - [05/Nov/2024 11:30:11] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-05 11:30:11,649-INFO-127.0.0.1 - - [05/Nov/2024 11:30:11] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-05 11:30:11,949-INFO-127.0.0.1 - - [05/Nov/2024 11:30:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 11:30:11,964-INFO-127.0.0.1 - - [05/Nov/2024 11:30:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 11:30:14,511-INFO-127.0.0.1 - - [05/Nov/2024 11:30:14] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 11:30:14,697-INFO-127.0.0.1 - - [05/Nov/2024 11:30:14] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-05 11:30:14,748-INFO-127.0.0.1 - - [05/Nov/2024 11:30:14] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-05 11:30:14,997-INFO-127.0.0.1 - - [05/Nov/2024 11:30:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 11:30:14,999-INFO-127.0.0.1 - - [05/Nov/2024 11:30:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 11:30:15,563-INFO-127.0.0.1 - - [05/Nov/2024 11:30:15] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 11:53:29,886-INFO-127.0.0.1 - - [05/Nov/2024 11:53:29] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 11:53:30,071-INFO-127.0.0.1 - - [05/Nov/2024 11:53:30] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 11:53:30,205-INFO-127.0.0.1 - - [05/Nov/2024 11:53:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 11:53:30,402-INFO-127.0.0.1 - - [05/Nov/2024 11:53:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 11:53:30,403-INFO-127.0.0.1 - - [05/Nov/2024 11:53:30] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 11:53:30,975-INFO-127.0.0.1 - - [05/Nov/2024 11:53:30] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 11:53:31,076-INFO-127.0.0.1 - - [05/Nov/2024 11:53:31] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 11:53:43,970-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-05 11:53:43,971-INFO-[33mPress CTRL+C to quit[0m
+2024-11-05 11:53:43,980-INFO- * Restarting with stat
+2024-11-05 11:53:45,812-WARNING- * Debugger is active!
+2024-11-05 11:53:45,827-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:53:46,287-INFO-127.0.0.1 - - [05/Nov/2024 11:53:46] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 11:53:46,551-INFO-127.0.0.1 - - [05/Nov/2024 11:53:46] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 11:53:46,666-INFO-127.0.0.1 - - [05/Nov/2024 11:53:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 11:53:46,710-INFO-127.0.0.1 - - [05/Nov/2024 11:53:46] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 11:53:46,711-INFO-127.0.0.1 - - [05/Nov/2024 11:53:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 11:53:47,084-INFO-127.0.0.1 - - [05/Nov/2024 11:53:47] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 11:53:47,167-INFO-127.0.0.1 - - [05/Nov/2024 11:53:47] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 11:56:11,273-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 11:56:11,641-INFO- * Restarting with stat
+2024-11-05 11:56:13,929-INFO- * Restarting with stat
+2024-11-05 11:56:15,837-WARNING- * Debugger is active!
+2024-11-05 11:56:15,850-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:57:11,877-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 11:57:11,964-INFO- * Restarting with stat
+2024-11-05 11:57:14,579-WARNING- * Debugger is active!
+2024-11-05 11:57:14,595-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:57:16,677-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 11:57:16,796-INFO- * Restarting with stat
+2024-11-05 11:57:19,931-INFO- * Restarting with stat
+2024-11-05 11:57:23,236-WARNING- * Debugger is active!
+2024-11-05 11:57:23,251-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:57:35,387-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 11:57:35,507-INFO- * Restarting with stat
+2024-11-05 11:57:37,409-WARNING- * Debugger is active!
+2024-11-05 11:57:37,431-INFO- * Debugger PIN: 120-436-784
+2024-11-05 11:59:03,756-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 11:59:03,987-INFO- * Restarting with stat
+2024-11-05 11:59:06,825-WARNING- * Debugger is active!
+2024-11-05 11:59:06,839-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:01:38,372-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:01:38,463-INFO- * Restarting with stat
+2024-11-05 12:01:41,139-WARNING- * Debugger is active!
+2024-11-05 12:01:41,152-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:03:34,235-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:03:34,362-INFO- * Restarting with stat
+2024-11-05 12:03:37,331-WARNING- * Debugger is active!
+2024-11-05 12:03:37,362-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:03:42,444-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:03:42,637-INFO- * Restarting with stat
+2024-11-05 12:03:47,468-WARNING- * Debugger is active!
+2024-11-05 12:03:47,525-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:03:51,792-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:03:52,055-INFO- * Restarting with stat
+2024-11-05 12:03:57,441-WARNING- * Debugger is active!
+2024-11-05 12:03:57,458-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:06:41,439-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:06:41,816-INFO- * Restarting with stat
+2024-11-05 12:06:44,722-WARNING- * Debugger is active!
+2024-11-05 12:06:44,737-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:07:06,109-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:07:06,257-INFO- * Restarting with stat
+2024-11-05 12:07:09,888-WARNING- * Debugger is active!
+2024-11-05 12:07:09,908-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:07:10,989-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:07:11,140-INFO- * Restarting with stat
+2024-11-05 12:07:14,896-WARNING- * Debugger is active!
+2024-11-05 12:07:14,910-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:07:16,956-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:07:17,270-INFO- * Restarting with stat
+2024-11-05 12:07:20,571-WARNING- * Debugger is active!
+2024-11-05 12:07:20,592-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:07:24,749-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:07:25,186-INFO- * Restarting with stat
+2024-11-05 12:07:29,245-WARNING- * Debugger is active!
+2024-11-05 12:07:29,267-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:07:57,610-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:07:57,860-INFO- * Restarting with stat
+2024-11-05 12:08:00,736-WARNING- * Debugger is active!
+2024-11-05 12:08:00,751-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:08:23,200-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:08:23,322-INFO- * Restarting with stat
+2024-11-05 12:08:26,857-WARNING- * Debugger is active!
+2024-11-05 12:08:26,908-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:08:29,078-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:08:29,252-INFO- * Restarting with stat
+2024-11-05 12:08:33,759-WARNING- * Debugger is active!
+2024-11-05 12:08:33,794-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:08:40,968-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:08:41,165-INFO- * Restarting with stat
+2024-11-05 12:08:43,429-WARNING- * Debugger is active!
+2024-11-05 12:08:43,447-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:10:20,875-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:10:21,122-INFO- * Restarting with stat
+2024-11-05 12:10:24,991-INFO- * Restarting with stat
+2024-11-05 12:10:29,059-WARNING- * Debugger is active!
+2024-11-05 12:10:29,089-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:10:31,149-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:10:31,275-INFO- * Restarting with stat
+2024-11-05 12:10:33,812-WARNING- * Debugger is active!
+2024-11-05 12:10:33,826-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:10:53,075-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:10:53,217-INFO- * Restarting with stat
+2024-11-05 12:10:56,356-INFO- * Restarting with stat
+2024-11-05 12:10:58,414-WARNING- * Debugger is active!
+2024-11-05 12:10:58,435-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:05,554-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:05,648-INFO- * Restarting with stat
+2024-11-05 12:11:08,109-WARNING- * Debugger is active!
+2024-11-05 12:11:08,132-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:15,243-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:15,388-INFO- * Restarting with stat
+2024-11-05 12:11:17,967-WARNING- * Debugger is active!
+2024-11-05 12:11:18,000-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:23,117-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:23,253-INFO- * Restarting with stat
+2024-11-05 12:11:30,873-WARNING- * Debugger is active!
+2024-11-05 12:11:30,899-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:31,953-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:32,276-INFO- * Restarting with stat
+2024-11-05 12:11:35,897-WARNING- * Debugger is active!
+2024-11-05 12:11:35,958-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:37,321-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:38,231-INFO- * Restarting with stat
+2024-11-05 12:11:41,539-WARNING- * Debugger is active!
+2024-11-05 12:11:41,553-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:11:58,798-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:11:58,899-INFO- * Restarting with stat
+2024-11-05 12:12:02,936-WARNING- * Debugger is active!
+2024-11-05 12:12:02,963-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:12:08,052-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:12:08,129-INFO- * Restarting with stat
+2024-11-05 12:12:09,891-WARNING- * Debugger is active!
+2024-11-05 12:12:09,911-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:13:06,073-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 12:13:06,365-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 12:13:06,484-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 12:13:06,486-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 12:13:06,498-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:13:06,992-INFO-127.0.0.1 - - [05/Nov/2024 12:13:06] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 12:13:07,077-INFO-127.0.0.1 - - [05/Nov/2024 12:13:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 12:13:17,612-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-05 12:13:17,628-INFO-127.0.0.1 - - [05/Nov/2024 12:13:17] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-05 12:13:17,943-INFO-127.0.0.1 - - [05/Nov/2024 12:13:17] "GET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-05 12:13:18,108-INFO-127.0.0.1 - - [05/Nov/2024 12:13:18] "GET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-05 12:13:18,534-INFO-127.0.0.1 - - [05/Nov/2024 12:13:18] "GET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-05 12:13:18,796-INFO-127.0.0.1 - - [05/Nov/2024 12:13:18] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-05 12:13:33,000-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:13:33,127-INFO- * Restarting with stat
+2024-11-05 12:13:36,045-WARNING- * Debugger is active!
+2024-11-05 12:13:36,066-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:13:37,098-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:13:37,222-INFO- * Restarting with stat
+2024-11-05 12:13:41,132-INFO- * Restarting with stat
+2024-11-05 12:13:43,667-WARNING- * Debugger is active!
+2024-11-05 12:13:43,681-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:14:11,958-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:14:12,054-INFO- * Restarting with stat
+2024-11-05 12:14:22,128-INFO- * Restarting with stat
+2024-11-05 12:14:27,121-WARNING- * Debugger is active!
+2024-11-05 12:14:27,137-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:14:27,208-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 12:14:27,213-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 12:14:27,532-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 12:14:27,681-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:14:27,683-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 12:14:27,793-INFO-127.0.0.1 - - [05/Nov/2024 12:14:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 12:14:28,379-INFO-127.0.0.1 - - [05/Nov/2024 12:14:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 12:14:28,408-INFO-127.0.0.1 - - [05/Nov/2024 12:14:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 12:14:31,735-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-05 12:14:31,745-INFO-127.0.0.1 - - [05/Nov/2024 12:14:31] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-05 12:14:32,043-INFO-127.0.0.1 - - [05/Nov/2024 12:14:32] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:14:32,177-INFO-127.0.0.1 - - [05/Nov/2024 12:14:32] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-05 12:14:32,569-INFO-127.0.0.1 - - [05/Nov/2024 12:14:32] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-05 12:14:48,893-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:14:48,966-INFO- * Restarting with stat
+2024-11-05 12:14:54,309-INFO- * Restarting with stat
+2024-11-05 12:14:58,047-WARNING- * Debugger is active!
+2024-11-05 12:14:58,078-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:14:59,166-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:14:59,359-INFO- * Restarting with stat
+2024-11-05 12:15:01,670-WARNING- * Debugger is active!
+2024-11-05 12:15:01,686-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:15:03,749-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:15:03,898-INFO- * Restarting with stat
+2024-11-05 12:15:06,187-WARNING- * Debugger is active!
+2024-11-05 12:15:06,206-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:15:06,262-INFO-127.0.0.1 - - [05/Nov/2024 12:15:06] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 12:15:06,851-INFO-127.0.0.1 - - [05/Nov/2024 12:15:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:07,113-INFO-127.0.0.1 - - [05/Nov/2024 12:15:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:07,196-INFO-127.0.0.1 - - [05/Nov/2024 12:15:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 12:15:07,530-INFO-127.0.0.1 - - [05/Nov/2024 12:15:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 12:15:08,642-INFO-127.0.0.1 - - [05/Nov/2024 12:15:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 12:15:08,750-INFO-127.0.0.1 - - [05/Nov/2024 12:15:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 12:15:13,890-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-05 12:15:13,926-INFO-127.0.0.1 - - [05/Nov/2024 12:15:13] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-05 12:15:14,190-INFO-127.0.0.1 - - [05/Nov/2024 12:15:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:14,351-INFO-127.0.0.1 - - [05/Nov/2024 12:15:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-05 12:15:14,753-INFO-127.0.0.1 - - [05/Nov/2024 12:15:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-05 12:15:25,776-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:15:25,899-INFO- * Restarting with stat
+2024-11-05 12:15:27,863-WARNING- * Debugger is active!
+2024-11-05 12:15:27,881-INFO- * Debugger PIN: 120-436-784
+2024-11-05 12:15:50,724-INFO-127.0.0.1 - - [05/Nov/2024 12:15:50] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-05 12:15:50,977-INFO-127.0.0.1 - - [05/Nov/2024 12:15:50] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:51,128-INFO-127.0.0.1 - - [05/Nov/2024 12:15:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:51,158-INFO-127.0.0.1 - - [05/Nov/2024 12:15:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-05 12:15:51,169-INFO-127.0.0.1 - - [05/Nov/2024 12:15:51] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-05 12:15:51,718-INFO-127.0.0.1 - - [05/Nov/2024 12:15:51] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-05 12:15:51,806-INFO-127.0.0.1 - - [05/Nov/2024 12:15:51] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-05 12:15:55,993-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-05 12:15:56,010-INFO-127.0.0.1 - - [05/Nov/2024 12:15:56] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-05 12:15:56,305-INFO-127.0.0.1 - - [05/Nov/2024 12:15:56] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-05 12:15:56,438-INFO-127.0.0.1 - - [05/Nov/2024 12:15:56] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-05 12:15:56,818-INFO-127.0.0.1 - - [05/Nov/2024 12:15:56] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-05 12:17:53,681-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-05 12:17:53,882-INFO- * Restarting with stat
+2024-11-05 12:17:59,799-WARNING- * Debugger is active!
+2024-11-05 12:17:59,813-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:18:53,213-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-06 10:18:53,229-INFO-[33mPress CTRL+C to quit[0m
+2024-11-06 10:18:53,241-INFO- * Restarting with stat
+2024-11-06 10:18:54,855-WARNING- * Debugger is active!
+2024-11-06 10:18:54,873-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:19:03,134-INFO-127.0.0.1 - - [06/Nov/2024 10:19:03] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:19:03,804-INFO-127.0.0.1 - - [06/Nov/2024 10:19:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:19:03,871-INFO-127.0.0.1 - - [06/Nov/2024 10:19:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:19:04,070-INFO-127.0.0.1 - - [06/Nov/2024 10:19:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:19:04,082-INFO-127.0.0.1 - - [06/Nov/2024 10:19:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:19:04,652-INFO-127.0.0.1 - - [06/Nov/2024 10:19:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:19:04,772-INFO-127.0.0.1 - - [06/Nov/2024 10:19:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:19:09,877-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:19:09,907-INFO-127.0.0.1 - - [06/Nov/2024 10:19:09] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-06 10:19:10,231-INFO-127.0.0.1 - - [06/Nov/2024 10:19:10] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:19:10,419-INFO-127.0.0.1 - - [06/Nov/2024 10:19:10] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:19:10,928-INFO-127.0.0.1 - - [06/Nov/2024 10:19:10] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:20:15,916-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:20:16,221-INFO- * Restarting with stat
+2024-11-06 10:20:20,202-WARNING- * Debugger is active!
+2024-11-06 10:20:20,227-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:20:27,397-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:20:27,560-INFO- * Restarting with stat
+2024-11-06 10:20:30,958-WARNING- * Debugger is active!
+2024-11-06 10:20:30,982-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:20:34,207-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:20:34,363-INFO- * Restarting with stat
+2024-11-06 10:20:36,798-WARNING- * Debugger is active!
+2024-11-06 10:20:36,814-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:20:36,861-INFO-127.0.0.1 - - [06/Nov/2024 10:20:36] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:20:37,142-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:20:37,174-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:20:37,266-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:20:37,274-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:20:37,641-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:20:37,777-INFO-127.0.0.1 - - [06/Nov/2024 10:20:37] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:20:40,478-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:20:40,493-INFO-127.0.0.1 - - [06/Nov/2024 10:20:40] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-06 10:20:40,775-INFO-127.0.0.1 - - [06/Nov/2024 10:20:40] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:20:40,929-INFO-127.0.0.1 - - [06/Nov/2024 10:20:40] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:20:41,334-INFO-127.0.0.1 - - [06/Nov/2024 10:20:41] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:22:18,846-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:22:19,047-INFO- * Restarting with stat
+2024-11-06 10:22:23,893-WARNING- * Debugger is active!
+2024-11-06 10:22:23,909-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:22:29,841-INFO-127.0.0.1 - - [06/Nov/2024 10:22:29] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:22:30,196-INFO-127.0.0.1 - - [06/Nov/2024 10:22:30] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:22:30,291-INFO-127.0.0.1 - - [06/Nov/2024 10:22:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:22:30,355-INFO-127.0.0.1 - - [06/Nov/2024 10:22:30] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:22:30,427-INFO-127.0.0.1 - - [06/Nov/2024 10:22:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:22:30,846-INFO-127.0.0.1 - - [06/Nov/2024 10:22:30] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:22:31,046-INFO-127.0.0.1 - - [06/Nov/2024 10:22:31] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:22:33,951-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:22:33,965-INFO-127.0.0.1 - - [06/Nov/2024 10:22:33] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-06 10:22:34,258-INFO-127.0.0.1 - - [06/Nov/2024 10:22:34] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:22:34,404-INFO-127.0.0.1 - - [06/Nov/2024 10:22:34] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:22:34,854-INFO-127.0.0.1 - - [06/Nov/2024 10:22:34] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:26:10,781-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:26:11,054-INFO- * Restarting with stat
+2024-11-06 10:26:13,970-WARNING- * Debugger is active!
+2024-11-06 10:26:13,992-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:26:27,291-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:26:27,365-INFO- * Restarting with stat
+2024-11-06 10:26:30,172-WARNING- * Debugger is active!
+2024-11-06 10:26:30,243-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:26:32,316-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:26:32,442-INFO- * Restarting with stat
+2024-11-06 10:26:36,410-WARNING- * Debugger is active!
+2024-11-06 10:26:36,427-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:27:08,047-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:27:08,295-INFO- * Restarting with stat
+2024-11-06 10:27:10,388-WARNING- * Debugger is active!
+2024-11-06 10:27:10,405-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:27:13,550-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:27:13,668-INFO- * Restarting with stat
+2024-11-06 10:27:16,929-WARNING- * Debugger is active!
+2024-11-06 10:27:16,978-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:27:18,034-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:27:18,167-INFO- * Restarting with stat
+2024-11-06 10:27:20,706-WARNING- * Debugger is active!
+2024-11-06 10:27:20,804-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:27:23,569-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:27:24,765-INFO- * Restarting with stat
+2024-11-06 10:27:33,017-WARNING- * Debugger is active!
+2024-11-06 10:27:33,150-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:27:34,275-INFO-127.0.0.1 - - [06/Nov/2024 10:27:34] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 10:27:34,627-INFO-127.0.0.1 - - [06/Nov/2024 10:27:34] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-06 10:27:34,646-INFO-127.0.0.1 - - [06/Nov/2024 10:27:34] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-06 10:27:35,372-INFO-127.0.0.1 - - [06/Nov/2024 10:27:35] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-06 10:27:35,590-INFO-127.0.0.1 - - [06/Nov/2024 10:27:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:31:29,385-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:31:29,583-INFO- * Restarting with stat
+2024-11-06 10:31:33,541-WARNING- * Debugger is active!
+2024-11-06 10:31:33,564-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:31:34,669-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:31:34,908-INFO- * Restarting with stat
+2024-11-06 10:31:41,178-INFO- * Restarting with stat
+2024-11-06 10:31:45,465-INFO- * Restarting with stat
+2024-11-06 10:31:48,659-INFO- * Restarting with stat
+2024-11-06 10:31:53,105-INFO- * Restarting with stat
+2024-11-06 10:31:55,090-INFO- * Restarting with stat
+2024-11-06 10:32:04,004-INFO- * Restarting with stat
+2024-11-06 10:32:07,098-WARNING- * Debugger is active!
+2024-11-06 10:32:07,112-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:32:08,164-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:32:08,427-INFO- * Restarting with stat
+2024-11-06 10:32:10,598-WARNING- * Debugger is active!
+2024-11-06 10:32:10,611-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:33:01,908-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:33:02,228-INFO- * Restarting with stat
+2024-11-06 10:33:11,232-WARNING- * Debugger is active!
+2024-11-06 10:33:11,261-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:33:26,533-INFO-127.0.0.1 - - [06/Nov/2024 10:33:26] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-06 10:33:27,052-INFO-127.0.0.1 - - [06/Nov/2024 10:33:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:33:27,079-INFO-127.0.0.1 - - [06/Nov/2024 10:33:27] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-06 10:33:27,180-INFO-127.0.0.1 - - [06/Nov/2024 10:33:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:33:28,955-INFO-127.0.0.1 - - [06/Nov/2024 10:33:28] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:33:29,051-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:33:29,365-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:33:29,365-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:33:29,366-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:33:29,854-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:33:29,915-INFO-127.0.0.1 - - [06/Nov/2024 10:33:29] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:33:33,175-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:33:33,197-INFO-127.0.0.1 - - [06/Nov/2024 10:33:33] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-06 10:33:33,481-INFO-127.0.0.1 - - [06/Nov/2024 10:33:33] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:33:33,646-INFO-127.0.0.1 - - [06/Nov/2024 10:33:33] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:33:34,029-INFO-127.0.0.1 - - [06/Nov/2024 10:33:34] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:34:08,854-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:34:08,968-INFO- * Restarting with stat
+2024-11-06 10:34:13,193-WARNING- * Debugger is active!
+2024-11-06 10:34:13,262-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:34:15,431-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:34:15,605-INFO- * Restarting with stat
+2024-11-06 10:34:17,907-WARNING- * Debugger is active!
+2024-11-06 10:34:17,985-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:01,518-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:01,855-INFO- * Restarting with stat
+2024-11-06 10:35:08,189-WARNING- * Debugger is active!
+2024-11-06 10:35:08,210-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:10,412-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:10,657-INFO- * Restarting with stat
+2024-11-06 10:35:13,057-WARNING- * Debugger is active!
+2024-11-06 10:35:13,070-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:34,286-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:34,403-INFO- * Restarting with stat
+2024-11-06 10:35:36,299-WARNING- * Debugger is active!
+2024-11-06 10:35:36,318-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:44,425-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:44,546-INFO- * Restarting with stat
+2024-11-06 10:35:46,941-WARNING- * Debugger is active!
+2024-11-06 10:35:46,962-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:48,027-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:48,189-INFO- * Restarting with stat
+2024-11-06 10:35:51,684-WARNING- * Debugger is active!
+2024-11-06 10:35:51,702-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:35:58,819-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:35:58,931-INFO- * Restarting with stat
+2024-11-06 10:36:01,711-WARNING- * Debugger is active!
+2024-11-06 10:36:01,747-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:36:02,801-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:36:02,875-INFO- * Restarting with stat
+2024-11-06 10:36:05,149-WARNING- * Debugger is active!
+2024-11-06 10:36:05,166-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:36:06,231-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:36:06,322-INFO- * Restarting with stat
+2024-11-06 10:36:09,387-WARNING- * Debugger is active!
+2024-11-06 10:36:09,409-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:36:10,443-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:36:10,536-INFO- * Restarting with stat
+2024-11-06 10:36:13,692-WARNING- * Debugger is active!
+2024-11-06 10:36:13,709-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:36:13,735-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:36:13,769-INFO-127.0.0.1 - - [06/Nov/2024 10:36:13] "[35m[1mPOST /comentar HTTP/1.1[0m" 500 -
+2024-11-06 10:36:14,136-INFO-127.0.0.1 - - [06/Nov/2024 10:36:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:36:14,153-INFO-127.0.0.1 - - [06/Nov/2024 10:36:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:36:14,491-INFO-127.0.0.1 - - [06/Nov/2024 10:36:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:36:14,761-INFO-127.0.0.1 - - [06/Nov/2024 10:36:14] "[36mGET /comentar?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:36:37,998-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:36:38,084-INFO- * Restarting with stat
+2024-11-06 10:36:40,341-WARNING- * Debugger is active!
+2024-11-06 10:36:40,356-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:36:52,492-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:36:52,607-INFO- * Restarting with stat
+2024-11-06 10:36:54,907-WARNING- * Debugger is active!
+2024-11-06 10:36:54,926-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:37:20,227-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:37:20,315-INFO- * Restarting with stat
+2024-11-06 10:37:22,871-WARNING- * Debugger is active!
+2024-11-06 10:37:22,885-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:37:23,613-INFO-127.0.0.1 - - [06/Nov/2024 10:37:23] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:37:23,896-INFO-127.0.0.1 - - [06/Nov/2024 10:37:23] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:37:24,048-INFO-127.0.0.1 - - [06/Nov/2024 10:37:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:37:24,057-INFO-127.0.0.1 - - [06/Nov/2024 10:37:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:37:24,059-INFO-127.0.0.1 - - [06/Nov/2024 10:37:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:37:24,627-INFO-127.0.0.1 - - [06/Nov/2024 10:37:24] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:37:24,726-INFO-127.0.0.1 - - [06/Nov/2024 10:37:24] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:37:28,319-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:37:28,325-INFO-127.0.0.1 - - [06/Nov/2024 10:37:28] "POST /comentar HTTP/1.1" 200 -
+2024-11-06 10:37:28,628-INFO-127.0.0.1 - - [06/Nov/2024 10:37:28] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:37:28,776-INFO-127.0.0.1 - - [06/Nov/2024 10:37:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:37:28,776-INFO-127.0.0.1 - - [06/Nov/2024 10:37:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:37:28,778-INFO-127.0.0.1 - - [06/Nov/2024 10:37:28] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:37:29,170-INFO-127.0.0.1 - - [06/Nov/2024 10:37:29] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:37:54,528-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:37:54,815-INFO- * Restarting with stat
+2024-11-06 10:37:58,563-WARNING- * Debugger is active!
+2024-11-06 10:37:58,579-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:41:38,428-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:41:38,782-INFO- * Restarting with stat
+2024-11-06 10:41:41,390-WARNING- * Debugger is active!
+2024-11-06 10:41:41,414-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:41:45,504-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:41:45,774-INFO- * Restarting with stat
+2024-11-06 10:41:48,191-WARNING- * Debugger is active!
+2024-11-06 10:41:48,230-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:41:50,306-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:41:50,386-INFO- * Restarting with stat
+2024-11-06 10:41:55,071-WARNING- * Debugger is active!
+2024-11-06 10:41:55,089-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:42:32,726-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:42:32,869-INFO- * Restarting with stat
+2024-11-06 10:42:35,942-WARNING- * Debugger is active!
+2024-11-06 10:42:36,053-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:42:40,181-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:42:40,293-INFO- * Restarting with stat
+2024-11-06 10:42:42,381-WARNING- * Debugger is active!
+2024-11-06 10:42:42,403-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:42:46,467-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:42:46,545-INFO- * Restarting with stat
+2024-11-06 10:42:48,390-WARNING- * Debugger is active!
+2024-11-06 10:42:48,402-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:42:49,436-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:42:49,533-INFO- * Restarting with stat
+2024-11-06 10:42:53,556-WARNING- * Debugger is active!
+2024-11-06 10:42:53,569-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:42:55,608-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:42:55,778-INFO- * Restarting with stat
+2024-11-06 10:42:57,999-WARNING- * Debugger is active!
+2024-11-06 10:42:58,012-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:43:17,203-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-06 10:43:17,336-INFO-127.0.0.1 - - [06/Nov/2024 10:43:17] "[33mPOST /comentar HTTP/1.1[0m" 404 -
+2024-11-06 10:43:17,566-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-06 10:43:17,568-INFO-127.0.0.1 - - [06/Nov/2024 10:43:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-06 10:43:20,173-INFO-127.0.0.1 - - [06/Nov/2024 10:43:20] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:43:22,316-INFO-127.0.0.1 - - [06/Nov/2024 10:43:22] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:43:22,418-INFO-127.0.0.1 - - [06/Nov/2024 10:43:22] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:43:22,568-INFO-127.0.0.1 - - [06/Nov/2024 10:43:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:43:22,729-INFO-127.0.0.1 - - [06/Nov/2024 10:43:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:43:22,752-INFO-127.0.0.1 - - [06/Nov/2024 10:43:22] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:43:23,137-INFO-127.0.0.1 - - [06/Nov/2024 10:43:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:43:23,227-INFO-127.0.0.1 - - [06/Nov/2024 10:43:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:43:27,657-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-06 10:43:27,658-INFO-127.0.0.1 - - [06/Nov/2024 10:43:27] "[33mPOST /comentar HTTP/1.1[0m" 404 -
+2024-11-06 10:46:35,443-INFO-127.0.0.1 - - [06/Nov/2024 10:46:35] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:46:35,542-INFO-127.0.0.1 - - [06/Nov/2024 10:46:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:46:35,668-INFO-127.0.0.1 - - [06/Nov/2024 10:46:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:46:35,867-INFO-127.0.0.1 - - [06/Nov/2024 10:46:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:46:35,870-INFO-127.0.0.1 - - [06/Nov/2024 10:46:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:46:36,340-INFO-127.0.0.1 - - [06/Nov/2024 10:46:36] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:46:36,341-INFO-127.0.0.1 - - [06/Nov/2024 10:46:36] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:46:38,727-WARNING-Parlamentar com NM_URNA_CANDIDATO 'DR ELTON' não encontrado.
+2024-11-06 10:46:38,728-INFO-127.0.0.1 - - [06/Nov/2024 10:46:38] "[33mPOST /perfil/DR%20ELTON HTTP/1.1[0m" 404 -
+2024-11-06 10:50:32,332-WARNING-Parlamentar com NM_URNA_CANDIDATO 'DR ELTON' não encontrado.
+2024-11-06 10:50:32,336-INFO-127.0.0.1 - - [06/Nov/2024 10:50:32] "[33mPOST /perfil/DR%20ELTON HTTP/1.1[0m" 404 -
+2024-11-06 10:53:29,548-INFO-127.0.0.1 - - [06/Nov/2024 10:53:29] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:53:29,649-INFO-127.0.0.1 - - [06/Nov/2024 10:53:29] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:53:29,786-INFO-127.0.0.1 - - [06/Nov/2024 10:53:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:53:29,970-INFO-127.0.0.1 - - [06/Nov/2024 10:53:29] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:53:29,978-INFO-127.0.0.1 - - [06/Nov/2024 10:53:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:53:30,327-INFO-127.0.0.1 - - [06/Nov/2024 10:53:30] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:53:30,339-INFO-127.0.0.1 - - [06/Nov/2024 10:53:30] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 10:53:35,065-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:53:35,068-INFO-127.0.0.1 - - [06/Nov/2024 10:53:35] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 10:53:35,362-INFO-127.0.0.1 - - [06/Nov/2024 10:53:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 10:53:35,494-INFO-127.0.0.1 - - [06/Nov/2024 10:53:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:53:35,497-INFO-127.0.0.1 - - [06/Nov/2024 10:53:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 10:53:35,501-INFO-127.0.0.1 - - [06/Nov/2024 10:53:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 10:53:36,009-INFO-127.0.0.1 - - [06/Nov/2024 10:53:36] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 10:57:39,319-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:57:39,457-INFO- * Restarting with stat
+2024-11-06 10:57:44,338-INFO- * Restarting with stat
+2024-11-06 10:57:48,735-WARNING- * Debugger is active!
+2024-11-06 10:57:48,797-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:57:50,580-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:57:50,602-INFO-127.0.0.1 - - [06/Nov/2024 10:57:50] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 10:57:51,017-INFO-127.0.0.1 - - [06/Nov/2024 10:57:51] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:57:51,044-INFO-127.0.0.1 - - [06/Nov/2024 10:57:51] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:57:51,412-INFO-127.0.0.1 - - [06/Nov/2024 10:57:51] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:57:51,670-INFO-127.0.0.1 - - [06/Nov/2024 10:57:51] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:57:58,408-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:57:58,434-INFO-127.0.0.1 - - [06/Nov/2024 10:57:58] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 10:57:58,715-INFO-127.0.0.1 - - [06/Nov/2024 10:57:58] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:57:58,864-INFO-127.0.0.1 - - [06/Nov/2024 10:57:58] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:57:59,009-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:57:59,292-INFO- * Restarting with stat
+2024-11-06 10:58:01,867-WARNING- * Debugger is active!
+2024-11-06 10:58:01,888-INFO- * Debugger PIN: 120-436-784
+2024-11-06 10:58:01,916-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 10:58:01,932-INFO-127.0.0.1 - - [06/Nov/2024 10:58:01] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 10:58:02,060-INFO-127.0.0.1 - - [06/Nov/2024 10:58:02] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:58:02,362-INFO-127.0.0.1 - - [06/Nov/2024 10:58:02] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 10:58:02,363-INFO-127.0.0.1 - - [06/Nov/2024 10:58:02] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 10:58:02,605-INFO-127.0.0.1 - - [06/Nov/2024 10:58:02] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-06 10:58:02,714-INFO-127.0.0.1 - - [06/Nov/2024 10:58:02] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 10:58:50,810-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 10:58:50,968-INFO- * Restarting with stat
+2024-11-06 10:58:53,974-WARNING- * Debugger is active!
+2024-11-06 10:58:53,990-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:07,128-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:07,257-INFO- * Restarting with stat
+2024-11-06 11:01:11,712-WARNING- * Debugger is active!
+2024-11-06 11:01:11,729-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:13,772-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:13,881-INFO- * Restarting with stat
+2024-11-06 11:01:16,507-WARNING- * Debugger is active!
+2024-11-06 11:01:16,535-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:17,599-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:17,837-INFO- * Restarting with stat
+2024-11-06 11:01:21,052-INFO- * Restarting with stat
+2024-11-06 11:01:28,168-INFO- * Restarting with stat
+2024-11-06 11:01:31,093-INFO- * Restarting with stat
+2024-11-06 11:01:33,746-WARNING- * Debugger is active!
+2024-11-06 11:01:33,774-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:34,851-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:34,929-INFO- * Restarting with stat
+2024-11-06 11:01:37,439-WARNING- * Debugger is active!
+2024-11-06 11:01:37,453-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:38,496-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:38,583-INFO- * Restarting with stat
+2024-11-06 11:01:40,978-WARNING- * Debugger is active!
+2024-11-06 11:01:40,992-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:47,108-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:47,324-INFO- * Restarting with stat
+2024-11-06 11:01:49,497-WARNING- * Debugger is active!
+2024-11-06 11:01:49,510-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:55,590-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:01:55,680-INFO- * Restarting with stat
+2024-11-06 11:01:57,796-WARNING- * Debugger is active!
+2024-11-06 11:01:57,810-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:01:59,869-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:02:00,060-INFO- * Restarting with stat
+2024-11-06 11:02:04,244-WARNING- * Debugger is active!
+2024-11-06 11:02:04,265-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:46:04,332-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-06 11:46:04,433-INFO-[33mPress CTRL+C to quit[0m
+2024-11-06 11:46:04,441-INFO- * Restarting with stat
+2024-11-06 11:46:06,559-WARNING- * Debugger is active!
+2024-11-06 11:46:06,575-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:46:09,213-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 11:46:09,262-INFO-127.0.0.1 - - [06/Nov/2024 11:46:09] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:46:09,593-INFO-127.0.0.1 - - [06/Nov/2024 11:46:09] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:46:09,633-INFO-127.0.0.1 - - [06/Nov/2024 11:46:09] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:46:10,005-INFO-127.0.0.1 - - [06/Nov/2024 11:46:10] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:46:10,271-INFO-127.0.0.1 - - [06/Nov/2024 11:46:10] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:46:11,971-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 11:46:11,989-INFO-127.0.0.1 - - [06/Nov/2024 11:46:11] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:46:12,275-INFO-127.0.0.1 - - [06/Nov/2024 11:46:12] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:46:12,396-INFO-127.0.0.1 - - [06/Nov/2024 11:46:12] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:46:12,771-INFO-127.0.0.1 - - [06/Nov/2024 11:46:12] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:46:13,019-INFO-127.0.0.1 - - [06/Nov/2024 11:46:13] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:46:30,348-INFO-127.0.0.1 - - [06/Nov/2024 11:46:30] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:46:32,702-INFO-127.0.0.1 - - [06/Nov/2024 11:46:32] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 11:46:34,035-INFO-127.0.0.1 - - [06/Nov/2024 11:46:34] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:46:34,323-INFO-127.0.0.1 - - [06/Nov/2024 11:46:34] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:46:34,482-INFO-127.0.0.1 - - [06/Nov/2024 11:46:34] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:46:34,835-INFO-127.0.0.1 - - [06/Nov/2024 11:46:34] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:48:40,407-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:48:40,572-INFO- * Restarting with stat
+2024-11-06 11:48:44,281-WARNING- * Debugger is active!
+2024-11-06 11:48:44,321-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:48:45,558-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:48:45,803-INFO- * Restarting with stat
+2024-11-06 11:48:50,135-INFO- * Restarting with stat
+2024-11-06 11:48:56,603-WARNING- * Debugger is active!
+2024-11-06 11:48:56,622-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:49:27,034-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:49:27,126-INFO- * Restarting with stat
+2024-11-06 11:49:29,840-WARNING- * Debugger is active!
+2024-11-06 11:49:29,859-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:49:31,274-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:49:32,054-INFO- * Restarting with stat
+2024-11-06 11:49:37,167-WARNING- * Debugger is active!
+2024-11-06 11:49:37,180-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:50:31,342-INFO-127.0.0.1 - - [06/Nov/2024 11:50:31] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:50:31,677-INFO-127.0.0.1 - - [06/Nov/2024 11:50:31] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:50:31,726-INFO-127.0.0.1 - - [06/Nov/2024 11:50:31] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:50:32,092-INFO-127.0.0.1 - - [06/Nov/2024 11:50:32] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:50:32,355-INFO-127.0.0.1 - - [06/Nov/2024 11:50:32] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:50:46,554-INFO-127.0.0.1 - - [06/Nov/2024 11:50:46] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:50:46,707-INFO-127.0.0.1 - - [06/Nov/2024 11:50:46] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:50:47,026-INFO-127.0.0.1 - - [06/Nov/2024 11:50:47] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:50:47,152-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:50:47,388-INFO- * Restarting with stat
+2024-11-06 11:50:49,438-WARNING- * Debugger is active!
+2024-11-06 11:50:49,452-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:50:49,541-INFO-127.0.0.1 - - [06/Nov/2024 11:50:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:50:49,582-INFO-127.0.0.1 - - [06/Nov/2024 11:50:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:50:52,302-INFO-127.0.0.1 - - [06/Nov/2024 11:50:52] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:50:52,413-INFO-127.0.0.1 - - [06/Nov/2024 11:50:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:50:52,556-INFO-127.0.0.1 - - [06/Nov/2024 11:50:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:50:52,915-INFO-127.0.0.1 - - [06/Nov/2024 11:50:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:50:53,179-INFO-127.0.0.1 - - [06/Nov/2024 11:50:53] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:51:23,988-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:51:24,135-INFO- * Restarting with stat
+2024-11-06 11:51:26,349-WARNING- * Debugger is active!
+2024-11-06 11:51:26,363-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:51:26,451-INFO-127.0.0.1 - - [06/Nov/2024 11:51:26] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:51:27,102-INFO-127.0.0.1 - - [06/Nov/2024 11:51:27] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:51:27,108-INFO-127.0.0.1 - - [06/Nov/2024 11:51:27] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:51:27,251-INFO-127.0.0.1 - - [06/Nov/2024 11:51:27] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:51:27,685-INFO-127.0.0.1 - - [06/Nov/2024 11:51:27] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:51:27,960-INFO-127.0.0.1 - - [06/Nov/2024 11:51:27] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:51:28,154-INFO-127.0.0.1 - - [06/Nov/2024 11:51:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:51:28,372-INFO-127.0.0.1 - - [06/Nov/2024 11:51:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:51:28,467-INFO-127.0.0.1 - - [06/Nov/2024 11:51:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:51:28,918-INFO-127.0.0.1 - - [06/Nov/2024 11:51:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:51:39,628-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:51:39,707-INFO- * Restarting with stat
+2024-11-06 11:51:43,045-WARNING- * Debugger is active!
+2024-11-06 11:51:43,066-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:55:33,174-INFO-127.0.0.1 - - [06/Nov/2024 11:55:33] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:55:33,728-INFO-127.0.0.1 - - [06/Nov/2024 11:55:33] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:55:33,732-INFO-127.0.0.1 - - [06/Nov/2024 11:55:33] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:55:34,105-INFO-127.0.0.1 - - [06/Nov/2024 11:55:34] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:55:34,373-INFO-127.0.0.1 - - [06/Nov/2024 11:55:34] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:55:49,539-INFO-127.0.0.1 - - [06/Nov/2024 11:55:49] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:55:49,790-INFO-127.0.0.1 - - [06/Nov/2024 11:55:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:55:49,954-INFO-127.0.0.1 - - [06/Nov/2024 11:55:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:55:50,316-INFO-127.0.0.1 - - [06/Nov/2024 11:55:50] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:55:50,573-INFO-127.0.0.1 - - [06/Nov/2024 11:55:50] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:55:51,599-INFO-127.0.0.1 - - [06/Nov/2024 11:55:51] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:55:51,837-INFO-127.0.0.1 - - [06/Nov/2024 11:55:51] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:55:52,133-INFO-127.0.0.1 - - [06/Nov/2024 11:55:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:55:52,533-INFO-127.0.0.1 - - [06/Nov/2024 11:55:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:55:52,780-INFO-127.0.0.1 - - [06/Nov/2024 11:55:52] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:56:13,476-INFO-127.0.0.1 - - [06/Nov/2024 11:56:13] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:56:13,621-INFO-127.0.0.1 - - [06/Nov/2024 11:56:13] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:56:13,929-INFO-127.0.0.1 - - [06/Nov/2024 11:56:13] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:56:14,311-INFO-127.0.0.1 - - [06/Nov/2024 11:56:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:56:14,562-INFO-127.0.0.1 - - [06/Nov/2024 11:56:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:57:17,705-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:57:17,861-INFO- * Restarting with stat
+2024-11-06 11:57:20,299-WARNING- * Debugger is active!
+2024-11-06 11:57:20,332-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:57:41,687-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:57:41,842-INFO- * Restarting with stat
+2024-11-06 11:57:48,401-WARNING- * Debugger is active!
+2024-11-06 11:57:48,520-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:57:52,734-INFO-127.0.0.1 - - [06/Nov/2024 11:57:52] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:57:53,049-INFO-127.0.0.1 - - [06/Nov/2024 11:57:53] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:57:53,072-INFO-127.0.0.1 - - [06/Nov/2024 11:57:53] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:57:53,419-INFO-127.0.0.1 - - [06/Nov/2024 11:57:53] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:57:53,683-INFO-127.0.0.1 - - [06/Nov/2024 11:57:53] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:58:58,349-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:58:58,429-INFO- * Restarting with stat
+2024-11-06 11:59:10,711-INFO- * Restarting with stat
+2024-11-06 11:59:12,978-WARNING- * Debugger is active!
+2024-11-06 11:59:12,996-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:15,218-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:59:15,598-INFO- * Restarting with stat
+2024-11-06 11:59:18,286-WARNING- * Debugger is active!
+2024-11-06 11:59:18,314-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:19,374-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:59:19,746-INFO- * Restarting with stat
+2024-11-06 11:59:21,861-WARNING- * Debugger is active!
+2024-11-06 11:59:21,876-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:21,954-INFO-127.0.0.1 - - [06/Nov/2024 11:59:21] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:59:22,246-INFO-127.0.0.1 - - [06/Nov/2024 11:59:22] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:59:22,249-INFO-127.0.0.1 - - [06/Nov/2024 11:59:22] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:59:22,627-INFO-127.0.0.1 - - [06/Nov/2024 11:59:22] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:22,874-INFO-127.0.0.1 - - [06/Nov/2024 11:59:22] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:30,086-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:59:30,172-INFO- * Restarting with stat
+2024-11-06 11:59:32,431-WARNING- * Debugger is active!
+2024-11-06 11:59:32,458-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:32,538-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:59:32,748-INFO- * Restarting with stat
+2024-11-06 11:59:35,206-WARNING- * Debugger is active!
+2024-11-06 11:59:35,220-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:35,285-INFO-127.0.0.1 - - [06/Nov/2024 11:59:35] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:59:35,554-INFO-127.0.0.1 - - [06/Nov/2024 11:59:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:59:35,589-INFO-127.0.0.1 - - [06/Nov/2024 11:59:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:59:35,953-INFO-127.0.0.1 - - [06/Nov/2024 11:59:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:36,214-INFO-127.0.0.1 - - [06/Nov/2024 11:59:36] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:43,249-INFO-127.0.0.1 - - [06/Nov/2024 11:59:43] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:59:43,670-INFO-127.0.0.1 - - [06/Nov/2024 11:59:43] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:59:43,835-INFO-127.0.0.1 - - [06/Nov/2024 11:59:43] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:59:44,420-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 11:59:44,635-INFO- * Restarting with stat
+2024-11-06 11:59:46,534-WARNING- * Debugger is active!
+2024-11-06 11:59:46,550-INFO- * Debugger PIN: 120-436-784
+2024-11-06 11:59:46,636-INFO-127.0.0.1 - - [06/Nov/2024 11:59:46] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:46,672-INFO-127.0.0.1 - - [06/Nov/2024 11:59:46] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:48,421-INFO-127.0.0.1 - - [06/Nov/2024 11:59:48] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:59:48,538-INFO-127.0.0.1 - - [06/Nov/2024 11:59:48] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:59:48,637-INFO-127.0.0.1 - - [06/Nov/2024 11:59:48] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:59:49,012-INFO-127.0.0.1 - - [06/Nov/2024 11:59:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:49,261-INFO-127.0.0.1 - - [06/Nov/2024 11:59:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:49,536-INFO-127.0.0.1 - - [06/Nov/2024 11:59:49] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 11:59:49,819-INFO-127.0.0.1 - - [06/Nov/2024 11:59:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 11:59:49,950-INFO-127.0.0.1 - - [06/Nov/2024 11:59:49] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 11:59:50,323-INFO-127.0.0.1 - - [06/Nov/2024 11:59:50] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 11:59:50,575-INFO-127.0.0.1 - - [06/Nov/2024 11:59:50] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 12:00:13,906-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:00:14,026-INFO- * Restarting with stat
+2024-11-06 12:00:16,718-WARNING- * Debugger is active!
+2024-11-06 12:00:16,732-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:00:19,673-INFO-127.0.0.1 - - [06/Nov/2024 12:00:19] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 12:00:19,805-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:00:20,105-INFO- * Restarting with stat
+2024-11-06 12:00:23,038-WARNING- * Debugger is active!
+2024-11-06 12:00:23,068-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:00:23,255-INFO-127.0.0.1 - - [06/Nov/2024 12:00:23] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 12:00:23,266-INFO-127.0.0.1 - - [06/Nov/2024 12:00:23] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:00:23,613-INFO-127.0.0.1 - - [06/Nov/2024 12:00:23] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 12:00:23,928-INFO-127.0.0.1 - - [06/Nov/2024 12:00:23] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-06 12:00:23,948-INFO-127.0.0.1 - - [06/Nov/2024 12:00:23] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 12:00:24,049-INFO-127.0.0.1 - - [06/Nov/2024 12:00:24] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:00:24,354-INFO-127.0.0.1 - - [06/Nov/2024 12:00:24] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-06 12:00:24,712-INFO-127.0.0.1 - - [06/Nov/2024 12:00:24] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-06 12:00:24,976-INFO-127.0.0.1 - - [06/Nov/2024 12:00:24] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-06 12:00:30,197-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:00:30,320-INFO- * Restarting with stat
+2024-11-06 12:00:32,457-WARNING- * Debugger is active!
+2024-11-06 12:00:32,473-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:00:39,576-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:00:39,750-INFO- * Restarting with stat
+2024-11-06 12:00:42,126-WARNING- * Debugger is active!
+2024-11-06 12:00:42,288-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:00:46,624-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:00:46,778-INFO- * Restarting with stat
+2024-11-06 12:00:49,675-WARNING- * Debugger is active!
+2024-11-06 12:00:49,689-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:01:36,157-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:01:36,450-INFO- * Restarting with stat
+2024-11-06 12:01:39,994-WARNING- * Debugger is active!
+2024-11-06 12:01:40,010-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:01:40,065-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:01:40,116-INFO-127.0.0.1 - - [06/Nov/2024 12:01:40] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:01:40,548-INFO-127.0.0.1 - - [06/Nov/2024 12:01:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:01:40,621-INFO-127.0.0.1 - - [06/Nov/2024 12:01:40] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:01:40,683-INFO-127.0.0.1 - - [06/Nov/2024 12:01:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:01:40,696-INFO-127.0.0.1 - - [06/Nov/2024 12:01:40] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:01:41,175-INFO-127.0.0.1 - - [06/Nov/2024 12:01:41] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 12:01:41,360-INFO-127.0.0.1 - - [06/Nov/2024 12:01:41] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 12:01:45,009-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 12:01:45,016-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:01:45,021-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:01:45,313-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:01:45,467-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:01:45,468-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:01:45,470-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:01:45,837-INFO-127.0.0.1 - - [06/Nov/2024 12:01:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 12:02:41,769-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:02:41,882-INFO- * Restarting with stat
+2024-11-06 12:02:43,592-WARNING- * Debugger is active!
+2024-11-06 12:02:43,605-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:03:06,814-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:03:07,073-INFO- * Restarting with stat
+2024-11-06 12:03:10,305-WARNING- * Debugger is active!
+2024-11-06 12:03:10,318-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:03:12,368-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:03:12,437-INFO- * Restarting with stat
+2024-11-06 12:03:14,531-WARNING- * Debugger is active!
+2024-11-06 12:03:14,549-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:03:17,650-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-06 12:03:17,777-INFO- * Restarting with stat
+2024-11-06 12:03:24,799-WARNING- * Debugger is active!
+2024-11-06 12:03:24,827-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:03:27,128-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 12:03:27,144-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:03:27,205-INFO-127.0.0.1 - - [06/Nov/2024 12:03:27] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:03:27,608-INFO-127.0.0.1 - - [06/Nov/2024 12:03:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:03:27,674-INFO-127.0.0.1 - - [06/Nov/2024 12:03:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:03:27,715-INFO-127.0.0.1 - - [06/Nov/2024 12:03:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:03:27,752-INFO-127.0.0.1 - - [06/Nov/2024 12:03:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:03:28,100-INFO-127.0.0.1 - - [06/Nov/2024 12:03:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 12:03:28,163-INFO-127.0.0.1 - - [06/Nov/2024 12:03:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 12:04:13,133-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-06 12:04:13,134-INFO-[33mPress CTRL+C to quit[0m
+2024-11-06 12:04:13,144-INFO- * Restarting with stat
+2024-11-06 12:04:15,035-WARNING- * Debugger is active!
+2024-11-06 12:04:15,048-INFO- * Debugger PIN: 120-436-784
+2024-11-06 12:04:22,905-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 12:04:22,923-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:04:23,164-INFO-127.0.0.1 - - [06/Nov/2024 12:04:23] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:04:24,115-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:24,216-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:24,463-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:04:24,481-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:04:24,826-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 12:04:24,962-INFO-127.0.0.1 - - [06/Nov/2024 12:04:24] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 12:04:29,747-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 12:04:29,759-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:04:29,763-INFO-127.0.0.1 - - [06/Nov/2024 12:04:29] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:04:30,046-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:30,223-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:30,223-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:04:30,225-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:04:30,605-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-06 12:04:30,635-INFO-127.0.0.1 - - [06/Nov/2024 12:04:30] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-06 12:04:32,414-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-06 12:04:32,423-ERROR-Erro ao obter comentários: Failed processing format-parameters; Python 'dict' cannot be converted to a MySQL type
+2024-11-06 12:04:32,424-INFO-127.0.0.1 - - [06/Nov/2024 12:04:32] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-06 12:04:32,724-INFO-127.0.0.1 - - [06/Nov/2024 12:04:32] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:32,862-INFO-127.0.0.1 - - [06/Nov/2024 12:04:32] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-06 12:04:32,862-INFO-127.0.0.1 - - [06/Nov/2024 12:04:32] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-06 12:04:32,872-INFO-127.0.0.1 - - [06/Nov/2024 12:04:32] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-06 12:04:33,231-INFO-127.0.0.1 - - [06/Nov/2024 12:04:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:36:46,589-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-07 07:36:46,599-INFO-[33mPress CTRL+C to quit[0m
+2024-11-07 07:36:46,625-INFO- * Restarting with stat
+2024-11-07 07:36:48,424-WARNING- * Debugger is active!
+2024-11-07 07:36:48,439-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:36:54,434-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-07 07:36:56,494-ERROR-Falha ao obter conexão com o banco de dados.
+2024-11-07 07:36:56,655-INFO-127.0.0.1 - - [07/Nov/2024 07:36:56] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:36:57,274-INFO-127.0.0.1 - - [07/Nov/2024 07:36:57] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:36:57,330-INFO-127.0.0.1 - - [07/Nov/2024 07:36:57] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:36:57,496-INFO-127.0.0.1 - - [07/Nov/2024 07:36:57] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:36:57,543-INFO-127.0.0.1 - - [07/Nov/2024 07:36:57] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:36:58,254-INFO-127.0.0.1 - - [07/Nov/2024 07:36:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:36:58,380-INFO-127.0.0.1 - - [07/Nov/2024 07:36:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:37:02,110-WARNING-Comentário, avaliação ou ID do vereador ausente no formulário.
+2024-11-07 07:37:04,150-ERROR-Falha ao obter conexão com o banco de dados.
+2024-11-07 07:37:04,153-INFO-127.0.0.1 - - [07/Nov/2024 07:37:04] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:37:04,342-INFO-127.0.0.1 - - [07/Nov/2024 07:37:04] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:37:04,655-INFO-127.0.0.1 - - [07/Nov/2024 07:37:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:37:04,656-INFO-127.0.0.1 - - [07/Nov/2024 07:37:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:37:04,659-INFO-127.0.0.1 - - [07/Nov/2024 07:37:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:37:05,121-INFO-127.0.0.1 - - [07/Nov/2024 07:37:05] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:37:56,017-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:37:56,336-INFO- * Restarting with stat
+2024-11-07 07:37:58,763-WARNING- * Debugger is active!
+2024-11-07 07:37:58,820-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:38:03,957-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:38:04,063-INFO- * Restarting with stat
+2024-11-07 07:38:07,128-WARNING- * Debugger is active!
+2024-11-07 07:38:07,143-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:38:13,317-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:38:13,622-INFO- * Restarting with stat
+2024-11-07 07:38:18,598-WARNING- * Debugger is active!
+2024-11-07 07:38:18,611-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:41:10,193-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:41:10,362-INFO- * Restarting with stat
+2024-11-07 07:41:13,329-WARNING- * Debugger is active!
+2024-11-07 07:41:13,374-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:41:15,472-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:41:15,725-INFO- * Restarting with stat
+2024-11-07 07:41:17,681-WARNING- * Debugger is active!
+2024-11-07 07:41:17,698-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:41:27,848-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:41:27,952-INFO- * Restarting with stat
+2024-11-07 07:41:30,986-WARNING- * Debugger is active!
+2024-11-07 07:41:31,008-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:42:55,604-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:42:55,766-INFO- * Restarting with stat
+2024-11-07 07:43:00,063-WARNING- * Debugger is active!
+2024-11-07 07:43:00,085-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:43:02,174-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:43:02,258-INFO- * Restarting with stat
+2024-11-07 07:43:05,515-WARNING- * Debugger is active!
+2024-11-07 07:43:05,531-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:43:06,583-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:43:06,691-INFO- * Restarting with stat
+2024-11-07 07:43:09,839-WARNING- * Debugger is active!
+2024-11-07 07:43:09,857-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:43:10,354-INFO-127.0.0.1 - - [07/Nov/2024 07:43:10] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:43:10,765-INFO-127.0.0.1 - - [07/Nov/2024 07:43:10] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:43:10,910-INFO-127.0.0.1 - - [07/Nov/2024 07:43:10] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:43:11,423-INFO-127.0.0.1 - - [07/Nov/2024 07:43:11] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:43:11,689-INFO-127.0.0.1 - - [07/Nov/2024 07:43:11] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:43:32,226-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:43:32,894-INFO- * Restarting with stat
+2024-11-07 07:43:35,284-WARNING- * Debugger is active!
+2024-11-07 07:43:35,301-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:43:35,359-INFO-127.0.0.1 - - [07/Nov/2024 07:43:35] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:43:35,753-INFO-127.0.0.1 - - [07/Nov/2024 07:43:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:43:35,770-INFO-127.0.0.1 - - [07/Nov/2024 07:43:35] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:43:36,141-INFO-127.0.0.1 - - [07/Nov/2024 07:43:36] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:43:36,403-INFO-127.0.0.1 - - [07/Nov/2024 07:43:36] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:43:50,624-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:43:50,786-INFO- * Restarting with stat
+2024-11-07 07:43:55,205-WARNING- * Debugger is active!
+2024-11-07 07:43:55,221-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:43:55,269-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:43:55,269-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:43:55,274-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:43:55,308-INFO-127.0.0.1 - - [07/Nov/2024 07:43:55] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:43:55,757-INFO-127.0.0.1 - - [07/Nov/2024 07:43:55] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:43:55,855-INFO-127.0.0.1 - - [07/Nov/2024 07:43:55] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:43:55,856-INFO-127.0.0.1 - - [07/Nov/2024 07:43:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:43:55,878-INFO-127.0.0.1 - - [07/Nov/2024 07:43:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:43:56,501-INFO-127.0.0.1 - - [07/Nov/2024 07:43:56] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:43:56,563-INFO-127.0.0.1 - - [07/Nov/2024 07:43:56] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:44:02,373-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:44:02,374-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:44:02,381-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:44:02,384-INFO-127.0.0.1 - - [07/Nov/2024 07:44:02] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:44:02,673-INFO-127.0.0.1 - - [07/Nov/2024 07:44:02] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:44:02,840-INFO-127.0.0.1 - - [07/Nov/2024 07:44:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:44:02,841-INFO-127.0.0.1 - - [07/Nov/2024 07:44:02] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:44:02,841-INFO-127.0.0.1 - - [07/Nov/2024 07:44:02] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:44:03,281-INFO-127.0.0.1 - - [07/Nov/2024 07:44:03] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:45:31,397-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:45:31,764-INFO- * Restarting with stat
+2024-11-07 07:45:35,938-WARNING- * Debugger is active!
+2024-11-07 07:45:35,960-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:45:43,093-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:45:43,093-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:45:43,096-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:45:43,129-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:45:43,492-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:43,563-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:45:43,564-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:45:43,593-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:43,989-INFO-127.0.0.1 - - [07/Nov/2024 07:45:43] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:45:44,059-INFO-127.0.0.1 - - [07/Nov/2024 07:45:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:45:45,925-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:45:45,926-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:45:45,929-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:45:45,935-INFO-127.0.0.1 - - [07/Nov/2024 07:45:45] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:45:46,243-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:46,374-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:46,376-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:45:46,378-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:45:46,770-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:45:46,852-INFO-127.0.0.1 - - [07/Nov/2024 07:45:46] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:45:48,707-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:45:48,707-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:45:48,709-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:45:48,711-INFO-127.0.0.1 - - [07/Nov/2024 07:45:48] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:45:49,006-INFO-127.0.0.1 - - [07/Nov/2024 07:45:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:49,159-INFO-127.0.0.1 - - [07/Nov/2024 07:45:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:45:49,160-INFO-127.0.0.1 - - [07/Nov/2024 07:45:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:45:49,172-INFO-127.0.0.1 - - [07/Nov/2024 07:45:49] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:45:49,567-INFO-127.0.0.1 - - [07/Nov/2024 07:45:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:46:43,878-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-07 07:46:43,878-INFO-[33mPress CTRL+C to quit[0m
+2024-11-07 07:46:43,891-INFO- * Restarting with stat
+2024-11-07 07:46:46,276-WARNING- * Debugger is active!
+2024-11-07 07:46:46,292-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:46:46,333-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:46:46,333-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:46:46,340-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:46:46,379-INFO-127.0.0.1 - - [07/Nov/2024 07:46:46] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:46:46,709-INFO-127.0.0.1 - - [07/Nov/2024 07:46:46] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:46,815-INFO-127.0.0.1 - - [07/Nov/2024 07:46:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:46,818-INFO-127.0.0.1 - - [07/Nov/2024 07:46:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:46:46,842-INFO-127.0.0.1 - - [07/Nov/2024 07:46:46] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:46:47,214-INFO-127.0.0.1 - - [07/Nov/2024 07:46:47] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:46:47,262-INFO-127.0.0.1 - - [07/Nov/2024 07:46:47] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:46:51,033-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:46:51,033-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:46:51,044-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:46:51,046-INFO-127.0.0.1 - - [07/Nov/2024 07:46:51] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:46:51,333-INFO-127.0.0.1 - - [07/Nov/2024 07:46:51] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:51,466-INFO-127.0.0.1 - - [07/Nov/2024 07:46:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:46:51,466-INFO-127.0.0.1 - - [07/Nov/2024 07:46:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:51,475-INFO-127.0.0.1 - - [07/Nov/2024 07:46:51] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:46:52,026-INFO-127.0.0.1 - - [07/Nov/2024 07:46:52] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:46:52,100-INFO-127.0.0.1 - - [07/Nov/2024 07:46:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:46:55,313-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:46:55,314-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:46:55,317-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:46:55,323-INFO-127.0.0.1 - - [07/Nov/2024 07:46:55] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:46:55,615-INFO-127.0.0.1 - - [07/Nov/2024 07:46:55] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:55,748-INFO-127.0.0.1 - - [07/Nov/2024 07:46:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:46:55,754-INFO-127.0.0.1 - - [07/Nov/2024 07:46:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:46:55,760-INFO-127.0.0.1 - - [07/Nov/2024 07:46:55] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:46:56,142-INFO-127.0.0.1 - - [07/Nov/2024 07:46:56] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:47:31,974-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:47:32,142-INFO- * Restarting with stat
+2024-11-07 07:47:34,875-WARNING- * Debugger is active!
+2024-11-07 07:47:34,892-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:47:34,930-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:47:34,930-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:47:34,934-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:47:34,961-INFO-127.0.0.1 - - [07/Nov/2024 07:47:34] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:47:35,295-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:35,298-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:35,387-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:47:35,387-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:47:35,722-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:47:35,771-INFO-127.0.0.1 - - [07/Nov/2024 07:47:35] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:47:44,287-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:47:44,287-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:47:44,291-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:47:44,301-INFO-127.0.0.1 - - [07/Nov/2024 07:47:44] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:47:44,573-INFO-127.0.0.1 - - [07/Nov/2024 07:47:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:44,783-INFO-127.0.0.1 - - [07/Nov/2024 07:47:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:47:44,788-INFO-127.0.0.1 - - [07/Nov/2024 07:47:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:44,790-INFO-127.0.0.1 - - [07/Nov/2024 07:47:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:47:45,237-INFO-127.0.0.1 - - [07/Nov/2024 07:47:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:47:45,300-INFO-127.0.0.1 - - [07/Nov/2024 07:47:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:47:47,950-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:47:47,950-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:47:47,954-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:47:47,956-INFO-127.0.0.1 - - [07/Nov/2024 07:47:47] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:47:48,240-INFO-127.0.0.1 - - [07/Nov/2024 07:47:48] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:48,403-INFO-127.0.0.1 - - [07/Nov/2024 07:47:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:47:48,403-INFO-127.0.0.1 - - [07/Nov/2024 07:47:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:47:48,405-INFO-127.0.0.1 - - [07/Nov/2024 07:47:48] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:47:48,785-INFO-127.0.0.1 - - [07/Nov/2024 07:47:48] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:48:10,690-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:48:11,002-INFO- * Restarting with stat
+2024-11-07 07:48:16,162-WARNING- * Debugger is active!
+2024-11-07 07:48:16,187-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:48:19,288-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:48:19,488-INFO- * Restarting with stat
+2024-11-07 07:48:24,552-WARNING- * Debugger is active!
+2024-11-07 07:48:24,677-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:48:25,207-INFO-127.0.0.1 - - [07/Nov/2024 07:48:25] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:48:25,536-INFO-127.0.0.1 - - [07/Nov/2024 07:48:25] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:25,685-INFO-127.0.0.1 - - [07/Nov/2024 07:48:25] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:48:26,048-INFO-127.0.0.1 - - [07/Nov/2024 07:48:26] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:26,313-INFO-127.0.0.1 - - [07/Nov/2024 07:48:26] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:41,880-INFO-127.0.0.1 - - [07/Nov/2024 07:48:41] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:48:42,164-INFO-127.0.0.1 - - [07/Nov/2024 07:48:42] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:42,298-INFO-127.0.0.1 - - [07/Nov/2024 07:48:42] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:48:42,660-INFO-127.0.0.1 - - [07/Nov/2024 07:48:42] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:42,921-INFO-127.0.0.1 - - [07/Nov/2024 07:48:42] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:49,340-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:48:49,425-INFO- * Restarting with stat
+2024-11-07 07:48:53,202-WARNING- * Debugger is active!
+2024-11-07 07:48:53,220-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:48:54,579-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:48:54,735-INFO- * Restarting with stat
+2024-11-07 07:48:57,364-WARNING- * Debugger is active!
+2024-11-07 07:48:57,381-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:48:57,434-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:57,434-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:57,435-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:57,436-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:57,438-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:57,439-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:57,441-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:57,444-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:57,446-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:57,455-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:57,456-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:57,506-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:57,528-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:57,532-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:57,534-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:57,535-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:57,855-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:57,972-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:57,973-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:57,976-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:57,982-INFO-127.0.0.1 - - [07/Nov/2024 07:48:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:58,022-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:58,040-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:58,091-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:48:58,524-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:58,528-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:58,540-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:58,544-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:58,544-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-07 07:48:58,555-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-07 07:48:58,557-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:58,560-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-07 07:48:58,853-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:58,858-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:58,865-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:58,870-INFO-127.0.0.1 - - [07/Nov/2024 07:48:58] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:59,188-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,207-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:48:59,208-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:48:59,226-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,245-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,255-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:48:59,268-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:48:59,271-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,489-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,792-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,819-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:48:59,821-INFO-127.0.0.1 - - [07/Nov/2024 07:48:59] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:49:00,267-INFO-127.0.0.1 - - [07/Nov/2024 07:49:00] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:49:00,391-INFO-127.0.0.1 - - [07/Nov/2024 07:49:00] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:49:03,486-ERROR-Erro ao criar usuário anônimo: 1146 (42S02): Table 'apidb.usuarios' doesn't exist
+2024-11-07 07:49:03,486-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:49:03,490-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:49:03,492-INFO-127.0.0.1 - - [07/Nov/2024 07:49:03] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:49:03,788-INFO-127.0.0.1 - - [07/Nov/2024 07:49:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:03,940-INFO-127.0.0.1 - - [07/Nov/2024 07:49:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:49:03,940-INFO-127.0.0.1 - - [07/Nov/2024 07:49:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:03,942-INFO-127.0.0.1 - - [07/Nov/2024 07:49:03] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:49:04,386-INFO-127.0.0.1 - - [07/Nov/2024 07:49:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:49:44,122-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:49:44,321-INFO- * Restarting with stat
+2024-11-07 07:49:47,323-WARNING- * Debugger is active!
+2024-11-07 07:49:47,338-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:49:47,383-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:49:47,387-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:49:47,431-INFO-127.0.0.1 - - [07/Nov/2024 07:49:47] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:49:47,854-INFO-127.0.0.1 - - [07/Nov/2024 07:49:47] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:47,885-INFO-127.0.0.1 - - [07/Nov/2024 07:49:47] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:49:47,899-INFO-127.0.0.1 - - [07/Nov/2024 07:49:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:47,922-INFO-127.0.0.1 - - [07/Nov/2024 07:49:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:49:48,287-INFO-127.0.0.1 - - [07/Nov/2024 07:49:48] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:49:48,383-INFO-127.0.0.1 - - [07/Nov/2024 07:49:48] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:49:50,351-ERROR-Erro ao criar ou obter o usuário anônimo.
+2024-11-07 07:49:50,355-ERROR-Erro ao obter comentários: 1146 (42S02): Table 'apidb.comentarios' doesn't exist
+2024-11-07 07:49:50,362-INFO-127.0.0.1 - - [07/Nov/2024 07:49:50] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:49:50,700-INFO-127.0.0.1 - - [07/Nov/2024 07:49:50] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:50,832-INFO-127.0.0.1 - - [07/Nov/2024 07:49:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:49:50,853-INFO-127.0.0.1 - - [07/Nov/2024 07:49:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:49:50,863-INFO-127.0.0.1 - - [07/Nov/2024 07:49:50] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:49:51,303-INFO-127.0.0.1 - - [07/Nov/2024 07:49:51] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:50:17,267-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:50:17,402-INFO- * Restarting with stat
+2024-11-07 07:50:21,069-WARNING- * Debugger is active!
+2024-11-07 07:50:21,084-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:50:27,195-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:50:27,346-INFO- * Restarting with stat
+2024-11-07 07:50:30,544-WARNING- * Debugger is active!
+2024-11-07 07:50:30,564-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:50:36,716-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:50:36,861-INFO- * Restarting with stat
+2024-11-07 07:50:40,765-WARNING- * Debugger is active!
+2024-11-07 07:50:40,796-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:50:47,954-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:50:48,144-INFO- * Restarting with stat
+2024-11-07 07:50:50,915-WARNING- * Debugger is active!
+2024-11-07 07:50:50,949-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:51:09,251-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:51:09,389-INFO- * Restarting with stat
+2024-11-07 07:51:13,479-WARNING- * Debugger is active!
+2024-11-07 07:51:13,511-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:51:13,648-INFO-Usuário anonimof1Ex criado com sucesso.
+2024-11-07 07:51:13,659-ERROR-Erro ao inserir comentário: 1146 (42S02): Table 'apidb.tb2_comentarios' doesn't exist
+2024-11-07 07:51:13,659-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:51:13,774-INFO-127.0.0.1 - - [07/Nov/2024 07:51:13] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:51:14,246-INFO-127.0.0.1 - - [07/Nov/2024 07:51:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:51:14,266-INFO-127.0.0.1 - - [07/Nov/2024 07:51:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:51:14,695-INFO-127.0.0.1 - - [07/Nov/2024 07:51:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:14,960-INFO-127.0.0.1 - - [07/Nov/2024 07:51:14] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:15,908-ERROR-Erro ao inserir comentário: 1146 (42S02): Table 'apidb.tb2_comentarios' doesn't exist
+2024-11-07 07:51:15,908-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:51:15,921-INFO-127.0.0.1 - - [07/Nov/2024 07:51:15] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:51:16,195-INFO-127.0.0.1 - - [07/Nov/2024 07:51:16] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:51:16,328-INFO-127.0.0.1 - - [07/Nov/2024 07:51:16] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:51:16,682-INFO-127.0.0.1 - - [07/Nov/2024 07:51:16] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:16,947-INFO-127.0.0.1 - - [07/Nov/2024 07:51:16] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:17,327-ERROR-Erro ao inserir comentário: 1146 (42S02): Table 'apidb.tb2_comentarios' doesn't exist
+2024-11-07 07:51:17,327-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:51:17,341-INFO-127.0.0.1 - - [07/Nov/2024 07:51:17] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:51:17,615-INFO-127.0.0.1 - - [07/Nov/2024 07:51:17] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:51:17,744-INFO-127.0.0.1 - - [07/Nov/2024 07:51:17] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:51:18,092-INFO-127.0.0.1 - - [07/Nov/2024 07:51:18] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:18,361-INFO-127.0.0.1 - - [07/Nov/2024 07:51:18] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:51:59,362-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:51:59,762-INFO- * Restarting with stat
+2024-11-07 07:52:03,272-WARNING- * Debugger is active!
+2024-11-07 07:52:03,294-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:52:30,637-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:52:31,056-INFO- * Restarting with stat
+2024-11-07 07:52:37,115-INFO- * Restarting with stat
+2024-11-07 07:52:39,991-WARNING- * Debugger is active!
+2024-11-07 07:52:40,007-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:52:40,069-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:52:40,070-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:52:40,124-INFO-127.0.0.1 - - [07/Nov/2024 07:52:40] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:52:40,457-INFO-127.0.0.1 - - [07/Nov/2024 07:52:40] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:52:40,507-INFO-127.0.0.1 - - [07/Nov/2024 07:52:40] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:52:40,872-INFO-127.0.0.1 - - [07/Nov/2024 07:52:40] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:52:41,121-INFO-127.0.0.1 - - [07/Nov/2024 07:52:41] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:53:07,661-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:53:08,111-INFO- * Restarting with stat
+2024-11-07 07:53:11,618-WARNING- * Debugger is active!
+2024-11-07 07:53:11,631-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:53:11,685-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:53:11,686-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:53:11,723-INFO-127.0.0.1 - - [07/Nov/2024 07:53:11] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:53:12,125-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:53:12,142-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:53:12,160-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:53:12,169-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:53:12,558-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:53:12,620-INFO-127.0.0.1 - - [07/Nov/2024 07:53:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:53:16,313-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:53:16,317-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:53:16,321-INFO-127.0.0.1 - - [07/Nov/2024 07:53:16] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:53:16,624-INFO-127.0.0.1 - - [07/Nov/2024 07:53:16] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:53:16,792-INFO-127.0.0.1 - - [07/Nov/2024 07:53:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:53:16,795-INFO-127.0.0.1 - - [07/Nov/2024 07:53:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:53:16,812-INFO-127.0.0.1 - - [07/Nov/2024 07:53:16] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:53:17,363-INFO-127.0.0.1 - - [07/Nov/2024 07:53:17] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:55:14,130-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:55:14,306-INFO- * Restarting with stat
+2024-11-07 07:55:18,772-WARNING- * Debugger is active!
+2024-11-07 07:55:18,791-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:55:20,869-INFO-127.0.0.1 - - [07/Nov/2024 07:55:20] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:55:21,185-INFO-127.0.0.1 - - [07/Nov/2024 07:55:21] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:55:21,334-INFO-127.0.0.1 - - [07/Nov/2024 07:55:21] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:55:21,721-INFO-127.0.0.1 - - [07/Nov/2024 07:55:21] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:55:21,969-INFO-127.0.0.1 - - [07/Nov/2024 07:55:21] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:55:42,184-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:55:42,492-INFO- * Restarting with stat
+2024-11-07 07:55:46,395-WARNING- * Debugger is active!
+2024-11-07 07:55:46,421-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:55:46,782-INFO-127.0.0.1 - - [07/Nov/2024 07:55:46] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:55:47,129-INFO-127.0.0.1 - - [07/Nov/2024 07:55:47] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:55:47,310-INFO-127.0.0.1 - - [07/Nov/2024 07:55:47] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:55:47,718-INFO-127.0.0.1 - - [07/Nov/2024 07:55:47] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:55:47,982-INFO-127.0.0.1 - - [07/Nov/2024 07:55:47] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:56:17,064-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:56:17,479-INFO- * Restarting with stat
+2024-11-07 07:56:22,937-WARNING- * Debugger is active!
+2024-11-07 07:56:23,224-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:56:25,112-INFO-127.0.0.1 - - [07/Nov/2024 07:56:25] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 07:56:25,526-INFO-127.0.0.1 - - [07/Nov/2024 07:56:25] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:56:25,609-INFO-127.0.0.1 - - [07/Nov/2024 07:56:25] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 07:56:26,018-INFO-127.0.0.1 - - [07/Nov/2024 07:56:26] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:56:26,564-INFO-127.0.0.1 - - [07/Nov/2024 07:56:26] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 07:56:41,011-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:56:41,338-INFO- * Restarting with stat
+2024-11-07 07:56:43,808-WARNING- * Debugger is active!
+2024-11-07 07:56:43,824-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:56:44,115-INFO-Usuário anonimo8iAN criado com sucesso.
+2024-11-07 07:56:44,126-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:56:44,127-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:56:44,152-INFO-127.0.0.1 - - [07/Nov/2024 07:56:44] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:56:44,917-INFO-127.0.0.1 - - [07/Nov/2024 07:56:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:56:44,950-INFO-127.0.0.1 - - [07/Nov/2024 07:56:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:56:44,966-INFO-127.0.0.1 - - [07/Nov/2024 07:56:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:56:44,991-INFO-127.0.0.1 - - [07/Nov/2024 07:56:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:56:45,102-INFO-127.0.0.1 - - [07/Nov/2024 07:56:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:56:45,460-INFO-127.0.0.1 - - [07/Nov/2024 07:56:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:56:48,393-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:56:48,393-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:56:48,395-INFO-127.0.0.1 - - [07/Nov/2024 07:56:48] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:56:48,512-INFO-127.0.0.1 - - [07/Nov/2024 07:56:48] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:56:48,831-INFO-127.0.0.1 - - [07/Nov/2024 07:56:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:56:48,832-INFO-127.0.0.1 - - [07/Nov/2024 07:56:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:56:48,833-INFO-127.0.0.1 - - [07/Nov/2024 07:56:48] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:56:49,289-INFO-127.0.0.1 - - [07/Nov/2024 07:56:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:57:06,399-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 07:57:06,482-INFO- * Restarting with stat
+2024-11-07 07:57:08,699-WARNING- * Debugger is active!
+2024-11-07 07:57:08,715-INFO- * Debugger PIN: 120-436-784
+2024-11-07 07:57:08,916-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:57:08,917-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:57:08,946-INFO-127.0.0.1 - - [07/Nov/2024 07:57:08] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:57:09,303-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:57:09,337-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:57:09,365-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:57:09,365-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:57:09,734-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 07:57:09,813-INFO-127.0.0.1 - - [07/Nov/2024 07:57:09] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 07:57:13,814-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 07:57:13,814-INFO-Comentário adicionado com sucesso.
+2024-11-07 07:57:13,817-INFO-127.0.0.1 - - [07/Nov/2024 07:57:13] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 07:57:13,953-INFO-127.0.0.1 - - [07/Nov/2024 07:57:13] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 07:57:14,288-INFO-127.0.0.1 - - [07/Nov/2024 07:57:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 07:57:14,316-INFO-127.0.0.1 - - [07/Nov/2024 07:57:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 07:57:14,332-INFO-127.0.0.1 - - [07/Nov/2024 07:57:14] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 07:57:14,757-INFO-127.0.0.1 - - [07/Nov/2024 07:57:14] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:00:01,893-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:00:01,977-INFO- * Restarting with stat
+2024-11-07 08:00:05,437-WARNING- * Debugger is active!
+2024-11-07 08:00:05,459-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:00:05,688-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:00:05,689-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:00:05,744-INFO-127.0.0.1 - - [07/Nov/2024 08:00:05] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:00:06,193-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:00:06,225-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:00:06,247-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:00:06,288-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:00:06,670-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:00:06,730-INFO-127.0.0.1 - - [07/Nov/2024 08:00:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:00:11,807-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:00:11,807-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:00:11,809-INFO-127.0.0.1 - - [07/Nov/2024 08:00:11] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:00:11,940-INFO-127.0.0.1 - - [07/Nov/2024 08:00:11] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:00:12,276-INFO-127.0.0.1 - - [07/Nov/2024 08:00:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:00:12,276-INFO-127.0.0.1 - - [07/Nov/2024 08:00:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:00:12,292-INFO-127.0.0.1 - - [07/Nov/2024 08:00:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:00:12,766-INFO-127.0.0.1 - - [07/Nov/2024 08:00:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:00:35,926-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:00:36,123-INFO- * Restarting with stat
+2024-11-07 08:00:38,656-WARNING- * Debugger is active!
+2024-11-07 08:00:38,679-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:00:42,791-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:00:42,875-INFO- * Restarting with stat
+2024-11-07 08:00:45,220-WARNING- * Debugger is active!
+2024-11-07 08:00:45,261-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:00:52,502-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:00:52,686-INFO- * Restarting with stat
+2024-11-07 08:00:57,270-WARNING- * Debugger is active!
+2024-11-07 08:00:57,284-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:00:59,388-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:00:59,566-INFO- * Restarting with stat
+2024-11-07 08:01:03,892-WARNING- * Debugger is active!
+2024-11-07 08:01:03,904-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:01:31,290-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:01:31,424-INFO- * Restarting with stat
+2024-11-07 08:01:35,017-WARNING- * Debugger is active!
+2024-11-07 08:01:35,036-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:01:37,098-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:01:37,385-INFO- * Restarting with stat
+2024-11-07 08:01:39,354-WARNING- * Debugger is active!
+2024-11-07 08:01:39,370-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:02:06,673-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:02:06,782-INFO- * Restarting with stat
+2024-11-07 08:02:08,896-WARNING- * Debugger is active!
+2024-11-07 08:02:08,912-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:03:18,936-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:03:19,412-INFO- * Restarting with stat
+2024-11-07 08:03:22,499-WARNING- * Debugger is active!
+2024-11-07 08:03:22,516-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:03:22,774-INFO-Usuário anonimokXc4 criado com sucesso.
+2024-11-07 08:03:22,782-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:03:22,782-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:03:22,809-INFO-127.0.0.1 - - [07/Nov/2024 08:03:22] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:03:23,191-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:03:23,222-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:03:23,307-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:03:23,320-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:03:23,889-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:03:23,952-INFO-127.0.0.1 - - [07/Nov/2024 08:03:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:04:16,463-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:04:16,719-INFO- * Restarting with stat
+2024-11-07 08:04:21,990-WARNING- * Debugger is active!
+2024-11-07 08:04:22,005-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:04:25,091-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:04:25,224-INFO- * Restarting with stat
+2024-11-07 08:04:27,320-WARNING- * Debugger is active!
+2024-11-07 08:04:27,337-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:04:50,681-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:04:51,063-INFO- * Restarting with stat
+2024-11-07 08:04:54,296-WARNING- * Debugger is active!
+2024-11-07 08:04:54,313-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:04:54,517-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:04:54,541-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:04:54,567-INFO-127.0.0.1 - - [07/Nov/2024 08:04:54] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:04:54,935-INFO-127.0.0.1 - - [07/Nov/2024 08:04:54] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:04:54,951-INFO-127.0.0.1 - - [07/Nov/2024 08:04:54] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:04:54,997-INFO-127.0.0.1 - - [07/Nov/2024 08:04:54] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:04:55,010-INFO-127.0.0.1 - - [07/Nov/2024 08:04:55] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:04:55,562-INFO-127.0.0.1 - - [07/Nov/2024 08:04:55] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:04:55,593-INFO-127.0.0.1 - - [07/Nov/2024 08:04:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:05:13,409-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-07 08:05:13,409-INFO-[33mPress CTRL+C to quit[0m
+2024-11-07 08:05:13,419-INFO- * Restarting with stat
+2024-11-07 08:05:16,009-WARNING- * Debugger is active!
+2024-11-07 08:05:16,025-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:05:16,250-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:05:16,250-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:05:16,281-INFO-127.0.0.1 - - [07/Nov/2024 08:05:16] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:05:16,526-INFO-127.0.0.1 - - [07/Nov/2024 08:05:16] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:05:16,542-INFO-127.0.0.1 - - [07/Nov/2024 08:05:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:05:16,716-INFO-127.0.0.1 - - [07/Nov/2024 08:05:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:05:16,717-INFO-127.0.0.1 - - [07/Nov/2024 08:05:16] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:05:17,058-INFO-127.0.0.1 - - [07/Nov/2024 08:05:17] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:05:17,105-INFO-127.0.0.1 - - [07/Nov/2024 08:05:17] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:05:22,406-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:05:22,406-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:05:22,411-INFO-127.0.0.1 - - [07/Nov/2024 08:05:22] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:05:22,705-INFO-127.0.0.1 - - [07/Nov/2024 08:05:22] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:05:23,017-INFO-127.0.0.1 - - [07/Nov/2024 08:05:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:05:23,019-INFO-127.0.0.1 - - [07/Nov/2024 08:05:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:05:23,021-INFO-127.0.0.1 - - [07/Nov/2024 08:05:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:05:23,372-INFO-127.0.0.1 - - [07/Nov/2024 08:05:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,062-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:06:18,062-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:06:18,108-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:06:18,221-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,531-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,532-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,532-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,912-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:06:18,975-INFO-127.0.0.1 - - [07/Nov/2024 08:06:18] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:08:08,489-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:08:08,632-INFO- * Restarting with stat
+2024-11-07 08:08:11,910-WARNING- * Debugger is active!
+2024-11-07 08:08:11,946-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:08:44,840-INFO-Usuário anonimoGGLs criado com sucesso.
+2024-11-07 08:08:44,848-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:08:44,848-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:08:44,925-INFO-127.0.0.1 - - [07/Nov/2024 08:08:44] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:08:45,268-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:08:45,366-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:08:45,383-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:08:45,427-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:08:45,946-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:08:45,976-INFO-127.0.0.1 - - [07/Nov/2024 08:08:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:08:49,482-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:08:49,482-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:08:49,488-INFO-127.0.0.1 - - [07/Nov/2024 08:08:49] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:08:49,614-INFO-127.0.0.1 - - [07/Nov/2024 08:08:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:08:49,929-INFO-127.0.0.1 - - [07/Nov/2024 08:08:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:08:49,930-INFO-127.0.0.1 - - [07/Nov/2024 08:08:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:08:49,931-INFO-127.0.0.1 - - [07/Nov/2024 08:08:49] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:08:50,417-INFO-127.0.0.1 - - [07/Nov/2024 08:08:50] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:09:22,124-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:09:22,359-INFO- * Restarting with stat
+2024-11-07 08:09:25,876-WARNING- * Debugger is active!
+2024-11-07 08:09:25,899-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:09:26,954-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:09:27,120-INFO- * Restarting with stat
+2024-11-07 08:09:31,616-INFO- * Restarting with stat
+2024-11-07 08:09:35,731-WARNING- * Debugger is active!
+2024-11-07 08:09:35,744-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:09:37,844-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:09:38,016-INFO- * Restarting with stat
+2024-11-07 08:09:42,254-INFO- * Restarting with stat
+2024-11-07 08:09:47,448-WARNING- * Debugger is active!
+2024-11-07 08:09:47,466-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:09:49,517-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:09:49,633-INFO- * Restarting with stat
+2024-11-07 08:09:51,698-WARNING- * Debugger is active!
+2024-11-07 08:09:51,715-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:09:56,097-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:09:56,098-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:09:56,126-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:09:56,499-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:09:56,519-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:09:56,560-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:09:56,563-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:09:56,977-INFO-127.0.0.1 - - [07/Nov/2024 08:09:56] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:09:57,041-INFO-127.0.0.1 - - [07/Nov/2024 08:09:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,033-INFO-Usuário anonimoZzRU criado com sucesso.
+2024-11-07 08:10:01,045-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:10:01,045-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:10:01,047-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:10:01,161-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,483-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,483-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,494-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,865-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:10:01,961-INFO-127.0.0.1 - - [07/Nov/2024 08:10:01] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:10:03,641-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:10:03,642-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:10:03,644-INFO-127.0.0.1 - - [07/Nov/2024 08:10:03] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:10:03,815-INFO-127.0.0.1 - - [07/Nov/2024 08:10:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:04,143-INFO-127.0.0.1 - - [07/Nov/2024 08:10:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:10:04,143-INFO-127.0.0.1 - - [07/Nov/2024 08:10:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:04,146-INFO-127.0.0.1 - - [07/Nov/2024 08:10:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:10:04,546-INFO-127.0.0.1 - - [07/Nov/2024 08:10:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:10:39,626-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-07 08:10:39,626-INFO-[33mPress CTRL+C to quit[0m
+2024-11-07 08:10:39,641-INFO- * Restarting with stat
+2024-11-07 08:10:41,665-WARNING- * Debugger is active!
+2024-11-07 08:10:41,681-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:10:41,935-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:10:41,935-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:10:41,972-INFO-127.0.0.1 - - [07/Nov/2024 08:10:41] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:10:42,682-INFO-127.0.0.1 - - [07/Nov/2024 08:10:42] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:42,729-INFO-127.0.0.1 - - [07/Nov/2024 08:10:42] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:42,781-INFO-127.0.0.1 - - [07/Nov/2024 08:10:42] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:10:42,796-INFO-127.0.0.1 - - [07/Nov/2024 08:10:42] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:10:43,597-INFO-127.0.0.1 - - [07/Nov/2024 08:10:43] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:10:43,720-INFO-127.0.0.1 - - [07/Nov/2024 08:10:43] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:10:46,723-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:10:46,724-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:10:46,727-INFO-127.0.0.1 - - [07/Nov/2024 08:10:46] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:10:46,892-INFO-127.0.0.1 - - [07/Nov/2024 08:10:46] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:47,212-INFO-127.0.0.1 - - [07/Nov/2024 08:10:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:10:47,213-INFO-127.0.0.1 - - [07/Nov/2024 08:10:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:10:47,223-INFO-127.0.0.1 - - [07/Nov/2024 08:10:47] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:10:47,612-INFO-127.0.0.1 - - [07/Nov/2024 08:10:47] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:11:02,065-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:11:02,175-INFO- * Restarting with stat
+2024-11-07 08:11:06,288-WARNING- * Debugger is active!
+2024-11-07 08:11:06,303-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:11:06,524-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:11:06,525-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:11:06,553-INFO-127.0.0.1 - - [07/Nov/2024 08:11:06] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:11:06,902-INFO-127.0.0.1 - - [07/Nov/2024 08:11:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:11:06,968-INFO-127.0.0.1 - - [07/Nov/2024 08:11:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:11:06,997-INFO-127.0.0.1 - - [07/Nov/2024 08:11:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:11:07,012-INFO-127.0.0.1 - - [07/Nov/2024 08:11:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:11:07,369-INFO-127.0.0.1 - - [07/Nov/2024 08:11:07] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:11:07,463-INFO-127.0.0.1 - - [07/Nov/2024 08:11:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:11:09,890-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:11:09,891-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:11:09,893-INFO-127.0.0.1 - - [07/Nov/2024 08:11:09] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:11:10,042-INFO-127.0.0.1 - - [07/Nov/2024 08:11:10] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:11:10,366-INFO-127.0.0.1 - - [07/Nov/2024 08:11:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:11:10,366-INFO-127.0.0.1 - - [07/Nov/2024 08:11:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:11:10,367-INFO-127.0.0.1 - - [07/Nov/2024 08:11:10] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:11:10,742-INFO-127.0.0.1 - - [07/Nov/2024 08:11:10] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:11:26,728-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:11:26,912-INFO- * Restarting with stat
+2024-11-07 08:11:31,242-WARNING- * Debugger is active!
+2024-11-07 08:11:31,264-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:11:40,415-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:11:40,599-INFO- * Restarting with stat
+2024-11-07 08:11:43,510-WARNING- * Debugger is active!
+2024-11-07 08:11:43,534-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:12:18,142-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:18,143-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:18,171-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:18,183-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:18,183-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:18,188-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:18,368-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:18,368-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:18,370-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:18,716-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:18,855-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:18,872-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:12:18,905-INFO-127.0.0.1 - - [07/Nov/2024 08:12:18] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:12:19,571-INFO-127.0.0.1 - - [07/Nov/2024 08:12:19] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:12:19,633-INFO-127.0.0.1 - - [07/Nov/2024 08:12:19] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:12:21,971-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:21,971-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:21,976-INFO-127.0.0.1 - - [07/Nov/2024 08:12:21] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:22,117-INFO-127.0.0.1 - - [07/Nov/2024 08:12:22] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:22,452-INFO-127.0.0.1 - - [07/Nov/2024 08:12:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:12:22,452-INFO-127.0.0.1 - - [07/Nov/2024 08:12:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:22,453-INFO-127.0.0.1 - - [07/Nov/2024 08:12:22] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:12:22,720-INFO-127.0.0.1 - - [07/Nov/2024 08:12:22] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:12:39,433-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:12:39,545-INFO- * Restarting with stat
+2024-11-07 08:12:42,706-WARNING- * Debugger is active!
+2024-11-07 08:12:42,759-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:12:46,855-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:12:47,016-INFO- * Restarting with stat
+2024-11-07 08:12:50,835-WARNING- * Debugger is active!
+2024-11-07 08:12:50,868-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:12:52,280-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:52,280-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:52,303-INFO-127.0.0.1 - - [07/Nov/2024 08:12:52] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:52,639-INFO-127.0.0.1 - - [07/Nov/2024 08:12:52] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:52,656-INFO-127.0.0.1 - - [07/Nov/2024 08:12:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:52,738-INFO-127.0.0.1 - - [07/Nov/2024 08:12:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:12:52,750-INFO-127.0.0.1 - - [07/Nov/2024 08:12:52] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:12:53,122-INFO-127.0.0.1 - - [07/Nov/2024 08:12:53] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:12:53,199-INFO-127.0.0.1 - - [07/Nov/2024 08:12:53] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:12:57,577-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:12:57,578-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:12:57,580-INFO-127.0.0.1 - - [07/Nov/2024 08:12:57] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:12:57,705-INFO-127.0.0.1 - - [07/Nov/2024 08:12:57] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:58,020-INFO-127.0.0.1 - - [07/Nov/2024 08:12:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:12:58,022-INFO-127.0.0.1 - - [07/Nov/2024 08:12:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:12:58,038-INFO-127.0.0.1 - - [07/Nov/2024 08:12:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:12:58,666-INFO-127.0.0.1 - - [07/Nov/2024 08:12:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:15:26,003-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:15:26,098-INFO- * Restarting with stat
+2024-11-07 08:15:28,788-WARNING- * Debugger is active!
+2024-11-07 08:15:28,810-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:15:38,959-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:15:39,142-INFO- * Restarting with stat
+2024-11-07 08:15:42,186-WARNING- * Debugger is active!
+2024-11-07 08:15:42,207-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:16:03,539-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:16:03,989-INFO- * Restarting with stat
+2024-11-07 08:16:06,560-WARNING- * Debugger is active!
+2024-11-07 08:16:06,576-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:16:07,619-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:16:07,816-INFO- * Restarting with stat
+2024-11-07 08:16:11,396-WARNING- * Debugger is active!
+2024-11-07 08:16:11,430-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:16:14,595-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:16:14,742-INFO- * Restarting with stat
+2024-11-07 08:16:17,764-WARNING- * Debugger is active!
+2024-11-07 08:16:17,781-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:16:20,501-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:16:20,502-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:16:20,548-INFO-127.0.0.1 - - [07/Nov/2024 08:16:20] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:16:21,029-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:21,081-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:16:21,093-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:16:21,096-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:21,603-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:16:21,653-INFO-127.0.0.1 - - [07/Nov/2024 08:16:21] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:16:24,496-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:16:24,499-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:16:24,502-INFO-127.0.0.1 - - [07/Nov/2024 08:16:24] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:16:24,649-INFO-127.0.0.1 - - [07/Nov/2024 08:16:24] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:24,977-INFO-127.0.0.1 - - [07/Nov/2024 08:16:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:16:24,978-INFO-127.0.0.1 - - [07/Nov/2024 08:16:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:24,979-INFO-127.0.0.1 - - [07/Nov/2024 08:16:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:16:25,452-INFO-127.0.0.1 - - [07/Nov/2024 08:16:25] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:16:44,514-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-07 08:16:44,515-INFO-[33mPress CTRL+C to quit[0m
+2024-11-07 08:16:44,526-INFO- * Restarting with stat
+2024-11-07 08:16:46,693-WARNING- * Debugger is active!
+2024-11-07 08:16:46,710-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:16:46,939-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:16:46,940-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:16:46,981-INFO-127.0.0.1 - - [07/Nov/2024 08:16:46] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:16:47,401-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:47,417-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:16:47,432-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:47,462-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:16:47,815-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:16:47,908-INFO-127.0.0.1 - - [07/Nov/2024 08:16:47] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:16:51,433-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:16:51,433-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:16:51,434-INFO-127.0.0.1 - - [07/Nov/2024 08:16:51] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:16:51,617-INFO-127.0.0.1 - - [07/Nov/2024 08:16:51] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:51,932-INFO-127.0.0.1 - - [07/Nov/2024 08:16:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:16:51,934-INFO-127.0.0.1 - - [07/Nov/2024 08:16:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:16:51,948-INFO-127.0.0.1 - - [07/Nov/2024 08:16:51] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:16:52,358-INFO-127.0.0.1 - - [07/Nov/2024 08:16:52] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:17:22,443-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:17:22,636-INFO- * Restarting with stat
+2024-11-07 08:17:26,763-WARNING- * Debugger is active!
+2024-11-07 08:17:26,779-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:20:04,857-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:20:04,858-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:20:04,913-INFO-127.0.0.1 - - [07/Nov/2024 08:20:04] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:20:05,394-INFO-127.0.0.1 - - [07/Nov/2024 08:20:05] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:20:05,431-INFO-127.0.0.1 - - [07/Nov/2024 08:20:05] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:20:05,443-INFO-127.0.0.1 - - [07/Nov/2024 08:20:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:20:05,448-INFO-127.0.0.1 - - [07/Nov/2024 08:20:05] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:20:06,045-INFO-127.0.0.1 - - [07/Nov/2024 08:20:06] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:20:06,237-INFO-127.0.0.1 - - [07/Nov/2024 08:20:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:20:07,961-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:20:07,962-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:20:07,967-INFO-127.0.0.1 - - [07/Nov/2024 08:20:07] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:20:08,159-INFO-127.0.0.1 - - [07/Nov/2024 08:20:08] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:20:08,481-INFO-127.0.0.1 - - [07/Nov/2024 08:20:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:20:08,509-INFO-127.0.0.1 - - [07/Nov/2024 08:20:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:20:08,510-INFO-127.0.0.1 - - [07/Nov/2024 08:20:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:20:09,111-INFO-127.0.0.1 - - [07/Nov/2024 08:20:09] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:22:14,173-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:22:14,732-INFO- * Restarting with stat
+2024-11-07 08:22:17,863-WARNING- * Debugger is active!
+2024-11-07 08:22:17,878-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:22:20,951-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:22:21,178-INFO- * Restarting with stat
+2024-11-07 08:22:26,449-WARNING- * Debugger is active!
+2024-11-07 08:22:26,465-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:22:27,941-INFO-Usuário anonimoatHC criado com sucesso.
+2024-11-07 08:22:27,946-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:22:27,983-INFO-127.0.0.1 - - [07/Nov/2024 08:22:27] "[35m[1mPOST /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-07 08:22:28,415-INFO-127.0.0.1 - - [07/Nov/2024 08:22:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-07 08:22:28,434-INFO-127.0.0.1 - - [07/Nov/2024 08:22:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:22:28,980-INFO-127.0.0.1 - - [07/Nov/2024 08:22:28] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 08:22:29,247-INFO-127.0.0.1 - - [07/Nov/2024 08:22:29] "[36mGET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-07 08:23:03,378-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:23:03,629-INFO- * Restarting with stat
+2024-11-07 08:23:07,260-WARNING- * Debugger is active!
+2024-11-07 08:23:07,277-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:23:07,506-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:23:07,510-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:23:07,579-INFO-127.0.0.1 - - [07/Nov/2024 08:23:07] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:23:08,347-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:23:08,379-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:23:08,400-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:23:08,516-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:23:08,607-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:23:08,980-INFO-127.0.0.1 - - [07/Nov/2024 08:23:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:23:12,652-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:23:12,658-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:23:12,660-INFO-127.0.0.1 - - [07/Nov/2024 08:23:12] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:23:12,792-INFO-127.0.0.1 - - [07/Nov/2024 08:23:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:23:13,115-INFO-127.0.0.1 - - [07/Nov/2024 08:23:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:23:13,121-INFO-127.0.0.1 - - [07/Nov/2024 08:23:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:23:13,126-INFO-127.0.0.1 - - [07/Nov/2024 08:23:13] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:23:13,512-INFO-127.0.0.1 - - [07/Nov/2024 08:23:13] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:24:44,370-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:24:44,738-INFO- * Restarting with stat
+2024-11-07 08:24:48,063-WARNING- * Debugger is active!
+2024-11-07 08:24:48,079-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:24:48,289-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:24:48,298-INFO-39 comentários encontrados para o vereador 37.
+2024-11-07 08:24:48,298-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:24:48,361-INFO-127.0.0.1 - - [07/Nov/2024 08:24:48] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:24:48,755-INFO-127.0.0.1 - - [07/Nov/2024 08:24:48] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:24:48,756-INFO-127.0.0.1 - - [07/Nov/2024 08:24:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:24:48,801-INFO-127.0.0.1 - - [07/Nov/2024 08:24:48] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:24:48,803-INFO-127.0.0.1 - - [07/Nov/2024 08:24:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:24:49,221-INFO-127.0.0.1 - - [07/Nov/2024 08:24:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:24:49,313-INFO-127.0.0.1 - - [07/Nov/2024 08:24:49] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:26:00,777-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:26:00,789-INFO-40 comentários encontrados para o vereador 37.
+2024-11-07 08:26:00,790-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:26:00,799-INFO-127.0.0.1 - - [07/Nov/2024 08:26:00] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:26:01,082-INFO-127.0.0.1 - - [07/Nov/2024 08:26:01] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:26:01,089-INFO-127.0.0.1 - - [07/Nov/2024 08:26:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:26:01,382-INFO-127.0.0.1 - - [07/Nov/2024 08:26:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:26:01,390-INFO-127.0.0.1 - - [07/Nov/2024 08:26:01] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:26:01,735-INFO-127.0.0.1 - - [07/Nov/2024 08:26:01] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:26:30,636-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
+2024-11-07 08:26:30,836-INFO- * Restarting with stat
+2024-11-07 08:26:34,130-WARNING- * Debugger is active!
+2024-11-07 08:26:34,145-INFO- * Debugger PIN: 120-436-784
+2024-11-07 08:26:34,376-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:26:34,382-ERROR-Erro ao obter comentários: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+            ORDER BY TB_DATACOMENT DESC' at line 4
+2024-11-07 08:26:34,382-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:26:34,408-INFO-127.0.0.1 - - [07/Nov/2024 08:26:34] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:26:34,759-INFO-127.0.0.1 - - [07/Nov/2024 08:26:34] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:26:34,822-INFO-127.0.0.1 - - [07/Nov/2024 08:26:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-07 08:26:34,843-INFO-127.0.0.1 - - [07/Nov/2024 08:26:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:26:34,851-INFO-127.0.0.1 - - [07/Nov/2024 08:26:34] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:26:35,281-INFO-127.0.0.1 - - [07/Nov/2024 08:26:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-07 08:26:35,357-INFO-127.0.0.1 - - [07/Nov/2024 08:26:35] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-07 08:26:37,876-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-07 08:26:37,885-ERROR-Erro ao obter comentários: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%s
+            ORDER BY TB_DATACOMENT DESC' at line 4
+2024-11-07 08:26:37,885-INFO-Comentário adicionado com sucesso.
+2024-11-07 08:26:37,889-INFO-127.0.0.1 - - [07/Nov/2024 08:26:37] "POST /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-07 08:26:38,103-INFO-127.0.0.1 - - [07/Nov/2024 08:26:38] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-07 08:26:38,458-INFO-127.0.0.1 - - [07/Nov/2024 08:26:38] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-07 08:26:38,520-INFO-127.0.0.1 - - [07/Nov/2024 08:26:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-07 08:26:38,531-INFO- * Detected change in 'D:\\Programação\\API_FATEC1\\app\\app.py', reloading
