@@ -139,7 +139,7 @@
               <label for="comment">Comentário:</label>
               <input name="comment" type="text" id="comment" />
             </article>
-            <article class="avaliar">
+            <!-- <article class="avaliar">
               <h4>Avalie o Candidato</h4>
               <ul class="avaliacao">
                 <li class="star-icon ativo" data-avaliacao="1"></li>
@@ -148,7 +148,7 @@
                 <li class="star-icon" data-avaliacao="4"></li>
                 <li class="star-icon" data-avaliacao="5"></li>
               </ul>
-            </article>
+            </article> -->
 
             <input type="hidden" id="NM_URNA_CANDIDATO" value="{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}">
             <article class="button-container">
@@ -184,10 +184,10 @@
       });
     });
 
-    // Função para enviar comentário via AJAX
     function enviarComentario() {
       const comentario = document.getElementById('comment').value;
-      const avaliacao = document.getElementById('avaliacao').value;
+      //const avaliacao = document.getElementById('avaliacao').value;
+      const avaliacao = 4;
       const NM_URNA_CANDIDATO = "{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}"; // ID do candidato no servidor
 
       fetch('/comentar', {
@@ -200,7 +200,7 @@
       .then(response => response.json())
       .then(data => {
         if (data.status === 'success') {
-           // Limpa o formulário após adicionar o comentário
+           
         } else {
           alert('Erro ao enviar comentário.');
         }
@@ -208,7 +208,9 @@
       .catch(error => {
         console.error('Erro:', error);
       });
-      setInterval(location.reload(true), 3000);
+      setTimeout(function(){
+        location.reload();
+      }, 950)
   }
 
 

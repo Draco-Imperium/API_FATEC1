@@ -170,7 +170,7 @@ def comentar():
         # Recebe os dados do formulário
         conteudo = request.form.get('comment')
         NM_URNA_CANDIDATO = request.form.get('NM_URNA_CANDIDATO')
-        user_ip = request.remote_addr  # Obtém o IP do usuário
+        user_ip = get('https://api.ipify.org').content.decode('utf8')  # Obtém o IP do usuário
 
         # Carrega o arquivo JSON para obter o vereador ID
         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
@@ -212,8 +212,8 @@ def obter_comentarios(vereador_id):
         # Consulta para obter os comentários de um vereador específico
         query = """
             SELECT TB_CONTEUDO AS conteudo, TB_STARVALUE AS star_value, TB_DATACOMENT AS data_comentario, TB2_NOME AS usuario
-            FROM tb1_comentarios
-            LEFT JOIN tb2_usuarios ON tb1_comentarios.TB2_IP = tb2_usuarios.TB2_IP
+            FROM apidb.tb1_comentarios
+            LEFT JOIN apidb.tb2_usuarios ON apidb.tb1_comentarios.TB2_IP = apidb.tb2_usuarios.TB2_IP
             WHERE TB_VEREADORID = %s
             ORDER BY TB_DATACOMENT DESC
         """
@@ -254,14 +254,14 @@ def criar_usuario_anonimo(user_ip):
 
     try:
         cursor = con.cursor()
-        cursor.execute("SELECT IDUSUARIO FROM tb2_usuarios WHERE TB2_IP = %s", (user_ip,))
+        cursor.execute("SELECT IDUSUARIO FROM apidb.tb2_usuarios WHERE TB2_IP = %s", (user_ip,))
         usuario = cursor.fetchone()
         
         if usuario:
             return usuario[0]
         
         sql = """
-            INSERT INTO tb2_usuarios (TB2_NOME, TB2_IP)
+            INSERT INTO apidb.tb2_usuarios (TB2_NOME, TB2_IP)
             VALUES (%s, %s)
         """
         cursor.execute(sql, (nome_usuario, user_ip))
@@ -291,7 +291,7 @@ def inserir_comentario(conteudo, star_value, vereador_id, user_ip):
         data_comentario = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
         sql = """
-            INSERT INTO tb1_comentarios (TB_CONTEUDO, TB_STARVALUE, TB_VEREADORID, TB_DATACOMENT, TB2_IP)
+            INSERT INTO apidb.tb1_comentarios (TB_CONTEUDO, TB_STARVALUE, TB_VEREADORID, TB_DATACOMENT, TB2_IP)
             VALUES (%s, %s, %s, %s, %s)
         """
         values = (conteudo, star_value, vereador_id, data_comentario, user_ip)
