@@ -8,3 +8,4 @@ app/app.log
 *.pyc
 *.log
 *.env
+app/app.log

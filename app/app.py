@@ -150,10 +150,10 @@ def perfil(NM_URNA_CANDIDATO):
             return render_template('404.html'), 404
 
         vereador_id = parlamentar.get("ID_VER")
-        comentarios = obter_comentarios(vereador_id)
+        # comentarios = obter_comentarios(vereador_id)
 
         # Renderiza a página de perfil com os comentários
-        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
+        # return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
 
     except FileNotFoundError:
         logging.error("Arquivo não encontrado")
@@ -163,149 +163,148 @@ def perfil(NM_URNA_CANDIDATO):
         return render_template('500.html'), 500
 
 
-# Nova rota para enviar comentários via AJAX
-@app.route('/comentar', methods=['POST'])
-def comentar():
-    try:
-        # Recebe os dados do formulário
-        conteudo = request.form.get('comment')
-        NM_URNA_CANDIDATO = request.form.get('NM_URNA_CANDIDATO')
-        user_ip = get('https://api.ipify.org').content.decode('utf8')  # Obtém o IP do usuário
+# # Nova rota para enviar comentários via AJAX
+# @app.route('/comentar', methods=['POST'])
+# def comentar():
+#     try:
+#         # Recebe os dados do formulário
+#         conteudo = request.form.get('comment')
+#         NM_URNA_CANDIDATO = request.form.get('NM_URNA_CANDIDATO')
+#         user_ip = get('https://api.ipify.org').content.decode('utf8')  # Obtém o IP do usuário
 
-        # Carrega o arquivo JSON para obter o vereador ID
-        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
-        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
-            data = json.load(file)
+#         # Carrega o arquivo JSON para obter o vereador ID
+#         file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
+#         with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+#             data = json.load(file)
 
-        parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == NM_URNA_CANDIDATO), None)
-        vereador_id = parlamentar.get("ID_VER") if parlamentar else None
+#         parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == NM_URNA_CANDIDATO), None)
+#         vereador_id = parlamentar.get("ID_VER") if parlamentar else None
 
-        if conteudo and vereador_id:
-            user_id = criar_usuario_anonimo(user_ip)
+#         if conteudo and vereador_id:
+#             user_id = criar_usuario_anonimo(user_ip)
 
-            if user_id:
-                # Insere o comentário no banco de dados
-                inserir_comentario(conteudo, 5, vereador_id, user_ip)
-                logging.info("Comentário adicionado com sucesso.")
-                return jsonify({"status": "success", "message": "Comentário adicionado com sucesso."})
-            else:
-                logging.error("Erro ao criar ou obter o usuário anônimo.")
-                return jsonify({"status": "error", "message": "Erro ao criar ou obter o usuário anônimo."}), 500
-        else:
-            logging.warning("Comentário ou ID do vereador ausente.")
-            return jsonify({"status": "error", "message": "Comentário ou ID do vereador ausente."}), 400
+#             if user_id:
+#                 # Insere o comentário no banco de dados
+#                 inserir_comentario(conteudo, 5, vereador_id, user_ip)
+#                 logging.info("Comentário adicionado com sucesso.")
+#                 return jsonify({"status": "success", "message": "Comentário adicionado com sucesso."})
+#             else:
+#                 logging.error("Erro ao criar ou obter o usuário anônimo.")
+#                 return jsonify({"status": "error", "message": "Erro ao criar ou obter o usuário anônimo."}), 500
+#         else:
+#             logging.warning("Comentário ou ID do vereador ausente.")
+#             return jsonify({"status": "error", "message": "Comentário ou ID do vereador ausente."}), 400
 
-    except Exception as e:
-        logging.error(f"Erro ao adicionar comentário: {e}")
-        return jsonify({"status": "error", "message": "Erro interno no servidor."}), 500
+#     except Exception as e:
+#         logging.error(f"Erro ao adicionar comentário: {e}")
+#         return jsonify({"status": "error", "message": "Erro interno no servidor."}), 500
     
 
-#----------------------------------------------------------------------------------------
+# #----------------------------------------------------------------------------------------
 
-def obter_comentarios(vereador_id):
-    con = get_db()
-    comentarios = []
+# def obter_comentarios(vereador_id):
+#     con = get_db()
+#     comentarios = []
 
-    try:
-        cursor = con.cursor(dictionary=True)
+#     try:
+#         cursor = con.cursor(dictionary=True)
         
-        # Consulta para obter os comentários de um vereador específico
-        query = """
-            SELECT TB_CONTEUDO AS conteudo, TB_STARVALUE AS star_value, TB_DATACOMENT AS data_comentario, TB2_NOME AS usuario
-            FROM apidb.tb1_comentarios
-            LEFT JOIN apidb.tb2_usuarios ON apidb.tb1_comentarios.TB2_IP = apidb.tb2_usuarios.TB2_IP
-            WHERE TB_VEREADORID = %s
-            ORDER BY TB_DATACOMENT DESC
-        """
+#         # Consulta para obter os comentários de um vereador específico
+#         query = """
+#             SELECT TB_CONTEUDO AS conteudo, TB_STARVALUE AS star_value, TB_DATACOMENT AS data_comentario, TB2_NOME AS usuario
+#             FROM apidb.tb1_comentarios
+#             LEFT JOIN apidb.tb2_usuarios ON apidb.tb1_comentarios.TB2_IP = apidb.tb2_usuarios.TB2_IP
+#             WHERE TB_VEREADORID = %s
+#             ORDER BY TB_DATACOMENT DESC
+#         """
         
-        cursor.execute(query, (vereador_id,))
-        raw_comentarios = cursor.fetchall()
+#         cursor.execute(query, (vereador_id,))
+#         raw_comentarios = cursor.fetchall()
         
-        for comentario in raw_comentarios:
-            # Formata a data e estrutura o JSON do comentário
-            comentario_formatado = {
-                "conteudo": comentario["conteudo"],
-                "star_value": comentario["star_value"],
-                "data_comentario": comentario["data_comentario"].strftime('%Y-%m-%d %H:%M:%S') if comentario["data_comentario"] else None,
-                "usuario": comentario["usuario"] or "Anônimo"
-            }
-            comentarios.append(comentario_formatado)
+#         for comentario in raw_comentarios:
+#             # Formata a data e estrutura o JSON do comentário
+#             comentario_formatado = {
+#                 "conteudo": comentario["conteudo"],
+#                 "star_value": comentario["star_value"],
+#                 "data_comentario": comentario["data_comentario"].strftime('%Y-%m-%d %H:%M:%S') if comentario["data_comentario"] else None,
+#                 "usuario": comentario["usuario"] or "Anônimo"
+#             }
+#             comentarios.append(comentario_formatado)
         
-        cursor.close()
-        con.close()
+#         cursor.close()
+#         con.close()
 
-        logging.info(f"{len(comentarios)} comentários encontrados para o vereador {vereador_id}.")
-        return comentarios  # Retorna a lista formatada de comentários
+#         logging.info(f"{len(comentarios)} comentários encontrados para o vereador {vereador_id}.")
+#         return comentarios  # Retorna a lista formatada de comentários
 
-    except mysql.connector.Error as err:
-        logging.error(f"Erro ao obter comentários: {err}")
-        return []
+#     except mysql.connector.Error as err:
+#         logging.error(f"Erro ao obter comentários: {err}")
+#         return []
 
-#----------------------------------------------------------------------------------------
-def criar_usuario_anonimo(user_ip):
-    sufixo = ''.join(random.choices(string.ascii_letters + string.digits, k=4))
-    nome_usuario = f"anonimo{sufixo}"
-    print(nome_usuario)
+# #----------------------------------------------------------------------------------------
+# def criar_usuario_anonimo(user_ip):
+#     sufixo = ''.join(random.choices(string.ascii_letters + string.digits, k=4))
+#     nome_usuario = f"anonimo{sufixo}"
+#     print(nome_usuario)
 
-    con = get_db()
-    if con is None:
-        logging.error("Falha ao obter conexão com o banco de dados.")
-        return None
+#     con = get_db()
+#     if con is None:
+#         logging.error("Falha ao obter conexão com o banco de dados.")
+#         return None
 
-    try:
-        cursor = con.cursor()
-        cursor.execute("SELECT IDUSUARIO FROM apidb.tb2_usuarios WHERE TB2_IP = %s", (user_ip,))
-        usuario = cursor.fetchone()
+#     try:
+#         cursor = con.cursor()
+#         cursor.execute("SELECT IDUSUARIO FROM apidb.tb2_usuarios WHERE TB2_IP = %s", (user_ip,))
+#         usuario = cursor.fetchone()
         
-        if usuario:
-            return usuario[0]
+#         if usuario:
+#             return usuario[0]
         
-        sql = """
-            INSERT INTO apidb.tb2_usuarios (TB2_NOME, TB2_IP)
-            VALUES (%s, %s)
-        """
-        cursor.execute(sql, (nome_usuario, user_ip))
-        con.commit()
+#         sql = """
+#             INSERT INTO apidb.tb2_usuarios (TB2_NOME, TB2_IP)
+#             VALUES (%s, %s)
+#         """
+#         cursor.execute(sql, (nome_usuario, user_ip))
+#         con.commit()
         
-        user_id = cursor.lastrowid 
-        logging.info(f"Usuário {nome_usuario} criado com sucesso.")
-        cursor.close()
-        con.close()
+#         user_id = cursor.lastrowid 
+#         logging.info(f"Usuário {nome_usuario} criado com sucesso.")
+#         cursor.close()
+#         con.close()
         
-        return user_id
-    except mysql.connector.Error as err:
-        print(f"Erro ao criar usuário anônimo: {err}")
-        return None
+#         return user_id
+#     except mysql.connector.Error as err:
+#         print(f"Erro ao criar usuário anônimo: {err}")
+#         return None
 
 
-#---------------------------------------------------------------------------------
+# #---------------------------------------------------------------------------------
 
-def inserir_comentario(conteudo, star_value, vereador_id, user_ip):
-    con = get_db()
-    if con is None:
-        logging.error("Falha ao obter conexão com o banco de dados.")
-        return
+# def inserir_comentario(conteudo, star_value, vereador_id, user_ip):
+#     con = get_db()
+#     if con is None:
+#         logging.error("Falha ao obter conexão com o banco de dados.")
+#         return
 
-    try:
-        cursor = con.cursor()
-        data_comentario = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     try:
+#         cursor = con.cursor()
+#         data_comentario = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-        sql = """
-            INSERT INTO apidb.tb1_comentarios (TB_CONTEUDO, TB_STARVALUE, TB_VEREADORID, TB_DATACOMENT, TB2_IP)
-            VALUES (%s, %s, %s, %s, %s)
-        """
-        values = (conteudo, star_value, vereador_id, data_comentario, user_ip)
+#         sql = """
+#             INSERT INTO apidb.tb1_comentarios (TB_CONTEUDO, TB_STARVALUE, TB_VEREADORID, TB_DATACOMENT, TB2_IP)
+#             VALUES (%s, %s, %s, %s, %s)
+#         """
+#         values = (conteudo, star_value, vereador_id, data_comentario, user_ip)
         
-        cursor.execute(sql, values)
-        con.commit()
+#         cursor.execute(sql, values)
+#         con.commit()
         
-        logging.info("Comentário inserido com sucesso no banco de dados.")
+#         logging.info("Comentário inserido com sucesso no banco de dados.")
         
-        cursor.close()
-        con.close()
-    except mysql.connector.Error as err:
-        logging.error(f"Erro ao inserir comentário: {err}")
-
+#         cursor.close()
+#         con.close()
+#     except mysql.connector.Error as err:
+#         logging.error(f"Erro ao inserir comentário: {err}")
     
 # HANDLE 404 -------------------------------------------------
     

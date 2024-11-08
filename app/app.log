@@ -12844,3 +12844,30 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-08 08:50:56,687-INFO-127.0.0.1 - - [08/Nov/2024 08:50:56] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
 2024-11-08 08:50:57,024-INFO-127.0.0.1 - - [08/Nov/2024 08:50:57] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
 2024-11-08 08:50:57,089-INFO-127.0.0.1 - - [08/Nov/2024 08:50:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-08 18:56:18,752-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-08 18:56:18,752-INFO-[33mPress CTRL+C to quit[0m
+2024-11-08 18:56:18,759-INFO- * Restarting with stat
+2024-11-08 18:56:19,699-WARNING- * Debugger is active!
+2024-11-08 18:56:19,706-INFO- * Debugger PIN: 728-119-020
+2024-11-08 18:57:13,338-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-08 18:57:13,338-INFO-[33mPress CTRL+C to quit[0m
+2024-11-08 18:57:13,340-INFO- * Restarting with stat
+2024-11-08 18:57:14,265-WARNING- * Debugger is active!
+2024-11-08 18:57:14,269-INFO- * Debugger PIN: 728-119-020
+2024-11-08 18:58:12,050-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-08 18:58:12,068-INFO-127.0.0.1 - - [08/Nov/2024 18:58:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 18:58:13,042-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET / HTTP/1.1" 200 -
+2024-11-08 18:58:13,166-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-08 18:58:13,169-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-08 18:58:13,179-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-08 18:58:13,208-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-08 18:58:13,214-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-08 18:58:13,250-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-08 18:58:13,254-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-08 18:58:13,426-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-08 18:58:13,427-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 18:58:13,639-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-08 18:58:13,657-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-08 18:58:13,657-INFO-127.0.0.1 - - [08/Nov/2024 18:58:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
