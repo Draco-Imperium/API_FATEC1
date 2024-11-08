@@ -15,7 +15,7 @@ app = Flask(__name__)
 cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 
 app.secret_key = os.getenv("SECRET_KEY")
-#--------------------------------------------------------------------------------------------------------   
+# --------------------------------------------------------------------------------------------------------
 
 def format_name(name):
     return unidecode.unidecode(name).lower().replace(" ", "_")
@@ -31,8 +31,8 @@ def index():
     ultimas = prepos() 
     return render_template('index.html', ultimas=ultimas, leis=leis )
 
-#-------------------------------------------------------------------------------------------------------- 
-    
+# --------------------------------------------------------------------------------------------------------
+
 @app.route('/dados2', methods=['GET'])
 
 def get_dados2():
@@ -45,7 +45,7 @@ def get_dados2():
     except json.JSONDecodeError:
         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
-#--------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------
 
 @app.route('/proposicoes')
 def proposicoes():
@@ -68,14 +68,14 @@ def proposicoes():
                            ano=ano, 
                            autor=autor)
 
-#--------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------
 
 @app.route('/graficos')
 # @cache.cached(timeout=300)
 def graficos():
     return render_template('graficos.html')
 
-#--------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------
 
 @app.route('/dados', methods=['GET'])
 def get_dados():
@@ -90,7 +90,7 @@ def get_dados():
         logging.error("Erro ao decodificar JSON: %s", e)
         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
-#--------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------
 
 @app.route('/usuarios/<int:id>', methods=['GET'])
 def get_usuario(id):
@@ -112,7 +112,7 @@ def get_usuario(id):
         logging.error("Erro ao decodificar JSON")
         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
-#--------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------
 
 @app.route('/vereadores_geral')
 @cache.cached(timeout=300)
@@ -133,8 +133,8 @@ def vereadores_geral():
         return render_template('404.html'), 404
     except json.JSONDecodeError:
         return render_template('500.html'), 500
-    
-#--------------------------------------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------------------------------------
 @app.route('/perfil/<string:NM_URNA_CANDIDATO>', methods=['GET'])
 def perfil(NM_URNA_CANDIDATO):
     try:
@@ -153,7 +153,8 @@ def perfil(NM_URNA_CANDIDATO):
         # comentarios = obter_comentarios(vereador_id)
 
         # Renderiza a página de perfil com os comentários
-        # return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
+        return render_template('perfil.html', parlamentar=parlamentar,)
+    # return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
 
     except FileNotFoundError:
         logging.error("Arquivo não encontrado")
@@ -161,6 +162,34 @@ def perfil(NM_URNA_CANDIDATO):
     except json.JSONDecodeError:
         logging.error("Erro ao decodificar JSON")
         return render_template('500.html'), 500
+
+
+def adicionar_comissoes_ao_perfil(parlamentar_id, comissoes, parlamentares):
+    parlamentar = next(
+        (p for p in parlamentares if p["ID_VER"] == parlamentar_id), None
+    )
+
+    if not parlamentar:
+        return f"Parlamentar com ID {parlamentar_id} não encontrado."
+
+    comissoes_participadas = []
+
+    for comissao in comissoes:
+        for p in comissao.get("comissaoParlamentar", []):
+            if p.get("parlamentarID") == str(
+                parlamentar_id
+            ):  # Corrigido para comparar como string
+                comissoes_participadas.append(
+                    {
+                        "comissaoNome": comissao["comissaoNome"],
+                        "cargo": p["comissaoCargo"],
+                    }
+                )
+
+    if not comissoes_participadas:
+        return f"Parlamentar com ID {parlamentar_id} não está participando de nenhuma comissão."
+
+    return comissoes_participadas
 
 
 # # Nova rota para enviar comentários via AJAX
@@ -198,7 +227,7 @@ def perfil(NM_URNA_CANDIDATO):
 #     except Exception as e:
 #         logging.error(f"Erro ao adicionar comentário: {e}")
 #         return jsonify({"status": "error", "message": "Erro interno no servidor."}), 500
-    
+
 
 # #----------------------------------------------------------------------------------------
 
@@ -208,7 +237,7 @@ def perfil(NM_URNA_CANDIDATO):
 
 #     try:
 #         cursor = con.cursor(dictionary=True)
-        
+
 #         # Consulta para obter os comentários de um vereador específico
 #         query = """
 #             SELECT TB_CONTEUDO AS conteudo, TB_STARVALUE AS star_value, TB_DATACOMENT AS data_comentario, TB2_NOME AS usuario
@@ -217,10 +246,10 @@ def perfil(NM_URNA_CANDIDATO):
 #             WHERE TB_VEREADORID = %s
 #             ORDER BY TB_DATACOMENT DESC
 #         """
-        
+
 #         cursor.execute(query, (vereador_id,))
 #         raw_comentarios = cursor.fetchall()
-        
+
 #         for comentario in raw_comentarios:
 #             # Formata a data e estrutura o JSON do comentário
 #             comentario_formatado = {
@@ -230,7 +259,7 @@ def perfil(NM_URNA_CANDIDATO):
 #                 "usuario": comentario["usuario"] or "Anônimo"
 #             }
 #             comentarios.append(comentario_formatado)
-        
+
 #         cursor.close()
 #         con.close()
 
@@ -256,22 +285,22 @@ def perfil(NM_URNA_CANDIDATO):
 #         cursor = con.cursor()
 #         cursor.execute("SELECT IDUSUARIO FROM apidb.tb2_usuarios WHERE TB2_IP = %s", (user_ip,))
 #         usuario = cursor.fetchone()
-        
+
 #         if usuario:
 #             return usuario[0]
-        
+
 #         sql = """
 #             INSERT INTO apidb.tb2_usuarios (TB2_NOME, TB2_IP)
 #             VALUES (%s, %s)
 #         """
 #         cursor.execute(sql, (nome_usuario, user_ip))
 #         con.commit()
-        
-#         user_id = cursor.lastrowid 
+
+#         user_id = cursor.lastrowid
 #         logging.info(f"Usuário {nome_usuario} criado com sucesso.")
 #         cursor.close()
 #         con.close()
-        
+
 #         return user_id
 #     except mysql.connector.Error as err:
 #         print(f"Erro ao criar usuário anônimo: {err}")
@@ -295,19 +324,19 @@ def perfil(NM_URNA_CANDIDATO):
 #             VALUES (%s, %s, %s, %s, %s)
 #         """
 #         values = (conteudo, star_value, vereador_id, data_comentario, user_ip)
-        
+
 #         cursor.execute(sql, values)
 #         con.commit()
-        
+
 #         logging.info("Comentário inserido com sucesso no banco de dados.")
-        
+
 #         cursor.close()
 #         con.close()
 #     except mysql.connector.Error as err:
 #         logging.error(f"Erro ao inserir comentário: {err}")
-    
+
 # HANDLE 404 -------------------------------------------------
-    
+
 @app.errorhandler(404)
 def not_found(error):
     logging.error(f"Página não encontrada: {error}")

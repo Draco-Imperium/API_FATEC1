@@ -88,6 +88,16 @@
                   </li>
                 </ul>
               </div>
+              <div class="p-2">
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                    <span class="botaobe">Comissões <i class="fa-solid fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                      <li class="texto-be">{{ parlamentar['COM'] | safe }}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
           </form>
         </div>
       </div>
@@ -156,7 +166,7 @@
             </article>
           </form>
         </section>
-      </section>
+      </section> 
   </main>
 
   {% include 'footer.html' %}

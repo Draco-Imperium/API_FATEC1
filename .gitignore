@@ -9,3 +9,4 @@ app/app.log
 *.log
 *.env
 app/app.log
+*.log
