@@ -13622,3 +13622,336 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-08 20:06:28,862-INFO-127.0.0.1 - - [08/Nov/2024 20:06:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
 2024-11-08 20:06:28,916-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
 2024-11-08 20:06:28,916-INFO-127.0.0.1 - - [08/Nov/2024 20:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-08 20:47:24,659-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-08 20:47:24,659-INFO-[33mPress CTRL+C to quit[0m
+2024-11-08 20:47:24,661-INFO- * Restarting with stat
+2024-11-08 20:47:25,628-WARNING- * Debugger is active!
+2024-11-08 20:47:25,634-INFO- * Debugger PIN: 927-283-417
+2024-11-08 20:47:30,481-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "GET / HTTP/1.1" 200 -
+2024-11-08 20:47:30,638-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,679-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,680-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,681-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,686-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,687-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-08 20:47:30,757-INFO-127.0.0.1 - - [08/Nov/2024 20:47:30] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-08 20:47:32,769-INFO-127.0.0.1 - - [08/Nov/2024 20:47:32] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:47:32,783-INFO-127.0.0.1 - - [08/Nov/2024 20:47:32] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:32,789-INFO-127.0.0.1 - - [08/Nov/2024 20:47:32] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:32,790-INFO-127.0.0.1 - - [08/Nov/2024 20:47:32] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:34,284-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-08 20:47:34,296-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:34,304-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:34,304-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:34,319-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:47:34,414-INFO-127.0.0.1 - - [08/Nov/2024 20:47:34] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:47:47,097-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:47:47,097-INFO-127.0.0.1 - - [08/Nov/2024 20:47:47] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:47:47,112-INFO-127.0.0.1 - - [08/Nov/2024 20:47:47] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:47,113-INFO-127.0.0.1 - - [08/Nov/2024 20:47:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:47,114-INFO-127.0.0.1 - - [08/Nov/2024 20:47:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:48,250-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-08 20:47:48,267-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:48,267-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:48,269-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:47:48,270-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:48,301-INFO-127.0.0.1 - - [08/Nov/2024 20:47:48] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:47:51,750-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:47:51,750-INFO-127.0.0.1 - - [08/Nov/2024 20:47:51] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:47:51,768-INFO-127.0.0.1 - - [08/Nov/2024 20:47:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:51,769-INFO-127.0.0.1 - - [08/Nov/2024 20:47:51] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:51,769-INFO-127.0.0.1 - - [08/Nov/2024 20:47:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:52,801-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "GET /perfil/dr_jose_claudio HTTP/1.1" 200 -
+2024-11-08 20:47:52,819-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:52,821-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:47:52,822-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:47:52,824-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:47:52,875-INFO-127.0.0.1 - - [08/Nov/2024 20:47:52] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:48:01,227-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:48:01,227-INFO-127.0.0.1 - - [08/Nov/2024 20:48:01] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:48:01,243-INFO-127.0.0.1 - - [08/Nov/2024 20:48:01] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:01,249-INFO-127.0.0.1 - - [08/Nov/2024 20:48:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:01,250-INFO-127.0.0.1 - - [08/Nov/2024 20:48:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:02,694-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "GET /perfil/dulce_rita HTTP/1.1" 200 -
+2024-11-08 20:48:02,711-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:02,714-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:02,716-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:02,720-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:48:02,747-INFO-127.0.0.1 - - [08/Nov/2024 20:48:02] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:48:10,657-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:48:10,658-INFO-127.0.0.1 - - [08/Nov/2024 20:48:10] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:48:10,673-INFO-127.0.0.1 - - [08/Nov/2024 20:48:10] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:10,676-INFO-127.0.0.1 - - [08/Nov/2024 20:48:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:10,676-INFO-127.0.0.1 - - [08/Nov/2024 20:48:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:12,540-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "GET /perfil/fabiao_zagueiro HTTP/1.1" 200 -
+2024-11-08 20:48:12,553-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:12,558-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:12,559-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:12,562-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:48:12,590-INFO-127.0.0.1 - - [08/Nov/2024 20:48:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:48:17,542-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:48:17,542-INFO-127.0.0.1 - - [08/Nov/2024 20:48:17] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:48:17,561-INFO-127.0.0.1 - - [08/Nov/2024 20:48:17] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:17,563-INFO-127.0.0.1 - - [08/Nov/2024 20:48:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:17,564-INFO-127.0.0.1 - - [08/Nov/2024 20:48:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:20,741-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "GET /perfil/milton_vieira_filho HTTP/1.1" 200 -
+2024-11-08 20:48:20,755-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:20,756-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:20,758-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:20,762-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:48:20,770-INFO-127.0.0.1 - - [08/Nov/2024 20:48:20] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:48:25,023-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:48:25,023-INFO-127.0.0.1 - - [08/Nov/2024 20:48:25] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:48:25,038-INFO-127.0.0.1 - - [08/Nov/2024 20:48:25] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:25,040-INFO-127.0.0.1 - - [08/Nov/2024 20:48:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:25,041-INFO-127.0.0.1 - - [08/Nov/2024 20:48:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:49,312-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-08 20:48:49,329-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:49,334-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:49,337-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:48:49,338-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:49,365-INFO-127.0.0.1 - - [08/Nov/2024 20:48:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:48:53,351-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:48:53,352-INFO-127.0.0.1 - - [08/Nov/2024 20:48:53] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:48:53,368-INFO-127.0.0.1 - - [08/Nov/2024 20:48:53] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:53,371-INFO-127.0.0.1 - - [08/Nov/2024 20:48:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:53,371-INFO-127.0.0.1 - - [08/Nov/2024 20:48:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:59,141-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "GET /perfil/marcao_da_academia_ao_ar_livre HTTP/1.1" 200 -
+2024-11-08 20:48:59,158-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:59,161-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:48:59,162-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:48:59,162-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:48:59,191-INFO-127.0.0.1 - - [08/Nov/2024 20:48:59] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:49:01,819-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:49:01,820-INFO-127.0.0.1 - - [08/Nov/2024 20:49:01] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:49:01,835-INFO-127.0.0.1 - - [08/Nov/2024 20:49:01] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:01,837-INFO-127.0.0.1 - - [08/Nov/2024 20:49:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:01,839-INFO-127.0.0.1 - - [08/Nov/2024 20:49:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:49:03,725-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-08 20:49:03,739-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:03,743-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:03,744-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:49:03,744-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:49:03,756-INFO-127.0.0.1 - - [08/Nov/2024 20:49:03] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 20:49:06,870-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 20:49:06,870-INFO-127.0.0.1 - - [08/Nov/2024 20:49:06] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 20:49:06,887-INFO-127.0.0.1 - - [08/Nov/2024 20:49:06] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:06,889-INFO-127.0.0.1 - - [08/Nov/2024 20:49:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:06,891-INFO-127.0.0.1 - - [08/Nov/2024 20:49:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:49:08,216-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-08 20:49:08,231-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:08,235-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 20:49:08,236-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 20:49:08,237-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 20:49:08,245-INFO-127.0.0.1 - - [08/Nov/2024 20:49:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:09:12,686-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-08 21:09:12,686-INFO-[33mPress CTRL+C to quit[0m
+2024-11-08 21:09:12,688-INFO- * Restarting with stat
+2024-11-08 21:09:13,659-WARNING- * Debugger is active!
+2024-11-08 21:09:13,665-INFO- * Debugger PIN: 927-283-417
+2024-11-08 21:09:22,686-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "GET / HTTP/1.1" 200 -
+2024-11-08 21:09:22,864-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-08 21:09:22,867-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:22,868-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-08 21:09:22,871-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:09:22,872-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-08 21:09:22,873-INFO-127.0.0.1 - - [08/Nov/2024 21:09:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:25,313-INFO-127.0.0.1 - - [08/Nov/2024 21:09:25] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:09:25,330-INFO-127.0.0.1 - - [08/Nov/2024 21:09:25] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:25,332-INFO-127.0.0.1 - - [08/Nov/2024 21:09:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:25,333-INFO-127.0.0.1 - - [08/Nov/2024 21:09:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:09:27,053-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-08 21:09:27,064-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:27,072-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:27,073-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:09:27,073-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:09:27,168-INFO-127.0.0.1 - - [08/Nov/2024 21:09:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:09:52,501-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:09:52,501-INFO-127.0.0.1 - - [08/Nov/2024 21:09:52] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:09:52,518-INFO-127.0.0.1 - - [08/Nov/2024 21:09:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:52,518-INFO-127.0.0.1 - - [08/Nov/2024 21:09:52] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:52,519-INFO-127.0.0.1 - - [08/Nov/2024 21:09:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:09:55,051-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-08 21:09:55,068-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:55,071-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:09:55,071-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:09:55,073-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:09:55,112-INFO-127.0.0.1 - - [08/Nov/2024 21:09:55] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:10:03,239-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:10:03,239-INFO-127.0.0.1 - - [08/Nov/2024 21:10:03] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:10:03,255-INFO-127.0.0.1 - - [08/Nov/2024 21:10:03] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:03,257-INFO-127.0.0.1 - - [08/Nov/2024 21:10:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:03,257-INFO-127.0.0.1 - - [08/Nov/2024 21:10:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:10:05,046-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "GET /perfil/juvenil_silverio HTTP/1.1" 200 -
+2024-11-08 21:10:05,062-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:05,064-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:05,067-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:10:05,068-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:10:05,075-INFO-127.0.0.1 - - [08/Nov/2024 21:10:05] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:10:13,387-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:10:13,388-INFO-127.0.0.1 - - [08/Nov/2024 21:10:13] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:10:13,403-INFO-127.0.0.1 - - [08/Nov/2024 21:10:13] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:13,406-INFO-127.0.0.1 - - [08/Nov/2024 21:10:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:10:13,409-INFO-127.0.0.1 - - [08/Nov/2024 21:10:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:03,343-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-08 21:11:03,361-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:03,364-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:03,370-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:03,371-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:03,399-INFO-127.0.0.1 - - [08/Nov/2024 21:11:03] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:08,569-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-08 21:11:08,586-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:08,587-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:08,587-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:08,592-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:08,601-INFO-127.0.0.1 - - [08/Nov/2024 21:11:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:11,511-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:11,511-INFO-127.0.0.1 - - [08/Nov/2024 21:11:11] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:11,528-INFO-127.0.0.1 - - [08/Nov/2024 21:11:11] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:11,531-INFO-127.0.0.1 - - [08/Nov/2024 21:11:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:11,532-INFO-127.0.0.1 - - [08/Nov/2024 21:11:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:12,715-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "GET /perfil/dr_jose_claudio HTTP/1.1" 200 -
+2024-11-08 21:11:12,728-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:12,733-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:12,734-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:12,734-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:12,742-INFO-127.0.0.1 - - [08/Nov/2024 21:11:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:15,320-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:15,320-INFO-127.0.0.1 - - [08/Nov/2024 21:11:15] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:15,337-INFO-127.0.0.1 - - [08/Nov/2024 21:11:15] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:15,341-INFO-127.0.0.1 - - [08/Nov/2024 21:11:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:15,341-INFO-127.0.0.1 - - [08/Nov/2024 21:11:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:16,342-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-08 21:11:16,357-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:16,364-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:16,366-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:16,366-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:16,373-INFO-127.0.0.1 - - [08/Nov/2024 21:11:16] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:27,472-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:27,472-INFO-127.0.0.1 - - [08/Nov/2024 21:11:27] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:27,489-INFO-127.0.0.1 - - [08/Nov/2024 21:11:27] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:27,491-INFO-127.0.0.1 - - [08/Nov/2024 21:11:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:27,492-INFO-127.0.0.1 - - [08/Nov/2024 21:11:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:28,910-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "GET /perfil/fabiao_zagueiro HTTP/1.1" 200 -
+2024-11-08 21:11:28,924-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:28,927-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:28,929-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:28,930-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:28,940-INFO-127.0.0.1 - - [08/Nov/2024 21:11:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:32,775-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:32,775-INFO-127.0.0.1 - - [08/Nov/2024 21:11:32] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:32,793-INFO-127.0.0.1 - - [08/Nov/2024 21:11:32] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:32,795-INFO-127.0.0.1 - - [08/Nov/2024 21:11:32] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:32,796-INFO-127.0.0.1 - - [08/Nov/2024 21:11:32] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:35,513-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "GET /perfil/rafael_pascucci HTTP/1.1" 200 -
+2024-11-08 21:11:35,530-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:35,530-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:35,533-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:35,536-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:35,546-INFO-127.0.0.1 - - [08/Nov/2024 21:11:35] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:40,002-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:40,003-INFO-127.0.0.1 - - [08/Nov/2024 21:11:40] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:40,020-INFO-127.0.0.1 - - [08/Nov/2024 21:11:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:40,021-INFO-127.0.0.1 - - [08/Nov/2024 21:11:40] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:40,022-INFO-127.0.0.1 - - [08/Nov/2024 21:11:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:45,919-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "GET /perfil/milton_vieira_filho HTTP/1.1" 200 -
+2024-11-08 21:11:45,936-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:45,938-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:45,943-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:45,943-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:45,948-INFO-127.0.0.1 - - [08/Nov/2024 21:11:45] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:48,158-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:48,158-INFO-127.0.0.1 - - [08/Nov/2024 21:11:48] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:48,175-INFO-127.0.0.1 - - [08/Nov/2024 21:11:48] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:48,176-INFO-127.0.0.1 - - [08/Nov/2024 21:11:48] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:48,178-INFO-127.0.0.1 - - [08/Nov/2024 21:11:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:50,266-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "GET /perfil/marcao_da_academia_ao_ar_livre HTTP/1.1" 200 -
+2024-11-08 21:11:50,281-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:50,288-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:50,288-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:50,291-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:50,299-INFO-127.0.0.1 - - [08/Nov/2024 21:11:50] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:52,483-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:52,483-INFO-127.0.0.1 - - [08/Nov/2024 21:11:52] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:52,499-INFO-127.0.0.1 - - [08/Nov/2024 21:11:52] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:52,502-INFO-127.0.0.1 - - [08/Nov/2024 21:11:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:52,504-INFO-127.0.0.1 - - [08/Nov/2024 21:11:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:54,579-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "GET /perfil/petiti_da_farmacia_comunitaria HTTP/1.1" 200 -
+2024-11-08 21:11:54,594-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:54,596-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:54,596-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:11:54,602-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:11:54,610-INFO-127.0.0.1 - - [08/Nov/2024 21:11:54] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:11:56,961-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:11:56,961-INFO-127.0.0.1 - - [08/Nov/2024 21:11:56] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:11:56,978-INFO-127.0.0.1 - - [08/Nov/2024 21:11:56] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:56,980-INFO-127.0.0.1 - - [08/Nov/2024 21:11:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:11:56,983-INFO-127.0.0.1 - - [08/Nov/2024 21:11:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:01,225-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "GET /perfil/rafael_pascucci HTTP/1.1" 200 -
+2024-11-08 21:12:01,241-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:01,247-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:01,249-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:01,249-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:01,278-INFO-127.0.0.1 - - [08/Nov/2024 21:12:01] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:03,512-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:03,513-INFO-127.0.0.1 - - [08/Nov/2024 21:12:03] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:03,529-INFO-127.0.0.1 - - [08/Nov/2024 21:12:03] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:03,531-INFO-127.0.0.1 - - [08/Nov/2024 21:12:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:03,533-INFO-127.0.0.1 - - [08/Nov/2024 21:12:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:07,096-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "GET /perfil/renato_santiago HTTP/1.1" 200 -
+2024-11-08 21:12:07,111-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:07,112-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:07,116-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:07,117-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:07,146-INFO-127.0.0.1 - - [08/Nov/2024 21:12:07] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:09,543-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:09,543-INFO-127.0.0.1 - - [08/Nov/2024 21:12:09] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:09,559-INFO-127.0.0.1 - - [08/Nov/2024 21:12:09] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:09,561-INFO-127.0.0.1 - - [08/Nov/2024 21:12:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:09,563-INFO-127.0.0.1 - - [08/Nov/2024 21:12:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:12,168-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "GET /perfil/robertinho_da_padaria HTTP/1.1" 200 -
+2024-11-08 21:12:12,185-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:12,187-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:12,190-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:12,192-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:12,198-INFO-127.0.0.1 - - [08/Nov/2024 21:12:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:15,196-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:15,196-INFO-127.0.0.1 - - [08/Nov/2024 21:12:15] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:15,215-INFO-127.0.0.1 - - [08/Nov/2024 21:12:15] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:15,216-INFO-127.0.0.1 - - [08/Nov/2024 21:12:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:15,221-INFO-127.0.0.1 - - [08/Nov/2024 21:12:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:17,942-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "GET /perfil/roberto_chagas HTTP/1.1" 200 -
+2024-11-08 21:12:17,957-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:17,964-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:17,966-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:17,967-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:17,973-INFO-127.0.0.1 - - [08/Nov/2024 21:12:17] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:20,216-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:20,216-INFO-127.0.0.1 - - [08/Nov/2024 21:12:20] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:20,233-INFO-127.0.0.1 - - [08/Nov/2024 21:12:20] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:20,235-INFO-127.0.0.1 - - [08/Nov/2024 21:12:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:20,237-INFO-127.0.0.1 - - [08/Nov/2024 21:12:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:24,916-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "GET /perfil/rogerio_da_acasem HTTP/1.1" 200 -
+2024-11-08 21:12:24,933-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:24,934-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:24,936-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:24,939-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:24,951-INFO-127.0.0.1 - - [08/Nov/2024 21:12:24] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:27,699-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:27,700-INFO-127.0.0.1 - - [08/Nov/2024 21:12:27] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:27,718-INFO-127.0.0.1 - - [08/Nov/2024 21:12:27] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:27,722-INFO-127.0.0.1 - - [08/Nov/2024 21:12:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:27,723-INFO-127.0.0.1 - - [08/Nov/2024 21:12:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:31,703-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "GET /perfil/roberto_do_eleven HTTP/1.1" 200 -
+2024-11-08 21:12:31,720-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:31,723-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:31,724-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-08 21:12:31,725-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-08 21:12:31,755-INFO-127.0.0.1 - - [08/Nov/2024 21:12:31] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-08 21:12:36,542-INFO-Cache used for key: view//vereadores_geral
+2024-11-08 21:12:36,542-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-08 21:12:36,558-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:36,560-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-08 21:12:36,564-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
