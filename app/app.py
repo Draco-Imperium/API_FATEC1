@@ -352,5 +352,47 @@ def internal_error(error):
     logging.error(f"Erro interno: {error}")
     return render_template('500.html'), 500
 
+#-------------------------------------------------------------------------------------------------------
+
+@app.route('/search')
+def search():
+    query = request.args.get('q', '').lower()
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            data = json.load(file)
+        
+        resultados = [v for v in data['parlamentares'] if query in v['NM_URNA_CANDIDATO'].lower()]
+
+        return jsonify(resultados)  # Retorna os resultados da busca em formato JSON
+    except FileNotFoundError:
+        logging.error("Arquivo não encontrado")
+        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+    except json.JSONDecodeError as e:
+        logging.error("Erro ao decodificar JSON: %s", e)
+        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
+    
+#-------------------------------------------------------------------------------------------------------
+
+# @app.route('/perfil/<int:id>', methods=['GET'])
+# def get_perfil_vereador(id):
+#     try:
+#         with open('app/database/data.json', 'r', encoding='utf-8') as file:
+#             data = json.load(file)
+#         vereador = next((v for v in data['parlamentares'] if v['ID_VER'] == id), None)
+
+#         if vereador:
+#             return render_template('perfil.html', vereador=vereador)
+#         else:
+#             return jsonify({"mensagem": "Vereador não encontrado"}), 404
+#     except FileNotFoundError:
+#         logging.error("Arquivo não encontrado")
+#         return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+#     except json.JSONDecodeError:
+#         logging.error("Erro ao decodificar JSON")
+#         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
+
+#----------------------------------------------------------------------------------------------
+
 if __name__ == '__main__':
     app.run(debug=True)

@@ -18,7 +18,8 @@
       <form>
         <div class="search">
           <span class="search-icon material-icons">search</span>
-          <input class="search-input" type="search" placeholder="Pesquisar" />
+          <input class="search-input" type="search" placeholder="Pesquise por um vereador..." onkeyup="searchFunction()" />
+          <div id="search-dropdown" class="dropdown-content"></div>
         </div>
       </form>
     </div>
@@ -32,4 +33,5 @@
       <li><a href="{{ url_for('graficos') }}">Gráficos</a></li>
     </ul>
   </nav>
+  <script src="{{ url_for('static', filename='javascript/search.js') }}"></script>
 </header>
