@@ -97,6 +97,8 @@ def get_prop(tipoID='', numero='', ano='', autor='', pag=1):
     return None
 
 
+import requests
+
 def prepos():
     api_url = 'https://camarasempapel.camarasjc.sp.gov.br/api/publico/proposicao?qtd=3'
 
@@ -105,10 +107,15 @@ def prepos():
         response.raise_for_status()
         data = response.json()
 
-        for proposta in data['Data']:
-            print(proposta.get('AutorRequerenteDados'))
-
+        if 'Data' in data:
+            for proposta in data['Data']:
+                arquivo = proposta.get('arquivo')
+                if not arquivo or arquivo.strip() == "":  
+                    proposta['arquivo'] = "Conteúdo indisponível"  
+                else:
+                    proposta['arquivo'] = arquivo 
         return data['Data'] if 'Data' in data else []
+    
     except requests.HTTPError as e:
         print(f'Erro na requisição: {e}')
     except requests.ConnectionError:

@@ -26,10 +26,13 @@ app.jinja_env.filters['format_name'] = format_name
 def index():
     file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'leis.json')
     with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
-        leis = json.load(file)      
+        leis = json.load(file)
     leis = leis['leis']
+    for lei in leis:
+        lei['PrimeiraLetra'] = lei['Lei'][0] if 'Lei' in lei and lei['Lei'] else ''
     ultimas = prepos() 
-    return render_template('index.html', ultimas=ultimas, leis=leis )
+    return render_template('index.html', ultimas=ultimas, leis=leis)
+
 
 # --------------------------------------------------------------------------------------------------------
 

@@ -13955,3 +13955,611 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-08 21:12:36,558-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
 2024-11-08 21:12:36,560-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
 2024-11-08 21:12:36,564-INFO-127.0.0.1 - - [08/Nov/2024 21:12:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 12:39:37,329-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-09 12:39:37,329-INFO-[33mPress CTRL+C to quit[0m
+2024-11-09 12:39:37,338-INFO- * Restarting with stat
+2024-11-09 12:39:42,452-WARNING- * Debugger is active!
+2024-11-09 12:39:42,482-INFO- * Debugger PIN: 137-390-401
+2024-11-09 12:40:06,006-INFO-127.0.0.1 - - [09/Nov/2024 12:40:06] "GET / HTTP/1.1" 200 -
+2024-11-09 12:40:06,929-INFO-127.0.0.1 - - [09/Nov/2024 12:40:06] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-09 12:40:06,931-INFO-127.0.0.1 - - [09/Nov/2024 12:40:06] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 12:40:06,942-INFO-127.0.0.1 - - [09/Nov/2024 12:40:06] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-09 12:40:06,950-INFO-127.0.0.1 - - [09/Nov/2024 12:40:06] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-09 12:40:07,078-INFO-127.0.0.1 - - [09/Nov/2024 12:40:07] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-09 12:40:07,187-INFO-127.0.0.1 - - [09/Nov/2024 12:40:07] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-09 12:40:11,456-INFO-127.0.0.1 - - [09/Nov/2024 12:40:11] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-09 12:49:18,819-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-09 12:49:18,820-INFO-[33mPress CTRL+C to quit[0m
+2024-11-09 12:49:18,825-INFO- * Restarting with stat
+2024-11-09 12:49:25,098-WARNING- * Debugger is active!
+2024-11-09 12:49:25,125-INFO- * Debugger PIN: 137-390-401
+2024-11-09 12:49:42,950-INFO-127.0.0.1 - - [09/Nov/2024 12:49:42] "GET / HTTP/1.1" 200 -
+2024-11-09 12:49:44,851-INFO-127.0.0.1 - - [09/Nov/2024 12:49:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 12:49:45,140-INFO-127.0.0.1 - - [09/Nov/2024 12:49:45] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 12:49:45,505-INFO-127.0.0.1 - - [09/Nov/2024 12:49:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 12:49:45,516-INFO-127.0.0.1 - - [09/Nov/2024 12:49:45] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:49:45,568-INFO-127.0.0.1 - - [09/Nov/2024 12:49:45] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:49:45,807-INFO-127.0.0.1 - - [09/Nov/2024 12:49:45] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:49:57,991-INFO-127.0.0.1 - - [09/Nov/2024 12:49:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 12:55:01,767-INFO-127.0.0.1 - - [09/Nov/2024 12:55:01] "GET / HTTP/1.1" 200 -
+2024-11-09 12:55:04,013-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 12:55:04,036-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 12:55:04,349-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:55:04,370-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 12:55:04,485-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:55:04,505-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 12:55:04,985-INFO-127.0.0.1 - - [09/Nov/2024 12:55:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:02:20,159-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "GET / HTTP/1.1" 200 -
+2024-11-09 13:02:20,391-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:02:20,394-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:02:20,944-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:02:20,959-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:02:20,966-INFO-127.0.0.1 - - [09/Nov/2024 13:02:20] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:02:21,011-INFO-127.0.0.1 - - [09/Nov/2024 13:02:21] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:02:22,275-INFO-127.0.0.1 - - [09/Nov/2024 13:02:22] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:06,968-INFO-127.0.0.1 - - [09/Nov/2024 13:03:06] "GET / HTTP/1.1" 200 -
+2024-11-09 13:03:07,455-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:07,461-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:07,462-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:03:07,476-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:07,477-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:07,577-INFO-127.0.0.1 - - [09/Nov/2024 13:03:07] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:08,181-INFO-127.0.0.1 - - [09/Nov/2024 13:03:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,069-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "GET / HTTP/1.1" 200 -
+2024-11-09 13:03:22,170-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,188-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,504-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,642-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,773-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:22,779-INFO-127.0.0.1 - - [09/Nov/2024 13:03:22] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:23,218-INFO-127.0.0.1 - - [09/Nov/2024 13:03:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:38,267-INFO-127.0.0.1 - - [09/Nov/2024 13:03:38] "GET / HTTP/1.1" 200 -
+2024-11-09 13:03:38,401-INFO-127.0.0.1 - - [09/Nov/2024 13:03:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:38,405-INFO-127.0.0.1 - - [09/Nov/2024 13:03:38] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:03:38,888-INFO-127.0.0.1 - - [09/Nov/2024 13:03:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:03:38,987-INFO-127.0.0.1 - - [09/Nov/2024 13:03:38] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:39,138-INFO-127.0.0.1 - - [09/Nov/2024 13:03:39] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:39,324-INFO-127.0.0.1 - - [09/Nov/2024 13:03:39] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:03:40,511-INFO-127.0.0.1 - - [09/Nov/2024 13:03:40] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:04:50,255-INFO-127.0.0.1 - - [09/Nov/2024 13:04:50] "GET / HTTP/1.1" 200 -
+2024-11-09 13:04:50,419-INFO-127.0.0.1 - - [09/Nov/2024 13:04:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:04:50,420-INFO-127.0.0.1 - - [09/Nov/2024 13:04:50] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:04:50,759-INFO-127.0.0.1 - - [09/Nov/2024 13:04:50] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:04:50,835-INFO-127.0.0.1 - - [09/Nov/2024 13:04:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:04:51,065-INFO-127.0.0.1 - - [09/Nov/2024 13:04:51] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:04:51,107-INFO-127.0.0.1 - - [09/Nov/2024 13:04:51] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:04:51,487-INFO-127.0.0.1 - - [09/Nov/2024 13:04:51] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:06:55,715-INFO-127.0.0.1 - - [09/Nov/2024 13:06:55] "GET / HTTP/1.1" 200 -
+2024-11-09 13:06:55,971-INFO-127.0.0.1 - - [09/Nov/2024 13:06:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:06:55,971-INFO-127.0.0.1 - - [09/Nov/2024 13:06:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:06:56,555-INFO-127.0.0.1 - - [09/Nov/2024 13:06:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:06:56,653-INFO-127.0.0.1 - - [09/Nov/2024 13:06:56] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:06:56,703-INFO-127.0.0.1 - - [09/Nov/2024 13:06:56] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:06:56,805-INFO-127.0.0.1 - - [09/Nov/2024 13:06:56] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:06:57,399-INFO-127.0.0.1 - - [09/Nov/2024 13:06:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:07:22,844-INFO-127.0.0.1 - - [09/Nov/2024 13:07:22] "GET / HTTP/1.1" 200 -
+2024-11-09 13:07:23,019-INFO-127.0.0.1 - - [09/Nov/2024 13:07:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:07:23,468-INFO-127.0.0.1 - - [09/Nov/2024 13:07:23] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:07:23,566-INFO-127.0.0.1 - - [09/Nov/2024 13:07:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:07:23,677-INFO-127.0.0.1 - - [09/Nov/2024 13:07:23] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:07:24,148-INFO-127.0.0.1 - - [09/Nov/2024 13:07:24] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:07:24,175-INFO-127.0.0.1 - - [09/Nov/2024 13:07:24] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:07:24,583-INFO-127.0.0.1 - - [09/Nov/2024 13:07:24] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:07,644-INFO-127.0.0.1 - - [09/Nov/2024 13:09:07] "GET / HTTP/1.1" 200 -
+2024-11-09 13:09:08,121-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:09:08,123-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:08,124-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:09:08,125-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:09:08,408-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:08,539-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:08,749-INFO-127.0.0.1 - - [09/Nov/2024 13:09:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:26,476-INFO-127.0.0.1 - - [09/Nov/2024 13:09:26] "GET / HTTP/1.1" 200 -
+2024-11-09 13:09:26,631-INFO-127.0.0.1 - - [09/Nov/2024 13:09:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:09:26,634-INFO-127.0.0.1 - - [09/Nov/2024 13:09:26] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:09:27,016-INFO-127.0.0.1 - - [09/Nov/2024 13:09:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:09:27,029-INFO-127.0.0.1 - - [09/Nov/2024 13:09:27] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:27,097-INFO-127.0.0.1 - - [09/Nov/2024 13:09:27] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:27,098-INFO-127.0.0.1 - - [09/Nov/2024 13:09:27] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:27,547-INFO-127.0.0.1 - - [09/Nov/2024 13:09:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:40,235-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "GET / HTTP/1.1" 200 -
+2024-11-09 13:09:40,394-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:09:40,397-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:09:40,779-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:09:40,813-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:40,888-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:40,910-INFO-127.0.0.1 - - [09/Nov/2024 13:09:40] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:09:41,461-INFO-127.0.0.1 - - [09/Nov/2024 13:09:41] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:41,162-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "GET / HTTP/1.1" 200 -
+2024-11-09 13:10:41,308-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:10:41,327-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:10:41,676-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:10:41,690-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:41,780-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:41,795-INFO-127.0.0.1 - - [09/Nov/2024 13:10:41] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:42,229-INFO-127.0.0.1 - - [09/Nov/2024 13:10:42] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:53,258-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "GET / HTTP/1.1" 200 -
+2024-11-09 13:10:53,403-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:10:53,408-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:10:53,754-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:10:53,758-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:53,832-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:53,887-INFO-127.0.0.1 - - [09/Nov/2024 13:10:53] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:10:54,404-INFO-127.0.0.1 - - [09/Nov/2024 13:10:54] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:01,836-INFO-127.0.0.1 - - [09/Nov/2024 13:11:01] "GET / HTTP/1.1" 200 -
+2024-11-09 13:11:02,185-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:11:02,187-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:11:02,583-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:11:02,708-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:02,800-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:02,847-INFO-127.0.0.1 - - [09/Nov/2024 13:11:02] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:03,279-INFO-127.0.0.1 - - [09/Nov/2024 13:11:03] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:19,775-INFO-127.0.0.1 - - [09/Nov/2024 13:11:19] "GET / HTTP/1.1" 200 -
+2024-11-09 13:11:19,944-INFO-127.0.0.1 - - [09/Nov/2024 13:11:19] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:11:19,946-INFO-127.0.0.1 - - [09/Nov/2024 13:11:19] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:11:20,343-INFO-127.0.0.1 - - [09/Nov/2024 13:11:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:11:20,394-INFO-127.0.0.1 - - [09/Nov/2024 13:11:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:20,496-INFO-127.0.0.1 - - [09/Nov/2024 13:11:20] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:20,529-INFO-127.0.0.1 - - [09/Nov/2024 13:11:20] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:21,137-INFO-127.0.0.1 - - [09/Nov/2024 13:11:21] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:31,397-INFO-127.0.0.1 - - [09/Nov/2024 13:11:31] "GET / HTTP/1.1" 200 -
+2024-11-09 13:11:31,642-INFO-127.0.0.1 - - [09/Nov/2024 13:11:31] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:11:31,643-INFO-127.0.0.1 - - [09/Nov/2024 13:11:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:11:31,967-INFO-127.0.0.1 - - [09/Nov/2024 13:11:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:11:31,976-INFO-127.0.0.1 - - [09/Nov/2024 13:11:31] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:32,106-INFO-127.0.0.1 - - [09/Nov/2024 13:11:32] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:32,111-INFO-127.0.0.1 - - [09/Nov/2024 13:11:32] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:32,871-INFO-127.0.0.1 - - [09/Nov/2024 13:11:32] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:43,977-INFO-127.0.0.1 - - [09/Nov/2024 13:11:43] "GET / HTTP/1.1" 200 -
+2024-11-09 13:11:44,148-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:11:44,152-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:11:44,672-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:11:44,705-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:44,730-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:44,775-INFO-127.0.0.1 - - [09/Nov/2024 13:11:44] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:45,190-INFO-127.0.0.1 - - [09/Nov/2024 13:11:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:11:59,419-INFO-127.0.0.1 - - [09/Nov/2024 13:11:59] "GET / HTTP/1.1" 200 -
+2024-11-09 13:11:59,859-INFO-127.0.0.1 - - [09/Nov/2024 13:11:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:11:59,863-INFO-127.0.0.1 - - [09/Nov/2024 13:11:59] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:12:00,471-INFO-127.0.0.1 - - [09/Nov/2024 13:12:00] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:00,672-INFO-127.0.0.1 - - [09/Nov/2024 13:12:00] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:00,750-INFO-127.0.0.1 - - [09/Nov/2024 13:12:00] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:12:00,873-INFO-127.0.0.1 - - [09/Nov/2024 13:12:00] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:01,385-INFO-127.0.0.1 - - [09/Nov/2024 13:12:01] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:24,180-INFO-127.0.0.1 - - [09/Nov/2024 13:12:24] "GET / HTTP/1.1" 200 -
+2024-11-09 13:12:24,498-INFO-127.0.0.1 - - [09/Nov/2024 13:12:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:12:24,507-INFO-127.0.0.1 - - [09/Nov/2024 13:12:24] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:12:24,916-INFO-127.0.0.1 - - [09/Nov/2024 13:12:24] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:24,978-INFO-127.0.0.1 - - [09/Nov/2024 13:12:24] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:25,001-INFO-127.0.0.1 - - [09/Nov/2024 13:12:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:12:25,082-INFO-127.0.0.1 - - [09/Nov/2024 13:12:25] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:25,641-INFO-127.0.0.1 - - [09/Nov/2024 13:12:25] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:50,602-INFO-127.0.0.1 - - [09/Nov/2024 13:12:50] "GET / HTTP/1.1" 200 -
+2024-11-09 13:12:50,773-INFO-127.0.0.1 - - [09/Nov/2024 13:12:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:12:50,776-INFO-127.0.0.1 - - [09/Nov/2024 13:12:50] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:12:51,192-INFO-127.0.0.1 - - [09/Nov/2024 13:12:51] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:51,228-INFO-127.0.0.1 - - [09/Nov/2024 13:12:51] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:51,387-INFO-127.0.0.1 - - [09/Nov/2024 13:12:51] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:12:51,405-INFO-127.0.0.1 - - [09/Nov/2024 13:12:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:12:52,302-INFO-127.0.0.1 - - [09/Nov/2024 13:12:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:26,672-INFO-127.0.0.1 - - [09/Nov/2024 13:13:26] "GET / HTTP/1.1" 200 -
+2024-11-09 13:13:27,173-INFO-127.0.0.1 - - [09/Nov/2024 13:13:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:13:27,251-INFO-127.0.0.1 - - [09/Nov/2024 13:13:27] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:13:28,221-INFO-127.0.0.1 - - [09/Nov/2024 13:13:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:13:28,320-INFO-127.0.0.1 - - [09/Nov/2024 13:13:28] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:29,076-INFO-127.0.0.1 - - [09/Nov/2024 13:13:29] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:29,086-INFO-127.0.0.1 - - [09/Nov/2024 13:13:29] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:29,521-INFO-127.0.0.1 - - [09/Nov/2024 13:13:29] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:46,673-INFO-127.0.0.1 - - [09/Nov/2024 13:13:46] "GET / HTTP/1.1" 200 -
+2024-11-09 13:13:47,109-INFO-127.0.0.1 - - [09/Nov/2024 13:13:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:13:47,112-INFO-127.0.0.1 - - [09/Nov/2024 13:13:47] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:13:47,942-INFO-127.0.0.1 - - [09/Nov/2024 13:13:47] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:48,058-INFO-127.0.0.1 - - [09/Nov/2024 13:13:48] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:13:48,127-INFO-127.0.0.1 - - [09/Nov/2024 13:13:48] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:48,173-INFO-127.0.0.1 - - [09/Nov/2024 13:13:48] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:13:48,644-INFO-127.0.0.1 - - [09/Nov/2024 13:13:48] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:14:14,456-INFO-127.0.0.1 - - [09/Nov/2024 13:14:14] "GET / HTTP/1.1" 200 -
+2024-11-09 13:14:14,756-INFO-127.0.0.1 - - [09/Nov/2024 13:14:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:14:14,762-INFO-127.0.0.1 - - [09/Nov/2024 13:14:14] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:14:15,359-INFO-127.0.0.1 - - [09/Nov/2024 13:14:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:14:15,386-INFO-127.0.0.1 - - [09/Nov/2024 13:14:15] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:14:15,425-INFO-127.0.0.1 - - [09/Nov/2024 13:14:15] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:14:15,454-INFO-127.0.0.1 - - [09/Nov/2024 13:14:15] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:14:15,868-INFO-127.0.0.1 - - [09/Nov/2024 13:14:15] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:14:26,498-INFO-127.0.0.1 - - [09/Nov/2024 13:14:26] "GET /graficos HTTP/1.1" 200 -
+2024-11-09 13:14:27,206-INFO-127.0.0.1 - - [09/Nov/2024 13:14:27] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-09 13:14:27,708-INFO-127.0.0.1 - - [09/Nov/2024 13:14:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:14:28,039-INFO-127.0.0.1 - - [09/Nov/2024 13:14:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:14:28,307-INFO-127.0.0.1 - - [09/Nov/2024 13:14:28] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-09 13:14:29,007-INFO-127.0.0.1 - - [09/Nov/2024 13:14:29] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-09 13:14:32,551-INFO-127.0.0.1 - - [09/Nov/2024 13:14:32] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-09 13:14:33,350-INFO-127.0.0.1 - - [09/Nov/2024 13:14:33] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-09 13:14:34,159-INFO-127.0.0.1 - - [09/Nov/2024 13:14:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:14:34,318-INFO-127.0.0.1 - - [09/Nov/2024 13:14:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:14:41,024-INFO-127.0.0.1 - - [09/Nov/2024 13:14:41] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-09 13:14:41,286-INFO-127.0.0.1 - - [09/Nov/2024 13:14:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:14:41,403-INFO-127.0.0.1 - - [09/Nov/2024 13:14:41] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-09 13:14:41,655-INFO-127.0.0.1 - - [09/Nov/2024 13:14:41] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:15:26,661-INFO-127.0.0.1 - - [09/Nov/2024 13:15:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:15:26,663-INFO-127.0.0.1 - - [09/Nov/2024 13:15:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:21:23,369-INFO-127.0.0.1 - - [09/Nov/2024 13:21:23] "GET / HTTP/1.1" 200 -
+2024-11-09 13:22:16,099-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET / HTTP/1.1" 200 -
+2024-11-09 13:22:16,328-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-09 13:22:16,352-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-09 13:22:16,653-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-09 13:22:16,664-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-09 13:22:16,666-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-09 13:22:16,703-INFO-127.0.0.1 - - [09/Nov/2024 13:22:16] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-09 13:22:22,489-INFO-127.0.0.1 - - [09/Nov/2024 13:22:22] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-09 13:22:28,561-INFO-127.0.0.1 - - [09/Nov/2024 13:22:28] "GET / HTTP/1.1" 200 -
+2024-11-09 13:25:09,081-INFO-127.0.0.1 - - [09/Nov/2024 13:25:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-09 13:25:09,717-INFO-127.0.0.1 - - [09/Nov/2024 13:25:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-09 13:25:09,790-INFO-127.0.0.1 - - [09/Nov/2024 13:25:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-09 13:25:10,641-INFO-127.0.0.1 - - [09/Nov/2024 13:25:10] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=uxpWDpNg0FtMf6Nj3uyE HTTP/1.1" 200 -
+2024-11-09 13:25:11,776-INFO-127.0.0.1 - - [09/Nov/2024 13:25:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-09 13:25:21,483-INFO-127.0.0.1 - - [09/Nov/2024 13:25:21] "GET / HTTP/1.1" 200 -
+2024-11-09 13:25:21,704-INFO-127.0.0.1 - - [09/Nov/2024 13:25:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:25:21,766-INFO-127.0.0.1 - - [09/Nov/2024 13:25:21] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:25:22,090-INFO-127.0.0.1 - - [09/Nov/2024 13:25:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:25:22,092-INFO-127.0.0.1 - - [09/Nov/2024 13:25:22] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:25:22,093-INFO-127.0.0.1 - - [09/Nov/2024 13:25:22] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:25:22,093-INFO-127.0.0.1 - - [09/Nov/2024 13:25:22] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:25:23,854-INFO-127.0.0.1 - - [09/Nov/2024 13:25:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:27:25,973-INFO-127.0.0.1 - - [09/Nov/2024 13:27:25] "GET / HTTP/1.1" 200 -
+2024-11-09 13:28:05,239-INFO-127.0.0.1 - - [09/Nov/2024 13:28:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-09 13:28:05,448-INFO-127.0.0.1 - - [09/Nov/2024 13:28:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-09 13:28:05,449-INFO-127.0.0.1 - - [09/Nov/2024 13:28:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-09 13:28:06,270-INFO-127.0.0.1 - - [09/Nov/2024 13:28:06] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=uxpWDpNg0FtMf6Nj3uyE HTTP/1.1" 200 -
+2024-11-09 13:28:06,565-INFO-127.0.0.1 - - [09/Nov/2024 13:28:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-09 13:28:27,729-INFO-127.0.0.1 - - [09/Nov/2024 13:28:27] "GET / HTTP/1.1" 200 -
+2024-11-09 13:28:27,901-INFO-127.0.0.1 - - [09/Nov/2024 13:28:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:28:27,904-INFO-127.0.0.1 - - [09/Nov/2024 13:28:27] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:28:28,317-INFO-127.0.0.1 - - [09/Nov/2024 13:28:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:28:28,412-INFO-127.0.0.1 - - [09/Nov/2024 13:28:28] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:28:28,555-INFO-127.0.0.1 - - [09/Nov/2024 13:28:28] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:28:28,679-INFO-127.0.0.1 - - [09/Nov/2024 13:28:28] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:28:29,209-INFO-127.0.0.1 - - [09/Nov/2024 13:28:29] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:05,192-INFO-127.0.0.1 - - [09/Nov/2024 13:30:05] "GET / HTTP/1.1" 200 -
+2024-11-09 13:30:05,276-INFO-127.0.0.1 - - [09/Nov/2024 13:30:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:30:05,277-INFO-127.0.0.1 - - [09/Nov/2024 13:30:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:30:06,092-INFO-127.0.0.1 - - [09/Nov/2024 13:30:06] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:06,093-INFO-127.0.0.1 - - [09/Nov/2024 13:30:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:30:06,095-INFO-127.0.0.1 - - [09/Nov/2024 13:30:06] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:06,097-INFO-127.0.0.1 - - [09/Nov/2024 13:30:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:06,497-INFO-127.0.0.1 - - [09/Nov/2024 13:30:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:07,766-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-09 13:30:07,873-INFO-127.0.0.1 - - [09/Nov/2024 13:30:07] "[33mGET /Parecer%20jurídico%20na%20emenda%20nº%2038. HTTP/1.1[0m" 404 -
+2024-11-09 13:30:17,510-INFO-127.0.0.1 - - [09/Nov/2024 13:30:17] "GET / HTTP/1.1" 200 -
+2024-11-09 13:30:17,950-INFO-127.0.0.1 - - [09/Nov/2024 13:30:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:30:17,951-INFO-127.0.0.1 - - [09/Nov/2024 13:30:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:30:18,312-INFO-127.0.0.1 - - [09/Nov/2024 13:30:18] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:30:18,377-INFO-127.0.0.1 - - [09/Nov/2024 13:30:18] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:18,402-INFO-127.0.0.1 - - [09/Nov/2024 13:30:18] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:18,454-INFO-127.0.0.1 - - [09/Nov/2024 13:30:18] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:18,879-INFO-127.0.0.1 - - [09/Nov/2024 13:30:18] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:30:19,970-INFO-127.0.0.1 - - [09/Nov/2024 13:30:19] "GET / HTTP/1.1" 200 -
+2024-11-09 13:30:24,320-INFO-127.0.0.1 - - [09/Nov/2024 13:30:24] "GET / HTTP/1.1" 200 -
+2024-11-09 13:30:29,777-INFO-127.0.0.1 - - [09/Nov/2024 13:30:29] "GET / HTTP/1.1" 200 -
+2024-11-09 13:30:30,513-INFO-127.0.0.1 - - [09/Nov/2024 13:30:30] "GET / HTTP/1.1" 200 -
+2024-11-09 13:37:01,518-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:37:02,589-INFO- * Restarting with stat
+2024-11-09 13:37:13,337-WARNING- * Debugger is active!
+2024-11-09 13:37:13,439-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:37:16,768-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:37:17,633-INFO- * Restarting with stat
+2024-11-09 13:37:25,689-WARNING- * Debugger is active!
+2024-11-09 13:37:25,704-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:37:50,264-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:37:51,105-INFO- * Restarting with stat
+2024-11-09 13:38:03,003-WARNING- * Debugger is active!
+2024-11-09 13:38:03,021-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:38:05,510-INFO-127.0.0.1 - - [09/Nov/2024 13:38:05] "GET / HTTP/1.1" 200 -
+2024-11-09 13:38:06,015-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,019-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,090-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,231-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,257-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,262-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:38:06,899-INFO-127.0.0.1 - - [09/Nov/2024 13:38:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:08,817-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-09 13:38:09,064-INFO-127.0.0.1 - - [09/Nov/2024 13:38:09] "[33mGET /link_do_arquivo HTTP/1.1[0m" 404 -
+2024-11-09 13:38:28,803-INFO-127.0.0.1 - - [09/Nov/2024 13:38:28] "GET / HTTP/1.1" 200 -
+2024-11-09 13:38:28,881-INFO-127.0.0.1 - - [09/Nov/2024 13:38:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:38:28,882-INFO-127.0.0.1 - - [09/Nov/2024 13:38:28] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:38:29,226-INFO-127.0.0.1 - - [09/Nov/2024 13:38:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:38:29,253-INFO-127.0.0.1 - - [09/Nov/2024 13:38:29] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:29,277-INFO-127.0.0.1 - - [09/Nov/2024 13:38:29] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:29,345-INFO-127.0.0.1 - - [09/Nov/2024 13:38:29] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:29,693-INFO-127.0.0.1 - - [09/Nov/2024 13:38:29] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:38:32,417-INFO-127.0.0.1 - - [09/Nov/2024 13:38:32] "GET / HTTP/1.1" 200 -
+2024-11-09 13:39:32,967-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:39:33,304-INFO- * Restarting with stat
+2024-11-09 13:39:50,622-WARNING- * Debugger is active!
+2024-11-09 13:39:50,653-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:40:03,317-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:03,649-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:40:03,702-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:40:03,820-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:40:03,875-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:03,936-INFO-127.0.0.1 - - [09/Nov/2024 13:40:03] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:04,026-INFO-127.0.0.1 - - [09/Nov/2024 13:40:04] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:04,428-INFO-127.0.0.1 - - [09/Nov/2024 13:40:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:05,673-INFO-127.0.0.1 - - [09/Nov/2024 13:40:05] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:08,733-INFO-127.0.0.1 - - [09/Nov/2024 13:40:08] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:09,181-INFO-127.0.0.1 - - [09/Nov/2024 13:40:09] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:13,113-INFO-127.0.0.1 - - [09/Nov/2024 13:40:13] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:14,224-INFO-127.0.0.1 - - [09/Nov/2024 13:40:14] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:15,239-INFO-127.0.0.1 - - [09/Nov/2024 13:40:15] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:15,743-INFO-127.0.0.1 - - [09/Nov/2024 13:40:15] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:16,179-INFO-127.0.0.1 - - [09/Nov/2024 13:40:16] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:16,645-INFO-127.0.0.1 - - [09/Nov/2024 13:40:16] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:16,984-INFO-127.0.0.1 - - [09/Nov/2024 13:40:16] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:17,353-INFO-127.0.0.1 - - [09/Nov/2024 13:40:17] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:17,763-INFO-127.0.0.1 - - [09/Nov/2024 13:40:17] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:18,556-INFO-127.0.0.1 - - [09/Nov/2024 13:40:18] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:22,193-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "GET / HTTP/1.1" 200 -
+2024-11-09 13:40:22,326-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:40:22,327-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:40:22,723-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:40:22,804-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:22,914-INFO-127.0.0.1 - - [09/Nov/2024 13:40:22] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:23,028-INFO-127.0.0.1 - - [09/Nov/2024 13:40:23] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:40:23,470-INFO-127.0.0.1 - - [09/Nov/2024 13:40:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:43:19,692-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:43:20,359-INFO- * Restarting with stat
+2024-11-09 13:43:31,185-WARNING- * Debugger is active!
+2024-11-09 13:43:31,200-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:45:43,695-INFO-127.0.0.1 - - [09/Nov/2024 13:45:43] "GET / HTTP/1.1" 200 -
+2024-11-09 13:45:44,394-INFO-127.0.0.1 - - [09/Nov/2024 13:45:44] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 13:45:44,420-INFO-127.0.0.1 - - [09/Nov/2024 13:45:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 13:45:44,569-INFO-127.0.0.1 - - [09/Nov/2024 13:45:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 13:45:44,783-INFO-127.0.0.1 - - [09/Nov/2024 13:45:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:45:44,986-INFO-127.0.0.1 - - [09/Nov/2024 13:45:44] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:45:45,217-INFO-127.0.0.1 - - [09/Nov/2024 13:45:45] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 13:45:45,913-INFO-127.0.0.1 - - [09/Nov/2024 13:45:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 13:46:12,382-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:46:12,827-INFO- * Restarting with stat
+2024-11-09 13:46:22,760-WARNING- * Debugger is active!
+2024-11-09 13:46:22,775-INFO- * Debugger PIN: 137-390-401
+2024-11-09 13:46:24,027-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-09 13:46:24,337-INFO- * Restarting with stat
+2024-11-09 13:46:30,963-WARNING- * Debugger is active!
+2024-11-09 13:46:30,977-INFO- * Debugger PIN: 137-390-401
+2024-11-09 14:01:16,915-INFO-127.0.0.1 - - [09/Nov/2024 14:01:16] "GET / HTTP/1.1" 200 -
+2024-11-09 14:01:17,660-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 14:01:17,663-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 14:01:17,797-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 14:01:17,822-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 14:01:17,831-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 14:01:17,882-INFO-127.0.0.1 - - [09/Nov/2024 14:01:17] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 14:01:18,416-INFO-127.0.0.1 - - [09/Nov/2024 14:01:18] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-09 14:01:44,037-INFO-127.0.0.1 - - [09/Nov/2024 14:01:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 14:01:44,073-INFO-127.0.0.1 - - [09/Nov/2024 14:01:44] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,234-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "GET / HTTP/1.1" 200 -
+2024-11-09 17:31:44,365-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,684-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,687-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,712-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,881-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-09 17:31:44,952-INFO-127.0.0.1 - - [09/Nov/2024 17:31:44] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-09 17:31:45,557-INFO-127.0.0.1 - - [09/Nov/2024 17:31:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 13:31:45,483-INFO-127.0.0.1 - - [10/Nov/2024 13:31:45] "GET / HTTP/1.1" 200 -
+2024-11-10 13:31:45,647-INFO-127.0.0.1 - - [10/Nov/2024 13:31:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,095-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,096-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,099-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,101-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,126-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 13:31:46,666-INFO-127.0.0.1 - - [10/Nov/2024 13:31:46] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:18,321-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-10 16:04:23,063-INFO- * Restarting with stat
+2024-11-10 16:04:33,588-WARNING- * Debugger is active!
+2024-11-10 16:04:33,606-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:04:36,425-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "GET / HTTP/1.1" 200 -
+2024-11-10 16:04:36,428-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-10 16:04:36,436-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "GET / HTTP/1.1" 200 -
+2024-11-10 16:04:36,874-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:04:36,888-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:04:36,890-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:04:36,917-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:36,983-INFO-127.0.0.1 - - [10/Nov/2024 16:04:36] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:37,087-INFO-127.0.0.1 - - [10/Nov/2024 16:04:37] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:37,479-INFO-127.0.0.1 - - [10/Nov/2024 16:04:37] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:43,176-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\getFunctions.py', reloading
+2024-11-10 16:04:43,439-INFO- * Restarting with stat
+2024-11-10 16:04:48,742-WARNING- * Debugger is active!
+2024-11-10 16:04:48,757-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:04:49,629-INFO-127.0.0.1 - - [10/Nov/2024 16:04:49] "GET / HTTP/1.1" 200 -
+2024-11-10 16:04:49,950-INFO-127.0.0.1 - - [10/Nov/2024 16:04:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,049-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,192-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,287-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,411-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,471-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:04:50,851-INFO-127.0.0.1 - - [10/Nov/2024 16:04:50] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:05,629-INFO-127.0.0.1 - - [10/Nov/2024 16:16:05] "GET / HTTP/1.1" 200 -
+2024-11-10 16:16:06,463-INFO-127.0.0.1 - - [10/Nov/2024 16:16:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:16:06,464-INFO-127.0.0.1 - - [10/Nov/2024 16:16:06] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:16:06,777-INFO-127.0.0.1 - - [10/Nov/2024 16:16:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:16:06,801-INFO-127.0.0.1 - - [10/Nov/2024 16:16:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:07,414-INFO-127.0.0.1 - - [10/Nov/2024 16:16:07] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:07,430-INFO-127.0.0.1 - - [10/Nov/2024 16:16:07] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:07,801-INFO-127.0.0.1 - - [10/Nov/2024 16:16:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,042-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "GET / HTTP/1.1" 200 -
+2024-11-10 16:16:58,120-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,135-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,463-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,483-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,494-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,496-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:16:58,841-INFO-127.0.0.1 - - [10/Nov/2024 16:16:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:17:26,992-INFO-127.0.0.1 - - [10/Nov/2024 16:17:26] "GET / HTTP/1.1" 200 -
+2024-11-10 16:17:29,015-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:17:29,330-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:17:29,405-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:17:29,421-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:17:29,577-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:17:29,600-INFO-127.0.0.1 - - [10/Nov/2024 16:17:29] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:19:41,130-INFO-127.0.0.1 - - [10/Nov/2024 16:19:41] "GET /graficos HTTP/1.1" 200 -
+2024-11-10 16:20:31,637-INFO-127.0.0.1 - - [10/Nov/2024 16:20:31] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-10 16:20:31,879-INFO-127.0.0.1 - - [10/Nov/2024 16:20:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:20:32,263-INFO-127.0.0.1 - - [10/Nov/2024 16:20:32] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:20:32,666-INFO-127.0.0.1 - - [10/Nov/2024 16:20:32] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-10 16:20:35,237-INFO-127.0.0.1 - - [10/Nov/2024 16:20:35] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-10 16:33:46,970-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-10 16:33:48,599-INFO- * Restarting with stat
+2024-11-10 16:34:07,076-WARNING- * Debugger is active!
+2024-11-10 16:34:07,100-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:34:40,786-INFO-127.0.0.1 - - [10/Nov/2024 16:34:40] "GET / HTTP/1.1" 200 -
+2024-11-10 16:34:41,866-INFO-127.0.0.1 - - [10/Nov/2024 16:34:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:34:42,076-INFO-127.0.0.1 - - [10/Nov/2024 16:34:42] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:34:42,383-INFO-127.0.0.1 - - [10/Nov/2024 16:34:42] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:34:42,579-INFO-127.0.0.1 - - [10/Nov/2024 16:34:42] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:34:42,695-INFO-127.0.0.1 - - [10/Nov/2024 16:34:42] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:34:42,731-INFO-127.0.0.1 - - [10/Nov/2024 16:34:42] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:34:43,620-INFO-127.0.0.1 - - [10/Nov/2024 16:34:43] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:35:53,143-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-10 16:35:54,489-INFO- * Restarting with stat
+2024-11-10 16:36:23,372-WARNING- * Debugger is active!
+2024-11-10 16:36:23,389-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:37:14,599-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-10 16:37:14,923-INFO- * Restarting with stat
+2024-11-10 16:37:39,174-WARNING- * Debugger is active!
+2024-11-10 16:37:39,189-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:37:51,517-INFO-127.0.0.1 - - [10/Nov/2024 16:37:51] "GET / HTTP/1.1" 200 -
+2024-11-10 16:37:52,882-INFO-127.0.0.1 - - [10/Nov/2024 16:37:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:37:53,026-INFO-127.0.0.1 - - [10/Nov/2024 16:37:53] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:37:53,140-INFO-127.0.0.1 - - [10/Nov/2024 16:37:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:37:53,290-INFO-127.0.0.1 - - [10/Nov/2024 16:37:53] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:37:54,146-INFO-127.0.0.1 - - [10/Nov/2024 16:37:54] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:37:54,798-INFO-127.0.0.1 - - [10/Nov/2024 16:37:54] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:37:55,435-INFO-127.0.0.1 - - [10/Nov/2024 16:37:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:38:41,613-INFO-127.0.0.1 - - [10/Nov/2024 16:38:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-10 16:38:42,551-INFO-127.0.0.1 - - [10/Nov/2024 16:38:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-10 16:38:43,004-INFO-127.0.0.1 - - [10/Nov/2024 16:38:43] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-10 16:38:44,099-INFO-127.0.0.1 - - [10/Nov/2024 16:38:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=tUJf6zb2Bae78OljunD7 HTTP/1.1" 200 -
+2024-11-10 16:38:44,396-INFO-127.0.0.1 - - [10/Nov/2024 16:38:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-10 16:39:08,106-INFO-127.0.0.1 - - [10/Nov/2024 16:39:08] "GET / HTTP/1.1" 200 -
+2024-11-10 16:39:08,556-INFO-127.0.0.1 - - [10/Nov/2024 16:39:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:39:08,558-INFO-127.0.0.1 - - [10/Nov/2024 16:39:08] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:39:09,153-INFO-127.0.0.1 - - [10/Nov/2024 16:39:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:39:09,363-INFO-127.0.0.1 - - [10/Nov/2024 16:39:09] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:39:09,471-INFO-127.0.0.1 - - [10/Nov/2024 16:39:09] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:39:09,550-INFO-127.0.0.1 - - [10/Nov/2024 16:39:09] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:39:10,085-INFO-127.0.0.1 - - [10/Nov/2024 16:39:10] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:40:42,790-INFO-127.0.0.1 - - [10/Nov/2024 16:40:42] "GET / HTTP/1.1" 200 -
+2024-11-10 16:40:43,022-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:40:43,193-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:40:43,674-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:40:43,886-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:40:43,954-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:40:43,990-INFO-127.0.0.1 - - [10/Nov/2024 16:40:43] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:40:44,390-INFO-127.0.0.1 - - [10/Nov/2024 16:40:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:41:00,999-INFO-127.0.0.1 - - [10/Nov/2024 16:41:00] "GET / HTTP/1.1" 200 -
+2024-11-10 16:41:02,165-INFO-127.0.0.1 - - [10/Nov/2024 16:41:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:41:02,652-INFO-127.0.0.1 - - [10/Nov/2024 16:41:02] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:41:03,266-INFO-127.0.0.1 - - [10/Nov/2024 16:41:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:41:03,513-INFO-127.0.0.1 - - [10/Nov/2024 16:41:03] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:41:03,675-INFO-127.0.0.1 - - [10/Nov/2024 16:41:03] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:41:03,823-INFO-127.0.0.1 - - [10/Nov/2024 16:41:03] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:41:04,606-INFO-127.0.0.1 - - [10/Nov/2024 16:41:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:22,617-INFO-127.0.0.1 - - [10/Nov/2024 16:42:22] "GET / HTTP/1.1" 200 -
+2024-11-10 16:42:23,035-INFO-127.0.0.1 - - [10/Nov/2024 16:42:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:42:23,043-INFO-127.0.0.1 - - [10/Nov/2024 16:42:23] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:42:24,016-INFO-127.0.0.1 - - [10/Nov/2024 16:42:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:42:24,284-INFO-127.0.0.1 - - [10/Nov/2024 16:42:24] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:24,440-INFO-127.0.0.1 - - [10/Nov/2024 16:42:24] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:24,534-INFO-127.0.0.1 - - [10/Nov/2024 16:42:24] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:26,618-INFO-127.0.0.1 - - [10/Nov/2024 16:42:26] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:28,856-INFO-127.0.0.1 - - [10/Nov/2024 16:42:28] "GET / HTTP/1.1" 200 -
+2024-11-10 16:42:30,492-INFO-127.0.0.1 - - [10/Nov/2024 16:42:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:42:31,027-INFO-127.0.0.1 - - [10/Nov/2024 16:42:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:42:31,412-INFO-127.0.0.1 - - [10/Nov/2024 16:42:31] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:33,026-INFO-127.0.0.1 - - [10/Nov/2024 16:42:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:42:33,675-INFO-127.0.0.1 - - [10/Nov/2024 16:42:33] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:33,986-INFO-127.0.0.1 - - [10/Nov/2024 16:42:33] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:42:40,246-INFO-127.0.0.1 - - [10/Nov/2024 16:42:40] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 16:43:01,086-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-10 16:43:01,883-INFO- * Restarting with stat
+2024-11-10 16:44:13,855-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-10 16:44:13,855-INFO-[33mPress CTRL+C to quit[0m
+2024-11-10 16:44:13,864-INFO- * Restarting with stat
+2024-11-10 16:44:34,357-WARNING- * Debugger is active!
+2024-11-10 16:44:34,380-INFO- * Debugger PIN: 137-390-401
+2024-11-10 16:44:35,522-INFO-127.0.0.1 - - [10/Nov/2024 16:44:35] "GET / HTTP/1.1" 200 -
+2024-11-10 16:44:38,872-INFO-127.0.0.1 - - [10/Nov/2024 16:44:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 16:44:39,597-INFO-127.0.0.1 - - [10/Nov/2024 16:44:39] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:44:39,827-INFO-127.0.0.1 - - [10/Nov/2024 16:44:39] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 16:44:39,845-INFO-127.0.0.1 - - [10/Nov/2024 16:44:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 16:44:39,964-INFO-127.0.0.1 - - [10/Nov/2024 16:44:39] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:44:40,065-INFO-127.0.0.1 - - [10/Nov/2024 16:44:40] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 16:44:54,565-INFO- * Detected change in 'C:\\Users\\User\\Documents\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-10 16:44:56,590-INFO- * Restarting with stat
+2024-11-10 21:32:12,319-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-10 21:32:12,320-INFO-[33mPress CTRL+C to quit[0m
+2024-11-10 21:32:12,328-INFO- * Restarting with stat
+2024-11-10 21:32:17,173-WARNING- * Debugger is active!
+2024-11-10 21:32:17,331-INFO- * Debugger PIN: 137-390-401
+2024-11-10 21:32:42,483-INFO-127.0.0.1 - - [10/Nov/2024 21:32:42] "GET / HTTP/1.1" 200 -
+2024-11-10 21:32:44,708-INFO-127.0.0.1 - - [10/Nov/2024 21:32:44] "GET / HTTP/1.1" 200 -
+2024-11-10 21:32:52,718-INFO-127.0.0.1 - - [10/Nov/2024 21:32:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:32:52,722-INFO-127.0.0.1 - - [10/Nov/2024 21:32:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:32:52,789-INFO-127.0.0.1 - - [10/Nov/2024 21:32:52] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:32:52,846-INFO-127.0.0.1 - - [10/Nov/2024 21:32:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:32:53,374-INFO-127.0.0.1 - - [10/Nov/2024 21:32:53] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:32:53,381-INFO-127.0.0.1 - - [10/Nov/2024 21:32:53] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:32:55,250-INFO-127.0.0.1 - - [10/Nov/2024 21:32:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 21:33:09,728-INFO-127.0.0.1 - - [10/Nov/2024 21:33:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:33:09,888-INFO-127.0.0.1 - - [10/Nov/2024 21:33:09] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:33:10,217-INFO-127.0.0.1 - - [10/Nov/2024 21:33:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:33:10,527-INFO-127.0.0.1 - - [10/Nov/2024 21:33:10] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:33:10,893-INFO-127.0.0.1 - - [10/Nov/2024 21:33:10] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:33:10,987-INFO-127.0.0.1 - - [10/Nov/2024 21:33:10] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:38:02,953-INFO-127.0.0.1 - - [10/Nov/2024 21:38:02] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-10 21:38:03,186-INFO-127.0.0.1 - - [10/Nov/2024 21:38:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:38:03,214-INFO-127.0.0.1 - - [10/Nov/2024 21:38:03] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-10 21:38:04,098-INFO-127.0.0.1 - - [10/Nov/2024 21:38:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:38:25,759-INFO-127.0.0.1 - - [10/Nov/2024 21:38:25] "GET / HTTP/1.1" 200 -
+2024-11-10 21:38:26,094-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:38:26,434-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:38:26,483-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:38:26,636-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:38:26,820-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:38:26,872-INFO-127.0.0.1 - - [10/Nov/2024 21:38:26] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:39:24,290-INFO-127.0.0.1 - - [10/Nov/2024 21:39:24] "GET / HTTP/1.1" 200 -
+2024-11-10 21:39:24,558-INFO-127.0.0.1 - - [10/Nov/2024 21:39:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:39:24,603-INFO-127.0.0.1 - - [10/Nov/2024 21:39:24] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-10 21:39:24,907-INFO-127.0.0.1 - - [10/Nov/2024 21:39:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:39:24,944-INFO-127.0.0.1 - - [10/Nov/2024 21:39:24] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:39:25,089-INFO-127.0.0.1 - - [10/Nov/2024 21:39:25] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:39:25,230-INFO-127.0.0.1 - - [10/Nov/2024 21:39:25] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:39:25,913-INFO-127.0.0.1 - - [10/Nov/2024 21:39:25] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 21:39:59,033-INFO-127.0.0.1 - - [10/Nov/2024 21:39:59] "GET / HTTP/1.1" 200 -
+2024-11-10 21:39:59,726-INFO-127.0.0.1 - - [10/Nov/2024 21:39:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:40:00,144-INFO-127.0.0.1 - - [10/Nov/2024 21:40:00] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-10 21:40:00,441-INFO-127.0.0.1 - - [10/Nov/2024 21:40:00] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:40:00,662-INFO-127.0.0.1 - - [10/Nov/2024 21:40:00] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:40:00,804-INFO-127.0.0.1 - - [10/Nov/2024 21:40:00] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:40:01,196-INFO-127.0.0.1 - - [10/Nov/2024 21:40:01] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:40:01,702-INFO-127.0.0.1 - - [10/Nov/2024 21:40:01] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 21:40:14,693-INFO-127.0.0.1 - - [10/Nov/2024 21:40:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:40:15,007-INFO-127.0.0.1 - - [10/Nov/2024 21:40:15] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:42:08,016-INFO-127.0.0.1 - - [10/Nov/2024 21:42:08] "GET / HTTP/1.1" 200 -
+2024-11-10 21:42:08,620-INFO-127.0.0.1 - - [10/Nov/2024 21:42:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:42:08,621-INFO-127.0.0.1 - - [10/Nov/2024 21:42:08] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:42:09,103-INFO-127.0.0.1 - - [10/Nov/2024 21:42:09] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:42:09,572-INFO-127.0.0.1 - - [10/Nov/2024 21:42:09] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:42:09,870-INFO-127.0.0.1 - - [10/Nov/2024 21:42:09] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:42:10,104-INFO-127.0.0.1 - - [10/Nov/2024 21:42:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:42:11,093-INFO-127.0.0.1 - - [10/Nov/2024 21:42:11] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-10 21:42:56,658-INFO-127.0.0.1 - - [10/Nov/2024 21:42:56] "GET / HTTP/1.1" 200 -
+2024-11-10 21:43:00,718-INFO-127.0.0.1 - - [10/Nov/2024 21:43:00] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-10 21:43:04,407-INFO-127.0.0.1 - - [10/Nov/2024 21:43:04] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:43:04,625-INFO-127.0.0.1 - - [10/Nov/2024 21:43:04] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:43:04,826-INFO-127.0.0.1 - - [10/Nov/2024 21:43:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-10 21:43:05,069-INFO-127.0.0.1 - - [10/Nov/2024 21:43:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-10 21:43:05,200-INFO-127.0.0.1 - - [10/Nov/2024 21:43:05] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-10 21:43:06,204-INFO-127.0.0.1 - - [10/Nov/2024 21:43:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
