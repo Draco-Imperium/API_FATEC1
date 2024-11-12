@@ -16512,3 +16512,94 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-11 15:29:11,493-INFO-127.0.0.1 - - [11/Nov/2024 15:29:11] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
 2024-11-11 15:29:12,587-INFO-127.0.0.1 - - [11/Nov/2024 15:29:12] "GET /search?q=A HTTP/1.1" 200 -
 2024-11-11 15:29:16,178-INFO-127.0.0.1 - - [11/Nov/2024 15:29:16] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-12 14:03:36,823-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 14:03:36,823-INFO-[33mPress CTRL+C to quit[0m
+2024-11-12 14:03:36,825-INFO- * Restarting with stat
+2024-11-12 14:03:37,778-WARNING- * Debugger is active!
+2024-11-12 14:03:37,789-INFO- * Debugger PIN: 927-283-417
+2024-11-12 14:06:10,925-INFO-127.0.0.1 - - [12/Nov/2024 14:06:10] "GET / HTTP/1.1" 200 -
+2024-11-12 14:06:11,100-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-12 14:06:11,109-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-12 14:06:11,109-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-12 14:06:11,112-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-12 14:06:11,113-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-12 14:06:11,113-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-12 14:06:11,114-INFO-127.0.0.1 - - [12/Nov/2024 14:06:11] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-12 14:06:20,781-INFO-127.0.0.1 - - [12/Nov/2024 14:06:20] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-12 14:06:20,796-INFO-127.0.0.1 - - [12/Nov/2024 14:06:20] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-12 14:06:20,801-INFO-127.0.0.1 - - [12/Nov/2024 14:06:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:06:20,801-INFO-127.0.0.1 - - [12/Nov/2024 14:06:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:06:20,802-INFO-127.0.0.1 - - [12/Nov/2024 14:06:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:06:22,687-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-12 14:06:22,703-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-12 14:06:22,714-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:06:22,714-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:06:22,715-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:06:22,728-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-12 14:06:22,840-INFO-127.0.0.1 - - [12/Nov/2024 14:06:22] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-12 14:06:42,205-INFO-127.0.0.1 - - [12/Nov/2024 14:06:42] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-12 14:06:42,223-INFO-127.0.0.1 - - [12/Nov/2024 14:06:42] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-12 14:06:42,227-INFO-127.0.0.1 - - [12/Nov/2024 14:06:42] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:06:42,227-INFO-127.0.0.1 - - [12/Nov/2024 14:06:42] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:06:42,228-INFO-127.0.0.1 - - [12/Nov/2024 14:06:42] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:37:22,494-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-12 14:37:22,494-INFO-[33mPress CTRL+C to quit[0m
+2024-11-12 14:37:22,495-INFO- * Restarting with stat
+2024-11-12 14:37:23,470-WARNING- * Debugger is active!
+2024-11-12 14:37:23,476-INFO- * Debugger PIN: 927-283-417
+2024-11-12 14:37:27,448-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "GET / HTTP/1.1" 200 -
+2024-11-12 14:37:27,624-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,625-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,627-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,629-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,631-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,632-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,632-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:37:27,698-INFO-127.0.0.1 - - [12/Nov/2024 14:37:27] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-12 14:37:35,378-INFO-127.0.0.1 - - [12/Nov/2024 14:37:35] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-12 14:39:18,149-INFO-127.0.0.1 - - [12/Nov/2024 14:39:18] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-12 14:39:18,170-INFO-127.0.0.1 - - [12/Nov/2024 14:39:18] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:18,176-INFO-127.0.0.1 - - [12/Nov/2024 14:39:18] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:18,177-INFO-127.0.0.1 - - [12/Nov/2024 14:39:18] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:18,178-INFO-127.0.0.1 - - [12/Nov/2024 14:39:18] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,587-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "GET / HTTP/1.1" 200 -
+2024-11-12 14:39:20,603-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,604-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,608-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,608-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,614-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,615-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:39:20,615-INFO-127.0.0.1 - - [12/Nov/2024 14:39:20] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:39:37,223-INFO-Cache used for key: view//vereadores_geral
+2024-11-12 14:39:37,223-INFO-127.0.0.1 - - [12/Nov/2024 14:39:37] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-12 14:39:37,239-INFO-127.0.0.1 - - [12/Nov/2024 14:39:37] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:37,241-INFO-127.0.0.1 - - [12/Nov/2024 14:39:37] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:37,243-INFO-127.0.0.1 - - [12/Nov/2024 14:39:37] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:37,244-INFO-127.0.0.1 - - [12/Nov/2024 14:39:37] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:39,999-INFO-127.0.0.1 - - [12/Nov/2024 14:39:39] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-12 14:39:40,017-INFO-127.0.0.1 - - [12/Nov/2024 14:39:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:40,017-INFO-127.0.0.1 - - [12/Nov/2024 14:39:40] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:40,019-INFO-127.0.0.1 - - [12/Nov/2024 14:39:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:40,021-INFO-127.0.0.1 - - [12/Nov/2024 14:39:40] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:53,977-INFO-127.0.0.1 - - [12/Nov/2024 14:39:53] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-12 14:39:53,986-INFO-127.0.0.1 - - [12/Nov/2024 14:39:53] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:53,990-INFO-127.0.0.1 - - [12/Nov/2024 14:39:53] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:53,990-INFO-127.0.0.1 - - [12/Nov/2024 14:39:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:53,991-INFO-127.0.0.1 - - [12/Nov/2024 14:39:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:54,984-INFO-127.0.0.1 - - [12/Nov/2024 14:39:54] "GET /graficos HTTP/1.1" 200 -
+2024-11-12 14:39:55,002-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-12 14:39:55,008-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:39:55,008-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:39:55,009-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:39:55,022-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-12 14:39:55,153-INFO-127.0.0.1 - - [12/Nov/2024 14:39:55] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-12 14:40:19,991-INFO-127.0.0.1 - - [12/Nov/2024 14:40:19] "GET / HTTP/1.1" 200 -
+2024-11-12 14:40:20,006-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,011-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,012-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,014-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,017-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,018-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-12 14:40:20,020-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
