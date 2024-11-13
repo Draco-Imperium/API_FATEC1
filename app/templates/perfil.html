@@ -149,29 +149,70 @@
               <label for="comment">Comentário:</label>
               <input name="comment" type="text" id="comment" />
             </article>
-            <!-- <article class="avaliar">
+
+            <article class="avaliar">
               <h4>Avalie o Candidato</h4>
               <ul class="avaliacao">
-                <li class="star-icon ativo" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="1"></li>
                 <li class="star-icon" data-avaliacao="2"></li>
                 <li class="star-icon" data-avaliacao="3"></li>
                 <li class="star-icon" data-avaliacao="4"></li>
                 <li class="star-icon" data-avaliacao="5"></li>
               </ul>
-            </article> -->
+              <p>Nota: <span id="valor-avaliacao">1</span></p>
+            </article>
 
             <input type="hidden" id="NM_URNA_CANDIDATO" value="{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}">
             <article class="button-container">
               <button class="button" type="button" onclick="enviarComentario()">Enviar</button>
             </article>
+
+            <div  class="alert alert-success mt-3" role="alert" style="display: none;">
+              
+            </div>
+
+            <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md bg-green-500" role="alert" id="alertaComentario" style="display: none;">
+              <div class="flex">
+                  <div>
+                  <p class="text-sm">Comentário enviado com sucesso!</p>
+                </div>
+              </div>
+            </div>
+
+
           </form>
         </section>
-      </section> 
+      </section>
   </main>
 
   {% include 'footer.html' %}
 
   <script>
+
+    const stars = document.querySelectorAll('.star-icon');
+    const valorAvaliacao = document.getElementById('valor-avaliacao');
+    let star_value = 1
+
+    stars.forEach(star => {
+      star.addEventListener('click', () => {
+        const rating = parseInt(star.getAttribute('data-avaliacao'));
+
+        // Remove a classe 'ativo' de todas as estrelas
+        stars.forEach(s => s.classList.remove('ativo'));
+
+        // Adiciona a classe 'ativo' até a estrela selecionada
+        stars.forEach((s, index) => {
+          if (index < rating) {
+            s.classList.add('ativo');
+          }
+        });
+
+        // Define o valor da avaliação
+        star_value = parseInt(rating);
+        valorAvaliacao.textContent = rating;
+      });
+    });
+    
     function toggleMenu() {
       const navMenu = document.getElementById("nav-menu");
       navMenu.classList.toggle("open");
@@ -197,34 +238,43 @@
     function enviarComentario() {
       const comentario = document.getElementById('comment').value;
       //const avaliacao = document.getElementById('avaliacao').value;
-      const avaliacao = 4;
       const NM_URNA_CANDIDATO = "{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}"; // ID do candidato no servidor
+
+      const alertaComentario = document.getElementById("alertaComentario");
+      alertaComentario.style.display = "block";
+      
+      // Opcional: Ocultar o alerta automaticamente após alguns segundos
+      setTimeout(() => {
+        alertaComentario.style.display = "none";
+      }, 4500);
+
 
       fetch('/comentar', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: `comment=${encodeURIComponent(comentario)}&avaliacao=${encodeURIComponent(avaliacao)}&NM_URNA_CANDIDATO=${encodeURIComponent(NM_URNA_CANDIDATO)}`
+        body: `comment=${encodeURIComponent(comentario)}&avaliacao=${encodeURIComponent(star_value)}&NM_URNA_CANDIDATO=${encodeURIComponent(NM_URNA_CANDIDATO)}`
       })
-      .then(response => response.json())
-      .then(data => {
-        if (data.status === 'success') {
-           
-        } else {
-          alert('Erro ao enviar comentário.');
-        }
-      })
-      .catch(error => {
-        console.error('Erro:', error);
-      });
-      setTimeout(function(){
+        .then(response => response.json())
+        .then(data => {
+          if (data.status === 'success') {
+
+          } else {
+            alert('Erro ao enviar comentário.');
+          }
+        })
+        .catch(error => {
+          console.error('Erro:', error);
+        });
+      setTimeout(function () {
         location.reload();
-      }, 950)
-  }
+      }, 5000)
+    }
 
 
   </script>
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>
 </body>

@@ -155,3 +155,15 @@ document.addEventListener("DOMContentLoaded", async function () {
     console.error("Vereador não encontrado.");
   }
 });
+
+
+ document.getElementById("enviarComentario").addEventListener("click", function() {
+    // Exibir o alerta ao clicar no botão
+    const alertaComentario = document.getElementById("alertaComentario");
+    alertaComentario.style.display = "block";
+    
+    // Opcional: Ocultar o alerta automaticamente após alguns segundos
+    setTimeout(() => {
+      alertaComentario.style.display = "none";
+    }, 3000); // Alerta desaparece após 3 segundos
+  });
