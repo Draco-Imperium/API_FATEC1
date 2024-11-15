@@ -10,9 +10,17 @@ function searchFunction() {
             .then(data => {
                 if (data.length > 0) {
                     data.forEach(item => {
-                        var div = document.createElement('div'); 
-                        div.innerHTML = item.NM_URNA_CANDIDATO;
+                        var div = document.createElement('div');
+                        div.classList.add('dropdown-item');
+                        
+                        var link = document.createElement('a');
+                        link.href = item.link;
+                        link.textContent = item.NM_URNA_CANDIDATO;
+
+                        div.appendChild(link);
                         dropdown.appendChild(div);
+
+                        console.log("Link criado: ", link);
                     });
                 } else {
                     dropdown.innerHTML = '<div class="dropdown-item">Nenhum resultado encontrado</div>';
@@ -23,5 +31,4 @@ function searchFunction() {
                 dropdown.innerHTML = '<div class="dropdown-item">Erro ao buscar dados</div>';
             });
     }
-    dropdown.innerHTML = '';
 }

@@ -355,6 +355,33 @@ def internal_error(error):
 
 #-------------------------------------------------------------------------------------------------------
 
+@app.route('/perfil/<string:NM_URNA_CANDIDATO>', methods=['GET'])
+def busca_perfil(NM_URNA_CANDIDATO):
+    app.logger.info(f"Acessando perfil do vereador: {NM_URNA_CANDIDATO}")
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            data = json.load(file)
+        
+        parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == (NM_URNA_CANDIDATO)), None)
+        if parlamentar is None:
+            logging.warning(f"Parlamentar com NM_URNA_CANDIDATO '{NM_URNA_CANDIDATO}' não encontrado.")
+            return render_template('404.html'), 404
+
+        vereador_id = parlamentar.get("ID_VER")
+        comentarios = obter_comentarios(vereador_id)
+
+        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
+
+    except FileNotFoundError:
+        logging.error("Arquivo não encontrado")
+        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+    except json.JSONDecodeError as e:
+        logging.error("Erro ao decodificar JSON: %s", e)
+        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
+
+#----------------------------------------------------------------------------------------------
+
 @app.route('/search')
 def search():
     query = request.args.get('q', '').lower()
@@ -363,35 +390,30 @@ def search():
         with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
             data = json.load(file)
         
-        resultados = [v for v in data['parlamentares'] if query in v['NM_URNA_CANDIDATO'].lower()]
+        resultados = [
+            {
+                "NM_URNA_CANDIDATO": v['NM_URNA_CANDIDATO'],
+                "link": f"/perfil/{format_name(v['NM_URNA_CANDIDATO'])}"
+            }
+            for v in data['parlamentares'] if query in v['NM_URNA_CANDIDATO'].lower()
+        ]
 
-        return jsonify(resultados)  # Retorna os resultados da busca em formato JSON
+        if not resultados:
+            app.logger.info(f"Sem resultados para a busca por '{query}'")
+
+        app.logger.info(f"Resultados da busca para '{query}': {resultados}")
+
+        return jsonify(resultados)
+
     except FileNotFoundError:
-        logging.error("Arquivo não encontrado")
+        app.logger.error("Arquivo não encontrado")
         return jsonify({"mensagem": "Arquivo não encontrado"}), 404
     except json.JSONDecodeError as e:
-        logging.error("Erro ao decodificar JSON: %s", e)
+        app.logger.error(f"Erro ao decodificar JSON: {e}")
         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
-    
-#-------------------------------------------------------------------------------------------------------
-
-# @app.route('/perfil/<int:id>', methods=['GET'])
-# def get_perfil_vereador(id):
-#     try:
-#         with open('app/database/data.json', 'r', encoding='utf-8') as file:
-#             data = json.load(file)
-#         vereador = next((v for v in data['parlamentares'] if v['ID_VER'] == id), None)
-
-#         if vereador:
-#             return render_template('perfil.html', vereador=vereador)
-#         else:
-#             return jsonify({"mensagem": "Vereador não encontrado"}), 404
-#     except FileNotFoundError:
-#         logging.error("Arquivo não encontrado")
-#         return jsonify({"mensagem": "Arquivo não encontrado"}), 404
-#     except json.JSONDecodeError:
-#         logging.error("Erro ao decodificar JSON")
-#         return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
+    except Exception as e:
+        app.logger.error(f"Erro desconhecido: {e}")
+        return jsonify({"mensagem": "Erro interno do servidor"}), 500
 
 #----------------------------------------------------------------------------------------------
 

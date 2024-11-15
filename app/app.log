@@ -16603,3 +16603,898 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-12 14:40:20,017-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
 2024-11-12 14:40:20,018-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
 2024-11-12 14:40:20,020-INFO-127.0.0.1 - - [12/Nov/2024 14:40:20] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:23:53,708-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 22:23:53,708-INFO-[33mPress CTRL+C to quit[0m
+2024-11-14 22:24:03,158-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "GET / HTTP/1.1" 200 -
+2024-11-14 22:24:03,300-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,303-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,312-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,313-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,314-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,318-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:03,326-INFO-127.0.0.1 - - [14/Nov/2024 22:24:03] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 22:24:05,829-INFO-127.0.0.1 - - [14/Nov/2024 22:24:05] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:24:14,512-INFO-127.0.0.1 - - [14/Nov/2024 22:24:14] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 22:24:14,564-INFO-127.0.0.1 - - [14/Nov/2024 22:24:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:14,565-INFO-127.0.0.1 - - [14/Nov/2024 22:24:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:24:14,566-INFO-127.0.0.1 - - [14/Nov/2024 22:24:14] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:24:14,567-INFO-127.0.0.1 - - [14/Nov/2024 22:24:14] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:15,778-INFO-127.0.0.1 - - [14/Nov/2024 22:24:15] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:24:29,437-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "GET / HTTP/1.1" 200 -
+2024-11-14 22:24:29,474-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,476-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,478-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,480-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,481-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,481-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:29,484-INFO-127.0.0.1 - - [14/Nov/2024 22:24:29] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:24:31,270-INFO-127.0.0.1 - - [14/Nov/2024 22:24:31] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:24:32,409-INFO-127.0.0.1 - - [14/Nov/2024 22:24:32] "GET /search?q=ame HTTP/1.1" 200 -
+2024-11-14 22:24:32,532-INFO-127.0.0.1 - - [14/Nov/2024 22:24:32] "GET /search?q=ame HTTP/1.1" 200 -
+2024-11-14 22:24:33,180-INFO-127.0.0.1 - - [14/Nov/2024 22:24:33] "GET /search?q=amel HTTP/1.1" 200 -
+2024-11-14 22:24:33,689-INFO-127.0.0.1 - - [14/Nov/2024 22:24:33] "GET /search?q=ame HTTP/1.1" 200 -
+2024-11-14 22:24:33,856-INFO-127.0.0.1 - - [14/Nov/2024 22:24:33] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-14 22:28:31,228-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 22:28:31,228-INFO-[33mPress CTRL+C to quit[0m
+2024-11-14 22:28:31,230-INFO- * Restarting with stat
+2024-11-14 22:28:31,929-WARNING- * Debugger is active!
+2024-11-14 22:28:31,935-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:28:36,358-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "GET / HTTP/1.1" 200 -
+2024-11-14 22:28:36,492-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,495-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,506-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,507-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,510-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,510-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:28:36,522-INFO-127.0.0.1 - - [14/Nov/2024 22:28:36] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 22:28:38,508-INFO-127.0.0.1 - - [14/Nov/2024 22:28:38] "GET /search?q=A HTTP/1.1" 200 -
+2024-11-14 22:28:38,683-INFO-127.0.0.1 - - [14/Nov/2024 22:28:38] "GET /search?q=A HTTP/1.1" 200 -
+2024-11-14 22:29:01,065-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:29:01,099-INFO- * Restarting with stat
+2024-11-14 22:29:01,801-WARNING- * Debugger is active!
+2024-11-14 22:29:01,806-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:29:12,858-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:29:12,894-INFO- * Restarting with stat
+2024-11-14 22:29:13,640-WARNING- * Debugger is active!
+2024-11-14 22:29:13,644-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:29:16,670-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:29:16,712-INFO- * Restarting with stat
+2024-11-14 22:29:17,416-WARNING- * Debugger is active!
+2024-11-14 22:29:17,421-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:30:53,655-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "GET / HTTP/1.1" 200 -
+2024-11-14 22:30:53,784-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,786-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,788-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,788-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,789-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,790-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,791-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:30:53,842-INFO-127.0.0.1 - - [14/Nov/2024 22:30:53] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:30:55,911-INFO-127.0.0.1 - - [14/Nov/2024 22:30:55] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:34:52,826-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "GET / HTTP/1.1" 200 -
+2024-11-14 22:34:52,857-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,862-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,863-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,863-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,864-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,865-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:34:52,877-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 22:34:52,917-INFO-127.0.0.1 - - [14/Nov/2024 22:34:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:37:42,235-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:37:42,286-INFO- * Restarting with stat
+2024-11-14 22:37:43,037-WARNING- * Debugger is active!
+2024-11-14 22:37:43,041-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:37:44,054-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:37:44,097-INFO- * Restarting with stat
+2024-11-14 22:37:45,439-INFO- * Restarting with stat
+2024-11-14 22:37:46,164-WARNING- * Debugger is active!
+2024-11-14 22:37:46,168-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:37:55,630-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "GET / HTTP/1.1" 200 -
+2024-11-14 22:37:55,760-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,763-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,768-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,770-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,771-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,773-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,775-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:37:55,827-INFO-127.0.0.1 - - [14/Nov/2024 22:37:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,385-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "GET / HTTP/1.1" 200 -
+2024-11-14 22:38:17,417-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,421-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,423-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,424-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,425-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 22:38:17,426-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,427-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:38:17,478-INFO-127.0.0.1 - - [14/Nov/2024 22:38:17] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:38:18,627-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amélia-naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr-josé-claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce-rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabião-zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana-fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior-da-farmácia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo-garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton-vieira-filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcão-da-academia-ao-ar-livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti-da-farmácia-comunitária'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael-pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato-santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho-da-padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto-chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogério-da-acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz-henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter-hayashi'}]
+2024-11-14 22:38:18,627-INFO-127.0.0.1 - - [14/Nov/2024 22:38:18] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:39:45,619-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:39:45,654-INFO- * Restarting with stat
+2024-11-14 22:39:46,357-WARNING- * Debugger is active!
+2024-11-14 22:39:46,361-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:39:56,407-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:39:56,443-INFO- * Restarting with stat
+2024-11-14 22:39:57,151-WARNING- * Debugger is active!
+2024-11-14 22:39:57,155-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:40:02,728-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "GET / HTTP/1.1" 200 -
+2024-11-14 22:40:02,852-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,855-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,857-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,864-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,865-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,866-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,867-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:40:02,898-INFO-127.0.0.1 - - [14/Nov/2024 22:40:02] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:40:03,881-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amélia-naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr-josé-claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce-rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabião-zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana-fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior-da-farmácia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo-garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton-vieira-filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcão-da-academia-ao-ar-livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti-da-farmácia-comunitária'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael-pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato-santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho-da-padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto-chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogério-da-acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz-henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter-hayashi'}]
+2024-11-14 22:40:03,881-INFO-127.0.0.1 - - [14/Nov/2024 22:40:03] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:40:54,543-INFO-127.0.0.1 - - [14/Nov/2024 22:40:54] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:40:54,544-INFO-127.0.0.1 - - [14/Nov/2024 22:40:54] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,900-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "GET / HTTP/1.1" 200 -
+2024-11-14 22:41:10,939-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,948-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,948-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,948-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,949-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,949-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:41:10,954-INFO-127.0.0.1 - - [14/Nov/2024 22:41:10] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:41:14,041-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amélia-naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr-josé-claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce-rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabião-zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana-fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior-da-farmácia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo-garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton-vieira-filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcão-da-academia-ao-ar-livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti-da-farmácia-comunitária'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael-pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato-santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho-da-padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto-chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogério-da-acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz-henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter-hayashi'}]
+2024-11-14 22:41:14,041-INFO-127.0.0.1 - - [14/Nov/2024 22:41:14] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:42:39,529-INFO-127.0.0.1 - - [14/Nov/2024 22:42:39] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 22:42:39,590-INFO-127.0.0.1 - - [14/Nov/2024 22:42:39] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 22:42:39,596-INFO-127.0.0.1 - - [14/Nov/2024 22:42:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:42:39,596-INFO-127.0.0.1 - - [14/Nov/2024 22:42:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:42:39,597-INFO-127.0.0.1 - - [14/Nov/2024 22:42:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:42:41,026-WARNING-Parlamentar com NM_URNA_CANDIDATO 'amelia_naomi' não encontrado.
+2024-11-14 22:42:41,035-INFO-127.0.0.1 - - [14/Nov/2024 22:42:41] "[33mGET /perfil/amelia_naomi HTTP/1.1[0m" 404 -
+2024-11-14 22:42:41,092-ERROR-Página não encontrada: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2024-11-14 22:42:41,093-INFO-127.0.0.1 - - [14/Nov/2024 22:42:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-14 22:42:46,431-WARNING-Parlamentar com NM_URNA_CANDIDATO 'dr_elton' não encontrado.
+2024-11-14 22:42:46,431-INFO-127.0.0.1 - - [14/Nov/2024 22:42:46] "[33mGET /perfil/dr_elton HTTP/1.1[0m" 404 -
+2024-11-14 22:42:49,652-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "GET / HTTP/1.1" 200 -
+2024-11-14 22:42:49,685-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,688-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,692-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,692-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,692-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,693-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:42:49,695-INFO-127.0.0.1 - - [14/Nov/2024 22:42:49] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:43:09,813-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:09,846-INFO- * Restarting with stat
+2024-11-14 22:43:10,556-WARNING- * Debugger is active!
+2024-11-14 22:43:10,560-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:12,576-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:12,608-INFO- * Restarting with stat
+2024-11-14 22:43:14,979-INFO- * Restarting with stat
+2024-11-14 22:43:15,674-WARNING- * Debugger is active!
+2024-11-14 22:43:15,678-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:19,704-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:19,740-INFO- * Restarting with stat
+2024-11-14 22:43:20,442-WARNING- * Debugger is active!
+2024-11-14 22:43:20,446-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:21,462-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:21,496-INFO- * Restarting with stat
+2024-11-14 22:43:22,191-WARNING- * Debugger is active!
+2024-11-14 22:43:22,195-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:36,257-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:36,289-INFO- * Restarting with stat
+2024-11-14 22:43:38,645-INFO- * Restarting with stat
+2024-11-14 22:43:39,346-WARNING- * Debugger is active!
+2024-11-14 22:43:39,350-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:41,365-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:43:41,397-INFO- * Restarting with stat
+2024-11-14 22:43:42,087-WARNING- * Debugger is active!
+2024-11-14 22:43:42,091-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:43:44,813-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "GET / HTTP/1.1" 200 -
+2024-11-14 22:43:44,934-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,937-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,947-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,949-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,950-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,950-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,952-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:43:44,977-INFO-127.0.0.1 - - [14/Nov/2024 22:43:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:43:45,853-INFO-127.0.0.1 - - [14/Nov/2024 22:43:45] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 22:43:45,903-INFO-127.0.0.1 - - [14/Nov/2024 22:43:45] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:45,905-INFO-127.0.0.1 - - [14/Nov/2024 22:43:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:45,906-INFO-127.0.0.1 - - [14/Nov/2024 22:43:45] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:43:45,907-INFO-127.0.0.1 - - [14/Nov/2024 22:43:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:43:48,950-INFO-8 comentários encontrados para o vereador 35.
+2024-11-14 22:43:48,958-INFO-127.0.0.1 - - [14/Nov/2024 22:43:48] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-14 22:43:49,002-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:49,002-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:43:49,002-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:43:49,004-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 22:43:49,018-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-14 22:43:49,136-INFO-127.0.0.1 - - [14/Nov/2024 22:43:49] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 22:50:42,568-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:50:42,605-INFO- * Restarting with stat
+2024-11-14 22:50:43,308-WARNING- * Debugger is active!
+2024-11-14 22:50:43,313-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:50:55,361-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:50:55,400-INFO- * Restarting with stat
+2024-11-14 22:50:56,294-WARNING- * Debugger is active!
+2024-11-14 22:50:56,298-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:53:23,806-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:53:23,842-INFO- * Restarting with stat
+2024-11-14 22:53:27,202-INFO- * Restarting with stat
+2024-11-14 22:53:31,546-INFO- * Restarting with stat
+2024-11-14 22:53:32,272-WARNING- * Debugger is active!
+2024-11-14 22:53:32,277-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:54:02,394-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 22:54:02,440-INFO- * Restarting with stat
+2024-11-14 22:54:13,811-INFO- * Restarting with stat
+2024-11-14 22:54:14,535-WARNING- * Debugger is active!
+2024-11-14 22:54:14,539-INFO- * Debugger PIN: 262-481-508
+2024-11-14 22:54:23,545-INFO-8 comentários encontrados para o vereador 35.
+2024-11-14 22:54:23,561-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-14 22:54:23,655-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,689-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,689-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,690-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,691-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,730-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 22:54:23,785-INFO-127.0.0.1 - - [14/Nov/2024 22:54:23] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,641-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "GET / HTTP/1.1" 200 -
+2024-11-14 22:54:25,683-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,689-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,690-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,690-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,690-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,697-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:25,700-INFO-127.0.0.1 - - [14/Nov/2024 22:54:25] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:27,041-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:54:27,041-INFO-127.0.0.1 - - [14/Nov/2024 22:54:27] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:54:33,584-INFO-127.0.0.1 - - [14/Nov/2024 22:54:33] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 22:54:33,643-INFO-127.0.0.1 - - [14/Nov/2024 22:54:33] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:33,646-INFO-127.0.0.1 - - [14/Nov/2024 22:54:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:33,647-INFO-127.0.0.1 - - [14/Nov/2024 22:54:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:54:33,648-INFO-127.0.0.1 - - [14/Nov/2024 22:54:33] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,169-INFO-8 comentários encontrados para o vereador 35.
+2024-11-14 22:54:36,170-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-14 22:54:36,207-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,211-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,213-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,214-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,215-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:36,240-INFO-127.0.0.1 - - [14/Nov/2024 22:54:36] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,477-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "GET / HTTP/1.1" 200 -
+2024-11-14 22:54:45,514-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,516-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,522-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,522-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,522-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,522-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:54:45,523-INFO-127.0.0.1 - - [14/Nov/2024 22:54:45] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:54:47,236-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:54:47,237-INFO-127.0.0.1 - - [14/Nov/2024 22:54:47] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:54:48,514-INFO-Resultados da busca para 'am': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}]
+2024-11-14 22:54:48,515-INFO-127.0.0.1 - - [14/Nov/2024 22:54:48] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-14 22:54:48,863-INFO-Resultados da busca para 'ame': []
+2024-11-14 22:54:48,863-INFO-127.0.0.1 - - [14/Nov/2024 22:54:48] "GET /search?q=ame HTTP/1.1" 200 -
+2024-11-14 22:54:49,552-INFO-Resultados da busca para 'am': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}]
+2024-11-14 22:54:49,552-INFO-127.0.0.1 - - [14/Nov/2024 22:54:49] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-14 22:57:14,387-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "GET / HTTP/1.1" 200 -
+2024-11-14 22:57:14,414-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,422-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,423-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,423-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,424-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,425-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 22:57:14,436-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 22:57:14,473-INFO-127.0.0.1 - - [14/Nov/2024 22:57:14] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 22:57:15,942-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:57:15,942-INFO-127.0.0.1 - - [14/Nov/2024 22:57:15] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:57:19,114-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:57:19,114-INFO-127.0.0.1 - - [14/Nov/2024 22:57:19] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:57:19,422-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:57:19,422-INFO-127.0.0.1 - - [14/Nov/2024 22:57:19] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:57:20,982-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:57:20,982-INFO-127.0.0.1 - - [14/Nov/2024 22:57:20] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 22:57:25,213-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 22:57:25,213-INFO-127.0.0.1 - - [14/Nov/2024 22:57:25] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:01:37,979-INFO-127.0.0.1 - - [14/Nov/2024 23:01:37] "GET / HTTP/1.1" 200 -
+2024-11-14 23:01:38,008-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,015-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,015-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,015-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,015-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,016-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:38,028-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:01:38,073-INFO-127.0.0.1 - - [14/Nov/2024 23:01:38] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:39,469-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:01:39,469-INFO-127.0.0.1 - - [14/Nov/2024 23:01:39] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:01:40,741-INFO-127.0.0.1 - - [14/Nov/2024 23:01:40] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:01:40,789-INFO-127.0.0.1 - - [14/Nov/2024 23:01:40] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:40,791-INFO-127.0.0.1 - - [14/Nov/2024 23:01:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:40,793-INFO-127.0.0.1 - - [14/Nov/2024 23:01:40] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:01:40,793-INFO-127.0.0.1 - - [14/Nov/2024 23:01:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:01:41,624-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:01:41,624-INFO-127.0.0.1 - - [14/Nov/2024 23:01:41] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:01:44,206-INFO-Resultados da busca para 's': [{'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'JUVENIL SILVÉRIO', 'link': '/perfil/juvenil_silverio'}, {'NM_URNA_CANDIDATO': 'LINO BISPO', 'link': '/perfil/lino_bispo'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}, {'NM_URNA_CANDIDATO': 'ZÉ LUIS', 'link': '/perfil/ze_luis'}]
+2024-11-14 23:01:44,207-INFO-127.0.0.1 - - [14/Nov/2024 23:01:44] "GET /search?q=s HTTP/1.1" 200 -
+2024-11-14 23:01:45,923-INFO-Resultados da busca para 'd': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'ROBERTO DO ELEVEN', 'link': '/perfil/roberto_do_eleven'}]
+2024-11-14 23:01:45,923-INFO-127.0.0.1 - - [14/Nov/2024 23:01:45] "GET /search?q=d HTTP/1.1" 200 -
+2024-11-14 23:01:46,285-INFO-Resultados da busca para 'dr': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}]
+2024-11-14 23:01:46,286-INFO-127.0.0.1 - - [14/Nov/2024 23:01:46] "GET /search?q=dr HTTP/1.1" 200 -
+2024-11-14 23:01:47,836-INFO-Resultados da busca para 'dr': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}]
+2024-11-14 23:01:47,837-INFO-127.0.0.1 - - [14/Nov/2024 23:01:47] "GET /search?q=dr HTTP/1.1" 200 -
+2024-11-14 23:01:48,220-INFO-Resultados da busca para 'dr el': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:48,220-INFO-127.0.0.1 - - [14/Nov/2024 23:01:48] "GET /search?q=dr%20el HTTP/1.1" 200 -
+2024-11-14 23:01:48,313-INFO-Resultados da busca para 'dr el': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:48,313-INFO-127.0.0.1 - - [14/Nov/2024 23:01:48] "GET /search?q=dr%20el HTTP/1.1" 200 -
+2024-11-14 23:01:48,420-INFO-Resultados da busca para 'dr elt': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:48,421-INFO-127.0.0.1 - - [14/Nov/2024 23:01:48] "GET /search?q=dr%20elt HTTP/1.1" 200 -
+2024-11-14 23:01:48,527-INFO-Resultados da busca para 'dr elto': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:48,527-INFO-127.0.0.1 - - [14/Nov/2024 23:01:48] "GET /search?q=dr%20elto HTTP/1.1" 200 -
+2024-11-14 23:01:48,826-INFO-Resultados da busca para 'dr eltom': []
+2024-11-14 23:01:48,826-INFO-127.0.0.1 - - [14/Nov/2024 23:01:48] "GET /search?q=dr%20eltom HTTP/1.1" 200 -
+2024-11-14 23:01:49,291-INFO-Resultados da busca para 'dr elto': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:49,291-INFO-127.0.0.1 - - [14/Nov/2024 23:01:49] "GET /search?q=dr%20elto HTTP/1.1" 200 -
+2024-11-14 23:01:49,453-INFO-Resultados da busca para 'dr elton': [{'NM_URNA_CANDIDATO': 'DR ELTON', 'link': '/perfil/dr_elton'}]
+2024-11-14 23:01:49,453-INFO-127.0.0.1 - - [14/Nov/2024 23:01:49] "GET /search?q=dr%20elton HTTP/1.1" 200 -
+2024-11-14 23:01:52,402-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "GET / HTTP/1.1" 200 -
+2024-11-14 23:01:52,438-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,440-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,443-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,444-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,444-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,445-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:01:52,447-INFO-127.0.0.1 - - [14/Nov/2024 23:01:52] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:03:37,612-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:03:37,612-INFO-127.0.0.1 - - [14/Nov/2024 23:03:37] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:05:04,806-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:05:04,851-INFO- * Restarting with stat
+2024-11-14 23:05:05,590-WARNING- * Debugger is active!
+2024-11-14 23:05:05,596-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:05:06,610-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:05:06,644-INFO- * Restarting with stat
+2024-11-14 23:05:07,354-WARNING- * Debugger is active!
+2024-11-14 23:05:07,358-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:05:09,374-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:05:09,427-INFO- * Restarting with stat
+2024-11-14 23:05:12,778-INFO- * Restarting with stat
+2024-11-14 23:05:13,505-WARNING- * Debugger is active!
+2024-11-14 23:05:13,509-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:05:31,581-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:05:31,613-INFO- * Restarting with stat
+2024-11-14 23:05:32,312-WARNING- * Debugger is active!
+2024-11-14 23:05:32,316-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:06:06,456-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:06:06,490-INFO- * Restarting with stat
+2024-11-14 23:06:07,222-WARNING- * Debugger is active!
+2024-11-14 23:06:07,226-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:06:11,248-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:06:11,292-INFO- * Restarting with stat
+2024-11-14 23:06:12,032-WARNING- * Debugger is active!
+2024-11-14 23:06:12,036-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:06:14,491-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "GET / HTTP/1.1" 200 -
+2024-11-14 23:06:14,624-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,627-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,636-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,638-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,638-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,640-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,640-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:06:14,687-INFO-127.0.0.1 - - [14/Nov/2024 23:06:14] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:06:16,171-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:06:16,171-INFO-127.0.0.1 - - [14/Nov/2024 23:06:16] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:06:57,162-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 23:06:57,162-INFO-[33mPress CTRL+C to quit[0m
+2024-11-14 23:06:57,163-INFO- * Restarting with stat
+2024-11-14 23:06:57,840-WARNING- * Debugger is active!
+2024-11-14 23:06:57,844-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:07:05,177-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "GET / HTTP/1.1" 200 -
+2024-11-14 23:07:05,307-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,309-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,310-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,311-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,312-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,313-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,315-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:07:05,347-INFO-127.0.0.1 - - [14/Nov/2024 23:07:05] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:07:07,335-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:07:07,336-INFO-127.0.0.1 - - [14/Nov/2024 23:07:07] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:07:13,967-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:07:13,967-INFO-127.0.0.1 - - [14/Nov/2024 23:07:13] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:07:18,169-INFO-127.0.0.1 - - [14/Nov/2024 23:07:18] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:07:18,169-INFO-127.0.0.1 - - [14/Nov/2024 23:07:18] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:07:37,163-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:07:37,163-INFO-127.0.0.1 - - [14/Nov/2024 23:07:37] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:08:12,763-INFO-127.0.0.1 - - [14/Nov/2024 23:08:12] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:12,763-INFO-127.0.0.1 - - [14/Nov/2024 23:08:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:13,326-INFO-127.0.0.1 - - [14/Nov/2024 23:08:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:13,327-INFO-127.0.0.1 - - [14/Nov/2024 23:08:13] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:31,198-INFO-127.0.0.1 - - [14/Nov/2024 23:08:31] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:08:31,260-INFO-127.0.0.1 - - [14/Nov/2024 23:08:31] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:31,266-INFO-127.0.0.1 - - [14/Nov/2024 23:08:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:31,267-INFO-127.0.0.1 - - [14/Nov/2024 23:08:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:08:31,267-INFO-127.0.0.1 - - [14/Nov/2024 23:08:31] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,036-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:08:44,044-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:08:44,080-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,086-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,088-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,088-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,089-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:08:44,191-INFO-127.0.0.1 - - [14/Nov/2024 23:08:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,292-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:16:09,293-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:16:09,323-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,331-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,331-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,332-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,386-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,395-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:16:09,445-INFO-127.0.0.1 - - [14/Nov/2024 23:16:09] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:13,877-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:22:13,878-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:22:13,911-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:13,915-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:13,920-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:22:13,920-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:22:13,934-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:22:13,998-INFO-127.0.0.1 - - [14/Nov/2024 23:22:13] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:22:14,026-INFO-127.0.0.1 - - [14/Nov/2024 23:22:14] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,598-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "GET / HTTP/1.1" 200 -
+2024-11-14 23:22:15,639-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,646-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,646-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,646-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,646-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,646-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:22:15,650-INFO-127.0.0.1 - - [14/Nov/2024 23:22:15] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,852-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "GET / HTTP/1.1" 200 -
+2024-11-14 23:22:31,886-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,893-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,894-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,894-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,895-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,895-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:22:31,896-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:31,952-INFO-127.0.0.1 - - [14/Nov/2024 23:22:31] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:22:32,803-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:22:32,803-INFO-127.0.0.1 - - [14/Nov/2024 23:22:32] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:26:17,413-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "GET / HTTP/1.1" 200 -
+2024-11-14 23:26:17,447-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,453-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,454-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,455-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,456-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,458-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:26:17,471-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:26:17,546-INFO-127.0.0.1 - - [14/Nov/2024 23:26:17] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:26:19,230-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:26:19,230-INFO-127.0.0.1 - - [14/Nov/2024 23:26:19] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:27:21,148-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:27:21,187-INFO- * Restarting with stat
+2024-11-14 23:27:21,909-WARNING- * Debugger is active!
+2024-11-14 23:27:21,913-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:27:28,945-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:27:28,981-INFO- * Restarting with stat
+2024-11-14 23:27:29,679-WARNING- * Debugger is active!
+2024-11-14 23:27:29,683-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:27:33,704-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:27:33,748-INFO- * Restarting with stat
+2024-11-14 23:27:34,456-WARNING- * Debugger is active!
+2024-11-14 23:27:34,460-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:27:37,479-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-14 23:27:37,512-INFO- * Restarting with stat
+2024-11-14 23:27:38,224-WARNING- * Debugger is active!
+2024-11-14 23:27:38,228-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:27:40,357-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "GET / HTTP/1.1" 200 -
+2024-11-14 23:27:40,485-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,488-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,495-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,495-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,496-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,497-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,498-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:27:40,531-INFO-127.0.0.1 - - [14/Nov/2024 23:27:40] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:27:41,782-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:27:41,783-INFO-127.0.0.1 - - [14/Nov/2024 23:27:41] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:27:46,327-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:27:46,327-INFO-127.0.0.1 - - [14/Nov/2024 23:27:46] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:29:30,359-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "GET / HTTP/1.1" 200 -
+2024-11-14 23:29:30,391-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,398-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,398-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,398-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,398-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,400-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:30,412-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:29:30,465-INFO-127.0.0.1 - - [14/Nov/2024 23:29:30] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:31,850-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:29:31,850-INFO-127.0.0.1 - - [14/Nov/2024 23:29:31] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:29:35,189-INFO-127.0.0.1 - - [14/Nov/2024 23:29:35] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:29:35,246-INFO-127.0.0.1 - - [14/Nov/2024 23:29:35] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:35,250-INFO-127.0.0.1 - - [14/Nov/2024 23:29:35] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:29:35,251-INFO-127.0.0.1 - - [14/Nov/2024 23:29:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:35,251-INFO-127.0.0.1 - - [14/Nov/2024 23:29:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:29:37,945-INFO-Cache used for key: view//vereadores_geral
+2024-11-14 23:29:37,945-INFO-127.0.0.1 - - [14/Nov/2024 23:29:37] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:29:37,990-INFO-127.0.0.1 - - [14/Nov/2024 23:29:37] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:37,994-INFO-127.0.0.1 - - [14/Nov/2024 23:29:37] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:29:37,995-INFO-127.0.0.1 - - [14/Nov/2024 23:29:37] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:37,995-INFO-127.0.0.1 - - [14/Nov/2024 23:29:37] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,736-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "GET / HTTP/1.1" 200 -
+2024-11-14 23:29:39,777-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,782-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,782-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,782-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,782-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,782-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:39,784-INFO-127.0.0.1 - - [14/Nov/2024 23:29:39] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:29:40,803-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:29:40,803-INFO-127.0.0.1 - - [14/Nov/2024 23:29:40] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:29:43,499-INFO-127.0.0.1 - - [14/Nov/2024 23:29:43] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:29:43,500-INFO-127.0.0.1 - - [14/Nov/2024 23:29:43] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,916-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "GET / HTTP/1.1" 200 -
+2024-11-14 23:36:21,960-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,960-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-14 23:36:21,961-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,961-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,961-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,970-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:21,975-INFO-127.0.0.1 - - [14/Nov/2024 23:36:21] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:36:22,083-INFO-127.0.0.1 - - [14/Nov/2024 23:36:22] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,552-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "GET / HTTP/1.1" 200 -
+2024-11-14 23:36:59,586-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-14 23:36:59,590-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,591-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,591-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,592-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,592-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,594-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:36:59,676-INFO-127.0.0.1 - - [14/Nov/2024 23:36:59] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:37:01,229-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:37:01,230-INFO-127.0.0.1 - - [14/Nov/2024 23:37:01] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:37:06,362-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:37:06,362-INFO-127.0.0.1 - - [14/Nov/2024 23:37:06] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:37:07,741-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:37:07,741-INFO-127.0.0.1 - - [14/Nov/2024 23:37:07] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:37:12,441-INFO-127.0.0.1 - - [14/Nov/2024 23:37:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:37:12,442-INFO-127.0.0.1 - - [14/Nov/2024 23:37:12] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,138-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:37:29,145-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:37:29,180-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,183-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,186-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,187-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,189-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:37:29,384-INFO-127.0.0.1 - - [14/Nov/2024 23:37:29] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,762-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:38:10,763-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:38:10,806-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,808-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,810-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,812-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,814-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:38:10,972-INFO-127.0.0.1 - - [14/Nov/2024 23:38:10] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,666-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "GET / HTTP/1.1" 200 -
+2024-11-14 23:39:57,701-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,709-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,709-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,710-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,710-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,710-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,713-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:57,803-INFO-127.0.0.1 - - [14/Nov/2024 23:39:57] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,662-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "GET / HTTP/1.1" 200 -
+2024-11-14 23:39:59,698-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,703-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,703-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,703-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,703-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,703-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:39:59,705-INFO-127.0.0.1 - - [14/Nov/2024 23:39:59] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:40:00,436-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:40:00,437-INFO-127.0.0.1 - - [14/Nov/2024 23:40:00] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:42:40,718-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 23:42:40,719-INFO-[33mPress CTRL+C to quit[0m
+2024-11-14 23:42:45,483-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "GET / HTTP/1.1" 200 -
+2024-11-14 23:42:45,615-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,618-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,622-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,623-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,625-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,626-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,626-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:42:45,667-INFO-127.0.0.1 - - [14/Nov/2024 23:42:45] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:42:46,628-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:42:46,628-INFO-127.0.0.1 - - [14/Nov/2024 23:42:46] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:43:07,987-INFO-127.0.0.1 - - [14/Nov/2024 23:43:07] "GET / HTTP/1.1" 200 -
+2024-11-14 23:43:08,029-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,034-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,035-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,035-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,035-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,036-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:43:08,038-INFO-127.0.0.1 - - [14/Nov/2024 23:43:08] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:43:11,393-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:43:11,394-INFO-127.0.0.1 - - [14/Nov/2024 23:43:11] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:46:13,609-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "GET / HTTP/1.1" 200 -
+2024-11-14 23:46:13,640-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,644-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,645-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,645-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,649-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,650-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:13,661-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:46:13,697-INFO-127.0.0.1 - - [14/Nov/2024 23:46:13] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:14,415-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:46:14,415-INFO-127.0.0.1 - - [14/Nov/2024 23:46:14] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:46:17,570-INFO-127.0.0.1 - - [14/Nov/2024 23:46:17] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:46:17,628-INFO-127.0.0.1 - - [14/Nov/2024 23:46:17] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:17,633-INFO-127.0.0.1 - - [14/Nov/2024 23:46:17] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:46:17,634-INFO-127.0.0.1 - - [14/Nov/2024 23:46:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:17,634-INFO-127.0.0.1 - - [14/Nov/2024 23:46:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:46:18,491-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:46:18,492-INFO-127.0.0.1 - - [14/Nov/2024 23:46:18] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:46:24,496-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "GET / HTTP/1.1" 200 -
+2024-11-14 23:46:24,538-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,541-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,544-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,545-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,546-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,546-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:24,547-INFO-127.0.0.1 - - [14/Nov/2024 23:46:24] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:46:25,306-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:46:25,306-INFO-127.0.0.1 - - [14/Nov/2024 23:46:25] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:47:21,590-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:47:21,596-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:47:21,643-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-14 23:47:21,649-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-14 23:47:21,965-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:47:21,965-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-14 23:47:21,966-INFO-127.0.0.1 - - [14/Nov/2024 23:47:21] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-14 23:47:22,301-INFO-127.0.0.1 - - [14/Nov/2024 23:47:22] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-14 23:47:22,379-INFO-127.0.0.1 - - [14/Nov/2024 23:47:22] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-14 23:49:58,072-INFO-0 comentários encontrados para o vereador 55.
+2024-11-14 23:49:58,073-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "GET /perfil/walter_hayashi HTTP/1.1" 200 -
+2024-11-14 23:49:58,105-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,108-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,418-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,418-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,447-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,680-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-14 23:49:58,759-INFO-127.0.0.1 - - [14/Nov/2024 23:49:58] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:50:03,267-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "GET / HTTP/1.1" 200 -
+2024-11-14 23:50:03,309-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:50:03,622-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:50:03,623-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:50:03,623-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-14 23:50:03,623-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-14 23:50:03,626-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-14 23:50:03,626-INFO-127.0.0.1 - - [14/Nov/2024 23:50:03] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-14 23:50:06,738-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "GET / HTTP/1.1" 200 -
+2024-11-14 23:50:06,768-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,774-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,774-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,774-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,774-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,775-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,776-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:50:06,815-INFO-127.0.0.1 - - [14/Nov/2024 23:50:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:50:09,145-INFO-Resultados da busca para 's': [{'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'JUVENIL SILVÉRIO', 'link': '/perfil/juvenil_silverio'}, {'NM_URNA_CANDIDATO': 'LINO BISPO', 'link': '/perfil/lino_bispo'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}, {'NM_URNA_CANDIDATO': 'ZÉ LUIS', 'link': '/perfil/ze_luis'}]
+2024-11-14 23:50:09,145-INFO-127.0.0.1 - - [14/Nov/2024 23:50:09] "GET /search?q=s HTTP/1.1" 200 -
+2024-11-14 23:50:10,059-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:50:10,059-INFO-127.0.0.1 - - [14/Nov/2024 23:50:10] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:50:42,813-INFO-127.0.0.1 - - [14/Nov/2024 23:50:42] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:50:42,814-INFO-127.0.0.1 - - [14/Nov/2024 23:50:42] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,814-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "GET / HTTP/1.1" 200 -
+2024-11-14 23:54:26,851-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,861-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,861-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,862-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,862-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,862-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:26,875-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-14 23:54:26,956-INFO-127.0.0.1 - - [14/Nov/2024 23:54:26] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:27,909-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:54:27,909-INFO-127.0.0.1 - - [14/Nov/2024 23:54:27] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:54:47,785-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-14 23:54:47,786-INFO-[33mPress CTRL+C to quit[0m
+2024-11-14 23:54:47,787-INFO- * Restarting with stat
+2024-11-14 23:54:48,485-WARNING- * Debugger is active!
+2024-11-14 23:54:48,489-INFO- * Debugger PIN: 262-481-508
+2024-11-14 23:54:52,567-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "GET / HTTP/1.1" 200 -
+2024-11-14 23:54:52,696-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,700-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,701-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,707-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,708-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,709-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:54:52,710-INFO-127.0.0.1 - - [14/Nov/2024 23:54:52] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:54:54,744-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:54:54,745-INFO-127.0.0.1 - - [14/Nov/2024 23:54:54] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:54:57,374-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:54:57,374-INFO-127.0.0.1 - - [14/Nov/2024 23:54:57] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-14 23:55:00,010-INFO-Resultados da busca para 'j': [{'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'JUVENIL SILVÉRIO', 'link': '/perfil/juvenil_silverio'}]
+2024-11-14 23:55:00,011-INFO-127.0.0.1 - - [14/Nov/2024 23:55:00] "GET /search?q=j HTTP/1.1" 200 -
+2024-11-14 23:55:05,327-INFO-127.0.0.1 - - [14/Nov/2024 23:55:05] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:55:05,327-INFO-127.0.0.1 - - [14/Nov/2024 23:55:05] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:55:15,309-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:55:15,309-INFO-127.0.0.1 - - [14/Nov/2024 23:55:15] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-14 23:58:07,916-INFO-127.0.0.1 - - [14/Nov/2024 23:58:07] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-14 23:58:07,977-INFO-127.0.0.1 - - [14/Nov/2024 23:58:07] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-14 23:58:07,983-INFO-127.0.0.1 - - [14/Nov/2024 23:58:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:58:07,983-INFO-127.0.0.1 - - [14/Nov/2024 23:58:07] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:58:07,984-INFO-127.0.0.1 - - [14/Nov/2024 23:58:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,295-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "GET / HTTP/1.1" 200 -
+2024-11-14 23:58:14,334-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,340-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,340-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,341-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,341-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,341-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-14 23:58:14,344-INFO-127.0.0.1 - - [14/Nov/2024 23:58:14] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-14 23:58:16,486-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-14 23:58:16,486-INFO-127.0.0.1 - - [14/Nov/2024 23:58:16] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-15 00:00:10,578-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-15 00:00:10,648-INFO- * Restarting with stat
+2024-11-15 00:00:11,354-WARNING- * Debugger is active!
+2024-11-15 00:00:11,359-INFO- * Debugger PIN: 262-481-508
+2024-11-15 00:01:20,148-INFO-127.0.0.1 - - [15/Nov/2024 00:01:20] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-15 00:01:20,256-INFO-127.0.0.1 - - [15/Nov/2024 00:01:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 00:01:20,259-INFO-127.0.0.1 - - [15/Nov/2024 00:01:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 00:01:20,260-INFO-127.0.0.1 - - [15/Nov/2024 00:01:20] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-15 00:01:20,260-INFO-127.0.0.1 - - [15/Nov/2024 00:01:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 00:01:21,889-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 00:01:21,889-INFO-127.0.0.1 - - [15/Nov/2024 00:01:21] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-15 00:01:24,727-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "GET / HTTP/1.1" 200 -
+2024-11-15 00:01:24,769-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,770-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,774-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,775-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,775-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,776-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 00:01:24,777-INFO-127.0.0.1 - - [15/Nov/2024 00:01:24] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 00:01:26,144-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 00:01:26,145-INFO-127.0.0.1 - - [15/Nov/2024 00:01:26] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:15:06,196-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 13:15:06,196-INFO-[33mPress CTRL+C to quit[0m
+2024-11-15 13:15:09,574-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "GET / HTTP/1.1" 200 -
+2024-11-15 13:15:09,730-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,736-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,740-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,743-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,749-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,751-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,752-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:09,916-INFO-127.0.0.1 - - [15/Nov/2024 13:15:09] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:11,135-INFO-127.0.0.1 - - [15/Nov/2024 13:15:11] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-15 13:15:11,196-INFO-127.0.0.1 - - [15/Nov/2024 13:15:11] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:11,204-INFO-127.0.0.1 - - [15/Nov/2024 13:15:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:11,204-INFO-127.0.0.1 - - [15/Nov/2024 13:15:11] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:11,204-INFO-127.0.0.1 - - [15/Nov/2024 13:15:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:15:13,999-INFO-8 comentários encontrados para o vereador 35.
+2024-11-15 13:15:14,006-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-15 13:15:14,046-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:14,055-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:14,055-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:14,056-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:14,056-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:15:14,188-INFO-127.0.0.1 - - [15/Nov/2024 13:15:14] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-15 13:15:23,031-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:15:23,032-INFO-127.0.0.1 - - [15/Nov/2024 13:15:23] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:15:25,529-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "GET / HTTP/1.1" 200 -
+2024-11-15 13:15:25,746-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "GET / HTTP/1.1" 200 -
+2024-11-15 13:15:25,801-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,804-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,809-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,809-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,809-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,810-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:25,817-INFO-127.0.0.1 - - [15/Nov/2024 13:15:25] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:15:26,599-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:15:26,599-INFO-127.0.0.1 - - [15/Nov/2024 13:15:26] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:15:32,993-INFO-127.0.0.1 - - [15/Nov/2024 13:15:32] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:32,993-INFO-127.0.0.1 - - [15/Nov/2024 13:15:32] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:40,989-INFO-8 comentários encontrados para o vereador 35.
+2024-11-15 13:15:40,989-INFO-127.0.0.1 - - [15/Nov/2024 13:15:40] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-15 13:15:41,029-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:41,031-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:15:41,037-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:41,038-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-15 13:15:41,038-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:15:41,218-INFO-127.0.0.1 - - [15/Nov/2024 13:15:41] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-15 13:16:57,029-INFO-Sem resultados para a busca por 'aa'
+2024-11-15 13:16:57,029-INFO-Resultados da busca para 'aa': []
+2024-11-15 13:16:57,029-INFO-127.0.0.1 - - [15/Nov/2024 13:16:57] "GET /search?q=aa HTTP/1.1" 200 -
+2024-11-15 13:16:58,144-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:16:58,144-INFO-127.0.0.1 - - [15/Nov/2024 13:16:58] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:19:19,785-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:19:19,785-INFO-127.0.0.1 - - [15/Nov/2024 13:19:19] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-15 13:19:23,473-INFO-Sem resultados para a busca por 'ww'
+2024-11-15 13:19:23,473-INFO-Resultados da busca para 'ww': []
+2024-11-15 13:19:23,473-INFO-127.0.0.1 - - [15/Nov/2024 13:19:23] "GET /search?q=ww HTTP/1.1" 200 -
+2024-11-15 13:19:24,658-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:19:24,658-INFO-127.0.0.1 - - [15/Nov/2024 13:19:24] "GET /search?q=w HTTP/1.1" 200 -
+2024-11-15 13:20:23,093-INFO-0 comentários encontrados para o vereador 246.
+2024-11-15 13:20:23,093-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "GET /perfil/junior_da_farmacia HTTP/1.1" 200 -
+2024-11-15 13:20:23,130-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-15 13:20:23,138-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:20:23,138-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:20:23,138-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-15 13:20:23,139-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-15 13:20:23,332-INFO-127.0.0.1 - - [15/Nov/2024 13:20:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-15 13:24:00,799-INFO-Resultados da busca para 'w': [{'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:24:00,799-INFO-127.0.0.1 - - [15/Nov/2024 13:24:00] "GET /search?q=W HTTP/1.1" 200 -
+2024-11-15 13:27:01,888-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-15 13:27:01,888-INFO-[33mPress CTRL+C to quit[0m
+2024-11-15 13:27:01,890-INFO- * Restarting with stat
+2024-11-15 13:27:02,596-WARNING- * Debugger is active!
+2024-11-15 13:27:02,602-INFO- * Debugger PIN: 262-481-508
+2024-11-15 13:27:06,240-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "GET / HTTP/1.1" 200 -
+2024-11-15 13:27:06,273-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,281-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,282-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,282-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,282-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,283-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,286-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:27:06,389-INFO-127.0.0.1 - - [15/Nov/2024 13:27:06] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-15 13:27:07,577-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:27:07,578-INFO-127.0.0.1 - - [15/Nov/2024 13:27:07] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:30:25,108-INFO-127.0.0.1 - - [15/Nov/2024 13:30:25] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-15 13:30:25,167-INFO-127.0.0.1 - - [15/Nov/2024 13:30:25] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-15 13:30:25,171-INFO-127.0.0.1 - - [15/Nov/2024 13:30:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:30:25,172-INFO-127.0.0.1 - - [15/Nov/2024 13:30:25] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:30:25,172-INFO-127.0.0.1 - - [15/Nov/2024 13:30:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,644-INFO-8 comentários encontrados para o vereador 35.
+2024-11-15 13:30:27,644-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-15 13:30:27,685-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,692-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,693-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,693-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,693-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:30:27,782-INFO-127.0.0.1 - - [15/Nov/2024 13:30:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-15 13:30:46,340-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-15 13:30:46,402-INFO- * Restarting with stat
+2024-11-15 13:30:47,152-WARNING- * Debugger is active!
+2024-11-15 13:30:47,156-INFO- * Debugger PIN: 262-481-508
+2024-11-15 13:31:50,370-INFO- * Detected change in 'C:\\Users\\Julia\\OneDrive\\Documentos\\GitHub\\API_FATEC1\\app\\app.py', reloading
+2024-11-15 13:31:50,410-INFO- * Restarting with stat
+2024-11-15 13:31:51,120-WARNING- * Debugger is active!
+2024-11-15 13:31:51,124-INFO- * Debugger PIN: 262-481-508
+2024-11-15 13:32:08,129-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "GET / HTTP/1.1" 200 -
+2024-11-15 13:32:08,169-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,175-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,176-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,176-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,176-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,177-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:08,181-INFO-127.0.0.1 - - [15/Nov/2024 13:32:08] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:10,429-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:32:10,429-INFO-127.0.0.1 - - [15/Nov/2024 13:32:10] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-15 13:32:11,475-INFO-127.0.0.1 - - [15/Nov/2024 13:32:11] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-15 13:32:11,532-INFO-127.0.0.1 - - [15/Nov/2024 13:32:11] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:11,538-INFO-127.0.0.1 - - [15/Nov/2024 13:32:11] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:11,538-INFO-127.0.0.1 - - [15/Nov/2024 13:32:11] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:32:11,539-INFO-127.0.0.1 - - [15/Nov/2024 13:32:11] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:32:13,944-INFO-8 comentários encontrados para o vereador 35.
+2024-11-15 13:32:13,945-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-15 13:32:13,985-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:13,991-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:32:13,992-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:13,992-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-15 13:32:13,993-INFO-127.0.0.1 - - [15/Nov/2024 13:32:13] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:32:14,089-INFO-127.0.0.1 - - [15/Nov/2024 13:32:14] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,277-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "GET / HTTP/1.1" 200 -
+2024-11-15 13:32:16,314-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,315-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,318-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,319-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,320-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,322-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,322-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-15 13:32:16,973-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-15 13:32:16,973-INFO-127.0.0.1 - - [15/Nov/2024 13:32:16] "GET /search?q=a HTTP/1.1" 200 -
