@@ -115,37 +115,28 @@
         </div>
       </section>
     </section>
-    <section class="comentarios">
-      <section class="caixa-comentario">
-        <h3>Comentários</h3>
-        <ul class="lista-comentario">
-        </ul>
-      </section>
-
-      <!-- Seção de comentários -->
       <section class="comentarios">
         <section class="caixa-comentario">
           <h3>Comentários</h3>
+          <hr style="background-color: lightgrey; height: 2px;">
           <ul class="lista-comentario">
             {% for comentario in comentarios %}
             <li class="comentario">
-              <span class="usuario">{{ comentario['usuario'] }}</span>
-              <p class="texto-comentario">{{ comentario['conteudo'] }}</p>
-              <span class="data">{{ comentario['data_comentario'] }}</span>
-              <span class="avaliacao">Avaliação: {{ comentario['star_value'] }}</span>
+              <span class="usuario">{{ comentario['usuario'] }}</span><span class="data">{{ comentario['data_comentario'] }}</span>
+              <p class="texto-comentario">{{ comentario['conteudo'] }}</p>             
+              <span class="avaliacao star-icon" style="font-size: 20px;">{{ comentario['star_value'] }}</span>
             </li>
             {% else %}
-            <li>Nenhum comentário ainda. Seja o primeiro a comentar!</li>
+            <li style="padding-top: 15px;">Nenhum comentário ainda. Seja o primeiro a comentar!</li>
             {% endfor %}
           </ul>
         </section>
 
         <section class="caixa-comentario">
-          <h3>Deixe seu comentário</h3>
           <form id="comentario-form">
             <article class="box-comment">
-              <label for="comment">Comentário:</label>
-              <input name="comment" type="text" id="comment" />
+              <label for="comment"></label>
+              <input name="comment" type="text" id="comment" placeholder="Adicione um comentário..." />
             </article>
 
             <article class="avaliar">

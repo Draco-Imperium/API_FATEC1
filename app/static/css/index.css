@@ -6,6 +6,9 @@
   --cor-clara: #f6f6f6;
   --cor-escura: #333333;
   --sombra-caixa: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  --tamanho-texto-pequeno: 12px;
+  --padding-button: 10px 15px;
+  --radius-medio: 10px;
 }
 
 * {
@@ -97,21 +100,23 @@ main {
 .propostas h1 {
   font-size: 18px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .button {
-  background-color: #2f4fac;
-  color: white;
-  padding: 10px 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
-  margin-top: 5%;
+  margin-top: 1%;
+  background-color: var(--cor-primaria);
+  color: var(--cor-clara);
+  padding: var(--padding-button);
+  font-size: var(--tamanho-texto-pequeno);
 }
 
 .button:hover {
-  background-color: #1d3a7e;
+  background-color: var(--cor-secundaria);
 }
 
 .footer {

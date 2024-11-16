@@ -101,6 +101,11 @@ body {
     border-bottom: 1px solid #d3d3d3;
 }
 
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+}
+
 .dropdown-content div:hover {
     background-color: #f0f0f0;
 }
