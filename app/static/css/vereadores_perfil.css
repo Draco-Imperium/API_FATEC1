@@ -47,7 +47,6 @@ main {
 }
 
 .conteudo-vereador {
-  
   max-width: 85%;
   margin: 2.5% auto;
   padding: 20px;
@@ -77,11 +76,11 @@ main {
   border-radius: var(--radius-grande);
   background: var(--cor-clara);
   box-shadow: var(--sombra-suave);
-  max-width: 70%;
-  height: 100%;
+  width: 70%;
+  height: 400px;
   margin-top: 6%;
+  position: relative;
 }
-
 
 .img-vereador {
   max-width: 70%;
@@ -232,7 +231,7 @@ main {
   content: "\2606";
 }
 
-.botaobe{
+.botaobe {
   cursor: pointer;
   display: flex;
   flex-direction: row;
@@ -248,13 +247,16 @@ main {
   padding-left: 10px;
   transition: 0.3s;
 }
-.botaobe:hover{
-background-color: rgb(224, 224, 224);
-padding: 8px;
+
+.botaobe:hover {
+  background-color: rgb(224, 224, 224);
+  padding: 8px;
 }
-.botaobe > i{
+
+.botaobe > i {
   padding-top: 0.5%;
 }
+
 .dropdown-menu {
   max-height: 0;
   overflow: hidden;
@@ -263,17 +265,18 @@ padding: 8px;
   background-color: #f9f9f9;
   margin-top: 10px;
 }
+
 .dropdown.open .dropdown-menu {
   max-height: 100%;
   font-size: 14px;
 }
-.texto-be{
+
+.texto-be {
   padding: 10px;
   background-color: white;
-  white-space: pre-wrap; 
+  white-space: pre-wrap;
   font-size: 12px;
 }
-
 
 footer {
   background-color: rgba(204, 204, 204, 0.27);
@@ -310,24 +313,43 @@ footer {
 
 .sticky-bottom {
   position: sticky;
-  bottom: 0; 
+  bottom: 0;
 }
 
-.info-img{
+.info-img {
   border-radius: 10px;
 }
-.relatorios{
+
+.relatorios {
   justify-content: center;
 }
+
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#GraficoPerfil {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 400px;
+}
+
 @media (max-width: 768px) {
-  *{
+  * {
     font-size: 12px;
   }
+
   .conteudo-vereador {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 10px;
     margin: 5%;
     padding: 0;
     background-color: var(--cor-clara);
@@ -349,37 +371,51 @@ footer {
     margin: 1%;
     padding: 1%;
   }
+
   .chart {
     padding: 0;
     max-width: 90%;
+    max-height: 80%;
     margin-top: 6%;
   }
+
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+
   .relatorios {
     width: 100%;
+    height: 100%;
     margin-left: 5%;
     margin-bottom: 10%;
   }
+
   .select {
     width: auto;
     margin-left: 7.5%;
     margin-top: 5%;
   }
+
   .sobre-vereador {
     width: 90%;
     margin-left: 5%;
     margin-bottom: 5%;
   }
+
   .comentarios {
     margin-top: 5%;
     padding: 5%;
     margin: 10%;
   }
-  .button-container > .button{
+
+  .button-container > .button {
     font-size: 10px;
     border-radius: 10%;
-    margin: 5% 0;    
+    margin: 5% 0;
   }
-  main{
+
+  main {
     background-size: cover;
   }
 }

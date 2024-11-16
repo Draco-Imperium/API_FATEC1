@@ -85,10 +85,28 @@ document.addEventListener("DOMContentLoaded", async function () {
         datasets: datasets
       },
       options: {
+        responsive: true,
+        maintainAspectRatio: false,
         indexAxis: 'y',
         scales: {
           y: {
             beginAtZero: true,
+          },
+          x: {
+            ticks: {
+              autoSkip: false,
+              maxRotation: 0,
+              minRotation: 0,
+            }
+          }
+        },
+        plugins: {
+          legend: {
+            display: true,
+            position: 'top',
+          },
+          tooltip: {
+            enabled: true,
           }
         }
       }
@@ -156,14 +174,13 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
 });
 
+document.getElementById("enviarComentario").addEventListener("click", function() {
+  // Exibir o alerta ao clicar no botão
+  const alertaComentario = document.getElementById("alertaComentario");
+  alertaComentario.style.display = "block";
 
- document.getElementById("enviarComentario").addEventListener("click", function() {
-    // Exibir o alerta ao clicar no botão
-    const alertaComentario = document.getElementById("alertaComentario");
-    alertaComentario.style.display = "block";
-    
-    // Opcional: Ocultar o alerta automaticamente após alguns segundos
-    setTimeout(() => {
-      alertaComentario.style.display = "none";
-    }, 3000); // Alerta desaparece após 3 segundos
-  });
+  // Opcional: Ocultar o alerta automaticamente após alguns segundos
+  setTimeout(() => {
+    alertaComentario.style.display = "none";
+  }, 3000); // Alerta desaparece após 3 segundos
+});
