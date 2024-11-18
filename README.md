@@ -103,11 +103,15 @@ Sprint | Previsão | Status|
 
 ### Sprint 3:
 
-- [ ] Implementação de funcionalidades do sistema (barra de busca, comentários);
+- [x] Implementação de funcionalidades do sistema (barra de busca, comentários);
 
 - [ ] Reajustes e alguns aperfeiçoamentos;
       
-- [ ] Criação de toda documentação necessária do projeto.
+- [ ] Criação de toda documentação necessária do projeto;
+
+- [x] Deploy do Banco de Dados no RDS da AWS.
+
+- [ ] Deploy da aplicação na AWS;
  
 <br>
 
@@ -196,6 +200,9 @@ https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
 
 https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
 
+<h3>📍Sprint 3</h3>
+...
+
 <br>
 
 <span id="autores">
@@ -204,9 +211,9 @@ https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
 | :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Product Owner |   Emmanuel Yokoyama         |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuelyokoyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/EmmanuelJYokoyama)              |
-| Scrum Master  | Lucas Marins |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/nome_aqui/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasMarinsSantos)     |
+| Scrum Master  | Lucas Marins |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-gabriel-marins-dos-santos-56b529246/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasMarinsSantos)     |
 | Team Member   | Gabriel Medeiros |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-516ab3325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gbmedeiros00)        |
 |  Team Member  | Ana Gaspar |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ana-gaspar-957775325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/anajgaspar)        |
 |  Team Member  | Ana Beatriz |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abeatrizcoelho/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/abeatrizdscoelho)   |
 |  Team Member  | João Vitor |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/joaovvsilva)          |
-|  Team Member  | Matheus Roberto |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheus-Roberto-Castro)          |
+|  Team Member  | Matheus Roberto |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-r-castro-70091a32b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheus-Roberto-Castro)          |
