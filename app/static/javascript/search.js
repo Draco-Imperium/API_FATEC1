@@ -1,26 +1,27 @@
 function searchFunction() {
-    var input = document.querySelector('.search-input').value;
+    var input = document.querySelector('.search-input').value.trim();
     var dropdown = document.getElementById('search-dropdown');
-
     dropdown.innerHTML = '';
 
     if (input.length > 0) {
-        fetch(`/search?q=${input}`)
+        fetch(`/search?q=${encodeURIComponent(input)}`)
             .then(response => response.json())
             .then(data => {
                 if (data.length > 0) {
                     data.forEach(item => {
                         var div = document.createElement('div');
                         div.classList.add('dropdown-item');
-                        
+                        div.id = "dropdown-item";
+
                         var link = document.createElement('a');
                         link.href = item.link;
-                        link.textContent = item.NM_URNA_CANDIDATO;
+                        div.textContent = item.NM_URNA_CANDIDATO;
+                        
 
-                        div.appendChild(link);
-                        dropdown.appendChild(div);
+                        link.appendChild(div);
+                        dropdown.appendChild(link);
 
-                        console.log("Link criado: ", link);
+                        console.log("Link criado: ", link.href);
                     });
                 } else {
                     dropdown.innerHTML = '<div class="dropdown-item">Nenhum resultado encontrado</div>';

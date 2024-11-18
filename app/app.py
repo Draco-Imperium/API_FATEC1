@@ -194,6 +194,29 @@ def adicionar_comissoes_ao_perfil(parlamentar_id, comissoes, parlamentares):
 
     return comissoes_participadas
 
+def busca_perfil(NM_URNA_CANDIDATO):
+    app.logger.info(f"Acessando perfil do vereador: {NM_URNA_CANDIDATO}")
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            data = json.load(file)
+        
+        parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == format_name(NM_URNA_CANDIDATO)), None)
+        if parlamentar is None:
+            logging.warning(f"Parlamentar com NM_URNA_CANDIDATO '{NM_URNA_CANDIDATO}' não encontrado.")
+            return render_template('404.html'), 404
+
+        vereador_id = parlamentar.get("ID_VER")
+        comentarios = obter_comentarios(vereador_id)
+
+        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
+
+    except FileNotFoundError:
+        logging.error("Arquivo não encontrado")
+        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+    except json.JSONDecodeError as e:
+        logging.error("Erro ao decodificar JSON: %s", e)
+        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
 
 # # Nova rota para enviar comentários via AJAX
 @app.route('/comentar', methods=['POST'])
@@ -354,33 +377,6 @@ def internal_error(error):
     return render_template('500.html'), 500
 
 #-------------------------------------------------------------------------------------------------------
-
-@app.route('/perfil/<string:NM_URNA_CANDIDATO>', methods=['GET'])
-def busca_perfil(NM_URNA_CANDIDATO):
-    app.logger.info(f"Acessando perfil do vereador: {NM_URNA_CANDIDATO}")
-    try:
-        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data.json')
-        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
-            data = json.load(file)
-        
-        parlamentar = next((p for p in data['parlamentares'] if format_name(p['NM_URNA_CANDIDATO']) == (NM_URNA_CANDIDATO)), None)
-        if parlamentar is None:
-            logging.warning(f"Parlamentar com NM_URNA_CANDIDATO '{NM_URNA_CANDIDATO}' não encontrado.")
-            return render_template('404.html'), 404
-
-        vereador_id = parlamentar.get("ID_VER")
-        comentarios = obter_comentarios(vereador_id)
-
-        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
-
-    except FileNotFoundError:
-        logging.error("Arquivo não encontrado")
-        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
-    except json.JSONDecodeError as e:
-        logging.error("Erro ao decodificar JSON: %s", e)
-        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
-
-#----------------------------------------------------------------------------------------------
 
 @app.route('/search')
 def search():
