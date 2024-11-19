@@ -8,73 +8,41 @@
     <title>Vereadores</title>
 </head>
 <body>
-{% include 'header.html' %}
+    {% include 'header.html' %}
+    <main>
+        <section class="vereadores-geral">
+            {% for parlamentar in parlamentares %}
+            <section class="vereador">
+                <img src="{{ parlamentar['FT_CANDIDATO'] }}" alt="Candidato {{ parlamentar['NM_CANDIDATO'] }}">
+                <article class="info-vereador">
+                    <h2>{{ parlamentar['NM_URNA_CANDIDATO'] }}</h2>
+                    <p>{{ parlamentar['NM_PARTIDO'] }} ({{ parlamentar['SG_PARTIDO'] }})</p>
+                </article>
+                <article class="button-container">
+                    <a href="{{ url_for('perfil', NM_URNA_CANDIDATO=parlamentar['NM_URNA_CANDIDATO'] | format_name) }}">
+                        <button class="button" type="button">Ver Perfil</button>
+                    </a> 
+                </article>
+            </section>
+            {% endfor %}
+        </section>
+    </main>
+    {% include 'footer.html' %}
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('open');
 
-<main>
-    <section class="Vereadores-geral">
-        <section class="vereador">
-            <img src="../static/images/Vereador Roberto do Eleven (menor).jpg" alt="Vereador Roberto do Eleven">
-            <article class="info-vereador">
-                <p>Vereador(a): Roberto do Eleven</p>
-                <p>Partido: Partido Social Democrático (PSD)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Lino Bispo.jpg" alt="Vereador Lino Bispo">
-            <article class="info-vereador">
-                <p>Vereador(a): Lino Bispo</p>
-                <p>Partido: Partido Liberal (PL)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Milton Vieira Filho.jpg" alt="Vereador Milton Vieira Filho">
-            <article class="info-vereador">
-                <p>Vereador(a): Milton Vieira Filho</p>
-                <p>Partido: Republicanos (Republicados)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Thomaz Henrique.jpg" alt="Thomaz Henrique">
-            <article class="info-vereador">
-                <p>Vereador(a): Thomaz Henrique</p>
-                <p>Partido: Partido Liberal (PL)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Marcelo Garcia.jpg" alt="Marcelo Garcia">
-            <article class="info-vereador">
-                <p>Vereador(a): Marcelo Garcia</p>
-                <p>Partido: Partido Renovação Democrática (PRD)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-        <section class="vereador">
-            <img src="../static/images/Vereador Zé Luis.jpg" alt="Vereador Zé Luis">
-            <article class="info-vereador">
-                <p>Vereador(a): Zé Luis</p>
-                <p>Partido: Partido Social Democrático (PSD)</p>
-            </article>
-            <article class="button-container">
-                <button class="button" type="button">Ver Perfil</button>
-            </article>
-        </section>
-    </section>
-</main>
+            const hamburger = document.querySelector('.hamburger');
+            hamburger.classList.toggle('active');
+        }
 
-{% include 'footer.html' %}
+        document.addEventListener("DOMContentLoaded", function() {
+            const hamburger = document.querySelector('.hamburger');
+            if (hamburger) {
+                hamburger.addEventListener('click', toggleMenu);
+            }
+        });
+    </script>
 </body>
 </html>

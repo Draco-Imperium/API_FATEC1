@@ -1,150 +1,430 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgba(204, 204, 204, 0.27);
-}
-/* Informações Vereador */
-.conteúdo-vereador{
-    display: grid;
-    grid-template-columns: 5fr 5fr;
-    max-width: 85%;
-    margin: 2.5% auto;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    width: 100%;
-}
-.select{
-    width: 100%;
-    max-width: 700px;
-    height: 30px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-.chart{
-    padding: 2%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    min-height: 10vh;
-    margin-top: 8%;
-}
-.img-vereador{
-    width: 60%;
-    max-width: 380px;
-    height: auto;
-    border-radius: 2%;
-    margin: 3%;
-}
-.info-vereador{
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 65%;
-    padding: 1%;
-    margin-left: 0.6%; 
-}
-/* section sobre o verador */
-.sobre-vereador{
-    grid-column: 1/3;
-    margin-top: 2%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 10px;
+:root {
+  --fonte-principal: Poppins, sans-serif;
+  --cor-primaria: #1e3a8a;
+  --cor-secundaria: #2f4fac;
+  --cor-terciaria: #60a5fa;
+  --cor-clara: #f6f6f6;
+  --cor-escura: #333333;
+  --sombra-suave: 0 0 5px rgba(0, 0, 0, 0.10);
+  --borda: 1px solid #ccc;
+  --radius-pequeno: 4px;
+  --radius-medio: 8px;
+  --radius-grande: 10px;
+  --cor-texto-secundario: #555;
+  --cor-texto-usuario: #ccc;
+  --tamanho-texto-pequeno: 0.9em;
+  --tamanho-texto-normal: 16px;
+  --padding-button: 10px 15px;
 }
 
-/* Comentários */
-.comentários{
-    display: grid;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 85%;
-    margin: auto;
-    margin-bottom: 2%;
+* {
+  font-family: var(--fonte-principal);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.caixa-comentário h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Espaço entre o ícone e o texto */
-    margin: 2% 0 2% 0;
+
+body {
+  background-color: rgba(204, 204, 204, 0.27);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.lista-comentário {
-    list-style-type: none;
-    padding: 0;
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-clara);
 }
-.comentário {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.usuário {
-    font-size: 0.9em;
-    color: #888;
+
+.conteudo-vereador {
+  max-width: 85%;
+  margin: 2.5% auto;
+  padding: 20px;
+  background-color: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  border-radius: var(--radius-grande);
+  width: 100%;
 }
-.texto-comentário {
-    margin: 0 0 5px 0;
-    color: #555;
+
+.select {
+  width: 100%;
+  height: auto;
+  font-size: var(--tamanho-texto-normal);
+  border: var(--borda);
+  background-color: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  border-radius: var(--radius-grande);
+  margin-left: 0;
+  margin-top: 0;
+  max-width: 100%;
+  padding-left: 5px;
 }
-/* Box para Comentários */
+
+.chart {
+  padding: 5px;
+  border: var(--borda);
+  border-radius: var(--radius-grande);
+  background: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  width: 70%;
+  height: 400px;
+  margin-top: 6%;
+  position: relative;
+}
+
+.img-vereador {
+  max-width: 70%;
+  height: auto;
+  border-radius: 2%;
+  margin: 3%;
+  margin-left: 6.66%;
+  margin-top: 0;
+}
+
+.info-vereador {
+  background-color: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  border-radius: var(--radius-grande);
+  overflow: hidden;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10%;
+  margin-left: 0;
+}
+
+.sobre-vereador {
+  grid-column: 1 / 3;
+  margin: 0;
+  background-color: var(--cor-clara);
+  border-radius: var(--radius-medio);
+  box-shadow: var(--sombra-suave);
+  padding: 20px;
+}
+
+.sobre-vereador > ul {
+  list-style: none;
+}
+
+.sobre-vereador > p {
+  padding-left: 3px;
+  padding-bottom: 10px;
+}
+
+.comentarios {
+  display: grid;
+  width: 85%;
+  background-color: var(--cor-clara);
+  padding: 20px;
+  border-radius: var(--radius-medio);
+  box-shadow: var(--sombra-suave);
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.caixa-comentario h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1%;
+}
+
+.lista-comentario {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comentario {
+  padding: 10px;
+  border-bottom: var(--borda);
+}
+
+.usuario {
+  font-size: var(--tamanho-texto-pequeno);
+  font-weight: bold;
+}
+
+.data {
+  color: var(--cor-texto-usuario);
+  font-size: var(--tamanho-texto-pequeno);
+  padding: 5px;
+}
+
+.texto-comentario {
+  margin: 0 0 5px 0;
+}
+
 .box-comment {
-    margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
 }
+
 .box-comment label {
-    display: block;
-    margin-bottom: 5px;
-    color: #555;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--cor-texto-secundario);
 }
-.box-comment input{
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
+
+.box-comment input {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  border: var(--borda);
+  border-radius: var(--radius-pequeno);
+  font-size: var(--tamanho-texto-normal);
 }
+
 .button-container {
-    display: flex;
-    justify-content: flex-end; /* Alinha o botão à direita */
-    margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
 }
+
 .button {
-    background-color: #2F4FAC;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
+  background-color: var(--cor-primaria);
+  color: var(--cor-clara);
+  padding: var(--padding-button);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--tamanho-texto-pequeno);
 }
+
 .button:hover {
-    background-color: #1d3a7e; /* Cor mais escura no hover */
+  background-color: var(--cor-secundaria);
 }
-/* Avaliando o Candidato */
-.avaliar{
+
+.avaliar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: none;
+}
+
+.avaliacao {
+  display: flex;
+}
+
+.star-icon {
+  list-style-type: none;
+  border: none;
+  cursor: pointer;
+  color: #ffe500;
+  font-size: 25px;
+}
+
+.star-icon::before {
+  content: "\2605";
+}
+
+.star-icon.ativo ~ .star-icon::before {
+  content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before {
+  content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before {
+  content: "\2606";
+}
+
+.botaobe {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: var(--radius-pequeno);
+  padding: 8px;
+  width: 100%;
+  font-family: var(--fonte-principal);
+  font-weight: 777;
+  align-items: flex-start;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.316);
+  padding-left: 10px;
+  transition: 0.3s;
+}
+
+.botaobe:hover {
+  background-color: rgb(224, 224, 224);
+  padding: 8px;
+}
+
+.botaobe > i {
+  padding-top: 0.5%;
+}
+
+.dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+}
+
+.dropdown.open .dropdown-menu {
+  max-height: 100%;
+  font-size: 14px;
+}
+
+.texto-be {
+  padding: 10px;
+  background-color: white;
+  white-space: pre-wrap;
+  font-size: 12px;
+}
+
+footer {
+  background-color: rgba(204, 204, 204, 0.27);
+  padding: 20px 0px;
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.bg-secondary {
+  background-color: var(--cor-secundaria);
+  color: #fff;
+}
+
+.sticky-bottom {
+  position: sticky;
+  bottom: 0;
+}
+
+.info-img {
+  border-radius: 10px;
+}
+
+.relatorios {
+  justify-content: center;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+#GraficoPerfil {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 400px;
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 12px;
+  }
+
+  .conteudo-vereador {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5%;
+    padding: 0;
+    background-color: var(--cor-clara);
+    border-radius: var(--radius-grande);
+  }
+
+  .imgecoisas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
     align-items: center;
-    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .info-vereador {
+    max-width: 100%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  .chart {
+    padding: 0;
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 6%;
+  }
+
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .relatorios {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+
+  .select {
+    width: auto;
+    margin-left: 7.5%;
+    margin-top: 5%;
+  }
+
+  .sobre-vereador {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+
+  .comentarios {
+    margin-top: 5%;
+    padding: 5%;
+    margin: 10%;
+  }
+
+  .button-container > .button {
+    font-size: 10px;
+    border-radius: 10%;
+    margin: 5% 0;
+  }
+
+  main {
+    background-size: cover;
+  }
 }
-.avaliação{display: flex}
-.star-icon{
-    list-style-type: none; 
-    border: 1px solid #fff;
-    cursor: pointer;
-    color: #ffe500;  
-    font-size: 25px;
-}
-.star-icon::before{content: '\2605' /* Código Estrela Preenchida */}
-.star-icon.ativo ~ .star-icon::before{content: '\2606' /* Código Estrela Vazia */}
-.avaliação:hover .star-icon::before{content: '\2605'}
-.star-icon:hover ~ .star-icon::before{content: '\2606'}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../static/css/vereadores_perfil.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  {% include 'headFH.html' %}
+  <title>Perfil Individual Vereadores</title>
+</head>
+
+<body>
+  {% include 'header.html' %}
+  <main>
+    <section class="conteudo-vereador">
+      <div class="flex flex-wrap md:flex-nowrap">
+        <div class="info">
+          <div class="card bg-white shadow-md rounded-lg flex flex-col p-4 m-4">
+            <img src="{{ parlamentar['FT_CANDIDATO'] }}" alt="Candidato {{ parlamentar['NM_CANDIDATO'] }}"
+              class="info-img" />
+          </div>
+          <div class="w-full md:w-3/3 p-4 flex-grow">
+            <div class="card sticky-bottom bg-white shadow-md rounded-lg flex flex-col">
+              <div class="card-body p-4 flex-grow">
+                <h2 class="text-center text-xl font-semibold mt-2">{{ parlamentar['NM_URNA_CANDIDATO'] }}</h2>
+                <p class="text-center">{{ parlamentar['NM_PARTIDO'] }} ({{ parlamentar['SG_PARTIDO'] }})</p>
+                <p class="text-center text-xl font-semibold">{{ parlamentar['NR_CANDIDATO'] }}</p>
+                <p class="text-center text-sm p-2">Telefone(s): {{ parlamentar['DS_TEL'] }}</p>
+                <p class="text-center text-sm p-2">Email(s): {{ parlamentar['DS_EMAIL'] }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="info-2">
+        </div>
+        <div class="w-full md:w-2/3 p-4 flex-grow">
+          <form>
+            <div class="card bg-white shadow-md rounded-lg">
+              <div class="grid grid-cols-2 md:grid-cols-2 gap-8 p-6 h-100">
+                <div>
+                  <label class="font-semibold flex text-xl">Nome Completo:</label>
+                  <span class="flex text-lg">{{ parlamentar['NM_CANDIDATO'] }}</span>
+                </div>
+                <div>
+                  <label class="font-semibold flex text-xl">Data de Nascimento:</label>
+                  <span class="flex text-lg">{{ parlamentar['DT_NASCIMENTO'] }}</span>
+                </div>
+                <div>
+                  <label class="font-semibold flex text-xl">Naturalidade:</label>
+                  <span class="flex text-lg">{{ parlamentar['VR_NAT'] }}</span>
+                </div>
+                <div>
+                  <label class="font-semibold flex text-xl">Grau de Instrução:</label>
+                  <span class="flex text-lg">{{ parlamentar['DS_GRAU_INSTRUCAO'] }}</span>
+                </div>
+                <div>
+                  <label class="font-semibold flex text-xl">Ocupação:</label>
+                  <span class="flex text-lg">{{ parlamentar['DS_OCUPACAO'] }}</span>
+                </div>
+                <div>
+                  <label class="font-semibold flex text-xl">CPF:</label>
+                  <span class="flex text-lg">{{ parlamentar['NR_CPF_CANDIDATO'] }}</span>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="p-2">
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                    <span class="botaobe">Biografia <i class="fa-solid fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                      <li class="texto-be">{{ parlamentar['SOBRE'] | safe }}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-2">
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                    <span class="botaobe">Eleições <i class="fa-solid fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                      <li class="texto-be">{{ parlamentar['DS_SIT_TOT_TURNO'] | safe }}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="p-2">
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                    <span class="botaobe">Comissões <i class="fa-solid fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                      <li class="texto-be">{{ parlamentar['COM'] | safe }}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="conteudo-vereador">
+      <section class="relatorios">
+        <select class="select">
+          <option>Frequência em Plenário</option>
+          <option>Proposições Apresentadas</option>
+          <option>Leis de sua Autoria</option>
+        </select>
+        <div class="chart">
+          <canvas id="GraficoPerfil" width="100%"></canvas>
+        </div>
+      </section>
+    </section>
+      <section class="comentarios">
+        <section class="caixa-comentario">
+          <h3>Comentários</h3>
+          <hr style="background-color: lightgrey; height: 2px;">
+          <ul class="lista-comentario">
+            {% for comentario in comentarios %}
+            <li class="comentario">
+              <span class="usuario">{{ comentario['usuario'] }}</span><span class="data">{{ comentario['data_comentario'] }}</span>
+              <p class="texto-comentario">{{ comentario['conteudo'] }}</p>             
+              <span class="avaliacao star-icon" style="font-size: 20px;">{{ comentario['star_value'] }}</span>
+            </li>
+            {% else %}
+            <li style="padding-top: 15px;">Nenhum comentário ainda. Seja o primeiro a comentar!</li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section class="caixa-comentario">
+          <form id="comentario-form">
+            <article class="box-comment">
+              <label for="comment"></label>
+              <input name="comment" type="text" id="comment" placeholder="Adicione um comentário..." />
+            </article>
+
+            <article class="avaliar">
+              <h4>Avalie o Candidato</h4>
+              <ul class="avaliacao">
+                <li class="star-icon" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+              </ul>
+              <p>Nota: <span id="valor-avaliacao">1</span></p>
+            </article>
+
+            <input type="hidden" id="NM_URNA_CANDIDATO" value="{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}">
+            <article class="button-container">
+              <button class="button" type="button" onclick="enviarComentario()">Enviar</button>
+            </article>
+
+            <div  class="alert alert-success mt-3" role="alert" style="display: none;">
+              
+            </div>
+
+            <div class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 px-4 py-3 shadow-md bg-green-500" role="alert" id="alertaComentario" style="display: none;">
+              <div class="flex">
+                  <div>
+                  <p class="text-sm">Comentário enviado com sucesso!</p>
+                </div>
+              </div>
+            </div>
+
+
+          </form>
+        </section>
+      </section>
+  </main>
+
+  {% include 'footer.html' %}
+
+  <script>
+
+    const stars = document.querySelectorAll('.star-icon');
+    const valorAvaliacao = document.getElementById('valor-avaliacao');
+    let star_value = 1
+
+    stars.forEach(star => {
+      star.addEventListener('click', () => {
+        const rating = parseInt(star.getAttribute('data-avaliacao'));
+
+        // Remove a classe 'ativo' de todas as estrelas
+        stars.forEach(s => s.classList.remove('ativo'));
+
+        // Adiciona a classe 'ativo' até a estrela selecionada
+        stars.forEach((s, index) => {
+          if (index < rating) {
+            s.classList.add('ativo');
+          }
+        });
+
+        // Define o valor da avaliação
+        star_value = parseInt(rating);
+        valorAvaliacao.textContent = rating;
+      });
+    });
+    
+    function toggleMenu() {
+      const navMenu = document.getElementById("nav-menu");
+      navMenu.classList.toggle("open");
+
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.classList.toggle("active");
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      if (hamburger) {
+        hamburger.addEventListener("click", toggleMenu);
+      }
+    });
+
+    document.querySelectorAll('.botaobe').forEach(button => {
+      button.addEventListener('click', function () {
+        const dropdown = this.parentElement;
+        dropdown.classList.toggle('open');
+      });
+    });
+
+    function enviarComentario() {
+      const comentario = document.getElementById('comment').value;
+      //const avaliacao = document.getElementById('avaliacao').value;
+      const NM_URNA_CANDIDATO = "{{ parlamentar['NM_URNA_CANDIDATO'] | format_name }}"; // ID do candidato no servidor
+
+      const alertaComentario = document.getElementById("alertaComentario");
+      alertaComentario.style.display = "block";
+      
+      // Opcional: Ocultar o alerta automaticamente após alguns segundos
+      setTimeout(() => {
+        alertaComentario.style.display = "none";
+      }, 4500);
+
+
+      fetch('/comentar', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: `comment=${encodeURIComponent(comentario)}&avaliacao=${encodeURIComponent(star_value)}&NM_URNA_CANDIDATO=${encodeURIComponent(NM_URNA_CANDIDATO)}`
+      })
+        .then(response => response.json())
+        .then(data => {
+          if (data.status === 'success') {
+
+          } else {
+            alert('Erro ao enviar comentário.');
+          }
+        })
+        .catch(error => {
+          console.error('Erro:', error);
+        });
+      setTimeout(function () {
+        location.reload();
+      }, 5000)
+    }
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="{{ url_for('static', filename='javascript/perfil.js') }}"></script>
+</body>
+
+</html>

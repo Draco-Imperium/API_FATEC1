@@ -1,123 +1,87 @@
+:root {
+  --fonte-principal: "Poppins", sans-serif;
+  --cor-primaria: #1e3a8a;
+  --cor-secundaria: #2f4fac;
+  --cor-terciaria: #60a5fa;
+  --cor-clara: #f6f6f6;
+  --cor-escura: #333333;
+  --sombra-caixa: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  --tamanho-texto-pequeno: 12px;
+  --padding-button: 10px 15px;
+  --radius-medio: 10px;
+}
+
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--fonte-principal);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html,
 body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: rgba(204, 204, 204, 0.27);
 }
 
-.carousel {
+main {
+  flex: 1;
   display: flex;
-  position: relative;
-  width: 100%;
-  height: 300px;
-  background-color: rgb(255, 255, 255);
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--cor-clara);
 }
 
-.carousel-indicators {
-  list-style-type: none;
-  padding-left: 0;
+.carousel {
+  width: 100%;
+  min-height: 300px;
+  overflow: hidden;
 }
 
 .carousel-inner {
   width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
-.carousel-item {
-  position: relative;
+/*.carousel-item {
   display: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
+  position: relative;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}*/
 
 .carousel-item.active {
   display: block;
+  opacity: 1;
 }
 
 .carousel img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
-  filter: brightness(100%);
-}
-
-.carousel-item {
-  position: relative;
-  display: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.carousel-item:hover .rectangle {
-  display: block;
-}
-
-.rectangle {
-  position: absolute;
-  width: 50px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-  color: white;
-}
-
-.rectangle.left {
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-}
-
-.rectangle.right {
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-}
-
-.carousel:hover .rectangle {
-  opacity: 1;
 }
 
 .propostas-one {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 85%;
-  margin: 8% auto 2.5% auto;
+  margin: 8% auto;
   background-color: white;
   border-radius: 10px;
+  padding: 20px;
 }
 
-.propostas-one h1{
-  font-size: 18px;
-  padding: 10px;
-}
-
-.propostas-two {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  max-width: 85%;
-  margin: 8% auto 2.5% auto;
-  background-color: rgba(212, 212, 212, 0.0);
-  border-radius: 10px;
-}
-.propostas h1{
-  font-size: 18px;
+.propostas-title {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .propostas {
@@ -125,82 +89,61 @@ body {
   flex-direction: column;
   font-size: 16px;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   background: linear-gradient(to bottom, white 100%, rgba(255, 255, 255, 0) 100%);
   text-align: center;
-  height: auto;
-  width: 90%;
 }
 
-.propostas-title{
-  grid-column: 1/4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1%;
-}
-
-.propostas-title h2{
+.propostas h1 {
   font-size: 18px;
-  padding: 10px;
-}
-.propostas button{
-  padding: 5px;
-}
-
-.propostas2 {
-  display: flex;
-  flex-direction: column;
-  font-size: 16px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  background: linear-gradient(to bottom, white 100%, rgba(255, 255, 255, 0) 100%);
-  align-items: center;
-  text-align: left;
-}
-
-.propostas2 > img {
-  margin: 5% auto;
-  border-radius: 10px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  width: 70%;
-  height: auto;
-  object-fit: cover;
-}
-
-.info-vereador {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  margin-left: 2%;
-  overflow: hidden;
-  text-align: left;
-  width: 100%;
-}
-
-.info-vereador > p {
-  margin: 0;
-  font-size: 12px;
-  padding: 2%;
-  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .button {
-  background-color: #2F4FAC;
-  color: white;
-  padding: 10px 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 12px;
-  margin: 1%;
+  margin-top: 1%;
+  background-color: var(--cor-primaria);
+  color: var(--cor-clara);
+  padding: var(--padding-button);
+  font-size: var(--tamanho-texto-pequeno);
 }
+
 .button:hover {
-  background-color: #1d3a7e; /* Cor mais escura no hover */
+  background-color: var(--cor-secundaria);
+}
+
+.footer {
+  background-color: rgba(204, 204, 204, 0.27);
+  padding: 20px 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .propostas-one {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin: 10% 2%;
+  }
+
+  .propostas-title h2 {
+    display: flex;
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  .carousel {
+    min-height: 100px;
+  }
+
+  .carousel img {
+    height: 135px;
+  }
 }

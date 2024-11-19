@@ -1,0 +1,372 @@
+{
+  "comissoes": [
+    {
+      "comissaoID": "37",
+      "comissaoNome": "Comissão de Cultura e Esportes",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "245",
+          "parlamentarRazaoSocial": "Ver. Renato Santiago",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/x42xbq4a20b5i0iaxhh4.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "43",
+          "parlamentarRazaoSocial": "Ver. Juliana Fraga",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juliana fraga.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "249",
+          "parlamentarRazaoSocial": "Ver. Rogério da ACASEM",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/2a21q5lr71q63crryfmp.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "44",
+          "parlamentarRazaoSocial": "Ver. Juvenil Silvério",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juvenil(1).jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "35",
+          "parlamentarRazaoSocial": "Ver. Amélia Naomi",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/70878385417st6d28o4c.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "240",
+          "parlamentarRazaoSocial": "Ver. Roberto Chagas",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/11x3521c2h31ms7o7ptt.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "43",
+      "comissaoNome": "Comissão de Economia, Finanças e Orçamento",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "240",
+          "parlamentarRazaoSocial": "Ver. Roberto Chagas",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/11x3521c2h31ms7o7ptt.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "40",
+          "parlamentarRazaoSocial": "Ver. Fernando Petiti",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/53028hrhq7brv7l8ii14.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "44",
+          "parlamentarRazaoSocial": "Ver. Juvenil Silvério",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juvenil(1).jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "244",
+          "parlamentarRazaoSocial": "Ver. Marcelo Garcia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/r8m57lqv4sls8uf20n7v.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "243",
+          "parlamentarRazaoSocial": "Ver. Rafael Pascucci",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/l7v18288882yb4165183.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "239",
+          "parlamentarRazaoSocial": "Ver. Thomaz Henrique",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/d474lum2083h76wsa4om.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "26",
+      "comissaoNome": "Comissão de Educação e Promoção Social",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "247",
+          "parlamentarRazaoSocial": "Ver. Fabião Zagueiro",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/c3u085f11t2x47khu0c3.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "237",
+          "parlamentarRazaoSocial": "Ver. Zé Luis",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/46y85np3v6dy360ima81.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "43",
+          "parlamentarRazaoSocial": "Ver. Juliana Fraga",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juliana fraga.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "242",
+          "parlamentarRazaoSocial": "Ver. Milton Vieira Filho",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/x782015ys02p1u205nyq.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "239",
+          "parlamentarRazaoSocial": "Ver. Thomaz Henrique",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/d474lum2083h76wsa4om.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "35",
+          "parlamentarRazaoSocial": "Ver. Amélia Naomi",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/70878385417st6d28o4c.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "40",
+      "comissaoNome": "Comissão de Ética",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "50",
+          "parlamentarRazaoSocial": "Ver. Robertinho da Padaria",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/robertinho da padaria.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "44",
+          "parlamentarRazaoSocial": "Ver. Juvenil Silvério",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juvenil(1).jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "240",
+          "parlamentarRazaoSocial": "Ver. Roberto Chagas",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/11x3521c2h31ms7o7ptt.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "245",
+          "parlamentarRazaoSocial": "Ver. Renato Santiago",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/x42xbq4a20b5i0iaxhh4.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "43",
+          "parlamentarRazaoSocial": "Ver. Juliana Fraga",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/juliana fraga.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "40",
+          "parlamentarRazaoSocial": "Ver. Fernando Petiti",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/53028hrhq7brv7l8ii14.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "238",
+          "parlamentarRazaoSocial": "Ver. Dr. José Claudio",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/lm26puws46b58lwh7p4a.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "239",
+          "parlamentarRazaoSocial": "Ver. Thomaz Henrique",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/d474lum2083h76wsa4om.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "243",
+          "parlamentarRazaoSocial": "Ver. Rafael Pascucci",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/l7v18288882yb4165183.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "45",
+          "parlamentarRazaoSocial": "Ver. Lino Bispo",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/2684u0fw768v144jog05.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "39",
+      "comissaoNome": "Comissão de Justiça, Redação e Direitos Humanos",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "50",
+          "parlamentarRazaoSocial": "Ver. Robertinho da Padaria",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/robertinho da padaria.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "246",
+          "parlamentarRazaoSocial": "Ver. Júnior da Farmácia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/il43yg1ntgug436fnpja.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "237",
+          "parlamentarRazaoSocial": "Ver. Zé Luis",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/46y85np3v6dy360ima81.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "247",
+          "parlamentarRazaoSocial": "Ver. Fabião Zagueiro",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/c3u085f11t2x47khu0c3.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "55",
+          "parlamentarRazaoSocial": "Ver. Walter Hayashi",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/walter hayashi.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "38",
+          "parlamentarRazaoSocial": "Ver. Dulce Rita",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/os1860xrd1r4ti771ven.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "42",
+      "comissaoNome": "Comissão de Meio Ambiente",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "244",
+          "parlamentarRazaoSocial": "Ver. Marcelo Garcia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/r8m57lqv4sls8uf20n7v.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "47",
+          "parlamentarRazaoSocial": "Ver. Marcão da Academia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/57efx26qj127vw845i68.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "238",
+          "parlamentarRazaoSocial": "Ver. Dr. José Claudio",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/lm26puws46b58lwh7p4a.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "45",
+          "parlamentarRazaoSocial": "Ver. Lino Bispo",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/2684u0fw768v144jog05.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "246",
+          "parlamentarRazaoSocial": "Ver. Júnior da Farmácia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/il43yg1ntgug436fnpja.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "245",
+          "parlamentarRazaoSocial": "Ver. Renato Santiago",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/x42xbq4a20b5i0iaxhh4.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "41",
+      "comissaoNome": "Comissão de Planejamento Urbano, Obras e Transportes",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "45",
+          "parlamentarRazaoSocial": "Ver. Lino Bispo",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/2684u0fw768v144jog05.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "249",
+          "parlamentarRazaoSocial": "Ver. Rogério da ACASEM",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/2a21q5lr71q63crryfmp.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "47",
+          "parlamentarRazaoSocial": "Ver. Marcão da Academia",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/57efx26qj127vw845i68.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "243",
+          "parlamentarRazaoSocial": "Ver. Rafael Pascucci",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/l7v18288882yb4165183.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "40",
+          "parlamentarRazaoSocial": "Ver. Fernando Petiti",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/53028hrhq7brv7l8ii14.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "239",
+          "parlamentarRazaoSocial": "Ver. Thomaz Henrique",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/d474lum2083h76wsa4om.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    },
+    {
+      "comissaoID": "38",
+      "comissaoNome": "Comissão de Saúde",
+      "comissaoSigla": "",
+      "comissaoParlamentar": [
+        {
+          "parlamentarID": "242",
+          "parlamentarRazaoSocial": "Ver. Milton Vieira Filho",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/x782015ys02p1u205nyq.jpg",
+          "comissaoCargo": "Presidente"
+        },
+        {
+          "parlamentarID": "238",
+          "parlamentarRazaoSocial": "Ver. Dr. José Claudio",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/lm26puws46b58lwh7p4a.jpg",
+          "comissaoCargo": "Suplente de Presidente"
+        },
+        {
+          "parlamentarID": "237",
+          "parlamentarRazaoSocial": "Ver. Zé Luis",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/46y85np3v6dy360ima81.jpg",
+          "comissaoCargo": "Relator"
+        },
+        {
+          "parlamentarID": "50",
+          "parlamentarRazaoSocial": "Ver. Robertinho da Padaria",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/robertinho da padaria.jpg",
+          "comissaoCargo": "Suplente de Relator"
+        },
+        {
+          "parlamentarID": "38",
+          "parlamentarRazaoSocial": "Ver. Dulce Rita",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/images/pessoas/os1860xrd1r4ti771ven.jpg",
+          "comissaoCargo": "Membro"
+        },
+        {
+          "parlamentarID": "55",
+          "parlamentarRazaoSocial": "Ver. Walter Hayashi",
+          "parlamentarFoto": "https://camarasempapel.camarasjc.sp.gov.br/arquivo/walter hayashi.jpg",
+          "comissaoCargo": "Suplente de Membro"
+        }
+      ]
+    }
+  ]
+}

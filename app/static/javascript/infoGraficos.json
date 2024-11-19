@@ -1,0 +1,2601 @@
+[
+    {   
+        "parlamentarID": "amelia_naomi",
+        "parlamentarNome": "Ver. Amélia Naomi",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 58
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 77
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 670
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 620
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 2560
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 839
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 4583
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 59
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 72
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 4
+            }
+        ]
+    },
+
+    {
+        "parlamentarID": "dr_elton",
+        "parlamentarNome": "Ver. Dr. Elton",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2022,
+                    "quantidade": 49
+                },
+                {
+                    "ano": 2021,
+                    "quantidade": 78
+                }
+            ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2022,
+                    "quantidade": 8
+                },
+                {
+                    "ano": 2021,
+                    "quantidade": 2
+                }
+            ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                {
+                    "ano": 2024,
+                    "quantidade": 0
+                },
+                {
+                    "ano": 2023,
+                    "quantidade": 0
+                },
+                {
+                "ano": 2022,
+                "quantidade": 1
+                },
+                {
+                "ano": 2021,
+                "quantidade": 6
+                }
+            ]
+            }
+        ],
+
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 66
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 110
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 152
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 83
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 403
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 16
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 30
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+
+    {
+        "parlamentarID": "dr_jose_claudio",
+        "parlamentarNome": "Ver. Dr. José Claudio",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 82
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 4
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 4
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 225
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 346
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1152
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 287
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 650
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 10
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 41
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "dulce_rita",
+        "parlamentarNome": "Ver. Dulce Rita",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 54
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 74
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 77
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 6
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 6
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 9
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 319
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 933
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 9553
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 231
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 11156
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 56
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 23,
+                "tipo": "Lei Complementar",
+                "quantidade": 9
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 327
+            }
+        ]
+    },
+    {   
+        "parlamentarID": "fabiao_zagueiro",
+        "parlamentarNome": "Ver. Fabião Zagueiro",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 135
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 239
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 594
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 127
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 243
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 72
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {   
+        "parlamentarID": "juliana_fraga",
+        "parlamentarNome": "Ver. Fernando Petiti",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 59
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 73
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 81
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 7
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 5
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 220
+            },
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 220
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1241
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 237
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 1906
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 21
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 99
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {   
+        "parlamentarID": "juliana_fraga",
+        "parlamentarNome": "Ver. Juliana Fraga",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 76
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 84
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 4
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 2
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 583
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 575
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 6422
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 640
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 1968
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 7
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 27
+            }
+        ]
+    },
+    {
+        "parlamentarID": "petiti_da_farmacia_comunitaria",
+        "parlamentarNome": "Ver. Júnior da Farmácia",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 83
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 3
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 135
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 218
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 3454
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 147
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 1295
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 64
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "juvenil_silverio",
+        "parlamentarNome": "Ver. Juvenil Silvério",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 78
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 80
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 6
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 229
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 428
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1030
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 161
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 944
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 43
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 23,
+                "tipo": "Lei Complementar",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 262
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "lino_bispo",
+        "parlamentarNome": "Ver. Lino Bispo",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 58
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 76
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 76
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 82
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 8
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 4
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 105
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 168
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1323
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 129
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 396
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 14
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 42
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "marcao_da_academia_ao_ar_livre",
+        "parlamentarNome": "Ver. Marcão da Academia",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 78
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 82
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 4
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 175
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 565
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 6424
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 6424
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 1749
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 15
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 154
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "rafael_pascucci",
+        "parlamentarNome": "ver. Rafael Pascucci",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 78
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 82
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 76
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 10
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 124
+            },
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 124
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 2605
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 137
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 291
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 6
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 27
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "renato_santiago",
+        "parlamentarNome": "Ver. Renato Santiago",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 57
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 78
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 82
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 4
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 149
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 245
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 2383
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 142
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 801
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 11
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 23,
+                "tipo": "Lei Complementar",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 64
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "robertinho_da_padaria",
+        "parlamentarNome": "Ver. Robertinho da Padaria",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 57
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 83
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 1
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 2
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 143
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 285
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 893
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 158
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 514
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 39
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 3
+            },
+            {
+                "tipoID": 23,
+                "tipo": "Lei Complementar",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 91
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "roberto_chagas",
+        "parlamentarNome": "Ver. Roberto Chagas",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 82
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 4
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 97
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 113
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1928
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 99
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 340
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 23
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "rogerio_da_acasem",
+        "parlamentarNome": "Ver. Rogério da ACASEM",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 58
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 71
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 24
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 9
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 28
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 55
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 2687
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 53
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 584
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 6
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 22
+            }
+        ]
+    },
+    {
+        "parlamentarID": "walter_hayashi",
+        "parlamentarNome": "Ver. Walter Hayashi",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 59
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 77
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 6
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 207
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 445
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 757
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 396
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 1186
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 67
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 4
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 130
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 7
+            }
+        ]
+    },
+    {
+        "parlamentarID": "roberto_do_eleven",
+        "parlamentarNome": "Ver. Roberto do Eleven",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 83
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 108
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 235
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 978
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 70
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 381
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 6
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 99
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 2
+            }
+        ]
+    },
+    {
+        "parlamentarID": "milton_vieira_filho",
+        "parlamentarNome": "Ver. Milton Vieira Filho",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 54
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 75
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 81
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 78
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 1
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 6
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 4
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 2
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 7
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 126
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 167
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 361
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 143
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 155
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 4
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 42
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "marcelo_garcia",
+        "parlamentarNome": "Ver. Marcelo Garcia",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 105
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 138
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 1450
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 103
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 355
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 8
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 36
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "ze_luis",
+        "parlamentarNome": "Ver. Zé Luis",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 60
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 80
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 84
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 86
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 124
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 190
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 2630
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 215
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 708
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 15
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 61
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    },
+    {
+        "parlamentarID": "thomaz_henrique",
+        "parlamentarNome": "Ver. Thomaz Henrique",
+        "frequencia": [
+            {
+                "frequenciaSituacaoNome": "Presente",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 56
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 79
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 81
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 85
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 0
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 0
+                    }
+                ]
+            },
+            {
+                "frequenciaSituacaoNome": "Falta Justificada",
+                "frequenciaSituacaoAnos": [
+                    {
+                        "ano": 2024,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2023,
+                        "quantidade": 1
+                    },
+                    {
+                        "ano": 2022,
+                        "quantidade": 3
+                    },
+                    {
+                        "ano": 2021,
+                        "quantidade": 1
+                    }
+                ]
+            }
+        ],
+        "proposicoesApresentadas": [
+            {
+                "tipoID": 347,
+                "tipo": "Emenda",
+                "quantidade": 84
+            },
+            {
+                "tipoID": 348,
+                "tipo": "Projeto de Lei",
+                "quantidade": 96
+            },
+            {
+                "tipoID": 319,
+                "tipo": "Indicação",
+                "quantidade": 742
+            },
+            {
+                "tipoID": 341,
+                "tipo": "Moção",
+                "quantidade": 81
+            },
+            {
+                "tipoID": 340,
+                "tipo": "Requerimento",
+                "quantidade": 215
+            }
+        ],
+        "normasApresentadas": [
+            {
+                "tipoID": 25,
+                "tipo": "Decreto Legislativo",
+                "quantidade": 1
+            },
+            {
+                "tipoID": 29,
+                "tipo": "Emenda à Lei Orgânica",
+                "quantidade": 2
+            },
+            {
+                "tipoID": 22,
+                "tipo": "Lei Ordinária",
+                "quantidade": 11
+            },
+            {
+                "tipoID": 24,
+                "tipo": "Resolução",
+                "quantidade": 1
+            }
+        ]
+    }
+]

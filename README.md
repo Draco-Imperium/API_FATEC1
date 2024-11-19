@@ -7,24 +7,29 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 <br>
 
 ## Índice
-* [Projeto](#projeto)
-* [Requisitos](#requisitos)
-* [Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [Sprints](#sprints)
-* [Backlog do Produto](#backlog-do-produto)
-* [Funcionalidades e Registros (vídeos e apresentações) das Sprints](#funcionalidades-e-registros-das-sprints)
-* [Competências Desenvolvidas](#competências-desenvolvidas)
-* [Autores](#autores)
+* <a href ="#projeto"> Projeto </a>
+* <a href ="#requisitos"> Requisitos </a>
+* <a href ="#tecnologias"> Tecnologias Utilizadas </a>
+* <a href ="#sprints"> Sprints </a>
+* <a href ="#protótipo"> Protótipo </a>
+* <a href ="#backlog"> Backlog </a>
+* <a href ="#stories"> User Story </a>
+* <a href ="#registros"> Funcionalidades e Registros das Sprints </a>
+* <a href ="#autores"> Autores </a>
 
 <br>
 
-## 📋 Projeto
+<span id="projeto">
+
+## 📋 O Projeto
 > **Status do Projeto: Em Desenvolvimento**
  
 Desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos vereadores da cidade de São José dos Campos durante o atual mandato. O objetivo é oferecer aos eleitores dados claros e acessíveis que ajudem a tomar decisões informadas nas eleições municipais. A plataforma permitirá que os cidadãos visualizem a atuação dos vereadores.
  
 <br>
  
+<span id="requisitos">
+
 ## 📍 Requisitos
 > **Requisitos Funcionais**
 
@@ -36,17 +41,17 @@ Desenvolver uma plataforma web que disponibilize informações sobre o desempenh
  
 <br>
  
-> **Requisitos Não Funcionais**
+> **Requisitos Não-Funcionais**
 
-* Protótipo criado no Figma.
-
-* Documentação API – Application Programming Interface.
+* Interface Responsiva.
 
 * Modelagem de Banco de Dados.
 
-* Interface Responsiva.
+* Documentação API – Application Programming Interface.
  
 <br>
+
+<span id="tecnologias">
  
 ## 🔧 Tecnologias Utilizadas
  
@@ -56,151 +61,159 @@ Desenvolver uma plataforma web que disponibilize informações sobre o desempenh
  
 <br>
  
+ <span id="sprints">
+
 ## 📊 Sprints
  
 Sprint | Previsão | Status|
 |------|--------|------|
 |Kick Off | 02/09/2024 - 06/09/2024 |finalizado|
-|01 | 09/09/2024 - 29/09/2024 |em andamento |
-|02|  07/10/2024 - 27/10/2024 | a fazer|
-|03| 04/11/2024 - 24/11/2024 | a fazer|
-|Feira de Soluções| 12/12/2024 | a fazer |
+|01 | 09/09/2024 - 29/09/2024 |finalizado|
+|02|  07/10/2024 - 27/10/2024 |finalizado|
+|03| 04/11/2024 - 24/11/2024 |em andamento|
+|Feira de Soluções| 12/12/2024 |a fazer|
  
 <br>
  
-### Sprint 1. Concepção
+### Sprint 1:
 
-- [x] Defina o propósito do template;
+- [x] Análise e requerimento de requisitos;
 
-- [x] Identifique os elementos principais;
+- [x] Criação do protótipo;
 
-- [x] Esboce o layout;
-
-- [x] Escolha cores e fontes;
-
-- [x] Desenvolva o design;
-
-- [ ] Teste e revise;
-
-- [ ] Documente instruções de uso;
-
-- [ ] Criação do vídeo;
-
-- [ ] Finalize e aprovação.
+- [x] Criação das telas principais do sistema;
+      
+- [x] Configuração do ambiente geral.
 
 <br>
  
-### Sprint 2. Desenvolvimento do Projeto
+### Sprint 2:
 
-- [ ] Documento passo a passo;
+- [x] Aplicação de responsividade às telas;
 
-- [ ] Vídeo passo a passo;
+- [x]  Implementação de mais informações nas telas;
 
-- [ ] Treinamento com os professores;
+- [x] Realização da raspagem de dados;
 
-- [ ] Treinamento com os alunos;
+- [x] Criação e configuração do banco de dados;
 
-- [ ] Monitoramento e ajustes.
+- [x] Implementação de filtros e gráficos funcionais.
 
 <br>
 
-### Sprint 3 . Implementação
+### Sprint 3:
 
-- [ ] Defina o propósito do template;
+- [x] Implementação de funcionalidades do sistema (barra de busca, comentários);
 
-- [ ] Identifique os elementos principais;
+- [ ] Reajustes e alguns aperfeiçoamentos;
+      
+- [ ] Criação de toda documentação necessária do projeto;
 
-- [ ] Esboce o layout;
+- [x] Deploy do Banco de Dados no RDS da AWS.
 
-- [ ] Escolha cores e fontes;
-
-- [ ] Desenvolva o design;
-
-- [ ] Teste e revise;
-
-- [ ] Documente instruções de uso;
-
-- [ ] Criação do vídeo;
-
-- [ ] Finalize e aprovação.
+- [ ] Deploy da aplicação na AWS;
  
 <br>
 
-## :bulb: Protótipo
+<span id="protótipo">
+
+## 💡 Protótipo
 **:link: Clique no link abaixo para visualizar o modelo do projeto.**  
 > [Protótipo do Projeto](https://www.figma.com/design/75zFqMGWcZlj7JWskOkAoZ/Prot%C3%B3tipo-API?node-id=0-1&node-type=canvas&t=gyVSh7zrezDvNxOd-0)
 
 <br>
 
-## 📊 Backlog do produto
+<span id="backlog">
+
+## 📊 Backlog do Produto
 **:link: Clique no link abaixo para visualizar o backlog do produto.**  
 > [Backlog do Produto](https://docs.google.com/spreadsheets/d/1GGyWTlDJbr3FQQHrF86TRRULOvAlcv2O_oML9wXXxIM/edit?gid=0#gid=0)
 
-<br>
-
-## Funcionalidades e Registros das Sprints
-
-Apresentação das funcionalidades.
-Confira a seguir uma demonstração das funcionalidades para cada tipo de usuário do sistema:
-
-Adicionar vídeo e documentos nessa seção:
-
-[![Nome do Vídeo](https://img.youtube.com/vi/pBy1zgt0XPc/0.jpg)](https://www.youtube.com/embed/pBy1zgt0XPc)
-
-<br>
-
-## Objetivo do Projeto
-Este projeto tem como objetivo ajudar e facilitar na utilização da plataforma GitHub, visando:
-* Centralizar os trabalhos e projetos;
-* Organizar e estruturar as informações;
-* Versionar e controlar as alterações;
-* Facilitar o compartilhamento e feedback;
-* Desenvolver habilidades técnicas.
-
-<br>
-  
-## Competências Desenvolvidas
-
-### Hard Skill (saber tecnológico)
 <details>
-<summary>Hard Skills desenvolvidas</summary>
-  
-| Tecnologia/Metodologia | Classificação |
-| ---------------------- | ------------- |
-| GitHub | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gestão de Projetos | ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Scrum Master | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Prodct Owner | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Markdown | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Git Projects | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
- 
-</details>
+     <summary>Backlog - Sprint 1</summary>
+      <div align="center">
+      <br>
 
-### Soft Skill (saber comportamental)
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
+| BL01 | ALTA | Listagem de Vereadores |Como um eleitor, quero visualizar uma lista de todos os vereadores para ver seu desempenho.| 6 |
+| BL02 | ALTA | Visualização do Perfil do Vereador |Como um eleitor, quero visualizar o perfil detalhado de um vereador para entender melhor sua atuação.| 6 |
+
+  </details>
+
 <details>
-<summary>Soft Skills desenvolvidas</summary>
+     <summary>Backlog - Sprint 2</summary>
+      <div align="center">
+      <br>
 
-| Habilidades | Classificação |
-| ---------------------- | ------------- |
-| Colaboração | ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ ☆ |
-| Proatividade| ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ ☆ |
-| Pensamento Crítico | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Gerenciamento de Tempo | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Adaptabilidade | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
-| Resiliência | ★ ★ ★ ★ ★ ★ ★ ☆ ☆ ☆ |
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
+| BL03 | ALTA | Proposições Apresentadas |Como um eleitor, quero ver as proposições apresentadas por um vereador para avaliar seu trabalho legislativo.| 2 |
+| BL04 | ALTA | Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.| 3 |
+| BL07 | ALTA | Visualização estatística de cada vereador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 7 |
 
-</details>
+  </details>
+
+<details>
+     <summary>Backlog - Sprint 3</summary>
+      <div align="center">
+      <br>
+
+| ID |   Prioridade   |   Título   |   User Story   |   Requisito   |
+| --- | --- | --- | --- | --- |
+| BL05 | ALTA | Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.| 4 |
+| BL06 | ALTA | Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.| 5 |
+| BL08 | ALTA | Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 9 |
+
+  </details>
 
 <br>
 
-## Autores
-|    Função     | Área | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Product Owner | Back-end |   Emmanuel Yokoyama         |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuelyokoyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/EmmanuelJYokoyama)              |
-| Scrum Master  | Front-end | Lucas Marins |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/nome_aqui/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasMarinsSantos)     |
-| Team Member   | Back-end | Gabriel Medeiros |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-516ab3325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gbmedeiros00)        |
-|  Team Member  | Back-end | Ana Gaspar                 |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ana-gaspar-957775325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/anajgaspar)        |
-|  Team Member  | Front-end | Ana Beatriz                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abeatrizcoelho/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/abeatrizdscoelho)   |
-|  Team Member  | Front-end | João Vitor      |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/joaovvsilva)          |
-|  Team Member  | Front-end | Matheus Roberto    |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheus-Roberto-Castro)          |
-|  Team Member  | Front-end | Décio Souza    |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/decio-souza-ba0740328/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Deciosouza)          |
+<span id="stories">
+
+## 📖 User Story
+
+|          Título           |                     User Story                      |
+| :-------------------: | :----------------------------------------------------------: |
+| Listagem de Vereadores |Como um eleitor, quero visualizar uma lista de todos os vereadores para ver seu desempenho.|
+| Visualização do Perfil do Vereador |Como um eleitor, quero visualizar o perfil detalhado de um vereador para entender melhor sua atuação.|
+| Proposições Apresentadas |Como um eleitor, quero ver as proposições apresentadas por um vereador para avaliar seu trabalho legislativo.|
+| Projetos de Lei Aprovados |Como um eleitor, quero ver os projetos de lei aprovados de cada vereador para avaliar sua eficácia.|
+| Posicionamento em Votações |Como um eleitor, quero saber como o vereador votou em questões-chave para entender suas posições políticas.|
+| Participação em Comissões |Como um eleitor, quero ver em quais comissões o vereador participa para entender seu engajamento.|
+| Visualização estatística de cada verador com relação à determinados temas/informações |Como um eleitor, gostaria de ver as estatisticas de um determinado verador em relação à informações disponibilizadas, como a participação em sessões.| 
+| Comentários e Feedback |Eu como eleitor/usuario gostaria de ter como comentar e dar retornos sobre o desempenho de determinados veradores, gostaria de comentar na pagina individual de cada verador e uma área geral.| 
+
+<br>
+
+<span id="registros">
+
+## 📸 Funcionalidades e Registros das Sprints
+
+Confira a seguir uma demonstração das funcionalidades do sistema:
+
+<h3>📍Sprint 1</h3>
+
+https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
+
+<h3>📍Sprint 2</h3>
+
+https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
+
+<h3>📍Sprint 3</h3>
+...
+
+<br>
+
+<span id="autores">
+
+## 📋 Autores
+|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
+| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Product Owner |   Emmanuel Yokoyama         |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/emmanuelyokoyama/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/EmmanuelJYokoyama)              |
+| Scrum Master  | Lucas Marins |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-gabriel-marins-dos-santos-56b529246/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasMarinsSantos)     |
+| Team Member   | Gabriel Medeiros |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-medeiros-516ab3325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gbmedeiros00)        |
+|  Team Member  | Ana Gaspar |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/ana-gaspar-957775325/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/anajgaspar)        |
+|  Team Member  | Ana Beatriz |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/abeatrizcoelho/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/abeatrizdscoelho)   |
+|  Team Member  | João Vitor |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/jo%C3%A3o-vitor-ven%C3%A2ncio-da-silva-b0239819b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/joaovvsilva)          |
+|  Team Member  | Matheus Roberto |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/matheus-r-castro-70091a32b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Matheus-Roberto-Castro)          |

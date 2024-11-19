@@ -1,52 +1,94 @@
-*{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  --fonte-principal: "Poppins", sans-serif;
+  --cor-primaria: #2f4fac;
+  --cor-secundaria: #1d3a7e;
+  --cor-clara: #fff;
+  --cor-sombra: rgba(0, 0, 0, 0.2);
+  --sombra-suave: 0 0 10px var(--cor-sombra);
+  --radius-medio: 10px;
+  --tamanho-texto-pequeno: 12px;
+  --padding-button: 10px 15px;
 }
-body{
-    background-color: rgba(204, 204, 204, 0.27);
+
+* {
+  font-family: var(--fonte-principal);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Vereadores-geral{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
-    max-width: 85%;
-    margin: 2.5% auto;
+
+body {
+  background-color: rgba(204, 204, 204, 0.27);
 }
-.vereador{
+
+.vereadores-geral {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  max-width: 85%;
+  margin: 2.5% auto;
+}
+
+.vereador {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--tamanho-texto-pequeno);
+  background-color: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  border-radius: var(--radius-medio);
+}
+
+.vereador > img {
+  margin: 5% auto;
+  border-radius: var(--radius-medio);
+  background-color: var(--cor-clara);
+  box-shadow: var(--sombra-suave);
+  width: 70%;
+}
+.info-vereador >  h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.info-vereador > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.button {
+  background-color: var(--cor-primaria);
+  color: var(--cor-clara);
+  padding: var(--padding-button);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: var(--tamanho-texto-pequeno);
+}
+
+.button:hover {
+  background-color: var(--cor-secundaria);
+}
+
+footer {
+  background-color: rgba(204, 204, 204, 0.27);
+  padding: 20px 0px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .vereadores-geral {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-}
-.vereador>img{
-    margin: 5% auto;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    width: 70%;
-}
-.info-vereador>p{
-    padding: 1%;
-    margin-left: 2%;
-}
-.button-container {
-    display: flex;
-    justify-content: center; /* Alinha o botão à direita */
-    margin: 5% 0 5% 0;
-}
-.button {
-    background-color: #2F4FAC;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-}
-.button:hover {
-    background-color: #1d3a7e; /* Cor mais escura no hover */
+    margin-top: 10%;
+  }
 }
