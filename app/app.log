@@ -20567,3 +20567,254 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-16 14:06:39,473-INFO-127.0.0.1 - - [16/Nov/2024 14:06:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
 2024-11-16 14:06:39,474-INFO-127.0.0.1 - - [16/Nov/2024 14:06:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
 2024-11-16 14:06:39,475-INFO-127.0.0.1 - - [16/Nov/2024 14:06:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:05:04,811-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-18 08:05:04,811-INFO-[33mPress CTRL+C to quit[0m
+2024-11-18 08:05:04,811-INFO- * Restarting with stat
+2024-11-18 08:05:05,386-WARNING- * Debugger is active!
+2024-11-18 08:05:05,386-INFO- * Debugger PIN: 113-355-030
+2024-11-18 08:05:37,947-INFO-127.0.0.1 - - [18/Nov/2024 08:05:37] "GET / HTTP/1.1" 200 -
+2024-11-18 08:05:38,109-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-18 08:05:38,120-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-18 08:05:38,129-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-18 08:05:38,130-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-18 08:05:38,132-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-18 08:05:38,132-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-18 08:05:38,143-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-18 08:05:38,356-INFO-127.0.0.1 - - [18/Nov/2024 08:05:38] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-18 08:05:56,690-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-18 08:05:56,690-INFO-127.0.0.1 - - [18/Nov/2024 08:05:56] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-18 08:05:56,820-INFO-Resultados da busca para 'am': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}]
+2024-11-18 08:05:56,820-INFO-127.0.0.1 - - [18/Nov/2024 08:05:56] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-18 08:05:56,961-INFO-Sem resultados para a busca por 'ame'
+2024-11-18 08:05:56,961-INFO-Resultados da busca para 'ame': []
+2024-11-18 08:05:56,961-INFO-127.0.0.1 - - [18/Nov/2024 08:05:56] "GET /search?q=ame HTTP/1.1" 200 -
+2024-11-18 08:05:58,216-INFO-Resultados da busca para 'am': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}]
+2024-11-18 08:05:58,216-INFO-127.0.0.1 - - [18/Nov/2024 08:05:58] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-18 08:06:11,784-INFO-127.0.0.1 - - [18/Nov/2024 08:06:11] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-18 08:06:11,832-INFO-127.0.0.1 - - [18/Nov/2024 08:06:11] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-18 08:06:11,848-INFO-127.0.0.1 - - [18/Nov/2024 08:06:11] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-18 08:06:11,881-INFO-127.0.0.1 - - [18/Nov/2024 08:06:11] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=gAz8FTaWyAh7JiHvJ426 HTTP/1.1" 200 -
+2024-11-18 08:06:11,905-INFO-127.0.0.1 - - [18/Nov/2024 08:06:11] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-18 08:06:31,334-INFO-127.0.0.1 - - [18/Nov/2024 08:06:31] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-18 08:06:31,373-INFO-127.0.0.1 - - [18/Nov/2024 08:06:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:06:31,375-INFO-127.0.0.1 - - [18/Nov/2024 08:06:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:06:31,378-INFO-127.0.0.1 - - [18/Nov/2024 08:06:31] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:06:31,380-INFO-127.0.0.1 - - [18/Nov/2024 08:06:31] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-18 08:06:44,204-INFO-127.0.0.1 - - [18/Nov/2024 08:06:44] "GET /proposicoes?page=3&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 08:06:44,241-INFO-127.0.0.1 - - [18/Nov/2024 08:06:44] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 08:06:44,243-INFO-127.0.0.1 - - [18/Nov/2024 08:06:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:06:44,246-INFO-127.0.0.1 - - [18/Nov/2024 08:06:44] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:06:44,248-INFO-127.0.0.1 - - [18/Nov/2024 08:06:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:06:49,595-INFO-127.0.0.1 - - [18/Nov/2024 08:06:49] "GET /proposicoes?page=5&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 08:06:49,637-INFO-127.0.0.1 - - [18/Nov/2024 08:06:49] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 08:06:49,641-INFO-127.0.0.1 - - [18/Nov/2024 08:06:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:06:49,643-INFO-127.0.0.1 - - [18/Nov/2024 08:06:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:06:49,643-INFO-127.0.0.1 - - [18/Nov/2024 08:06:49] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:07:41,329-INFO-Resultados da busca para 'a': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}, {'NM_URNA_CANDIDATO': 'DR JOSÉ CLAUDIO', 'link': '/perfil/dr_jose_claudio'}, {'NM_URNA_CANDIDATO': 'DULCE RITA', 'link': '/perfil/dulce_rita'}, {'NM_URNA_CANDIDATO': 'FABIÃO ZAGUEIRO', 'link': '/perfil/fabiao_zagueiro'}, {'NM_URNA_CANDIDATO': 'JULIANA FRAGA', 'link': '/perfil/juliana_fraga'}, {'NM_URNA_CANDIDATO': 'JUNIOR DA FARMÁCIA', 'link': '/perfil/junior_da_farmacia'}, {'NM_URNA_CANDIDATO': 'MARCELO GARCIA', 'link': '/perfil/marcelo_garcia'}, {'NM_URNA_CANDIDATO': 'MILTON VIEIRA FILHO', 'link': '/perfil/milton_vieira_filho'}, {'NM_URNA_CANDIDATO': 'MARCÃO DA ACADEMIA AO AR LIVRE', 'link': '/perfil/marcao_da_academia_ao_ar_livre'}, {'NM_URNA_CANDIDATO': 'PETITI DA FARMÁCIA COMUNITÁRIA', 'link': '/perfil/petiti_da_farmacia_comunitaria'}, {'NM_URNA_CANDIDATO': 'RAFAEL PASCUCCI', 'link': '/perfil/rafael_pascucci'}, {'NM_URNA_CANDIDATO': 'RENATO SANTIAGO', 'link': '/perfil/renato_santiago'}, {'NM_URNA_CANDIDATO': 'ROBERTINHO DA PADARIA', 'link': '/perfil/robertinho_da_padaria'}, {'NM_URNA_CANDIDATO': 'ROBERTO CHAGAS', 'link': '/perfil/roberto_chagas'}, {'NM_URNA_CANDIDATO': 'ROGÉRIO DA ACASEM', 'link': '/perfil/rogerio_da_acasem'}, {'NM_URNA_CANDIDATO': 'THOMAZ HENRIQUE', 'link': '/perfil/thomaz_henrique'}, {'NM_URNA_CANDIDATO': 'WALTER HAYASHI', 'link': '/perfil/walter_hayashi'}]
+2024-11-18 08:07:41,344-INFO-127.0.0.1 - - [18/Nov/2024 08:07:41] "GET /search?q=a HTTP/1.1" 200 -
+2024-11-18 08:07:41,425-INFO-Resultados da busca para 'am': [{'NM_URNA_CANDIDATO': 'AMÉLIA NAOMI', 'link': '/perfil/amelia_naomi'}]
+2024-11-18 08:07:41,425-INFO-127.0.0.1 - - [18/Nov/2024 08:07:41] "GET /search?q=am HTTP/1.1" 200 -
+2024-11-18 08:07:56,936-INFO-127.0.0.1 - - [18/Nov/2024 08:07:56] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-18 08:07:56,978-INFO-127.0.0.1 - - [18/Nov/2024 08:07:56] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:07:56,979-INFO-127.0.0.1 - - [18/Nov/2024 08:07:56] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-18 08:07:57,012-INFO-127.0.0.1 - - [18/Nov/2024 08:07:57] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=gAz8FTaWyAh7JiHvJ426 HTTP/1.1[0m" 304 -
+2024-11-18 08:09:49,647-INFO-9 comentários encontrados para o vereador 35.
+2024-11-18 08:09:49,685-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 08:09:49,724-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:09:49,725-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:09:49,725-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:09:49,728-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-18 08:09:49,744-INFO-127.0.0.1 - - [18/Nov/2024 08:09:49] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-18 08:09:55,582-INFO-127.0.0.1 - - [18/Nov/2024 08:09:55] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-18 08:10:15,177-INFO-127.0.0.1 - - [18/Nov/2024 08:10:15] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,101-INFO-9 comentários encontrados para o vereador 35.
+2024-11-18 08:10:25,103-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 08:10:25,134-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,136-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,139-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,140-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,143-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,170-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 08:10:25,201-INFO-127.0.0.1 - - [18/Nov/2024 08:10:25] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 08:11:52,888-INFO-127.0.0.1 - - [18/Nov/2024 08:11:52] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-18 08:11:52,932-INFO-127.0.0.1 - - [18/Nov/2024 08:11:52] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 08:11:52,939-INFO-127.0.0.1 - - [18/Nov/2024 08:11:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:11:52,939-INFO-127.0.0.1 - - [18/Nov/2024 08:11:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:11:52,939-INFO-127.0.0.1 - - [18/Nov/2024 08:11:52] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:16:04,540-INFO-127.0.0.1 - - [18/Nov/2024 08:16:04] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-18 08:16:04,592-INFO-127.0.0.1 - - [18/Nov/2024 08:16:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:16:04,593-INFO-127.0.0.1 - - [18/Nov/2024 08:16:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:16:04,593-INFO-127.0.0.1 - - [18/Nov/2024 08:16:04] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 08:16:04,595-INFO-127.0.0.1 - - [18/Nov/2024 08:16:04] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-18 08:16:10,614-INFO-127.0.0.1 - - [18/Nov/2024 08:16:10] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-18 08:16:10,659-INFO-127.0.0.1 - - [18/Nov/2024 08:16:10] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 08:16:10,660-INFO-127.0.0.1 - - [18/Nov/2024 08:16:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 08:16:10,663-INFO-127.0.0.1 - - [18/Nov/2024 08:16:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 08:16:10,665-INFO-127.0.0.1 - - [18/Nov/2024 08:16:10] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:05:29,766-INFO-127.0.0.1 - - [18/Nov/2024 10:05:29] "GET /proposicoes?page=3&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:05:29,810-INFO-127.0.0.1 - - [18/Nov/2024 10:05:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:05:29,810-INFO-127.0.0.1 - - [18/Nov/2024 10:05:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:05:29,816-INFO-127.0.0.1 - - [18/Nov/2024 10:05:29] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:05:29,831-INFO-127.0.0.1 - - [18/Nov/2024 10:05:29] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:05:39,251-INFO-127.0.0.1 - - [18/Nov/2024 10:05:39] "GET /proposicoes?page=5&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:05:39,293-INFO-127.0.0.1 - - [18/Nov/2024 10:05:39] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:05:39,296-INFO-127.0.0.1 - - [18/Nov/2024 10:05:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:05:39,298-INFO-127.0.0.1 - - [18/Nov/2024 10:05:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:05:39,300-INFO-127.0.0.1 - - [18/Nov/2024 10:05:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:06:12,240-INFO-127.0.0.1 - - [18/Nov/2024 10:06:12] "GET /proposicoes?page=17756&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:12,279-INFO-127.0.0.1 - - [18/Nov/2024 10:06:12] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:06:12,282-INFO-127.0.0.1 - - [18/Nov/2024 10:06:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:06:12,284-INFO-127.0.0.1 - - [18/Nov/2024 10:06:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:06:12,285-INFO-127.0.0.1 - - [18/Nov/2024 10:06:12] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:06:45,963-INFO-127.0.0.1 - - [18/Nov/2024 10:06:45] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:50,292-INFO-127.0.0.1 - - [18/Nov/2024 10:06:50] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:50,982-INFO-127.0.0.1 - - [18/Nov/2024 10:06:50] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:51,990-INFO-127.0.0.1 - - [18/Nov/2024 10:06:51] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:52,180-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:52,220-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:06:52,221-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:06:52,223-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:06:52,226-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:06:52,301-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 10:06:52,765-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:06:52,993-INFO-127.0.0.1 - - [18/Nov/2024 10:06:52] "GET /proposicoes?page=17756&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:07:01,147-INFO-127.0.0.1 - - [18/Nov/2024 10:07:01] "GET /proposicoes?page=1&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-18 10:08:21,024-INFO-127.0.0.1 - - [18/Nov/2024 10:08:21] "GET /proposicoes?tipoID=340&numero=&ano=&autor=amelia HTTP/1.1" 200 -
+2024-11-18 10:08:21,062-INFO-127.0.0.1 - - [18/Nov/2024 10:08:21] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:08:21,068-INFO-127.0.0.1 - - [18/Nov/2024 10:08:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:08:21,068-INFO-127.0.0.1 - - [18/Nov/2024 10:08:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:08:21,070-INFO-127.0.0.1 - - [18/Nov/2024 10:08:21] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:09:03,526-INFO-127.0.0.1 - - [18/Nov/2024 10:09:03] "GET /proposicoes?tipoID=&numero=&ano=&autor=amilia HTTP/1.1" 200 -
+2024-11-18 10:09:03,564-INFO-127.0.0.1 - - [18/Nov/2024 10:09:03] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:09:03,568-INFO-127.0.0.1 - - [18/Nov/2024 10:09:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:09:03,569-INFO-127.0.0.1 - - [18/Nov/2024 10:09:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:09:03,570-INFO-127.0.0.1 - - [18/Nov/2024 10:09:03] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:09:30,335-INFO-127.0.0.1 - - [18/Nov/2024 10:09:30] "GET /proposicoes?tipoID=340&numero=&ano=&autor=amelia HTTP/1.1" 200 -
+2024-11-18 10:09:30,376-INFO-127.0.0.1 - - [18/Nov/2024 10:09:30] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-18 10:09:30,379-INFO-127.0.0.1 - - [18/Nov/2024 10:09:30] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:09:30,381-INFO-127.0.0.1 - - [18/Nov/2024 10:09:30] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:09:30,382-INFO-127.0.0.1 - - [18/Nov/2024 10:09:30] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:10:39,394-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "GET /graficos HTTP/1.1" 200 -
+2024-11-18 10:10:39,445-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:10:39,445-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:10:39,445-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:10:39,452-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-18 10:10:39,474-INFO-127.0.0.1 - - [18/Nov/2024 10:10:39] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-18 10:10:40,609-INFO-127.0.0.1 - - [18/Nov/2024 10:10:40] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:10:57,429-INFO-127.0.0.1 - - [18/Nov/2024 10:10:57] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-18 10:10:57,486-INFO-127.0.0.1 - - [18/Nov/2024 10:10:57] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:10:57,486-INFO-127.0.0.1 - - [18/Nov/2024 10:10:57] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:10:57,487-INFO-127.0.0.1 - - [18/Nov/2024 10:10:57] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:10:57,491-INFO-127.0.0.1 - - [18/Nov/2024 10:10:57] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,120-INFO-10 comentários encontrados para o vereador 35.
+2024-11-18 10:11:02,122-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 10:11:02,170-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,171-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,171-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,174-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,213-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:11:02,278-INFO-127.0.0.1 - - [18/Nov/2024 10:11:02] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,452-INFO-10 comentários encontrados para o vereador 35.
+2024-11-18 10:12:33,454-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "GET /perfil/amelia_naomi?comment=NaN HTTP/1.1" 200 -
+2024-11-18 10:12:33,495-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,497-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,500-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,501-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,506-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:12:33,522-INFO-127.0.0.1 - - [18/Nov/2024 10:12:33] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,711-INFO-10 comentários encontrados para o vereador 35.
+2024-11-18 10:19:16,713-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "GET /perfil/amelia_naomi?comment=NaN HTTP/1.1" 200 -
+2024-11-18 10:19:16,745-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,749-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,751-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,752-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,753-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,769-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:19:16,797-INFO-127.0.0.1 - - [18/Nov/2024 10:19:16] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 10:19:41,737-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-18 10:19:41,738-INFO-Comentário adicionado com sucesso.
+2024-11-18 10:19:41,738-INFO-127.0.0.1 - - [18/Nov/2024 10:19:41] "POST /comentar HTTP/1.1" 200 -
+2024-11-18 10:19:43,943-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-18 10:19:43,943-INFO-Comentário adicionado com sucesso.
+2024-11-18 10:19:43,944-INFO-127.0.0.1 - - [18/Nov/2024 10:19:43] "POST /comentar HTTP/1.1" 200 -
+2024-11-18 10:19:44,508-INFO-12 comentários encontrados para o vereador 35.
+2024-11-18 10:19:44,510-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "GET /perfil/amelia_naomi?comment=NaN HTTP/1.1" 200 -
+2024-11-18 10:19:44,551-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,554-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,556-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,557-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,560-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,579-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:19:44,604-INFO-127.0.0.1 - - [18/Nov/2024 10:19:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,489-INFO-12 comentários encontrados para o vereador 35.
+2024-11-18 10:20:06,491-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 10:20:06,535-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,539-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,543-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,544-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,544-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:06,562-INFO-127.0.0.1 - - [18/Nov/2024 10:20:06] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:20:22,260-INFO-Usuário anonimoe708 criado com sucesso.
+2024-11-18 10:20:23,317-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-18 10:20:23,317-INFO-Comentário adicionado com sucesso.
+2024-11-18 10:20:23,317-INFO-127.0.0.1 - - [18/Nov/2024 10:20:23] "POST /comentar HTTP/1.1" 200 -
+2024-11-18 10:20:25,843-INFO-13 comentários encontrados para o vereador 35.
+2024-11-18 10:20:25,845-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 10:20:25,885-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,888-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,891-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,895-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,896-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,916-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:20:25,946-INFO-127.0.0.1 - - [18/Nov/2024 10:20:25] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-18 10:20:41,506-INFO-Comentário inserido com sucesso no banco de dados.
+2024-11-18 10:20:41,506-INFO-Comentário adicionado com sucesso.
+2024-11-18 10:20:41,507-INFO-127.0.0.1 - - [18/Nov/2024 10:20:41] "POST /comentar HTTP/1.1" 200 -
+2024-11-18 10:20:44,316-INFO-14 comentários encontrados para o vereador 35.
+2024-11-18 10:20:44,318-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-18 10:20:44,353-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,356-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,358-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,359-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,362-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,402-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-18 10:20:44,404-INFO-127.0.0.1 - - [18/Nov/2024 10:20:44] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 07:18:05,050-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 07:18:05,050-INFO-[33mPress CTRL+C to quit[0m
+2024-11-19 07:18:05,050-INFO- * Restarting with stat
+2024-11-19 07:18:05,647-WARNING- * Debugger is active!
+2024-11-19 07:18:05,648-INFO- * Debugger PIN: 113-355-030
+2024-11-19 07:18:52,322-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET / HTTP/1.1" 200 -
+2024-11-19 07:18:52,417-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-19 07:18:52,652-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-19 07:18:52,968-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-19 07:18:52,972-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-19 07:18:52,982-INFO-127.0.0.1 - - [19/Nov/2024 07:18:52] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-19 07:18:53,224-INFO-127.0.0.1 - - [19/Nov/2024 07:18:53] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-19 07:18:53,285-INFO-127.0.0.1 - - [19/Nov/2024 07:18:53] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-19 07:18:53,337-INFO-127.0.0.1 - - [19/Nov/2024 07:18:53] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-19 07:19:19,990-INFO-127.0.0.1 - - [19/Nov/2024 07:19:19] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-19 07:19:28,990-INFO-127.0.0.1 - - [19/Nov/2024 07:19:28] "GET / HTTP/1.1" 200 -
+2024-11-19 07:19:36,419-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET / HTTP/1.1" 200 -
+2024-11-19 07:19:36,461-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-19 07:19:36,472-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-19 07:19:36,475-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-19 07:19:36,476-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-19 07:19:36,477-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-19 07:19:36,477-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-19 07:19:36,479-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-19 07:19:36,889-INFO-127.0.0.1 - - [19/Nov/2024 07:19:36] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-19 07:19:47,113-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "GET /graficos HTTP/1.1" 200 -
+2024-11-19 07:19:47,155-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 07:19:47,158-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-19 07:19:47,162-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 07:19:47,175-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 07:19:47,178-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-19 07:19:47,266-INFO-127.0.0.1 - - [19/Nov/2024 07:19:47] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-19 07:20:09,823-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-19 07:20:09,860-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 07:20:09,861-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 07:20:09,862-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 07:20:09,866-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "GET /static/css/relatorios.css HTTP/1.1" 200 -

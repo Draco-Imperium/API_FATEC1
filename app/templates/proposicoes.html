@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../static/css/relatorios.css" />
   {% include 'headFH.html' %}
-  <title>Relatórios</title>
+  <title>Proposições</title>
 </head>
 
 <body>
@@ -81,16 +81,19 @@
         </button>
         {% endif %}
         {% if numero %}
-        <button class="botao-filtro2" 
-        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&ano={{ ano }}&autor={{ autor }}'">Número da Proposição: {{ numero }}</button>
+        <button class="botao-filtro2"
+          onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&ano={{ ano }}&autor={{ autor }}'">Número da
+          Proposição: {{ numero }}</button>
         {% endif %}
         {% if ano %}
-        <button class="botao-filtro2" 
-        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&autor={{ autor }}'">Ano Proposição: {{ ano }}</button>
+        <button class="botao-filtro2"
+          onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&autor={{ autor }}'">Ano
+          Proposição: {{ ano }}</button>
         {% endif %}
         {% if autor %}
-        <button class="botao-filtro2" 
-        onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}'">Autor: {{ autor }}</button>
+        <button class="botao-filtro2"
+          onclick="window.location.href='/proposicoes?tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}'">Autor: {{
+          autor }}</button>
         {% endif %}
       </section>
       <article class="resultados">
@@ -118,18 +121,33 @@
         {% endfor %}
         <hr>
         <div id="pagination-controls">
-          {% if current_page > 1 %}
-          <a href="?page={{ current_page - 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
-            class="botao-paginacao">Anterior</a>
-
-          {% endif %}
-
-          <span> {{ current_page }} de {{ total_pages }}</span>
-
-          {% if current_page < total_pages %} <a
-            href="?page={{ current_page + 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
-            class="botao-paginacao">Próxima</a>
+          {% set start_page = (current_page - 2) if (current_page - 2) > 0 else 1 %}
+          {% set end_page = (current_page + 2) if (current_page + 2) <= total_pages else total_pages %} {% if
+            current_page> 1 %}
+            <a href="?page={{ current_page - 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+              class="botao-paginacao">Anterior</a>
             {% endif %}
+            {% if current_page > 3 %}
+            <a href="?page=1&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+              class="botao-paginacao">1</a>
+            <a class="botao-paginacao">...</a>
+            {% endif %}
+
+            {% for page in range(start_page, end_page + 1) %}
+            {% if page == current_page %}
+            <span class="botao-paginacao ativo">{{ page }}</span>
+            {% else %}
+            <a href="?page={{ page }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+              class="botao-paginacao">{{ page }}</a>
+            {% endif %}
+            {% endfor %}
+
+            {% if current_page < total_pages %} <a class="botao-paginacao">...</a>
+              <a href="?page={{ total_pages }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+                class="botao-paginacao">{{total_pages}}</a>
+              <a href="?page={{ current_page + 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
+                class="botao-paginacao">Próxima</a>
+              {% endif %}
         </div>
 
       </article>

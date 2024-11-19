@@ -145,6 +145,21 @@ hr {
   text-decoration: none;
 }
 
+.botao-paginacao.ativo {
+  background-color: #31cde2;  
+  pointer-events: none;  
+}
+ 
+.botao-paginacao:hover {
+  background-color: var(--cor-secundaria);  
+}
+ 
+#pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 .botao-arquivo {
   background-color: var(--cor-primaria);
   color: var(--cor-clara);
