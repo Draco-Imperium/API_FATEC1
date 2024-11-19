@@ -98,6 +98,21 @@
                   </li>
                 </ul>
               </div>
+              <div class="p-2">
+                <ul class="navigation-items">
+                  <li class="dropdown">
+                    <span class="botaobe">Posicionamento em Votações <i class="fa-solid fa-chevron-down"></i></span>
+                    <ul class="dropdown-menu">
+                      <li class="texto-be"><strong>Votações em Questões-Chaves</strong></li>
+                      <li class="texto-be">Tipo: {{ parlamentar['tipo'] | safe }}</li>
+                      <li class="texto-be">Projeto de Lei: {{ parlamentar['projeto_de_lei'] | safe }}</li>
+                      <li class="texto-be">Autoria: {{ parlamentar['autoria'] | safe }}</li>
+                      <li class="texto-be">Status: {{ parlamentar['status'] | safe }}</li>
+                      <li class="texto-be">Voto: {{ parlamentar['voto'] | safe }}</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
           </form>
         </div>
       </div>

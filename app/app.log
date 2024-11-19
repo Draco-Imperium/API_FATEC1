@@ -20818,3 +20818,569 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-19 07:20:09,861-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
 2024-11-19 07:20:09,862-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
 2024-11-19 07:20:09,866-INFO-127.0.0.1 - - [19/Nov/2024 07:20:09] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-19 14:34:30,415-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-19 14:34:30,415-INFO-[33mPress CTRL+C to quit[0m
+2024-11-19 14:34:30,422-INFO- * Restarting with stat
+2024-11-19 14:34:31,096-WARNING- * Debugger is active!
+2024-11-19 14:34:31,104-INFO- * Debugger PIN: 890-861-221
+2024-11-19 14:34:58,360-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET / HTTP/1.1" 200 -
+2024-11-19 14:34:58,415-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-19 14:34:58,429-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-19 14:34:58,519-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-19 14:34:58,545-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-19 14:34:58,549-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-19 14:34:58,549-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-19 14:34:58,555-INFO-127.0.0.1 - - [19/Nov/2024 14:34:58] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-19 14:34:59,187-INFO-127.0.0.1 - - [19/Nov/2024 14:34:59] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-19 14:35:21,871-INFO-127.0.0.1 - - [19/Nov/2024 14:35:21] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 14:35:21,894-INFO-127.0.0.1 - - [19/Nov/2024 14:35:21] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-19 14:35:21,905-INFO-127.0.0.1 - - [19/Nov/2024 14:35:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:35:21,908-INFO-127.0.0.1 - - [19/Nov/2024 14:35:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:35:21,909-INFO-127.0.0.1 - - [19/Nov/2024 14:35:21] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 14:35:26,494-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 14:35:26,511-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 14:35:26,531-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-19 14:35:26,562-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:35:26,567-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:35:26,568-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 14:35:26,571-INFO-127.0.0.1 - - [19/Nov/2024 14:35:26] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-19 14:35:27,030-INFO-127.0.0.1 - - [19/Nov/2024 14:35:27] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-19 14:36:04,781-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "GET / HTTP/1.1" 200 -
+2024-11-19 14:36:04,814-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,816-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,816-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,820-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,824-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,824-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 14:36:04,832-INFO-127.0.0.1 - - [19/Nov/2024 14:36:04] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-19 14:36:07,023-INFO-127.0.0.1 - - [19/Nov/2024 14:36:07] "GET /proposicoes HTTP/1.1" 200 -
+2024-11-19 14:36:07,044-INFO-127.0.0.1 - - [19/Nov/2024 14:36:07] "GET /static/css/relatorios.css HTTP/1.1" 200 -
+2024-11-19 14:36:07,055-INFO-127.0.0.1 - - [19/Nov/2024 14:36:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:07,059-INFO-127.0.0.1 - - [19/Nov/2024 14:36:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:36:07,061-INFO-127.0.0.1 - - [19/Nov/2024 14:36:07] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 14:36:15,639-INFO-127.0.0.1 - - [19/Nov/2024 14:36:15] "GET /proposicoes?page=2&tipoID=&numero=&ano=&autor= HTTP/1.1" 200 -
+2024-11-19 14:36:15,674-INFO-127.0.0.1 - - [19/Nov/2024 14:36:15] "[36mGET /static/css/relatorios.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:15,684-INFO-127.0.0.1 - - [19/Nov/2024 14:36:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:15,685-INFO-127.0.0.1 - - [19/Nov/2024 14:36:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:36:15,687-INFO-127.0.0.1 - - [19/Nov/2024 14:36:15] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 14:36:37,164-INFO-Cache used for key: view//vereadores_geral
+2024-11-19 14:36:37,165-INFO-127.0.0.1 - - [19/Nov/2024 14:36:37] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 14:36:37,198-INFO-127.0.0.1 - - [19/Nov/2024 14:36:37] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:37,202-INFO-127.0.0.1 - - [19/Nov/2024 14:36:37] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:37,207-INFO-127.0.0.1 - - [19/Nov/2024 14:36:37] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 14:36:37,209-INFO-127.0.0.1 - - [19/Nov/2024 14:36:37] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,063-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 16:21:19,132-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 16:21:19,161-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,168-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,201-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,218-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,229-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 16:21:19,330-INFO-127.0.0.1 - - [19/Nov/2024 16:21:19] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,817-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 16:24:55,865-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 16:24:55,882-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,888-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,889-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,892-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,914-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,950-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 16:24:55,997-INFO-127.0.0.1 - - [19/Nov/2024 16:24:55] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 16:34:14,247-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:34:14,394-INFO- * Restarting with stat
+2024-11-19 16:34:15,831-WARNING- * Debugger is active!
+2024-11-19 16:34:15,831-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:34:16,859-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:34:16,900-INFO- * Restarting with stat
+2024-11-19 16:34:17,722-WARNING- * Debugger is active!
+2024-11-19 16:34:17,727-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:34:25,775-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:34:25,823-INFO- * Restarting with stat
+2024-11-19 16:34:26,551-WARNING- * Debugger is active!
+2024-11-19 16:34:26,551-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:49:09,014-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:49:09,068-INFO- * Restarting with stat
+2024-11-19 16:49:13,571-INFO- * Restarting with stat
+2024-11-19 16:49:15,017-INFO- * Restarting with stat
+2024-11-19 16:49:15,766-WARNING- * Debugger is active!
+2024-11-19 16:49:15,769-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:49:17,798-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:49:17,851-INFO- * Restarting with stat
+2024-11-19 16:49:18,639-WARNING- * Debugger is active!
+2024-11-19 16:49:18,639-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:49:23,709-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:49:23,758-INFO- * Restarting with stat
+2024-11-19 16:49:24,554-WARNING- * Debugger is active!
+2024-11-19 16:49:24,562-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:49:28,588-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:49:28,630-INFO- * Restarting with stat
+2024-11-19 16:49:29,406-WARNING- * Debugger is active!
+2024-11-19 16:49:29,415-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:49:44,759-INFO-127.0.0.1 - - [19/Nov/2024 16:49:44] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:49:44,863-INFO-127.0.0.1 - - [19/Nov/2024 16:49:44] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 16:49:44,878-INFO-127.0.0.1 - - [19/Nov/2024 16:49:44] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 16:49:44,939-INFO-127.0.0.1 - - [19/Nov/2024 16:49:44] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=39fTSp4LOZACLVMs6Re2 HTTP/1.1" 200 -
+2024-11-19 16:49:45,002-INFO-127.0.0.1 - - [19/Nov/2024 16:49:45] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 16:49:59,637-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:49:59,721-INFO- * Restarting with stat
+2024-11-19 16:50:00,571-WARNING- * Debugger is active!
+2024-11-19 16:50:00,571-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:50:03,065-INFO-127.0.0.1 - - [19/Nov/2024 16:50:03] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:50:03,112-INFO-127.0.0.1 - - [19/Nov/2024 16:50:03] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:50:03,119-INFO-127.0.0.1 - - [19/Nov/2024 16:50:03] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:50:03,137-INFO-127.0.0.1 - - [19/Nov/2024 16:50:03] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=BXlG79Zy60gu1d01sbR6 HTTP/1.1" 200 -
+2024-11-19 16:50:03,163-INFO-127.0.0.1 - - [19/Nov/2024 16:50:03] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:50:04,231-INFO-127.0.0.1 - - [19/Nov/2024 16:50:04] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:50:04,240-INFO-127.0.0.1 - - [19/Nov/2024 16:50:04] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:50:04,247-INFO-127.0.0.1 - - [19/Nov/2024 16:50:04] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:50:04,258-INFO-127.0.0.1 - - [19/Nov/2024 16:50:04] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=BXlG79Zy60gu1d01sbR6 HTTP/1.1[0m" 304 -
+2024-11-19 16:50:04,277-INFO-127.0.0.1 - - [19/Nov/2024 16:50:04] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:04,016-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:51:04,056-INFO- * Restarting with stat
+2024-11-19 16:51:04,920-WARNING- * Debugger is active!
+2024-11-19 16:51:04,920-INFO- * Debugger PIN: 680-875-493
+2024-11-19 16:51:07,155-INFO-127.0.0.1 - - [19/Nov/2024 16:51:07] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:07,196-INFO-127.0.0.1 - - [19/Nov/2024 16:51:07] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:07,217-INFO-127.0.0.1 - - [19/Nov/2024 16:51:07] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:07,225-INFO-127.0.0.1 - - [19/Nov/2024 16:51:07] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1" 200 -
+2024-11-19 16:51:07,238-INFO-127.0.0.1 - - [19/Nov/2024 16:51:07] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,118-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:08,126-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,126-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,157-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,172-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,274-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:08,289-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,289-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,293-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,312-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,437-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:08,449-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,449-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,465-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,475-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,657-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:08,667-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,668-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,682-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:08,711-INFO-127.0.0.1 - - [19/Nov/2024 16:51:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,080-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,096-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,104-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,113-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,124-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,229-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,240-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,240-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,241-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,290-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,363-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,376-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,378-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,386-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,403-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,520-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,526-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,534-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,550-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,565-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,683-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,694-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,716-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,730-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,764-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,837-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:09,846-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,846-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,863-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:09,875-INFO-127.0.0.1 - - [19/Nov/2024 16:51:09] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,013-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,021-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,024-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,043-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,058-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,142-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,151-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,151-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,159-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,184-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,300-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,307-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,320-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,335-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,355-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,475-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,482-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,493-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,510-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,539-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,597-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,611-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,616-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,630-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,682-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,766-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,774-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,787-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,789-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,824-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,921-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:10,933-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,940-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,955-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:10,969-INFO-127.0.0.1 - - [19/Nov/2024 16:51:10] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,073-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:11,078-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,093-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,101-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,126-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,293-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 16:51:11,303-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,307-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,314-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=eJQredcQt7EwBcPOj9iJ HTTP/1.1[0m" 304 -
+2024-11-19 16:51:11,353-INFO-127.0.0.1 - - [19/Nov/2024 16:51:11] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 16:51:56,350-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:51:56,396-INFO- * Restarting with stat
+2024-11-19 16:51:57,249-WARNING- * Debugger is active!
+2024-11-19 16:51:57,251-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:51:58,265-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:51:58,305-INFO- * Restarting with stat
+2024-11-19 16:51:59,111-WARNING- * Debugger is active!
+2024-11-19 16:51:59,113-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:52:03,835-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 16:52:03,895-INFO-127.0.0.1 - - [19/Nov/2024 16:52:03] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 16:52:03,974-INFO-127.0.0.1 - - [19/Nov/2024 16:52:03] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,022-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,031-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,039-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,040-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,097-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 16:52:04,116-INFO-127.0.0.1 - - [19/Nov/2024 16:52:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 16:52:16,386-INFO-127.0.0.1 - - [19/Nov/2024 16:52:16] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 16:52:16,402-INFO-127.0.0.1 - - [19/Nov/2024 16:52:16] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:16,402-INFO-127.0.0.1 - - [19/Nov/2024 16:52:16] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:16,418-INFO-127.0.0.1 - - [19/Nov/2024 16:52:16] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:52:16,426-INFO-127.0.0.1 - - [19/Nov/2024 16:52:16] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,820-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 16:52:19,824-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 16:52:19,840-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,844-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,847-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,848-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,868-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 16:52:19,882-INFO-127.0.0.1 - - [19/Nov/2024 16:52:19] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 16:55:07,525-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 16:55:07,572-INFO- * Restarting with stat
+2024-11-19 16:55:08,404-WARNING- * Debugger is active!
+2024-11-19 16:55:08,409-INFO- * Debugger PIN: 890-861-221
+2024-11-19 16:55:12,509-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 16:55:12,532-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 16:55:12,667-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,672-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,680-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,680-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,689-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,693-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 16:55:12,712-INFO-127.0.0.1 - - [19/Nov/2024 16:55:12] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,323-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:03:07,323-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:03:07,348-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,359-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,361-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,364-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,380-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,456-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:03:07,461-INFO-127.0.0.1 - - [19/Nov/2024 17:03:07] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,598-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:03:28,696-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:03:28,702-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,712-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,712-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,720-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,732-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,734-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:03:28,748-INFO-127.0.0.1 - - [19/Nov/2024 17:03:28] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,488-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "GET / HTTP/1.1" 200 -
+2024-11-19 17:03:35,512-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,525-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,525-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,528-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,537-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,546-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:35,551-INFO-127.0.0.1 - - [19/Nov/2024 17:03:35] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-19 17:03:36,872-INFO-127.0.0.1 - - [19/Nov/2024 17:03:36] "[35m[1mGET /vereadores_geral HTTP/1.1[0m" 500 -
+2024-11-19 17:03:36,882-INFO-127.0.0.1 - - [19/Nov/2024 17:03:36] "GET /vereadores_geral?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 17:03:36,896-INFO-127.0.0.1 - - [19/Nov/2024 17:03:36] "GET /vereadores_geral?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 17:03:36,908-INFO-127.0.0.1 - - [19/Nov/2024 17:03:36] "GET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png&s=K4GqyNgEsT9OqQHgf7wH HTTP/1.1" 200 -
+2024-11-19 17:03:36,932-INFO-127.0.0.1 - - [19/Nov/2024 17:03:36] "GET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 17:16:22,967-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:16:23,019-INFO- * Restarting with stat
+2024-11-19 17:16:27,497-INFO- * Restarting with stat
+2024-11-19 17:16:51,016-INFO- * Restarting with stat
+2024-11-19 17:16:59,480-INFO- * Restarting with stat
+2024-11-19 17:17:15,990-INFO- * Restarting with stat
+2024-11-19 17:17:20,406-INFO- * Restarting with stat
+2024-11-19 17:17:24,815-INFO- * Restarting with stat
+2024-11-19 17:17:41,311-INFO- * Restarting with stat
+2024-11-19 17:17:52,785-INFO- * Restarting with stat
+2024-11-19 17:17:53,610-WARNING- * Debugger is active!
+2024-11-19 17:17:53,612-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:29:33,726-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:29:33,772-INFO- * Restarting with stat
+2024-11-19 17:29:34,491-WARNING- * Debugger is active!
+2024-11-19 17:29:34,494-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:29:43,548-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:29:43,592-INFO- * Restarting with stat
+2024-11-19 17:29:44,373-WARNING- * Debugger is active!
+2024-11-19 17:29:44,374-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:29:57,444-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:29:57,481-INFO- * Restarting with stat
+2024-11-19 17:29:58,215-WARNING- * Debugger is active!
+2024-11-19 17:29:58,217-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:30:12,300-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:30:12,345-INFO- * Restarting with stat
+2024-11-19 17:30:13,106-WARNING- * Debugger is active!
+2024-11-19 17:30:13,108-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:30:19,134-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:30:19,187-INFO- * Restarting with stat
+2024-11-19 17:30:19,907-WARNING- * Debugger is active!
+2024-11-19 17:30:19,909-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:32:39,723-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:32:39,773-INFO- * Restarting with stat
+2024-11-19 17:32:40,709-WARNING- * Debugger is active!
+2024-11-19 17:32:40,710-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:34:39,026-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 17:34:39,121-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:34:39,122-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:34:39,124-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 17:34:39,126-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:34:39,189-INFO-127.0.0.1 - - [19/Nov/2024 17:34:39] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:34:42,744-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:34:42,808-INFO-127.0.0.1 - - [19/Nov/2024 17:34:42] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 17:34:42,816-INFO-127.0.0.1 - - [19/Nov/2024 17:34:42] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:34:42,843-INFO-127.0.0.1 - - [19/Nov/2024 17:34:42] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 17:34:42,850-INFO-127.0.0.1 - - [19/Nov/2024 17:34:42] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=lquTAxIPeVBnUIm3PloD HTTP/1.1" 200 -
+2024-11-19 17:34:42,870-INFO-127.0.0.1 - - [19/Nov/2024 17:34:42] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 17:36:33,962-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:36:34,006-INFO- * Restarting with stat
+2024-11-19 17:36:34,749-WARNING- * Debugger is active!
+2024-11-19 17:36:34,751-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:36:39,779-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:36:39,827-INFO- * Restarting with stat
+2024-11-19 17:36:40,523-WARNING- * Debugger is active!
+2024-11-19 17:36:40,525-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:36:51,585-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:36:51,632-INFO- * Restarting with stat
+2024-11-19 17:36:52,384-WARNING- * Debugger is active!
+2024-11-19 17:36:52,386-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:36:59,425-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:36:59,463-INFO- * Restarting with stat
+2024-11-19 17:37:00,243-WARNING- * Debugger is active!
+2024-11-19 17:37:00,245-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:37:03,263-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:37:03,298-INFO- * Restarting with stat
+2024-11-19 17:37:04,113-WARNING- * Debugger is active!
+2024-11-19 17:37:04,115-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:37:10,154-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:37:10,192-INFO- * Restarting with stat
+2024-11-19 17:37:10,967-WARNING- * Debugger is active!
+2024-11-19 17:37:10,968-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:37:13,986-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:37:14,026-INFO- * Restarting with stat
+2024-11-19 17:37:14,769-WARNING- * Debugger is active!
+2024-11-19 17:37:14,771-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:37:36,054-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:37:36,094-INFO-127.0.0.1 - - [19/Nov/2024 17:37:36] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 17:37:36,151-INFO-127.0.0.1 - - [19/Nov/2024 17:37:36] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 17:37:36,152-INFO-127.0.0.1 - - [19/Nov/2024 17:37:36] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:37:36,163-INFO-127.0.0.1 - - [19/Nov/2024 17:37:36] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=Ic3hl2BZKOJ9GcQ0H2Qz HTTP/1.1" 200 -
+2024-11-19 17:37:36,186-INFO-127.0.0.1 - - [19/Nov/2024 17:37:36] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 17:38:04,029-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:38:04,079-INFO- * Restarting with stat
+2024-11-19 17:38:04,847-WARNING- * Debugger is active!
+2024-11-19 17:38:04,850-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:39:08,508-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:39:08,542-INFO-127.0.0.1 - - [19/Nov/2024 17:39:08] "[35m[1mGET /perfil/amelia_naomi HTTP/1.1[0m" 500 -
+2024-11-19 17:39:08,592-INFO-127.0.0.1 - - [19/Nov/2024 17:39:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 17:39:08,593-INFO-127.0.0.1 - - [19/Nov/2024 17:39:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:39:08,603-INFO-127.0.0.1 - - [19/Nov/2024 17:39:08] "GET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png&s=tdRf6uKJonhOkpfRINJk HTTP/1.1" 200 -
+2024-11-19 17:39:08,628-INFO-127.0.0.1 - - [19/Nov/2024 17:39:08] "[36mGET /perfil/amelia_naomi?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 17:42:43,450-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:42:43,489-INFO- * Restarting with stat
+2024-11-19 17:42:44,284-WARNING- * Debugger is active!
+2024-11-19 17:42:44,286-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:43:24,254-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:43:24,291-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 17:43:24,393-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,396-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,406-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,406-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,429-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,447-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:43:24,457-INFO-127.0.0.1 - - [19/Nov/2024 17:43:24] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:43:34,785-INFO-127.0.0.1 - - [19/Nov/2024 17:43:34] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 17:43:34,798-INFO-127.0.0.1 - - [19/Nov/2024 17:43:34] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:34,799-INFO-127.0.0.1 - - [19/Nov/2024 17:43:34] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:34,800-INFO-127.0.0.1 - - [19/Nov/2024 17:43:34] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:43:34,801-INFO-127.0.0.1 - - [19/Nov/2024 17:43:34] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,622-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:43:37,623-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:43:37,638-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,638-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,639-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,642-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,644-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:43:37,654-INFO-127.0.0.1 - - [19/Nov/2024 17:43:37] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:50:18,143-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 17:50:18,179-INFO- * Restarting with stat
+2024-11-19 17:50:18,970-WARNING- * Debugger is active!
+2024-11-19 17:50:18,972-INFO- * Debugger PIN: 890-861-221
+2024-11-19 17:51:27,035-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:51:27,069-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:51:27,156-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,157-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,159-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,161-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,162-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,196-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:51:27,201-INFO-127.0.0.1 - - [19/Nov/2024 17:51:27] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:51:41,062-INFO-127.0.0.1 - - [19/Nov/2024 17:51:41] "[35m[1mGET /vereadores_geral HTTP/1.1[0m" 500 -
+2024-11-19 17:51:41,072-INFO-127.0.0.1 - - [19/Nov/2024 17:51:41] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:51:41,073-INFO-127.0.0.1 - - [19/Nov/2024 17:51:41] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 17:51:41,082-INFO-127.0.0.1 - - [19/Nov/2024 17:51:41] "GET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png&s=SZvZVkHFflobURqP5oa0 HTTP/1.1" 200 -
+2024-11-19 17:51:41,100-INFO-127.0.0.1 - - [19/Nov/2024 17:51:41] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 17:55:46,818-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 17:55:46,830-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 17:55:46,832-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:55:46,836-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:55:46,837-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:55:46,856-INFO-127.0.0.1 - - [19/Nov/2024 17:55:46] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:55:49,929-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:55:49,932-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 17:55:49,944-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:55:49,945-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:55:49,948-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:55:49,949-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:55:49,980-INFO-127.0.0.1 - - [19/Nov/2024 17:55:49] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:55:50,006-INFO-127.0.0.1 - - [19/Nov/2024 17:55:50] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,223-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 17:57:09,250-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 17:57:09,260-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,262-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,265-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,265-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,266-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,281-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:57:09,301-INFO-127.0.0.1 - - [19/Nov/2024 17:57:09] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 17:57:20,730-INFO-Cache used for key: view//vereadores_geral
+2024-11-19 17:57:20,732-INFO-127.0.0.1 - - [19/Nov/2024 17:57:20] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 17:57:20,742-INFO-127.0.0.1 - - [19/Nov/2024 17:57:20] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:20,745-INFO-127.0.0.1 - - [19/Nov/2024 17:57:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:20,747-INFO-127.0.0.1 - - [19/Nov/2024 17:57:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:57:20,750-INFO-127.0.0.1 - - [19/Nov/2024 17:57:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,894-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:57:23,898-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:57:23,917-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,924-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,925-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,925-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,926-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:57:23,939-INFO-127.0.0.1 - - [19/Nov/2024 17:57:23] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,804-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 17:59:08,832-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 17:59:08,842-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,843-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,845-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,846-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,878-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,903-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 17:59:08,911-INFO-127.0.0.1 - - [19/Nov/2024 17:59:08] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,497-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:00:24,530-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 18:00:24,542-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,542-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,546-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,551-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,551-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,573-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:00:24,577-INFO-127.0.0.1 - - [19/Nov/2024 18:00:24] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,823-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:01:15,854-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 18:01:15,862-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,868-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,868-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,869-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,869-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,885-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:01:15,895-INFO-127.0.0.1 - - [19/Nov/2024 18:01:15] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,569-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:03:04,602-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 18:03:04,615-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,617-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,619-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,619-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,620-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,634-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:03:04,644-INFO-127.0.0.1 - - [19/Nov/2024 18:03:04] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,715-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:04:29,719-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 18:04:29,729-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,734-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,735-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,735-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,736-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,755-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:04:29,756-INFO-127.0.0.1 - - [19/Nov/2024 18:04:29] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:05:37,123-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:05:37,161-INFO-127.0.0.1 - - [19/Nov/2024 18:05:37] "[35m[1mGET /perfil/dr_elton HTTP/1.1[0m" 500 -
+2024-11-19 18:05:37,167-INFO-127.0.0.1 - - [19/Nov/2024 18:05:37] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-19 18:05:37,170-INFO-127.0.0.1 - - [19/Nov/2024 18:05:37] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-19 18:05:37,177-INFO-127.0.0.1 - - [19/Nov/2024 18:05:37] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png&s=SZvZVkHFflobURqP5oa0 HTTP/1.1" 200 -
+2024-11-19 18:05:37,207-INFO-127.0.0.1 - - [19/Nov/2024 18:05:37] "GET /perfil/dr_elton?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-19 18:07:39,459-INFO-5 comentários encontrados para o vereador 37.
+2024-11-19 18:07:39,491-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-19 18:07:39,501-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,505-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,505-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,509-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,509-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,527-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:07:39,531-INFO-127.0.0.1 - - [19/Nov/2024 18:07:39] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:10:19,231-INFO-127.0.0.1 - - [19/Nov/2024 18:10:19] "[35m[1mGET /vereadores_geral HTTP/1.1[0m" 500 -
+2024-11-19 18:10:19,240-INFO-127.0.0.1 - - [19/Nov/2024 18:10:19] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:10:19,242-INFO-127.0.0.1 - - [19/Nov/2024 18:10:19] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 18:10:19,250-INFO-127.0.0.1 - - [19/Nov/2024 18:10:19] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png&s=SZvZVkHFflobURqP5oa0 HTTP/1.1[0m" 304 -
+2024-11-19 18:10:19,284-INFO-127.0.0.1 - - [19/Nov/2024 18:10:19] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,050-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[35m[1mGET /vereadores_geral HTTP/1.1[0m" 500 -
+2024-11-19 18:10:37,060-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,062-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,068-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png&s=SZvZVkHFflobURqP5oa0 HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,096-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,879-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[35m[1mGET /vereadores_geral HTTP/1.1[0m" 500 -
+2024-11-19 18:10:37,886-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,888-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,896-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png&s=SZvZVkHFflobURqP5oa0 HTTP/1.1[0m" 304 -
+2024-11-19 18:10:37,912-INFO-127.0.0.1 - - [19/Nov/2024 18:10:37] "[36mGET /vereadores_geral?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 18:28:53,531-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-19 18:28:53,539-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-19 18:28:53,543-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:28:53,544-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:28:53,545-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:28:53,586-INFO-127.0.0.1 - - [19/Nov/2024 18:28:53] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,557-INFO-14 comentários encontrados para o vereador 35.
+2024-11-19 18:28:56,560-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-19 18:28:56,576-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,579-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,581-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,583-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,584-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-19 18:28:56,661-INFO-127.0.0.1 - - [19/Nov/2024 18:28:56] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-19 18:30:56,737-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 18:30:56,787-INFO- * Restarting with stat
+2024-11-19 18:30:57,763-WARNING- * Debugger is active!
+2024-11-19 18:30:57,765-INFO- * Debugger PIN: 890-861-221
+2024-11-19 18:33:23,603-INFO- * Detected change in 'C:\\Users\\Ana Beatriz Coelho\\OneDrive\\Documentos\\Portfólio\\API_FATEC1\\app\\app.py', reloading
+2024-11-19 18:33:23,641-INFO- * Restarting with stat
+2024-11-19 18:33:24,408-WARNING- * Debugger is active!
+2024-11-19 18:33:24,410-INFO- * Debugger PIN: 890-861-221
