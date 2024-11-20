@@ -183,7 +183,8 @@
             <li class="comentario">
               <span class="usuario">{{ comentario['usuario'] }}</span><span class="data">{{ comentario['data_comentario'] }}</span>
               <p class="texto-comentario">{{ comentario['conteudo'] }}</p>             
-              <span class="avaliacao star-icon" style="font-size: 20px;">{{ comentario['star_value'] }}</span>
+              <span class="star-comment"><svg xmlns="http://www.w3.org/2000/svg" height="23px" viewBox="0 -960 960 960" width="23px" fill="#ffe500"><path d="m243-144 63-266L96-589l276-24 108-251 108 252 276 23-210 179 63 266-237-141-237 141Z"/></svg>
+              {{ comentario['star_value'] }}</span>
             </li>
             {% else %}
             <li style="padding-top: 15px;">Nenhum comentário ainda. Seja o primeiro a comentar!</li>
@@ -241,19 +242,22 @@
     const valorAvaliacao = document.getElementById('valor-avaliacao');
     let star_value = 1
 
+    function updateStars(rating) {
+      stars.forEach((star, index) => {
+        if (index < rating) {
+          star.classList.add('ativo');
+        } else {
+          star.classList.remove('ativo');
+        }
+      });
+      valorAvaliacao.textContent = rating;
+    }   
+
     stars.forEach(star => {
       star.addEventListener('click', () => {
         const rating = parseInt(star.getAttribute('data-avaliacao'));
-
-        // Remove a classe 'ativo' de todas as estrelas
-        stars.forEach(s => s.classList.remove('ativo'));
-
-        // Adiciona a classe 'ativo' até a estrela selecionada
-        stars.forEach((s, index) => {
-          if (index < rating) {
-            s.classList.add('ativo');
-          }
-        });
+        starValue = rating;
+        updateStars(rating);
 
         // Define o valor da avaliação
         star_value = parseInt(rating);

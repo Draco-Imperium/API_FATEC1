@@ -70,7 +70,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   max-width: 85%;
-  margin: 8% auto;
+  margin: 1.5% 8%;
   background-color: white;
   border-radius: 10px;
   padding: 20px;
