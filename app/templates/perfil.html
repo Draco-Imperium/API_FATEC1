@@ -101,14 +101,37 @@
               <div class="p-2">
                 <ul class="navigation-items">
                   <li class="dropdown">
-                    <span class="botaobe">Posicionamento em Votações <i class="fa-solid fa-chevron-down"></i></span>
+                    <span class="botaobe">Votações em Questões-Chave<i class="fa-solid fa-chevron-down"></i></span>
                     <ul class="dropdown-menu">
-                      <li class="texto-be"><strong>Votações em Questões-Chaves</strong></li>
-                      <li class="texto-be">Tipo: {{ parlamentar['tipo'] | safe }}</li>
-                      <li class="texto-be">Projeto de Lei: {{ parlamentar['projeto_de_lei'] | safe }}</li>
-                      <li class="texto-be">Autoria: {{ parlamentar['autoria'] | safe }}</li>
-                      <li class="texto-be">Status: {{ parlamentar['status'] | safe }}</li>
-                      <li class="texto-be">Voto: {{ parlamentar['voto'] | safe }}</li>
+                      {% for votacao in votacoes %}
+                      <ul>
+                        <li>
+                          <div class="">
+                            <strong>Tipo:</strong> {{ votacao.tipo }}. 
+                            <strong>Projeto de Lei:</strong> {{ votacao.projeto_de_lei }}. <br />
+                            <strong>Descrição:</strong> {{ votacao.descricao }} <br />
+                            <strong>Autoria:</strong> {{ votacao.autoria }}.
+                            <strong>Status:</strong> {{ votacao.status }}.
+                            <strong>Voto: </strong>
+                              <span class="text-center border rounded p-1 
+                                {% if votacao['voto'] == 'Favorável' %} bg-green-200
+                                {% elif votacao['voto'] == 'Contrário' %} bg-red-200
+                                {% elif votacao['voto'] == 'Ausente' %} bg-gray-300
+                                {% elif votacao['voto'] == 'Voto Secreto' %} bg-yellow-200
+                                {% elif votacao['voto'] == 'Voto secreto' %} bg-yellow-200
+                                {% elif votacao['voto'] == 'Votação Secreta' %} bg-yellow-200
+                                {% else %} bg-white
+                                {% endif %}
+                                hover:bg-opacity-80">
+                                {{ votacao.voto }}
+                              </span>
+                          </div> 
+                          <br>
+                          <hr>
+                          <br>
+                        </li>
+                        {% endfor %}
+                      </ul>
                     </ul>
                   </li>
                 </ul>
@@ -117,6 +140,27 @@
         </div>
       </div>
     </section>
+
+<!-- Para visualizar votação de todos os vereadores -->
+
+<!--{% for votacao in Votos %}
+    <h1>{{ votacao.tipo }} - {{ votacao.projeto_de_lei }}</h1>
+    <p>
+      <strong>Tipo:</strong> {{ votacao.tipo }} <br />
+      <strong>Projeto:</strong> {{ votacao.projeto_de_lei }} <br />
+      <strong>Autoria:</strong> {{ votacao.autoria }} <br />
+      <strong>Status:</strong> {{ votacao.status }}<br />
+    </p>
+    <h3>Votos dos Vereadores:</h3>
+    <ul>
+      {% for vereador in votacao.vereadores %}
+      <li>
+        <strong>Vereador:</strong> {{ vereador.vereador }} - 
+        <strong>Voto:</strong> {{ vereador.voto }}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}-->
 
     <section class="conteudo-vereador">
       <section class="relatorios">

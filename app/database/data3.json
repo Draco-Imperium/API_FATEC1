@@ -2,6 +2,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "114/2024",
+        "descricao": "Manifesta repúdio à aprovação, pelo Senado Federal e Câmara dos Deputados, do Projeto de Lei Complementar (PLP) nº 233/2023, que retoma a cobrança anual da taxa do seguro obrigatório de veículos automotores (DPVAT).",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da Acasem",
         "status": "Aprovada",
@@ -51,7 +52,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -96,6 +97,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "360/2023",
+        "descricao": "Altera ementa e o art. 1º do Projeto de Lei nº 360/2023.",
         "presidente": "Sem presidente",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -145,7 +147,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -189,8 +191,9 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "410/2023",
+        "descricao": "Altera o art. 2º do Projeto de Lei nº 410/2023.",
         "presidente": "Sem presidente",
-        "autoria": "Dr. José Claudio, Dulce Rita, Fernando Petiti, Júnior da Farmácia, Lino Bispo, Marcelo Garcia, Renato Santiago, Roberto Chagas, Walter Hayashi e Zé Luis",
+        "autoria": "Dr José Claudio, Dulce Rita, Fernando Petiti, Júnior da Farmácia, Lino Bispo, Marcelo Garcia, Renato Santiago, Roberto Chagas, Walter Hayashi e Zé Luis",
         "status": "Aprovada",
         "vereadores": [
             {
@@ -238,7 +241,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -282,8 +285,9 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "162/2024",
+        "descricao": "Institui o Programa de Atendimento Médico Itinerante no âmbito do Município de São José dos Campos.",
         "presidente": "Sem presidente",
-        "autoria": "Dr. José Claudio",
+        "autoria": "Dr José Claudio",
         "status": "Aprovada",
         "vereadores": [
             {
@@ -331,7 +335,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -375,6 +379,7 @@
     {
         "tipo": "Projeto de Lei Complementar",
         "projeto_de_lei": "8/2024",
+        "descricao": "Altera os arts. 1º e 2º do Projeto de Lei Complementar nº 8/2024.",
         "presidente": "Sem presidente",
         "autoria": "Fernando Petiti",
         "status": "Aprovada",
@@ -424,7 +429,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -468,6 +473,7 @@
     {
         "tipo": "Projeto de Lei Complementar",
         "projeto_de_lei": "7/2024",
+        "descricao": "Institui no Município de São José dos Campos o Cadastro Técnico Ambiental de Atividades potencialmente poluidoras ou utilizadoras de recursos ambientais - CTAA, a Taxa de Controle e Fiscalização Ambiental - TCFA, e dá outras providências.",
         "presidente": "Sem presidente",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -517,7 +523,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -561,6 +567,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "179/2024",
+        "descricao": "Dispõe sobre a criação de Serviço de Inspeção para os Produtos de Origem Animal e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -610,7 +617,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -654,6 +661,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "581/2021",
+        "descricao": "Autoriza o Poder Executivo a disponibilizar um percentual sob o total de vagas para prática esportiva ofertadas pelo Município a pessoas que tenham recomendação médica por escrito e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -703,7 +711,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -747,6 +755,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "332/2023",
+        "descricao": "Autoriza a implementação do modelo de Escola Cívico-Militar - ECIM na rede pública municipal de ensino na forma em que se especifica.",
         "presidente": "Roberto do Eleven",
         "autoria": "Thomaz Henrique",
         "status": "Aprovada",
@@ -796,7 +805,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -840,6 +849,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "399/2023",
+        "descricao": "Determina que as piscinas de residências unifamiliares instaladas e em funcionamento no município de São José dos Campos disponham de mecanismos de segurança para a proteção de animais domésticos e silvestres de pequeno e médio porte.",
         "presidente": "Roberto do Eleven",
         "autoria": "Robertinho da Padaria",
         "status": "Aprovada",
@@ -889,7 +899,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -933,6 +943,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "89/2024",
+        "descricao": "Autoriza o Poder Executivo a aderir ao credenciamento de estacionamento em vaga preferencial para idosos por meio digital.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -982,7 +993,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -1026,8 +1037,9 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "14/2024",
+        "descricao": "Concede o Título de “Cidadão Joseense” ao Prof. Acácio Maurício de Oliveira Júnior.",
         "presidente": "Sem presidente",
-        "autoria": "Dr.  José Claudio",
+        "autoria": "Dr José Claudio",
         "status": "Aprovada",
         "vereadores": [
             {
@@ -1075,7 +1087,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1119,6 +1131,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "17/2024",
+        "descricao": "Concede a Medalha Cassiano Ricardo à Igreja do Evangelho Quadrangular, por seus 57 anos de funcionamento em São José dos Campos.",
         "presidente": "Sem presidente",
         "autoria": "Marcelo Garcia",
         "status": "Aprovada",
@@ -1168,7 +1181,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1212,6 +1225,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "25/2024",
+        "descricao": "Concede a “Medalha Mérito Legislativo” à Empresa Metinjo - Metalização Industrial e Importação Joseense.",
         "presidente": "Sem presidente",
         "autoria": "Renato Santiago",
         "status": "Aprovada",
@@ -1261,7 +1275,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1305,6 +1319,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "161/2024",
+        "descricao": "Denomina a ponte sobre o Rio Paraíba do Sul, na Via Dom Eusébio Oscar Scheid, de Ponte José Dias de Macêdo.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -1354,7 +1369,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -1398,6 +1413,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "196/2024",
+        "descricao": "Denomina a Rua 15, do Loteamento SetJardim SJC, de Rua Pedro Benedito da Silva.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -1447,7 +1463,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -1491,6 +1507,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "198/2024",
+        "descricao": "Denomina a Rua 16, do Loteamento SetJardim SJC, de Rua Leda Maria dos Santos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -1540,7 +1557,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -1584,6 +1601,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "19/2024",
+        "descricao": "Concede o Título de Cidadã Joseense à Senhora Michelle de Paula Firmo Reinaldo Bolsonaro.",
         "presidente": "Sem presidente",
         "autoria": "Lino Bispo",
         "status": "Aprovada",
@@ -1633,7 +1651,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1677,6 +1695,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "20/2024",
+        "descricao": "Concede o Título de Cidadão Joseense ao Excelentíssimo Senhor Jair Messias Bolsonaro.",
         "presidente": "Sem presidente",
         "autoria": "Lino Bispo",
         "status": "Aprovada",
@@ -1726,7 +1745,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1770,6 +1789,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "28/2024",
+        "descricao": "Concede o título de 'Cidadão Joseense' a Sra. Luzia Aparecida Gasetta Tschizik.",
         "presidente": "Sem presidente",
         "autoria": "Renato Santiago",
         "status": "Aprovada",
@@ -1819,7 +1839,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -1864,6 +1884,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "122/2024",
+        "descricao": "Manifesta repúdio ao Projeto de Lei 8889/17, que trata da regulação e tributação da distribuição de vídeo pela Internet, taxação de serviços de streaming e plataformas digitais, enquanto isenta determinadas empresas.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da Acasem",
         "status": "Aprovada",
@@ -1913,7 +1934,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -1958,6 +1979,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "348/2023",
+        "descricao": "Autoriza o Poder Executivo a substituição dos sinais sonoros nos estabelecimentos de ensino público, a fim de não gerar incômodos sensoriais aos alunos com Transtorno do Espectro Autista (TEA).",
         "presidente": "Sem presidente",
         "autoria": "Júnior  da  Farmácia,  Amélia  Naomi,  Dr.  José  Claudio,  Dulce  Rita, Fabião Zagueiro, Fernando Petiti, Marcão da Academia, Marcelo Garcia, Milton Vieira Filho, Renato Santiago e Roberto Chagas",
         "status": "Aprovada",
@@ -2007,7 +2029,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2051,6 +2073,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "486/2023",
+        "descricao": "Altera o art. 2º do Projeto de Lei nº 410/2023.",
         "presidente": "Sem presidente",
         "autoria": "Dulce Rita, Amélia Naomi, Fernando Petiti, Juliana Fraga, Roberto Chagas, Rogério da ACASEM, Thomaz Henrique e Walter Hayashi",
         "status": "Aprovada",
@@ -2100,7 +2123,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2144,6 +2167,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "224/2024",
+        "descricao": "Autoriza a Prefeitura Municipal a desafetar e doar área de domínio público do Município pertencente à classe de bens de uso especial à Fazenda Pública Estadual para construção de escola estadual.",
         "presidente": "Sem presidente",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -2193,7 +2217,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2237,6 +2261,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "101/2024",
+        "descricao": "Denomina a Área Verde 3, do bairro Mirante Cambuí, de Área Verde Aridiane Santana Batista.",
         "presidente": "Roberto do Eleven",
         "autoria": "Renato Santiago",
         "status": "Aprovada",
@@ -2286,7 +2311,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2330,6 +2355,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "151/2024",
+        "descricao": "Institui no Calendário Oficial do Município de São José dos Campos o dia 14 de maio como o Dia de Conscientização da Apraxia de Fala na Infância - AFI e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcelo Garcia",
         "status": "Aprovada",
@@ -2379,7 +2405,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2423,6 +2449,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "328/2023",
+        "descricao": "Declara de Utilidade Pública Municipal a Associação Brasileira de Proteção ao Indivíduo - ABRAPI.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -2472,7 +2499,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2516,6 +2543,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "499/2023",
+        "descricao": "Autoriza o Poder Executivo a disponibilizar novos métodos de pagamento nos parquímetros da cidade.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -2565,7 +2593,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2609,6 +2637,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "23/2024",
+        "descricao": "Autoriza o Poder Executivo criar o Programa de Atendimento em Saúde na Educação Infantil - rede pública municipal e instituições parceiras, e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -2658,7 +2687,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2702,6 +2731,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "12/2024",
+        "descricao": "Concede o Título de Cidadão Joseense ao Sr. Nobuyoshi Kazurayama - Tomás.",
         "presidente": "Sem presidente",
         "autoria": "Walter Hayashi",
         "status": "Aprovada",
@@ -2751,7 +2781,7 @@
                 "voto": "Voto Secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto Secreto"
             },
             {
@@ -2795,6 +2825,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "31/2024",
+        "descricao": "Concede a “Medalha Cassiano Ricardo” à Faculdade de Direito da Universidade do Vale do Paraíba (UNIVAP), em comemoração aos 70 anos de existência.",
         "presidente": "Sem presidente",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -2844,7 +2875,7 @@
                 "voto": "Voto Secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto Secreto"
             },
             {
@@ -2888,6 +2919,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "233/2024",
+        "descricao": "Institui e inclui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos o Dia da Igreja Assembleia de Deus Missão, a ser comemorado no dia 6 de junho.",
         "presidente": "Roberto do Eleven",
         "autoria": "Robertinho da Padaria",
         "status": "Aprovada",
@@ -2937,7 +2969,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -2982,6 +3014,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "127/2024",
+        "descricao": "Encaminha Moção de Apoio ao PLC 07/2024, que tem objetivo de dispor sobre a reestruturação das carreiras de policiais civis e do Quadro da Secretaria da Segurança Pública do Estado de São Paulo.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rafael Pascucci",
         "status": "Aprovada",
@@ -3031,7 +3064,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3076,6 +3109,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "139/2024",
+        "descricao": "Manifesta repúdio à PEC 3/2022, que autoriza a União a privatizar áreas à beira-mar.",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia Naomi",
         "status": "Aprovada",
@@ -3125,7 +3159,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3169,6 +3203,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "144/2024",
+        "descricao": "Manifesta repúdio à Proposta de Emenda à Constituição (PEC) 3/2022, a qual autoriza a União a redistribuir o domínio pleno das áreas à beira-mar definidas como terrenos de marinha.",
         "presidente": "Roberto do Eleven",
         "autoria": "Dulce Rita",
         "status": "Aprovada",
@@ -3218,7 +3253,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3262,6 +3297,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "147/2024",
+        "descricao": "Manifesta apoio à Associação da Parada do Orgulho LGBT de São Paulo, pela organização da Parada do Orgulho LGBTQIA+, realizada no último domingo, dia 2 de junho, na Avenida Paulista em São Paulo.",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia Naomi",
         "status": "Rejeitada",
@@ -3311,7 +3347,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3356,6 +3392,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "398/2021",
+        "descricao": "Dispõe sobre autorização às instituições públicas de ensino, a expedirem diploma e histórico escolar, em Sistema Braille, aos alunos com deficiência visual no âmbito do Município de São José dos Campos.",
         "presidente": "Sem presidente",
         "autoria": "Júnior da Farmácia",
         "status": "Aprovada",
@@ -3405,7 +3442,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3449,6 +3486,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "294/2022",
+        "descricao": "Autoriza o Poder Executivo a instituir no Município de São José dos Campos o “Dia de quem Cuida de Mim” nas Unidades de ensino da rede pública.",
         "presidente": "Sem presidente",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -3498,7 +3536,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             }, 
             {
@@ -3542,6 +3580,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "125/2024",
+        "descricao": "Denomina a viela localizada na Rua José de Paula da Silva, ao lado do número 148, Jardim Itapuã, de Viela Nicolas Eduardo Leal Ramos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Dulce Rita",
         "status": "Aprovada",
@@ -3591,7 +3630,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3635,8 +3674,9 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "341/2021",
+        "descricao": "Dispõe sobre a implementação da Fototerapia Medicamentosa em toda Rede Municipal de Saúde, como medida auxiliar e/ou alternativa no tratamento clínico dos nossos munícipes, na forma que menciona.",
         "presidente": "Roberto do Eleven",
-        "autoria": "Fabião Zagueiro e Dr.José Claudio",
+        "autoria": "Fabião Zagueiro e Dr José Claudio",
         "status": "Aprovada",
         "vereadores": [
             {
@@ -3680,7 +3720,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3728,6 +3768,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "521/2021",
+        "descricao": "Autoriza a Prefeitura Municipal a instituir Programa Municipal de Prevenção à Sepse e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Dr. José  Claudio",
         "status": "Rejeitado",
@@ -3773,7 +3814,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3821,8 +3862,9 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "33/2022",
+        "descricao": "Autoriza o Chefe do Poder Executivo Municipal a Criar um conjunto de ações e campanhas de conscientização e combate ao capacitismo nas escolas da Rede Municipal da Cidade de São José dos Campos e dá outras providências.",
         "presidente": "Roberto do Eleven",
-        "autoria": "Dr. José Claudio e Fernando Petiti",
+        "autoria": "Dr José Claudio e Fernando Petiti",
         "status": "Rejeitado",
         "vereadores": [
             {
@@ -3866,7 +3908,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -3914,6 +3956,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "11/2023",
+        "descricao": "Dispõe sobre a criação de Escola de Bicicross Racing - BMX no Município de São José dos Campos e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rafael Pascucci",
         "status": "Aprovada",
@@ -3959,7 +4002,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Contrário"
             },
             {
@@ -4007,6 +4050,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "106/2023",
+        "descricao": "Autoriza o Poder Executivo a criar a “Residência Inclusiva”, voltada para pessoas com deficiência (PCD), com idade entre 18 e 59 anos, sem vínculos familiares.",
         "presidente": "Roberto do Eleven",
         "autoria": "Dulce Rita",
         "status": "Rejeitado",
@@ -4052,7 +4096,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4100,6 +4144,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "142/2023",
+        "descricao": "Autoriza o Poder Executivo Municipal a instituir o programa medicamento em casa e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia e Roberto do Eleven",
         "status": "Aprovada",
@@ -4145,7 +4190,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4193,6 +4238,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "177/2023",
+        "descricao": "Autoriza o Poder Executivo a implantar a faixa azul para motos em avenidas de grande fluxo de veículos no Município de São José dos Campos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Milton Vieira Filho",
         "status": "Aprovada",
@@ -4238,7 +4284,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4286,6 +4332,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "200/2023",
+        "descricao": "Autoriza o Poder Executivo a instituir o Sistema Colaborativo de Segurança e Monitoramento no Município de São José dos Campos e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Júnior da Farmácia",
         "status": "Aprovada",
@@ -4331,7 +4378,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Contrário"
             },
             {
@@ -4379,6 +4426,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "331/2023",
+        "descricao": "Altera a Lei nº 8.194, de 8 de setembro de 2010.",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia Naomi",
         "status": "Aprovada",
@@ -4424,7 +4472,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4476,6 +4524,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "26/2024",
+        "descricao": "Concede a “Medalha Mérito Legislativo” à Associação Brasileira de Proteção ao Indivíduo - ABRAPI.",
         "presidente": "Sem presidente",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -4521,7 +4570,7 @@
                 "voto": "Voto Secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto Secreto"
             },
             {
@@ -4569,6 +4618,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "157/2024",
+        "descricao": "Altera a Lei nº 10.766, de 25 de setembro de 2023, que “Dispõe sobre a denominação da Rua Treze, no Jardim Majestic, em São José dos Campos, de “Antonio Guilherme de Abreu”.",
         "presidente": "Roberto do Eleven",
         "autoria": "Júnior da Farmácia",
         "status": "Júnior da Farmácia",
@@ -4614,7 +4664,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4662,6 +4712,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "170/2024",
+        "descricao": "Denomina a área de lazer da Rua São Tiago, no bairro Jardim São Judas Tadeu, de Área de lazer Luiz Vieira da Fonseca.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -4707,7 +4758,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4755,6 +4806,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "194/2024",
+        "descricao": "Denomina a Rua 13, localizada no Loteamento SetJardim SJC, de Rua Leonardo Vicente Couto.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -4800,7 +4852,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4848,6 +4900,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "200/2024",
+        "descricao": "Denomina a Rua 7, do Loteamento SetJardim SJC, de Rua Jose Soares dos Santos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -4893,7 +4946,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -4941,6 +4994,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "29/2024",
+        "descricao": "Concede o Título de Cidadão Joseense ao Senhor Rui Luiz Barboza.",
         "presidente": "Sem presidente",
         "autoria": "Fernando Petiti",
         "status": "Aprovada",
@@ -4986,7 +5040,7 @@
                 "voto": "Voto Secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto Secreto"
             },
             {
@@ -5034,6 +5088,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "205/2024",
+        "descricao": "Denomina a Avenida 2, do Loteamento SetJardim SJC, de Avenida Jose Ailton Duque.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -5079,7 +5134,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5128,6 +5183,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "14/2023",
+        "descricao": "Autoriza o Poder Executivo a Instituir o “Torneio Anual de Bicicross Racing - BMX”, e dá outras providências.",
         "presidente": "Sem presidente",
         "autoria": "Rafael Pascucci",
         "status": "Aprovada",
@@ -5177,7 +5233,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5221,6 +5277,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "160/2024",
+        "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 160/2024.",
         "presidente": "Sem presidente",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -5270,7 +5327,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5314,6 +5371,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "217/2024",
+        "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 217/2024.",
         "presidente": "Sem presidente",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -5363,7 +5421,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5407,6 +5465,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "218/2024",
+        "descricao": "Altera o ANEXO VI - A - DEMONSTRATIVO DE PROGRAMAS E AÇÕES POR ÓRGÃO E UNIDADE - FÍSICO E FINANCEIRO - Exercício 2025 - Órgão: 35 - SECRETARIA DE GESTÃO HABITACIONAL E OBRAS, Unidade 010 - SECRETARIA GERAL, Programa 0002 - GESTÃO HABITACIONAL E OBRAS, do PL 218/2024.",
         "presidente": "Sem presidente",
         "autoria": "Poder exercutivo",
         "status": "Rejeitado",
@@ -5456,7 +5515,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5500,6 +5559,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "159/2024",
+        "descricao": "Declara Utilidade Pública a Obra Social e Assistencial Mais que Vencedores.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -5549,7 +5609,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5593,6 +5653,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "383/2023",
+        "descricao": "Autoriza o Poder Executivo a instituir o Programa Vacina na Escola e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão  da Academia e demais coautores  ",
         "status": "Aprovada",
@@ -5642,7 +5703,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5686,6 +5747,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "37/2024",
+        "descricao": "Concede “Medalha Cassiano Ricardo” à Igreja Apostólica Fonte da Vida.",
         "presidente": "Sem presidente",
         "autoria": "Roberto do Eleven",
         "status": "Aprovada",
@@ -5735,7 +5797,7 @@
                 "voto": "Voto secreto"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Voto secreto"
             },
             {
@@ -5779,6 +5841,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "115/2024",
+        "descricao": "Dispõe sobre a obrigatoriedade de realização de exames médicos nos frequentadores das piscinas dos clubes recreativos de São José dos Campos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Renato Santiago e demais coautores",
         "status": "Aprovada",
@@ -5828,7 +5891,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -5873,6 +5936,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "165/2024",
+        "descricao": "Manifesta repúdio ao PL 1904/24, que equipara ao crime de homicídio o aborto praticado em caso de gestação resultante de estupro.",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia Naomi",
         "status": "Rejeitada",
@@ -5922,7 +5986,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Abstenção"
             },
             {
@@ -5966,6 +6030,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "166/2024",
+        "descricao": "Manifesta APOIO ao Projeto de Lei nº 1904/2024, de autoria do Deputado Sóstenes Cavalcante (PL/RJ) e outros, em trâmite na Câmara dos Deputados, que altera parágrafos dos artigos 124, 125, 126 e 128 do Código Penal Brasileiro, e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Lino Bispo",
         "status": "Aprovada",
@@ -6015,7 +6080,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Abstenção"
             },
             {
@@ -6059,6 +6124,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "181/2024",
+        "descricao": "Manifesta repúdio à Prefeitura Municipal de São José dos Campos pela retirada de exemplares do livro 'Meninas Sonhadoras, Mulheres Cientistas' das escolas municipais.",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia Naomi",
         "status": "Rejeitada",
@@ -6108,7 +6174,7 @@
                 "voto": "Contrário"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Contrário"
             },
             {
@@ -6153,6 +6219,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "218/2024",
+        "descricao": "Altera a Emenda nº 2 do Projeto de Lei nº 7784/2024.",
         "presidente": "Roberto do Eleven",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -6202,7 +6269,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6246,6 +6313,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "166/2024",
+        "descricao": "Denomina a Rua 1, localizada no Residencial Terrazul SJ, de Rua Helchias Theodoro Cantoni.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da ACASEM",
         "status": "Aprovada",
@@ -6295,7 +6363,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6339,6 +6407,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "183/2024",
+        "descricao": "Denomina a Viela localizada entre a Rua Pedra do Capim Azul e a Rua Pico da Neblina, ao lado do número 176, Jardim Altos de Santana, de Viela Ana Clara Aparecida Gonçalves.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -6388,7 +6457,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6432,6 +6501,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "186/2024",
+        "descricao": "Denomina a Viela localizada entre a Avenida Alto do Rio Doce e a Rua Monte Roraima, ao lado do número 233, Jardim Altos de Santana, de Viela Constantino Silvério da Silva.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -6481,7 +6551,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6525,6 +6595,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "197/2024",
+        "descricao": "Denomina a Avenida 1, do Loteamento SetJardim SJC, de Avenida Eugenio Francisco de Morais.",
         "presidente": "Roberto do Eleven",
         "autoria": "Roberto do Eleven",
         "status": "Aprovado",
@@ -6574,7 +6645,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6618,6 +6689,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "201/2024",
+        "descricao": "Dispõe sobre a instalação de casinhas e comedouros para “Pet Comunitário” no Município de São José dos Campos e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Robertinho da Padaria",
         "status": "Aprovado",
@@ -6667,7 +6739,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6711,6 +6783,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "239/2024",
+        "descricao": "Institui e inclui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos o Dia da Igreja Assembleia de Deus no Brás, Ministério Madureira, a ser comemorado no dia 10 de outubro.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da ACASEM",
         "status": "Aprovado",
@@ -6760,7 +6833,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -6805,6 +6878,7 @@
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "33/2024",
         "presidente": "Sem presidente",
+        "descricao": "Concede a Medalha Mérito Legislativo à Escola Estadual Prof.ª Ana Cândida de Barros Molina.",
         "autoria": "Walter Hayashi e Dulce Rita",
         "status": "Aprovado",
         "vereadores": [
@@ -6853,7 +6927,7 @@
                 "voto": "Votação Secreta"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Votação Secreta"
             },
             {
@@ -6897,6 +6971,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "34/2024",
+        "descricao": "Concede o Título de Cidadão Joseense ao Sr. Taciano Moreira Gonçalves.",
         "presidente": "Sem presidente",
         "autoria": "Walter Hayashi e Dulce Rita",
         "status": "Aprovado",
@@ -6946,7 +7021,7 @@
                 "voto": "Votação Secreta"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Votação Secreta"
             },
             {
@@ -6990,6 +7065,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "41/2024",
+        "descricao": "Concede o título de 'Cidadão Joseense' ao Pastor André Luiz Ivantes.",
         "presidente": "Sem presidente",
         "autoria": "Renato Santiago",
         "status": "Aprovado",
@@ -7039,7 +7115,7 @@
                 "voto": "Votação Secreta"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Votação Secreta"
             },
             {
@@ -7083,6 +7159,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "223/2024",
+        "descricao": "Altera a Lei Municipal n. 10.375, de 24 de setembro de 2021, que 'Institui a Política Municipal de Educação Integral da REM'.",
         "presidente": "Roberto do Eleven",
         "autoria": "Poder Executivo",
         "status": "Aprovado",
@@ -7132,7 +7209,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7177,6 +7254,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "187/2024",
+        "descricao": "Registra Moção de Aplausos à Secretaria de Administração de Gestão e Finanças de São José dos Campos, pelo recebimento da nota 'A' no ranking da qualidade da Informação Contábil e Fiscal de Estados e Municípios.",
         "presidente": "Roberto do Eleven",
         "autoria": "Fernando Petiti",
         "status": "Aprovada",
@@ -7226,7 +7304,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7270,8 +7348,9 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "188/2024",
+        "descricao": "Registra Moção de Aplauso à Assembleia Legislativa do Estado de São Paulo e ao deputado Marcos Damásio, do Partido Liberal (PL), pela aprovação unânime do Projeto de Lei 148/2016, que determina a exigência de atestado médico para a prática de atividades físicas em academias e estabelecimentos esportivos.",
         "presidente": "Roberto do Eleven",
-        "autoria": "Dr. José Claudio",
+        "autoria": "Dr José Claudio",
         "status": "Aprovada",
         "vereadores": [
             {
@@ -7319,7 +7398,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7364,6 +7443,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "150/2024",
+        "descricao": "Autoriza o Poder Executivo a instituir o Sistema Único de Saúde Animal (SUSA) no Município de São José dos Campos e dá outras providências.",
         "presidente": "Sem presidente",
         "autoria": "Robertinho da Padaria",
         "status": "Aprovada",
@@ -7413,7 +7493,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7457,6 +7537,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "267/2024",
+        "descricao": "Autoriza a Prefeitura Municipal a desafetar e doar áreas de domínio público do Município ao Serviço Nacional de Aprendizagem Industrial - SENAI.",
         "presidente": "Sem presidente",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -7506,7 +7587,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7550,6 +7631,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "218/2024",
+        "descricao": "Estabelece as Diretrizes Orçamentárias para o exercício de 2025 e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -7599,7 +7681,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7643,6 +7725,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "174/2022",
+        "descricao": "Declara de Utilidade Pública Municipal a Casa Rosa Beleza do Bem.",
         "presidente": "Roberto do Eleven",
         "autoria": "Fernando Petiti",
         "status": "Aprovado",
@@ -7692,7 +7775,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7736,6 +7819,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "203/2024",
+        "descricao": "Denomina a Rua 11, localizada no loteamento Set Jardim, no Município de São José dos Campos, de Rua João Alves.",
         "presidente": "Roberto do Eleven",
         "autoria": "Fabião Zagueiro",
         "status": "Aprovado",
@@ -7785,7 +7869,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7829,6 +7913,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "240/2024",
+        "descricao": "Denomina a Rua 10, localizada no loteamento SetJardim, de Rua Vera Lúcia do Nascimento Silva.",
         "presidente": "Roberto do Eleven",
         "autoria": "Fabião Zagueiro",
         "status": "Aprovado",
@@ -7878,7 +7963,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -7922,6 +8007,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "243/2024",
+        "descricao": "Denomina a Viela localizada entre a Avenida Alto do Rio Doce e a Rua Monte Roraima, ao lado do número 133, Jardim Altos de Santana, de Viela Benedito Edmundo de Alcantara - Nene.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -7971,7 +8057,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8015,6 +8101,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "252/2024",
+        "descricao": "Denomina a ponte de acesso a SJC 178 - Estrada Municipal das Lavras, com as coordenadas geográficas de localização -22.996463, -45.967885, de Ponte José Antenor Campos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Desconhecido",
@@ -8064,7 +8151,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8108,6 +8195,7 @@
     {
         "tipo": "Projeto de Resolução",
         "projeto_de_lei": "3/2024",
+        "descricao": "Altera a Resolução nº 4, de 1º de julho de 2021, que “Dispõe sobre a estrutura administrativa e de assessoramento parlamentar da Câmara Municipal, sobre a criação e extinção de cargos em comissão e funções gratificadas e dá outras providências” para dispor sobre a Procuradoria Legislativa, cria a função gratificada de Assistente Técnico de Telecomunicações e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Mesa Diretoria",
         "status": "Aprovado",
@@ -8157,7 +8245,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8201,6 +8289,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "301/2024",
+        "descricao": "Altera a Lei nº 10.470, de 18 de fevereiro de 2022, que “Extingue a gratificação criada pela Lei n. 2.973, de 26 de junho de 1985, fixa vencimentos e gratificações dos cargos e funções da Câmara Municipal, dispõe sobre a fixação do valor da diária de que trata a Lei Complementar n. 56, de 24 de junho de 1992, no âmbito da Câmara Municipal, e revoga as Leis n. 2.973, de 26 de junho de 1985, n. 3.378, de 14 de setembro de 1988, e n. 10.346, de 2 de julho de 2021.” para adequar a nomenclatura do cargo de Procurador Legislativo, fixa os vencimentos da carreira de Procurador Legislativo e o padrão da função gratificada de Assistente Técnico de Telecomunicações, ambos do quadro de pessoal da Câmara Municipal.",
         "presidente": "Roberto do Eleven",
         "autoria": "Mesa Diretoria",
         "status": "Aprovado",
@@ -8250,7 +8339,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8295,6 +8384,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "614/2021",
+        "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 614/2021.",
         "presidente": "Sem presidente",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -8344,7 +8434,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8388,6 +8478,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "473/2023",
+        "descricao": "Adequa o projeto de lei 473/2023 às técnicas de redação legislativa.",
         "presidente": "Sem presidente",
         "autoria": "Rogério da ACASEM",
         "status": "Aprovada",
@@ -8437,7 +8528,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8481,6 +8572,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "3/2024",
+        "descricao": "Altera e adequa o Projeto de Lei 3/2024 às normas da técnica legislativa e acrescenta novas hipóteses de incidência.",
         "presidente": "Sem presidente",
         "autoria": "Rogério da ACASEM",
         "status": "Aprovada",
@@ -8530,7 +8622,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8574,6 +8666,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "92/2024",
+        "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 92/2024.",
         "presidente": "Sem presidente",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -8623,7 +8716,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8667,6 +8760,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "203/2024",
+        "descricao": "Denomina a Rua 11, localizada no loteamento Set Jardim, no Município de São José dos Campos, de Rua João Alves.",
         "presidente": "Roberto do Eleven",
         "autoria": "Fabião Zagueiro",
         "status": "Aprovada",
@@ -8716,7 +8810,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8760,6 +8854,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "348/2023",
+        "descricao": "Autoriza o Poder Executivo a substituição dos sinais sonoros nos estabelecimentos de ensino públicos e privados, a fim de não gerar incômodos sensoriais aos alunos com Transtorno do Espectro Autista (TEA).",
         "presidente": "Roberto do Eleven",
         "autoria": "Amélia  Naomi,  Dr.  José  Claudio, Dulce  Rita, Fabião  Zagueiro, Fernando Petiti, Júnior da Farmácia, Marcão  da  Academia, Marcelo Garcia, Milton Vieira Filho, Renato Santiago e Roberto Chagas",
         "status": "Aprovado",
@@ -8809,7 +8904,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8853,6 +8948,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "187/2024",
+        "descricao": "Denomina a Travessa localizada entre a Rua Alfredo Coslop e a Rua Geraldo Ferreira Tavares, ao lado do número 380, Bosque dos Eucaliptos, de Travessa Rui de Andrade Sandim.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -8902,7 +8998,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -8946,6 +9042,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "217/2024",
+        "descricao": "Denomina a Rua 14, localizada no Loteamento SetJardim SJC, de Rua Valter Reis Cleto Junior.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juvenil Silvério",
         "status": "Aprovada",
@@ -8995,7 +9092,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9039,6 +9136,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "220/2024",
+        "descricao": "Denomina a Viela localizada entre a Rua Alto da Boa Vista e a Rua Serra dos Carajás, ao lado do número 110, Jardim Altos de Santana, de Viela Décio Teixeira de Souza.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -9088,7 +9186,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9133,6 +9231,7 @@
     {
         "tipo": "Moção",
         "projeto_de_lei": "212/2024",
+        "descricao": "Registra os cumprimentos ao joseense Lucas Murno Guercio pelo ótimo desempenho no 1° Campeonato Brasileiro de F4 iRacing, organizado pela Confederação Brasileira de Automobilismo (CBA).",
         "presidente": "Roberto do Eleven",
         "autoria": "Fernando Petiti",
         "status": "Aprovada",
@@ -9182,7 +9281,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9227,6 +9326,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "347/2017",
+        "descricao": "Acrescenta o Parágrafo Único no art. 1º do Projeto de Lei nº 347/2017.",
         "presidente": "Sem presidente",
         "autoria": "Marcão  da  Academia,",
         "status": "Aprovada",
@@ -9276,7 +9376,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9320,6 +9420,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "4/2024",
+        "descricao": "Dispõe sobre a denominação da Viela Quatro, no Loteamento Jardim Castanheiras, em São José dos Campos, de Luiz Carlos Trombini.",
         "presidente": "Roberto do Eleven",
         "autoria": "Júnior da Farmácia",
         "status": "Aprovado",
@@ -9369,7 +9470,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9413,6 +9514,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "160/2024",
+        "descricao": "Denomina a Viela 6, situada no Loteamento Santa Maria I, como Viela Gilberto Cardenetti.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -9462,7 +9564,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9506,6 +9608,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "171/2024",
+        "descricao": "Institui e inclui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos o Dia da Cultura Vintage, a ser realizado, anualmente, no dia 3 de agosto neste Município.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da ACASEM",
         "status": "Aprovado",
@@ -9555,7 +9658,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9599,6 +9702,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "202/2024",
+        "descricao": "Denomina a Travessa localizada entre a Avenida Cidade Jardim e a Rua Alfredo Coslop, ao lado do número 262, Bosque dos Eucaliptos, de Travessa Osias do Couto.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -9648,7 +9752,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9692,6 +9796,7 @@
     {
         "tipo": "Projeto de Decreto Legislativo",
         "projeto_de_lei": "30/2024",
+        "descricao": "Concede o Título de Cidadão Joseense ao senhor Edison Pereira de Souza.",
         "presidente": "Sem presidente",
         "autoria": "Milton Vieira Filho",
         "status": "Aprovado",
@@ -9741,7 +9846,7 @@
                 "voto": "Votação Secreta"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Votação Secreta"
             },
             {
@@ -9785,6 +9890,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "208/2024",
+        "descricao": "Denomina a Viela localizada entre a Rua Pedra do Capim Azul e a Rua Pico da Neblina, ao lado do número 68, Jardim Altos de Santana, de Viela Renata Bilard Alves dos Santos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovado",
@@ -9834,7 +9940,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9878,6 +9984,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "213/2024",
+        "descricao": "Denomina a Travessa Um, localizada no Loteamento Chácaras Majestic II, em São José dos Campos, de Carlos Corrêa da Silva.",
         "presidente": "Roberto do Eleven",
         "autoria": "Júnior da Farmácia",
         "status": "Aprovado",
@@ -9927,7 +10034,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -9971,6 +10078,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "237/2024",
+        "descricao": "Fica instituído e incluído, no Calendário Oficial de Festas e Comemorações do Município, o Dia da Pin-Up, a ser comemorado no dia 22 de abril no âmbito do Município de São José dos Campos.",
         "presidente": "Roberto do Eleven",
         "autoria": "Juliana  Fraga e demais coautores",
         "status": "Aprovado",
@@ -10020,7 +10128,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10065,6 +10173,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "270/2023",
+        "descricao": "Altera o artigo 3º do Projeto de Lei nº 270/2023.",
         "presidente": "Sem presidente",
         "autoria": "Fabião Zagueiro",
         "status": "Aprovada",
@@ -10114,7 +10223,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10158,6 +10267,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "281/2024",
+        "descricao": "Cria e institui o Programa de Capacitação no âmbito de Unidades de Conservação Municipais.",
         "presidente": "Roberto do Eleven",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -10207,7 +10317,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10251,6 +10361,7 @@
     {
         "tipo": "Projeto de Lei Complementar",
         "projeto_de_lei": "14/2024",
+        "descricao": "Altera a Lei Complementar nº 651, de 18 de fevereiro de 2022, que “Disciplina, no Município de São José dos Campos, toda construção, ampliação, regularização, transformação, reclassificação de atividade, reconstrução, reforma, retrofit, demolição e instalação de equipamentos dentro dos limites do imóvel, orientando e determinando os processos de sua aprovação e fiscalização.”.",
         "presidente": "Sem presidente",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -10300,7 +10411,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10344,6 +10455,7 @@
     {
         "tipo": "Projeto de Lei Complementar",
         "projeto_de_lei": "17/2024",
+        "descricao": "Autoriza o Poder Executivo a contratar operação de crédito com a Caixa Econômica Federal, com a garantia da União e dá outras providências.",
         "presidente": "Sem presidente",
         "autoria": "Poder Executivo",
         "status": "Aprovada",
@@ -10393,7 +10505,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Contrário"
             },
             {
@@ -10437,6 +10549,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "259/2024",
+        "descricao": "Denomina Área Verde nº 3 do Loteamento Altos da Vila Paiva, frente para a Rua Rio Amazonas, de Área Verde Diane Daisy de Siqueira Sa.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovada",
@@ -10486,7 +10599,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10530,6 +10643,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "189/2024",
+        "descricao": "Denomina a Rua 2, localizada no Loteamento SetJardim SJC, de Rua Presbítero José de Paiva Baptista.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da Acasem",
         "status": "Aprovada",
@@ -10579,7 +10693,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10623,6 +10737,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "191/2024",
+        "descricao": "Denomina a Rua 8, localizada no Loteamento SetJardim SJC, de Rua Diaconisa Benedita Evangelista Baptista.",
         "presidente": "Roberto do Eleven",
         "autoria": "Rogério da Acasem",
         "status": "Aprovada",
@@ -10672,7 +10787,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10716,6 +10831,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "109/2023",
+        "descricao": "Autoriza o Poder Executivo criar a Rede de Inclusão Social, no âmbito do Município de São José dos Campos e dá outras providências.",
         "presidente": "Roberto do Eleven",
         "autoria": "Marcão da Academia",
         "status": "Aprovada",
@@ -10765,7 +10881,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10809,6 +10925,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "185/2024",
+        "descricao": "Denomina a Viela localizada entre a Rua Pico de Cristal e a Rua Monte Roraima, ao lado do número 184, Jardim Altos de Santana, de Viela José Carlos Teodoro.",
         "presidente": "Roberto do Eleven",
         "autoria": "Zé Luis",
         "status": "Aprovada",
@@ -10858,7 +10975,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10902,6 +11019,7 @@
     {
         "tipo": "Projeto de Lei",
         "projeto_de_lei": "290/2024",
+        "descricao": "Institui o dia municipal do Johrei, a ser comemorado no dia 15 de junho.",
         "presidente": "Roberto do Eleven",
         "autoria": "Dulce Rita e Walter Hayashi",
         "status": "Aprovada",
@@ -10951,7 +11069,7 @@
                 "voto": "Favorável"
             },
             {
-                "vereador": "Dr. José Claudio",
+                "vereador": "Dr José Claudio",
                 "voto": "Favorável"
             },
             {
@@ -10996,6 +11114,7 @@
     {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "297/2023",
+      "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 297/2023.",
       "presidente": "Sem presidente",
       "autoria": "Rogério da Acasem",
       "status": "Aprovada",
@@ -11045,7 +11164,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11090,6 +11209,7 @@
   {
       "tipo": "Projeto de Decreto Legislativo",
       "projeto_de_lei": "180/2024",
+      "descricao": "Denomina a Rua 3, localizada no Loteamento SetJardim SJC, de Rua Mariana dos Santos Vieira.",
       "presidente": "Roberto do Eleven",
       "autoria": "Rogério da Acasem",
       "status": "Aprovada",
@@ -11139,7 +11259,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11184,6 +11304,7 @@
   {
       "tipo": "Projeto de Decreto Legislativo",
       "projeto_de_lei": "336/2023",
+      "descricao": "Autoriza o Poder Executivo Municipal a criar programa “Terceira Idade em Atividade”, destinado a incentivar a inserção e a manutenção de idosos no mercado de trabalho e dá outras providências.",
       "presidente": "Roberto do Eleven",
       "autoria": "Dulce Rita",
       "status": "Aprovada",
@@ -11233,7 +11354,7 @@
           "voto": "Contrário"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11278,6 +11399,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "473/2023",
+      "descricao": "Concede prioridade no atendimento aos usuários portadores de diabetes nos casos da realização de exames médicos em jejum total.",
       "presidente": "Roberto do Eleven",
       "autoria": "Rogério da Acasem",
       "status": "Aprovada",
@@ -11327,7 +11449,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11372,6 +11494,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "495/2023",
+      "descricao": "Dispõe sobre a elaboração de um treinamento anual para evacuações emergenciais nos estabelecimentos públicos de educação e ensino do Município de São José dos Campos.",
       "presidente": "Roberto do Eleven",
       "autoria": "Júnior da Farmácia",
       "status": "Aprovada",
@@ -11421,7 +11544,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11466,6 +11589,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "85/2024",
+      "descricao": "Altera a Lei nº 9.913, de 7 de maio de 2019, que “Dispõe sobre a apreensão e destinação de animais de médio e grande porte considerados de produção ou de interesse econômico que se encontram em estado de soltura ou situação de maus tratos no Município e dá outras providências.”.",
       "presidente": "Roberto do Eleven",
       "autoria": "Robertinho da Padaria Roberto do Eleven",
       "status": "Aprovada",
@@ -11515,7 +11639,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11560,6 +11684,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "219/2024",
+      "descricao": "Denomina a Rua Seis, localizada no Loteamento SetJardim, em São José dos Campos, de Nelson Fernandes das Neves.",
       "presidente": "Roberto do Eleven",
       "autoria": "Júnior da Farmácia",
       "status": "Aprovada",
@@ -11609,7 +11734,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11654,8 +11779,9 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "236/2024",
+      "descricao": "Institui e inclui, no Calendário Oficial de Festas e Comemorações do Município, o Dia da Dança, a ser comemorado no dia 29 de abril no âmbito do Município de São José dos Campos.",
       "presidente": "Roberto do Eleven",
-      "autoria": "Juliana Fraga Amélia Naomi Dr. José Claudio Dulce Rita Fabião Zagueiro Fernando Petiti Juvenil Silvério Marcão da Academia Milton Vieira Filho Rafael Pascucci Renato Santiago Robertinho da Padaria Roberto Chagas Rogério da Acasem Walter Hayashi e Zé Luis",
+      "autoria": "Juliana Fraga Amélia Naomi Dr José Claudio Dulce Rita Fabião Zagueiro Fernando Petiti Juvenil Silvério Marcão da Academia Milton Vieira Filho Rafael Pascucci Renato Santiago Robertinho da Padaria Roberto Chagas Rogério da Acasem Walter Hayashi e Zé Luis",
       "status": "Aprovada",
       "vereadores": [
         {
@@ -11703,7 +11829,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11748,6 +11874,7 @@
     {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "189/2023",
+      "descricao": "A presente emenda tem por objetivo sanar vício de iniciativa.",
       "presidente": "Sem presidente",
       "autoria": "Dulce Rita",
       "status": "Aprovada",
@@ -11797,7 +11924,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11842,6 +11969,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "324/2023",
+      "descricao": "A presente emenda tem por objetivo sanar vício de iniciativa legislativa.",
       "presidente": "Sem presidente",
       "autoria": "Dulce Rita",
       "status": "Aprovada",
@@ -11891,7 +12019,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -11936,6 +12064,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "6/2024",
+      "descricao": "A presente emenda tem por objetivo sanar vício de iniciativa legislativa.",
       "presidente": "Sem presidente",
       "autoria": "Thomaz Henrique",
       "status": "Aprovada",
@@ -11985,7 +12114,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Contrário"
         },
         {
@@ -12030,6 +12159,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "36/2024",
+      "descricao": "A presente emenda tem por objetivo sanar vício de iniciativa legislativa.",
       "presidente": "Sem presidente",
       "autoria": "Thomaz Henrique",
       "status": "Aprovada",
@@ -12079,101 +12209,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Thomaz Henrique",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Roberto Chagas",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Milton Vieira Filho",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rafael Pascucci",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcelo Garcia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Renato Santiago",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Júnior da Farmácia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Fabião Zagueiro",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rogério da Acasem",
-          "voto": "Favorável"
-        }
-      ]
-    },
-  
-  {
-      "tipo": "Projeto de Lei",
-      "projeto_de_lei": "36/2024",
-      "presidente": "Sem presidente",
-      "autoria": "Thomaz Henrique",
-      "status": "Aprovada",
-      "vereadores": [
-        {
-          "vereador": "Amélia Naomi", 		
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Dulce Rita",
-          "voto":	"Contrário"
-        },
-        {
-          "vereador": "Fernando Petiti",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Juliana Fraga",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Juvenil Silvério",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Lino Bispo",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcão da Academia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Robertinho da Padaria",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Walter Hayashi",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Roberto do Eleven",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Zé Luis",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12218,6 +12254,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "336/2024",
+      "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 336/2024.",
       "presidente": "Sem presidente",
       "autoria": "Marcão da Academia",
       "status": "Aprovada",
@@ -12267,7 +12304,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12312,8 +12349,9 @@
   {
       "tipo": "Proposta de Emenda à Lei Orgânica",
       "projeto_de_lei": "1/2024",
+      "descricao": "Acrescenta o Artigo 207-A à Lei Orgânica do Município de São José dos Campos.",
       "presidente": "Sem presidente",
-      "autoria": "Thomaz Henrique Amélia Naomi Dr. José Claudio Dulce Rita Fernando Petiti Juliana Fraga Renato Santiago",
+      "autoria": "Thomaz Henrique Amélia Naomi Dr José Claudio Dulce Rita Fernando Petiti Juliana Fraga Renato Santiago",
       "status": "Aprovada",
       "vereadores": [
         {
@@ -12361,7 +12399,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12406,8 +12444,9 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "192/2023",
+      "descricao": "Institui o Mês “Maio Consciente”, dedicado às Ações de Conscientização, Incentivo ao Cuidado e Promoção da Saúde Mental Materna, passando a integrar o Calendário de festas e comemorações no âmbito do Município de São José dos Campos e dá outras providências.",
       "presidente": "Roberto do Eleven",
-      "autoria": "Dr. José Claudio",
+      "autoria": "Dr José Claudio",
       "status": "Aprovada",
       "vereadores": [
         {
@@ -12455,7 +12494,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12496,104 +12535,10 @@
         }
       ]
     },
-  
-  {
-      "tipo": "Projeto de Lei",
-      "projeto_de_lei": "192/2023",
-      "presidente": "Roberto do Eleven",
-      "autoria": "Dr. José Claudio",
-      "status": "Aprovada",
-      "vereadores": [
-        {
-          "vereador": "Amélia Naomi", 		
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Dulce Rita",
-          "voto":	"Favorável"
-        },
-        {
-          "vereador": "Fernando Petiti",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Juliana Fraga",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Juvenil Silvério",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Lino Bispo",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcão da Academia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Robertinho da Padaria",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Walter Hayashi",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Roberto do Eleven",
-          "voto": "Presidente"
-        },
-        {
-          "vereador": "Zé Luis",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Dr. José Claudio",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Thomaz Henrique",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Roberto Chagas",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Milton Vieira Filho",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rafael Pascucci",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcelo Garcia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Renato Santiago",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Júnior da Farmácia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Fabião Zagueiro",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rogério da Acasem",
-          "voto": "Favorável"
-        }
-      ]
-    },
-  
   {
       "tipo": "Projeto de Decreto Legislativo",
       "projeto_de_lei": "40/2023",
+      "descricao": "Altera o Decreto Legislativo nº 50, de 15 de dezembro de 2005, que “Dispõe sobre a criação do Prêmio Heróis de Alcântara e dá outras providências.”.",
       "presidente": "Roberto do Eleven",
       "autoria": "Rogério da Acasem",
       "status": "Aprovada",
@@ -12643,7 +12588,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12688,6 +12633,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "6/2024",
+      "descricao": "Dispõe sobre as sanções administrativas aplicadas pelo Município às pessoas que forem flagradas em áreas e logradouros públicos fazendo uso de drogas ilícitas, em desacordo com determinação legal ou regulamentar, e dá outras providências.",
       "presidente": "Roberto do Eleven",
       "autoria": "Thomaz Henrique",
       "status": "Aprovada",
@@ -12737,7 +12683,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12782,6 +12728,7 @@
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "248/2024",
+      "descricao": "Autoriza o Poder Executivo a criar o programa “São José ao Vivo” no Município de São José dos Campos.",
       "presidente": "Roberto do Eleven",
       "autoria": "Júnior da Farmácia",
       "status": "Aprovada",
@@ -12831,7 +12778,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12876,6 +12823,7 @@
   {
       "tipo": "Projeto de Decreto Legislativo",
       "projeto_de_lei": "35/2024",
+      "descricao": "Altera o Decreto Legislativo nº 41, de 14 de dezembro de 2023, que “Dispõe sobre a criação do Título de Mulher Empreendedora no Município de São José dos Campos e dá outras providências.”.",
       "presidente": "Roberto do Eleven",
       "autoria": "Rogério da Acasem",
       "status": "Aprovada",
@@ -12925,7 +12873,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -12970,6 +12918,7 @@
   {
       "tipo": "Projeto de Decreto Legislativo",
       "projeto_de_lei": "49/2024",
+      "descricao": "Concede o Título de Cidadão Joseense ao Senhor Hamze Youssef Taha.",
       "presidente": "Sem presidente",
       "autoria": "Amélia Naomi",
       "status": "Aprovada",
@@ -13019,7 +12968,7 @@
           "voto": "Voto Secreto"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Voto Secreto"
         },
         {
@@ -13064,6 +13013,7 @@
     {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "48/2022",
+       "descricao": "A presente Emenda tem por objetivo sanar vício de iniciativa legislativa.",
        "presidente": "Sem presidente",
        "autoria": "Lino Bispo",
        "status": "Aprovada",
@@ -13113,7 +13063,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Contrário"
          },
          {
@@ -13158,6 +13108,7 @@
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "39/2023",
+       "descricao": "A presente Emenda tem por objetivo sanar vício de iniciativa legislativa.",
        "presidente": "Sem presidente",
        "autoria": "Dulce Rita",
        "status": "Rejeitado",
@@ -13207,7 +13158,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Contrário"
          },
          {
@@ -13252,6 +13203,7 @@
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "338/2023",
+       "descricao": "A presente Emenda tem por objetivo sanar vício de iniciativa legislativa.",
        "presidente": "Sem presidente",
        "autoria": "Fernando Petiti",
        "status": "Aprovada",
@@ -13301,7 +13253,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Contrário"
          },
          {
@@ -13346,6 +13298,7 @@
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "212/2024",
+       "descricao": "Denomina a Rua 9, localizada no Loteamento SetJardim SJC, de Rua Ilvair Mendes Oliveira Santos.",
        "presidente": "Roberto do Eleven",
        "autoria": "Rogério da Acasem",
        "status": "Aprovada",
@@ -13395,7 +13348,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -13440,6 +13393,7 @@
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "106/2024",
+       "descricao": "Autoriza o Poder Executivo a instituir a criação de Aplicativo para o acompanhamento de prénatal no âmbito do Município, e dá outras providências.",
        "presidente": "Roberto do Eleven",
        "autoria": "Dulce Rita",
        "status": "Aprovada",
@@ -13489,7 +13443,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -13534,6 +13488,7 @@
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "386/2023",
+       "descricao": "Institui no Calendário Oficial de Festas e Comemorações no Município de São José dos Campos o Dia Municipal de Conscientização e Incentivo ao Diagnóstico Precoce do Retinoblastoma a ser comemorado no dia 18 de setembro e dá outras providências.",
        "presidente": "Roberto do Eleven",
        "autoria": "Fernando Petiti",
        "status": "Aprovada",
@@ -13583,7 +13538,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -13624,106 +13579,12 @@
          }
        ]
      },
-   
-   {
-       "tipo": "Projeto de Lei",
-       "projeto_de_lei": "228/2024",
-       "presidente": "Roberto do Eleven",
-       "autoria": "Marcão da Academia",
-       "status": "Aprovada",
-       "vereadores": [
-         {
-           "vereador": "Amélia Naomi", 		
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Dulce Rita",
-           "voto":	"Favorável"
-         },
-         {
-           "vereador": "Fernando Petiti",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Juliana Fraga",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Juvenil Silvério",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Lino Bispo",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Marcão da Academia",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Robertinho da Padaria",
-           "voto": "Ausente"
-         },
-         {
-           "vereador": "Walter Hayashi",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Roberto do Eleven",
-           "voto": "Presidente"
-         },
-         {
-           "vereador": "Zé Luis",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Dr. José Claudio",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Thomaz Henrique",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Roberto Chagas",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Milton Vieira Filho",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Rafael Pascucci",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Marcelo Garcia",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Renato Santiago",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Júnior da Farmácia",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Fabião Zagueiro",
-           "voto": "Favorável"
-         },
-         {
-           "vereador": "Rogério da Acasem",
-           "voto": "Favorável"
-         }
-       ]
-     },
-   
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "274/2024",
+       "descricao": "Institui e inclui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos-SP “O Dia de Camões, de Portugal e das Comunidades Portuguesas.”.",
        "presidente": "Roberto do Eleven",
-       "autoria": "Dr.José Claudio",
+       "autoria": "Dr José Claudio",
        "status": "Aprovada",
        "vereadores": [
          {
@@ -13771,7 +13632,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -13812,10 +13673,10 @@
          }
        ]
      },
-   
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "296/2024",
+       "descricao": "Institui e inclui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos o Festival Avoando SFX, a ser realizado na terceira semana do mês de junho no Distrito de São Francisco Xavier.",
        "presidente": "Roberto do Eleven",
        "autoria": "Zé Luis",
        "status": "Aprovada",
@@ -13865,7 +13726,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -13906,10 +13767,10 @@
          }
        ]
      },
-   
    {
        "tipo": "Projeto de Lei",
        "projeto_de_lei": "308/2024",
+       "descricao": "Denomina a Rua 5, do Loteamento Terras Alpha, de Rua Rubens Pereira.",
        "presidente": "Roberto do Eleven",
        "autoria": "Zé Luis",
        "status": "Aprovada",
@@ -13959,7 +13820,7 @@
            "voto": "Favorável"
          },
          {
-           "vereador": "Dr. José Claudio",
+           "vereador": "Dr José Claudio",
            "voto": "Favorável"
          },
          {
@@ -14000,10 +13861,10 @@
          }
        ]
     },
-
     {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "352/2022",
+      "descricao": "A presente emenda tem por objetivo sanar vicio legislativo.",
       "presidente": "Sem presidente",
       "autoria": "Renato Santiago",
       "status": "Aprovada",
@@ -14053,7 +13914,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Contrário"
         },
         {
@@ -14094,200 +13955,12 @@
         }
       ]
     },
-  
-  {
-      "tipo": "Projeto de Lei",
-      "projeto_de_lei": "28/2023",
-      "presidente": "Sem presidente",
-      "autoria": "Dulce Rita",
-      "status": "Rejeitado",
-      "vereadores": [
-        {
-          "vereador": "Amélia Naomi", 		
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Dulce Rita",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Fernando Petiti",
-          "voto": "Contário"
-        },
-        {
-          "vereador": "Juliana Fraga",
-          "voto": "Contário"
-        },
-        {
-          "vereador": "Juvenil Silvério",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Lino Bispo",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Marcão da Academia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Robertinho da Padaria",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Walter Hayashi",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Roberto do Eleven",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Zé Luis",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Dr. José Claudio",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Thomaz Henrique",
-          "voto": "Ausente"
-        },
-        {
-          "vereador": "Roberto Chagas",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Milton Vieira Filho",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rafael Pascucci",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcelo Garcia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Renato Santiago",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Júnior da Farmácia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Fabião Zagueiro",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rogério da Acasem",
-          "voto": "Favorável"
-        }
-      ]
-    },
-  
-  {
-      "tipo": "Projeto de Lei",
-      "projeto_de_lei": "348/2024",
-      "presidente": "Sem presidente",
-      "autoria": "Dr.José Claudio",
-      "status": "Rejeitado",
-      "vereadores": [
-        {
-          "vereador": "Amélia Naomi", 		
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Dulce Rita",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Fernando Petiti",
-          "voto": "Contário"
-        },
-        {
-          "vereador": "Juliana Fraga",
-          "voto": "Contário"
-        },
-        {
-          "vereador": "Juvenil Silvério",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Lino Bispo",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Marcão da Academia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Robertinho da Padaria",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Walter Hayashi",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Roberto do Eleven",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Zé Luis",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Dr. José Claudio",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Thomaz Henrique",
-          "voto": "Ausente"
-        },
-        {
-          "vereador": "Roberto Chagas",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Milton Vieira Filho",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rafael Pascucci",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Marcelo Garcia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Renato Santiago",
-          "voto": "Contrário"
-        },
-        {
-          "vereador": "Júnior da Farmácia",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Fabião Zagueiro",
-          "voto": "Favorável"
-        },
-        {
-          "vereador": "Rogério da Acasem",
-          "voto": "Favorável"
-        }
-      ]
-    },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "393/2023",
+      "descricao": "Denomina de “Alexandre Monteiro” a rua nove do Jardim Primavera II B.",
       "presidente": "Roberto do Eleven",
-      "autoria": "Dr.José Claudio",
+      "autoria": "Dr José Claudio",
       "status": "Aprovada",
       "vereadores": [
         {
@@ -14335,7 +14008,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14376,10 +14049,10 @@
         }
       ]
     },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "353/2024",
+      "descricao": "Denomina a Rua 20, localizada no loteamento Vila Amélia, de Rua Professora Ana de Lourdes Campos Borges.",
       "presidente": "Roberto do Eleven",
       "autoria": "Lino Bispo",
       "status": "Aprovada",
@@ -14429,7 +14102,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14470,10 +14143,10 @@
         }
       ]
     },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "184/2024",
+      "descricao": "Denomina a Viela localizada entre a Rua Pico de Cristal e a Rua Pico da Neblina, ao lado do número 118, Jardim Altos de Santana, de Viela Luiz Carlos da Costa.",
       "presidente": "Roberto do Eleven",
       "autoria": "Zé Luis",
       "status": "Aprovada",
@@ -14523,7 +14196,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14564,12 +14237,12 @@
         }
       ]
     },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "235/2024",
+      "descricao": "Institui e inclui, no Calendário Oficial de Festas e Comemorações do Município, o Dia da Cultura Pop, a ser comemorado no dia 20 de junho no âmbito do Município de São José dos Campos.",
       "presidente": "Roberto do Eleven",
-      "autoria": "Juliana Fraga, Amélia Naomi Dr. José Claudio Dulce Rita Fabião Zagueiro Fernando Petiti Juvenil Silvério Marcão da Academia Milton Vieira Filho Rafael Pascucci Renato Santiago Robertinho da Padaria Roberto Chagas Rogério da ACASEM Walter Hayashi e Zé Luis",
+      "autoria": "Juliana Fraga, Amélia Naomi Dr José Claudio Dulce Rita Fabião Zagueiro Fernando Petiti Juvenil Silvério Marcão da Academia Milton Vieira Filho Rafael Pascucci Renato Santiago Robertinho da Padaria Roberto Chagas Rogério da ACASEM Walter Hayashi e Zé Luis",
       "status": "Aprovada",
       "vereadores": [
         {
@@ -14617,7 +14290,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14658,10 +14331,10 @@
         }
       ]
     },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "310/2024",
+      "descricao": "Institui no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos o “Dia do Teleatendente” a ser comemorado, anualmente, no dia 4 de julho.",
       "presidente": "Juvenil Silvério",
       "autoria": "Zé Luis",
       "status": "Aprovada",
@@ -14711,7 +14384,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14752,10 +14425,10 @@
         }
       ]
     },
-  
   {
       "tipo": "Projeto de Lei",
       "projeto_de_lei": "350/2024",
+      "descricao": "Denomina a Viela da Rua Monte das Oliveiras, ao lado do nº 100, localizada no bairro Jardim Altos de Santana, de Viela Maria Celi Guilherme Ferreira.",
       "presidente": "Roberto do Eleven",
       "autoria": "Juvenil Silvério",
       "status": "Aprovada",
@@ -14805,7 +14478,7 @@
           "voto": "Favorável"
         },
         {
-          "vereador": "Dr. José Claudio",
+          "vereador": "Dr José Claudio",
           "voto": "Favorável"
         },
         {
@@ -14846,10 +14519,10 @@
         }
       ]
     },
-  
     {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "316/2021",
+     "descricao": "Altera a ementa, o art. 1º e o art. 3º do Projeto de Lei nº 316/2012.",
      "presidente": "Sem presidente",
      "autoria": "Dulce Rita e Fernando Petiti",
      "status": "Aprovada",
@@ -14899,7 +14572,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Favorável"
        },
        {
@@ -14940,10 +14613,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "398/2012",
+     "descricao": "Suprime os parágrafos 1º, 2º e 3º do art. 2º, renumera o art. 4º para 3º e suprime o art. 6º, do Projeto de Lei nº 398/2012, renumerando os seguintes.",
      "presidente": "Sem presidente",
      "autoria": "Dulce Rita",
      "status": "Aprovada",
@@ -14993,7 +14666,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Contrário"
        },
        {
@@ -15034,10 +14707,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "282/2024",
+     "descricao": "Suprime o art. 2º do Projeto de Lei nº 282/2024, renumerando-se os seguintes.",
      "presidente": "Roberto do Eleven",
      "autoria": "Dulce Rita",
      "status": "Aprovada",
@@ -15087,7 +14760,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Contrário"
        },
        {
@@ -15128,12 +14801,12 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "348/2024",
+     "descricao": "Suprime o inciso VIII do art. 2º do Projeto de Lei nº 348/2024.",
      "presidente": "Sem presidente",
-     "autoria": "Dr.José Claudio",
+     "autoria": "Dr José Claudio",
      "status": "Aprovada",
      "vereadores": [
        {
@@ -15181,7 +14854,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Contrário"
        },
        {
@@ -15222,10 +14895,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "360/2024",
+     "descricao": "A presente emenda visa adequar a propositura à sugestão constante da Certidão nº 3.551/2024, denominando a via em conformidade com o disposto na Lei Complementar nº 674, de 29 de setembro de 2023.",
      "presidente": "Sem presidente",
      "autoria": "Juvenil Silvério",
      "status": "Aprovada",
@@ -15275,7 +14948,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Favorável"
        },
        {
@@ -15316,10 +14989,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "297/2023",
+     "descricao": "Institui como atividade extracurricular o Programa de Ensino do Jiu-Jitsu, a ser disseminado e praticado nas unidades da Rede Pública Municipal de Ensino no âmbito do Município de São José dos Campos e dá outras providências.",
      "presidente": "Roberto Do Eleven",
      "autoria": "Rogério da Acasem",
      "status": "Aprovada",
@@ -15369,7 +15042,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Favorável"
        },
        {
@@ -15410,10 +15083,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "492/2023",
+     "descricao": "Institui o “Agosto Cinza” como mês de combate e conscientização contra queimadas no Calendário Oficial de Festas e Comemorações do Município de São José dos Campos.",
      "presidente": "Roberto Do Eleven",
      "autoria": "Rogério da Acasem",
      "status": "Aprovada",
@@ -15463,7 +15136,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Favorável"
        },
        {
@@ -15504,10 +15177,10 @@
        }
      ]
    },
-   
    {
      "tipo": "Projeto de Lei",
      "projeto_de_lei": "352/2024",
+     "descricao": "Denomina a Viela localizada na Rua Professora Joana de Camargo Fonseca, ao lado do nº 77, no bairro Parque Interlagos, de Viela Waldemar Nogueira da Silva.",
      "presidente": "Roberto Do Eleven",
      "autoria": "Juvenil Silvério",
      "status": "Aprovada",
@@ -15557,7 +15230,7 @@
          "voto": "Favorável"
        },
        {
-         "vereador": "Dr. José Claudio",
+         "vereador": "Dr José Claudio",
          "voto": "Favorável"
        },
        {
@@ -15598,10 +15271,10 @@
        }
      ]
     },
-   
     {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "403/2023",
+    "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 403/2023.",
     "presidente": "Sem presidente",
     "autoria": "Lino Bispo",
     "status": "Aprovada",
@@ -15651,7 +15324,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Contrário"
       },
       {
@@ -15692,10 +15365,10 @@
       }
     ]
   },
-
 {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "468/2021",
+    "descricao": "Dispõe sobre a proteção de abelhas silvestres nativas da subfamília dos meliponíneos, no Município de São José dos Campos.",
     "presidente": "Roberto do Eleven",
     "autoria": "Amélia Naomi",
     "status": "Aprovada",
@@ -15745,7 +15418,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -15786,10 +15459,10 @@
       }
     ]
   },
-
 {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "476/2021",
+    "descricao": "Fica instituída a campanha “Meu Primeiro RG” nas Escolas Municipais de Ensino Infantil e Fundamental de São José dos Campos.",
     "presidente": "Roberto do Eleven",
     "autoria": "Juliana Fraga",
     "status": "Aprovada",
@@ -15839,7 +15512,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -15880,104 +15553,10 @@
       }
     ]
   },
-
-{
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "355/2021",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Juliana Fraga",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Ausente"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Ausente"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "221/2021",
+    "descricao": "A presente emenda visa adequar às normas vigentes.",
     "presidente": "Roberto do Eleven",
     "autoria": "Roberto do Eleven",
     "status": "Aprovada",
@@ -16027,7 +15606,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16071,6 +15650,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "295/2024",
+    "descricao": "Altera a ementa e o art. 1º do Projeto de Lei nº 295/2024.",
     "presidente": "Roberto do Eleven",
     "autoria": "Walter Hayashi",
     "status": "Aprovada",
@@ -16120,7 +15700,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16164,6 +15744,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "355/2024",
+    "descricao": "Autoriza a instalação de totens de segurança com botão de emergência em São José dos Campos e dá outras providências. ",
     "presidente": "Roberto do Eleven",
     "autoria": "Juvenil Silvério",
     "status": "Aprovada",
@@ -16213,7 +15794,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16257,6 +15838,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "466/2023",
+    "descricao": "Autoriza o Poder Executivo implantar a estimulação global nas escolas municipais de São José dos Campos e dá outras providências.",
     "presidente": "Roberto do Eleven",
     "autoria": "Marcão da Academia",
     "status": "Aprovada",
@@ -16306,7 +15888,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16350,6 +15932,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "57/2024",
+    "descricao": "Autoriza o Poder Executivo instalar semáforos antiapagão, no âmbito do Município de São José dos Campos, e dá outras providências.",
     "presidente": "Roberto do Eleven",
     "autoria": "Marcão da Academia",
     "status": "Aprovada",
@@ -16399,7 +15982,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16443,6 +16026,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "149/2024",
+    "descricao": "Dispõe sobre a denominação da Travessa Dois, no Loteamento Santa Lúcia 1B, em São José dos Campos, de Laércio Augusto.",
     "presidente": "Roberto do Eleven",
     "autoria": "Júnior da Farmácia",
     "status": "Aprovada",
@@ -16492,7 +16076,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16536,6 +16120,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "214/2024",
+    "descricao": "Denomina a Rua Quatro, localizada no Loteamento SetJardim, em São José dos Campos, de Bruno Freitas.",
     "presidente": "Roberto do Eleven",
     "autoria": "Júnior da Farmácia",
     "status": "Aprovada",
@@ -16585,7 +16170,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16629,6 +16214,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "360/2024",
+    "descricao": "Denomina a Estrada Putim-Tamoios, localizada entre a Avenida João Rodolfo Castelli e a Rodovia dos Tamoios, de Estrada Anesio Ferreira Gonçalves.",
     "presidente": "Roberto do Eleven",
     "autoria": "Juvenil Silvério",
     "status": "Aprovada",
@@ -16678,100 +16264,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Ausente"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Requerimento",
-    "projeto_de_lei": "3935/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Marcão da Academia",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Ausente"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16815,6 +16308,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "255/2023",
+    "descricao": "Corrige redação do Projeto de Lei nº 255/2023.",
     "presidente": "Roberto do Eleven",
     "autoria": "Thomaz Henrique",
     "status": "Aprovada",
@@ -16864,7 +16358,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -16908,6 +16402,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "292/2023",
+    "descricao": "Autoriza o Poder Executivo Municipal a contatar o paciente com consulta, exame e/ou cirurgia agendada por meio do aplicativo WhatsApp.",
     "presidente": "Roberto do Eleven",
     "autoria": "Renato Santiago",
     "status": "Veto Mantido",
@@ -16957,7 +16452,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Contrário"
       },
       {
@@ -17001,6 +16496,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "344/2023",
+    "descricao": "Dispõe sobre a garantia de matrícula de irmãos na mesma unidade escolar da rede pública de ensino no Município de São José dos Campos.",
     "presidente": "Roberto do Eleven",
     "autoria": "Renato Santiago",
     "status": "Veto Mantido",
@@ -17050,7 +16546,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Contrário"
       },
       {
@@ -17094,6 +16590,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "211/2024",
+    "descricao": "Denomina a Rua Cinco, localizada no Loteamento SetJardim, em São José dos Campos, de Maria Claudia Barbosa.",
     "presidente": "Roberto do Eleven",
     "autoria": "Júnior da Farmácia",
     "status": "Aprovada",
@@ -17143,7 +16640,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -17187,6 +16684,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "285/2024",
+    "descricao": "Autoriza a Prefeitura Municipal de São José dos Campos implantar um Hospital para atendimento aos Idosos.",
     "presidente": "Roberto do Eleven",
     "autoria": "Marcão da Academia",
     "status": "Aprovada",
@@ -17236,7 +16734,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -17280,6 +16778,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "306/2024",
+    "descricao": "Autoriza o Poder Público Municipal a estabelecer diretrizes para a criação do Banco de Empregos para pessoas com Transtorno do Espectro Autista (TEA), no âmbito do Município de São José dos Campos e dá outras providências.",
     "presidente": "Roberto do Eleven",
     "autoria": "Fabião Zagueiro",
     "status": "Aprovada",
@@ -17329,7 +16828,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -17373,6 +16872,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "339/2024",
+    "descricao": "Fica instituído e incluído no Calendário Oficial de Festas e Comemorações do Município o Dia do Breaking, a ser comemorado no dia 18 de novembro, no âmbito do Município de São José dos Campos.",
     "presidente": "Roberto do Eleven",
     "autoria": "Juliana Fraga",
     "status": "Aprovada",
@@ -17422,7 +16922,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -17466,6 +16966,7 @@
   {
     "tipo": "Projeto de Lei",
     "projeto_de_lei": "375/2024",
+    "descricao": "Declara de Utilidade Pública Municipal a Associação Projeto À Flor da Pele.",
     "presidente": "Roberto do Eleven",
     "autoria": "Zé Luis",
     "status": "Aprovada",
@@ -17515,7 +17016,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {
@@ -17558,753 +17059,10 @@
   },
   {
     "tipo": "Projeto de Lei",
-    "projeto_de_lei": "64/2020",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Juliana Fraga",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "380/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Milton Vieira Filho",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "378/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Dulce Rita",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "379/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Dulce Rita",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "398/2021",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Júnior da Farmácia",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "256/2022",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Marcelo Garcia",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "36/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "José Claudio",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Contrário"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Contrário"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
-    "projeto_de_lei": "320/2024",
-    "presidente": "Roberto do Eleven",
-    "autoria": "Juvenil Silvério",
-    "status": "Aprovada",
-    "vereadores": [
-      {
-        "vereador": "Amélia Naomi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dulce Rita",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fernando Petiti",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juliana Fraga",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Juvenil Silvério",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Lino Bispo",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcão da Academia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Robertinho da Padaria",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Walter Hayashi",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto do Eleven",
-        "voto": "Presidente"
-      },
-      {
-        "vereador": "Zé Luis",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Dr. José Claudio",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Thomaz Henrique",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Roberto Chagas",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Milton Vieira Filho",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rafael Pascucci",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Marcelo Garcia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Renato Santiago",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Júnior da Farmácia",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Fabião Zagueiro",
-        "voto": "Favorável"
-      },
-      {
-        "vereador": "Rogério da Acasem",
-        "voto": "Favorável"
-      }
-    ]
-  },
-  {
-    "tipo": "Projeto de Lei",
     "projeto_de_lei": "348/2024",
+    "descricao": "A presente emenda tem por objetivo sanar vicio legislativo.",
     "presidente": "Roberto do Eleven",
-    "autoria": "Dr. José Claudio e Fernando Petiti",
+    "autoria": "Dr José Claudio e Fernando Petiti",
     "status": "Aprovada",
     "vereadores": [
       {
@@ -18352,7 +17110,7 @@
         "voto": "Favorável"
       },
       {
-        "vereador": "Dr. José Claudio",
+        "vereador": "Dr José Claudio",
         "voto": "Favorável"
       },
       {

@@ -32,8 +32,7 @@ def index():
         lei['PrimeiraLetra'] = lei['Lei'][0] if 'Lei' in lei and lei['Lei'] else ''
     ultimas = prepos() 
     return render_template('index.html', ultimas=ultimas, leis=leis)
-
-
+    
 # --------------------------------------------------------------------------------------------------------
 
 @app.route('/dados2', methods=['GET'])
@@ -41,6 +40,46 @@ def index():
 def get_dados2():
     try:
         with open('app/database/leis.json','r') as file:
+            data = json.load(file)
+        return jsonify(data)
+    except FileNotFoundError:
+        return jsonify({"mensagem": "Arquivo não encontrado"}), 404
+    except json.JSONDecodeError:
+        return jsonify({"mensagem": "Erro ao decodificar JSON"}), 500
+    
+# --------------------------------------------------------------------------------------------------------
+
+def carregar_votacoes():
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data3.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            votacoes = json.load(file)
+        return votacoes.get('votacoes', [])
+    except FileNotFoundError:
+        logging.error("Arquivo data3.json não encontrado")
+        return []
+    except json.JSONDecodeError as e:
+        logging.error(f"Erro ao decodificar JSON: {e}")
+        return []
+    
+@app.route('/votacoes')
+def votacoes_view():
+    votacoes = carregar_votacoes()
+
+    # Processamento das votações
+    for votacao in votacoes:
+        votacao['PrimeiraLetra'] = votacao['Votação'][0] if 'Votação' in votacao and votacao['Votação'] else ''
+    
+    # Aqui você pode adicionar mais lógica se necessário
+    ultimas = votacoes  # ou alguma outra lógica que você precise
+    
+    return render_template('perfil.html', ultimas=ultimas, Votos=votacoes)
+
+@app.route('/dados3', methods=['GET'])
+def get_dados3():
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data3.json')
+        with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
         return jsonify(data)
     except FileNotFoundError:
@@ -154,10 +193,23 @@ def perfil(NM_URNA_CANDIDATO):
 
         vereador_id = parlamentar.get("ID_VER")
         comentarios = obter_comentarios(vereador_id)
+        votacoes = carregar_votacoes()
+        votacoes_filtradas = []
+        for votacao in votacoes:
+            for vereador in votacao['vereadores']:
+                if format_name(vereador['vereador']) == NM_URNA_CANDIDATO:
+                    votacoes_filtradas.append({
+                        "tipo": votacao["tipo"],
+                        "projeto_de_lei": votacao["projeto_de_lei"],
+                        "descricao": votacao["descricao"],
+                        "autoria": votacao["autoria"],
+                        "status": votacao["status"],
+                        "voto": vereador["voto"]
+                    })
 
         # Renderiza a página de perfil com os comentários
         # return render_template('perfil.html', parlamentar=parlamentar,)
-        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios)
+        return render_template('perfil.html', parlamentar=parlamentar, comentarios=comentarios, votacoes=votacoes_filtradas)
 
     except FileNotFoundError:
         logging.error("Arquivo não encontrado")
@@ -412,6 +464,34 @@ def search():
         return jsonify({"mensagem": "Erro interno do servidor"}), 500
 
 #----------------------------------------------------------------------------------------------
+
+def carregar_votacoes():
+    try:
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'database', 'data3.json')
+        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
+            votacoes = json.load(file)
+        return votacoes
+    except FileNotFoundError:
+        logging.error("Arquivo data3.json não encontrado")
+        return []
+    except json.JSONDecodeError as e:
+        logging.error(f"Erro ao decodificar JSON: {e}")
+        return []
+    
+@app.route('/perfil_vereador/<string:nome_vereador>', methods=['GET'])
+def perfil_vereador(nome_vereador):
+    votacoes = carregar_votacoes()
+    
+    # Filtrar proposições do vereador específico
+    votacoes_filtradas = []
+    for votacao in votacoes:
+        if any(vereador['vereador'].lower() == nome_vereador.lower() for vereador in votacao['vereadores']):
+            votacoes_filtradas.append(votacao)
+    
+    if not votacoes_filtradas:
+        logging.warning(f"Sem proposições encontradas para o vereador: {nome_vereador}")
+    
+    return render_template('perfil.html', nome_vereador=nome_vereador, proposicoes=votacoes_filtradas) 
 
 if __name__ == '__main__':
     app.run(debug=True)
