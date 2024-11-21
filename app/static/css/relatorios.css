@@ -137,16 +137,22 @@ hr {
 .botao-paginacao {
   background-color: var(--cor-primaria);
   color: var(--cor-clara);
-  padding: var(--padding-button);
+  padding: 8px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
   font-size: var(--tamanho-texto-pequeno);
   text-decoration: none;
+  width: auto;
+  min-width: 34px;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 
 .botao-paginacao.ativo {
-  background-color: #31cde2;  
+  background-color: #ccc;  
   pointer-events: none;  
 }
  
@@ -157,6 +163,8 @@ hr {
 #pagination-controls {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
   gap: 10px;
 }
 

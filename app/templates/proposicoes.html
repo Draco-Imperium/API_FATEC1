@@ -125,7 +125,7 @@
           {% set end_page = (current_page + 2) if (current_page + 2) <= total_pages else total_pages %} {% if
             current_page> 1 %}
             <a href="?page={{ current_page - 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
-              class="botao-paginacao">Anterior</a>
+              class="botao-paginacao"><svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#e8eaed"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg></a>
             {% endif %}
             {% if current_page > 3 %}
             <a href="?page=1&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
@@ -146,7 +146,7 @@
               <a href="?page={{ total_pages }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
                 class="botao-paginacao">{{total_pages}}</a>
               <a href="?page={{ current_page + 1 }}&tipoID={{ tipoID }}&numero={{ numero }}&ano={{ ano }}&autor={{ autor }}"
-                class="botao-paginacao">Próxima</a>
+                class="botao-paginacao"><svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#e8eaed"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></a>
               {% endif %}
         </div>
 

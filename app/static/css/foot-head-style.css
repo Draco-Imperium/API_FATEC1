@@ -239,6 +239,11 @@ body {
         flex-grow: 1;
         margin-right: 30px;
     }
+
+    .search-input::placeholder {
+        font-size: 14px;
+    }
+
     .nav {
         display: flex;
         height: 0px;
