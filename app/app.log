@@ -22592,3 +22592,93 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-21 00:58:21,401-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
 2024-11-21 00:58:21,753-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
 2024-11-21 00:58:21,934-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-21 07:39:54,907-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-21 07:39:54,907-INFO-[33mPress CTRL+C to quit[0m
+2024-11-21 07:40:10,986-INFO-127.0.0.1 - - [21/Nov/2024 07:40:10] "GET / HTTP/1.1" 200 -
+2024-11-21 07:40:11,109-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-21 07:40:11,111-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-21 07:40:11,344-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/images/bg1.jpg HTTP/1.1" 200 -
+2024-11-21 07:40:11,345-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/images/Logo%20API.png HTTP/1.1" 200 -
+2024-11-21 07:40:11,346-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-21 07:40:11,347-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/images/bg2.jpg HTTP/1.1" 200 -
+2024-11-21 07:40:11,419-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/images/bg3.jpg HTTP/1.1" 200 -
+2024-11-21 07:40:11,762-INFO-127.0.0.1 - - [21/Nov/2024 07:40:11] "GET /static/images/favicon.svg HTTP/1.1" 200 -
+2024-11-21 07:40:14,155-INFO-127.0.0.1 - - [21/Nov/2024 07:40:14] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-21 07:40:14,445-INFO-127.0.0.1 - - [21/Nov/2024 07:40:14] "GET /static/css/vereadores_geral.css HTTP/1.1" 200 -
+2024-11-21 07:40:14,525-INFO-127.0.0.1 - - [21/Nov/2024 07:40:14] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:40:14,529-INFO-127.0.0.1 - - [21/Nov/2024 07:40:14] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:40:14,530-INFO-127.0.0.1 - - [21/Nov/2024 07:40:14] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:40:16,777-INFO-15 comentários encontrados para o vereador 35.
+2024-11-21 07:40:16,835-INFO-127.0.0.1 - - [21/Nov/2024 07:40:16] "GET /perfil/amelia_naomi HTTP/1.1" 200 -
+2024-11-21 07:40:16,877-INFO-127.0.0.1 - - [21/Nov/2024 07:40:16] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-21 07:40:16,879-INFO-127.0.0.1 - - [21/Nov/2024 07:40:16] "GET /static/javascript/perfil.js HTTP/1.1" 200 -
+2024-11-21 07:40:17,186-INFO-127.0.0.1 - - [21/Nov/2024 07:40:17] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:40:17,190-INFO-127.0.0.1 - - [21/Nov/2024 07:40:17] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:40:17,191-INFO-127.0.0.1 - - [21/Nov/2024 07:40:17] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:40:17,609-INFO-127.0.0.1 - - [21/Nov/2024 07:40:17] "GET /static/javascript/infoGraficos.json HTTP/1.1" 200 -
+2024-11-21 07:50:40,313-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "GET /graficos HTTP/1.1" 200 -
+2024-11-21 07:50:40,395-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-21 07:50:40,549-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:50:40,660-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:50:40,663-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-21 07:50:40,665-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:50:40,689-INFO-127.0.0.1 - - [21/Nov/2024 07:50:40] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:51:00,415-INFO-127.0.0.1 - - [21/Nov/2024 07:51:00] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 07:51:00,726-INFO-127.0.0.1 - - [21/Nov/2024 07:51:00] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:51:51,574-INFO-127.0.0.1 - - [21/Nov/2024 07:51:51] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 07:51:51,591-INFO-127.0.0.1 - - [21/Nov/2024 07:51:51] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:51:51,904-INFO-127.0.0.1 - - [21/Nov/2024 07:51:51] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:51:51,910-INFO-127.0.0.1 - - [21/Nov/2024 07:51:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:51:51,922-INFO-127.0.0.1 - - [21/Nov/2024 07:51:51] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-11-21 07:51:52,356-INFO-127.0.0.1 - - [21/Nov/2024 07:51:52] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:52:30,826-INFO-127.0.0.1 - - [21/Nov/2024 07:52:30] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-21 07:52:31,133-INFO-127.0.0.1 - - [21/Nov/2024 07:52:31] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:31,205-INFO-127.0.0.1 - - [21/Nov/2024 07:52:31] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:31,206-INFO-127.0.0.1 - - [21/Nov/2024 07:52:31] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:31,209-INFO-127.0.0.1 - - [21/Nov/2024 07:52:31] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:52:33,497-INFO-7 comentários encontrados para o vereador 37.
+2024-11-21 07:52:33,519-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "GET /perfil/dr_elton HTTP/1.1" 200 -
+2024-11-21 07:52:33,566-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:33,570-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:33,888-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:33,891-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:52:33,894-INFO-127.0.0.1 - - [21/Nov/2024 07:52:33] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:34,253-INFO-127.0.0.1 - - [21/Nov/2024 07:52:34] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:52:40,282-INFO-127.0.0.1 - - [21/Nov/2024 07:52:40] "GET /vereadores_geral HTTP/1.1" 200 -
+2024-11-21 07:52:40,595-INFO-127.0.0.1 - - [21/Nov/2024 07:52:40] "[36mGET /static/css/vereadores_geral.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:40,645-INFO-127.0.0.1 - - [21/Nov/2024 07:52:40] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:40,646-INFO-127.0.0.1 - - [21/Nov/2024 07:52:40] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:40,647-INFO-127.0.0.1 - - [21/Nov/2024 07:52:40] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:52:42,832-INFO-2 comentários encontrados para o vereador 238.
+2024-11-21 07:52:42,865-INFO-127.0.0.1 - - [21/Nov/2024 07:52:42] "GET /perfil/dr_jose_claudio HTTP/1.1" 200 -
+2024-11-21 07:52:42,911-INFO-127.0.0.1 - - [21/Nov/2024 07:52:42] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:42,913-INFO-127.0.0.1 - - [21/Nov/2024 07:52:42] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:52:43,229-INFO-127.0.0.1 - - [21/Nov/2024 07:52:43] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:43,231-INFO-127.0.0.1 - - [21/Nov/2024 07:52:43] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:52:43,232-INFO-127.0.0.1 - - [21/Nov/2024 07:52:43] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-21 07:52:43,561-INFO-127.0.0.1 - - [21/Nov/2024 07:52:43] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:53:17,424-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-21 07:53:17,424-INFO-[33mPress CTRL+C to quit[0m
+2024-11-21 07:53:17,424-INFO- * Restarting with stat
+2024-11-21 07:53:18,103-WARNING- * Debugger is active!
+2024-11-21 07:53:18,110-INFO- * Debugger PIN: 966-762-940
+2024-11-21 07:53:19,988-INFO-2 comentários encontrados para o vereador 238.
+2024-11-21 07:53:20,007-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "GET /perfil/dr_jose_claudio HTTP/1.1" 200 -
+2024-11-21 07:53:20,106-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,106-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/css/vereadores_perfil.css HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,374-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,374-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,374-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,731-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:53:20,757-INFO-127.0.0.1 - - [21/Nov/2024 07:53:20] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,104-INFO-2 comentários encontrados para o vereador 238.
+2024-11-21 07:57:41,151-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "GET /perfil/dr_jose_claudio HTTP/1.1" 200 -
+2024-11-21 07:57:41,185-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,198-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "GET /static/css/vereadores_perfil.css HTTP/1.1" 200 -
+2024-11-21 07:57:41,489-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,489-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,524-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,882-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 07:57:41,899-INFO-127.0.0.1 - - [21/Nov/2024 07:57:41] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -

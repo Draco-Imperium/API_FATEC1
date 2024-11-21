@@ -279,6 +279,22 @@ main {
   font-size: 14px;
 }
 
+.dropdown-menu2 {
+  max-height: 0;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0 10px;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dropdown.open .dropdown-menu2 {
+  max-height: 100%;
+  font-size: 14px;
+}
+
 .texto-be {
   padding: 10px;
   background-color: white;
