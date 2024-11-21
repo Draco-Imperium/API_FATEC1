@@ -22545,3 +22545,50 @@ NameError: name 'comentarios' is not defined. Did you mean: 'comentar'?
 2024-11-20 01:28:46,147-INFO-127.0.0.1 - - [20/Nov/2024 01:28:46] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
 2024-11-20 01:28:46,151-INFO-127.0.0.1 - - [20/Nov/2024 01:28:46] "[36mGET /static/javascript/perfil.js HTTP/1.1[0m" 304 -
 2024-11-20 01:28:46,196-INFO-127.0.0.1 - - [20/Nov/2024 01:28:46] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 00:57:47,495-INFO-[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-21 00:57:47,495-INFO-[33mPress CTRL+C to quit[0m
+2024-11-21 00:57:47,498-INFO- * Restarting with stat
+2024-11-21 00:57:50,194-WARNING- * Debugger is active!
+2024-11-21 00:57:50,394-INFO- * Debugger PIN: 137-390-401
+2024-11-21 00:57:50,624-INFO-127.0.0.1 - - [21/Nov/2024 00:57:50] "GET /graficos HTTP/1.1" 200 -
+2024-11-21 00:57:51,187-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "GET /static/css/foot-head-style.css HTTP/1.1" 200 -
+2024-11-21 00:57:51,199-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "GET /static/css/grafico.css HTTP/1.1" 200 -
+2024-11-21 00:57:51,518-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "GET /static/javascript/search.js HTTP/1.1" 200 -
+2024-11-21 00:57:51,519-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 00:57:51,579-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "GET /static/javascript/graficos.js HTTP/1.1" 200 -
+2024-11-21 00:57:51,809-INFO-127.0.0.1 - - [21/Nov/2024 00:57:51] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 00:57:52,522-INFO-127.0.0.1 - - [21/Nov/2024 00:57:52] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-21 00:57:55,679-INFO-127.0.0.1 - - [21/Nov/2024 00:57:55] "GET / HTTP/1.1" 200 -
+2024-11-21 00:57:56,300-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 00:57:56,300-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/images/bg2.jpg HTTP/1.1[0m" 304 -
+2024-11-21 00:57:56,301-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 00:57:56,301-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 00:57:56,301-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "GET /static/css/index.css HTTP/1.1" 200 -
+2024-11-21 00:57:56,302-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2024-11-21 00:57:56,697-INFO-127.0.0.1 - - [21/Nov/2024 00:57:56] "[36mGET /static/images/bg3.jpg HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,368-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "GET /graficos HTTP/1.1" 200 -
+2024-11-21 00:58:03,532-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,626-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,800-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,802-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,804-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 00:58:03,846-INFO-127.0.0.1 - - [21/Nov/2024 00:58:03] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 00:58:09,829-INFO-127.0.0.1 - - [21/Nov/2024 00:58:09] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:09,830-INFO-127.0.0.1 - - [21/Nov/2024 00:58:09] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:10,084-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "GET /graficos HTTP/1.1" 200 -
+2024-11-21 00:58:10,248-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:10,498-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:10,498-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:10,499-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 00:58:10,508-INFO-127.0.0.1 - - [21/Nov/2024 00:58:10] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:11,079-INFO-127.0.0.1 - - [21/Nov/2024 00:58:11] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 00:58:11,814-INFO-127.0.0.1 - - [21/Nov/2024 00:58:11] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,016-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "GET /graficos HTTP/1.1" 200 -
+2024-11-21 00:58:21,080-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/css/grafico.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,277-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/css/foot-head-style.css HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,399-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/images/Logo%20API.png HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,399-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/javascript/search.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,401-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/javascript/graficos.js HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,753-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/javascript/infoGraficos.json HTTP/1.1[0m" 304 -
+2024-11-21 00:58:21,934-INFO-127.0.0.1 - - [21/Nov/2024 00:58:21] "[36mGET /static/images/favicon.svg HTTP/1.1[0m" 304 -

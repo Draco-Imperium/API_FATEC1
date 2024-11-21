@@ -13,7 +13,9 @@ function criarGrafico(data, label, descricao) {
         window.meuGrafico.destroy();
     }
 
-    window.meuGrafico = new Chart(ctx, {
+    const isSmallScreen = window.innerWidth <= 768;
+
+    const options = {
         type: "bar",
         data: {
             labels: [
@@ -34,19 +36,21 @@ function criarGrafico(data, label, descricao) {
             }]
         },
         options: {
+            indexAxis: isSmallScreen ? 'y' : 'x', 
             scales: {
                 x: {
-                    barPercentage: 0.5,
-                    categoryPercentage: 0.5
+                    beginAtZero: true,
                 },
                 y: {
-                    beginAtZero: true,
+                    display: isSmallScreen ? false : true,
                 }
             },
             responsive: true,
             maintainAspectRatio: false
         }
-    });
+    };
+
+    window.meuGrafico = new Chart(ctx, options);
 
     const descricaoElemento = document.getElementById("descricao");
     if (descricaoElemento && typeof descricao === "string") {
