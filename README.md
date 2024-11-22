@@ -70,7 +70,7 @@ Sprint | Previsão | Status|
 |Kick Off | 02/09/2024 - 06/09/2024 |finalizado|
 |01 | 09/09/2024 - 29/09/2024 |finalizado|
 |02|  07/10/2024 - 27/10/2024 |finalizado|
-|03| 04/11/2024 - 24/11/2024 |em andamento|
+|03| 04/11/2024 - 24/11/2024 |finalizado|
 |Feira de Soluções| 12/12/2024 |a fazer|
  
 <br>
@@ -105,13 +105,11 @@ Sprint | Previsão | Status|
 
 - [x] Implementação de funcionalidades do sistema (barra de busca, comentários);
 
-- [ ] Reajustes e alguns aperfeiçoamentos;
+- [x] Reajustes e alguns aperfeiçoamentos;
       
-- [ ] Criação de toda documentação necessária do projeto;
+- [x] Criação de toda documentação necessária do projeto;
 
 - [x] Deploy do Banco de Dados no RDS da AWS.
-
-- [ ] Deploy da aplicação na AWS;
  
 <br>
 
@@ -201,9 +199,8 @@ https://github.com/user-attachments/assets/6e5f10d1-d0ee-4d98-ada3-e20d598f8baf
 https://github.com/user-attachments/assets/1102e3ab-02c6-4e57-a228-f623061b6992
 
 <h3>📍Sprint 3</h3>
-...
 
-<br>
+<h4><a href="https://youtu.be/NQjO5y1g220">🔗Link para o vídeo no Youtube</a></h4>
 
 <span id="autores">
 
