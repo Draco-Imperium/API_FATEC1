@@ -177,13 +177,60 @@ function getAnoFiltro() {
 document.addEventListener("DOMContentLoaded", async function () {
     await carregarDadosVereadores();
     mostrarGraficoFrequencia();
-    const menuLinks = document.querySelectorAll(".dropdown-menu a");
 
+    document.getElementById("anoSelect").addEventListener("change", function() {
+        switch (document.querySelector(".dropdown-menu .active").textContent.trim()) {
+            case "Percentual de presença":
+                mostrarGraficoFrequencia();
+                break;
+            case "Faltas justificadas":
+                mostrarGraficoFaltasJustificadas();
+                break;
+            case "Faltas não justificadas":
+                mostrarGraficoFaltasNaoJustificadas();
+                break;
+            case "Projetos de Lei":
+                mostrarGraficoProjetodeLeis();
+                break;
+            case "Indicação":
+                mostrarGraficoIndicacao();
+                break;
+            case "Moções":
+                mostrarGraficoMocoes();
+                break;
+            case "Emendas":
+                mostrarGraficoEmendas();
+                break;
+            case "Requerimento":
+                mostrarGraficoRequerimento();
+                break;
+            case "Decreto Legislativo":
+                mostrarGraficoDecretolegislativo();
+                break;
+            case "Emenda à Lei Orgânica":
+                mostrarGraficoLeiorganica();
+                break;
+            case "Lei Ordinária":
+                mostrarGraficoLeiordinaria();
+                break;
+            case "Resolução":
+                mostrarGraficoResolucao();
+                break;
+            default:
+                mostrarGraficoFrequencia();
+                break;
+        }
+    });
+
+    const menuLinks = document.querySelectorAll(".dropdown-menu a");
     menuLinks.forEach((link) => {
         link.addEventListener("click", function (event) {
             event.preventDefault();
             const textoLink = this.textContent;
 
+            menuLinks.forEach((link) => link.classList.remove("active"));
+            this.classList.add("active");
+            
             switch (textoLink) {
                 case "Percentual de presença":
                     mostrarGraficoFrequencia();
