@@ -10,3 +10,4 @@ app/app.log
 *.env
 app/app.log
 *.log
+*.log
