@@ -31,7 +31,8 @@ main {
 .navigation-bar {
   display: flex;
   padding: 2%;
-  justify-content: center;
+  align-items:flex-start;
+  justify-content: space-between;
   gap: 50%;
   background-color: #2f4eac;
   border-radius: 10px 10px 0px 0px;
@@ -61,6 +62,7 @@ main {
 }
 
 .dropdown {
+  margin-left: auto;
   position: relative;
 }
 

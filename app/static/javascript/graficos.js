@@ -178,8 +178,11 @@ document.addEventListener("DOMContentLoaded", async function () {
     await carregarDadosVereadores();
     mostrarGraficoFrequencia();
 
+    const dateFilterSection = document.querySelector(".date-filter-section");
+
     document.getElementById("anoSelect").addEventListener("change", function() {
-        switch (document.querySelector(".dropdown-menu .active").textContent.trim()) {
+        const opcaoAtiva = document.querySelector(".dropdown-menu .active").textContent.trim();
+        switch (opcaoAtiva) {
             case "Percentual de presença":
                 mostrarGraficoFrequencia();
                 break;
@@ -189,36 +192,6 @@ document.addEventListener("DOMContentLoaded", async function () {
             case "Faltas não justificadas":
                 mostrarGraficoFaltasNaoJustificadas();
                 break;
-            case "Projetos de Lei":
-                mostrarGraficoProjetodeLeis();
-                break;
-            case "Indicação":
-                mostrarGraficoIndicacao();
-                break;
-            case "Moções":
-                mostrarGraficoMocoes();
-                break;
-            case "Emendas":
-                mostrarGraficoEmendas();
-                break;
-            case "Requerimento":
-                mostrarGraficoRequerimento();
-                break;
-            case "Decreto Legislativo":
-                mostrarGraficoDecretolegislativo();
-                break;
-            case "Emenda à Lei Orgânica":
-                mostrarGraficoLeiorganica();
-                break;
-            case "Lei Ordinária":
-                mostrarGraficoLeiordinaria();
-                break;
-            case "Resolução":
-                mostrarGraficoResolucao();
-                break;
-            default:
-                mostrarGraficoFrequencia();
-                break;
         }
     });
 
@@ -226,49 +199,63 @@ document.addEventListener("DOMContentLoaded", async function () {
     menuLinks.forEach((link) => {
         link.addEventListener("click", function (event) {
             event.preventDefault();
-            const textoLink = this.textContent;
+            const textoLink = this.textContent.trim();
 
             menuLinks.forEach((link) => link.classList.remove("active"));
             this.classList.add("active");
-            
+
             switch (textoLink) {
                 case "Percentual de presença":
                     mostrarGraficoFrequencia();
+                    dateFilterSection.style.display = "flex";
                     break;
                 case "Faltas justificadas":
                     mostrarGraficoFaltasJustificadas();
+                    dateFilterSection.style.display = "flex";
                     break;
                 case "Faltas não justificadas":
                     mostrarGraficoFaltasNaoJustificadas();
+                    dateFilterSection.style.display = "flex";
                     break;
                 case "Projetos de Lei":
                     mostrarGraficoProjetodeLeis();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Indicação":
                     mostrarGraficoIndicacao();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Moções":
                     mostrarGraficoMocoes();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Emendas":
                     mostrarGraficoEmendas();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Requerimento":
                     mostrarGraficoRequerimento();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Decreto Legislativo":
                     mostrarGraficoDecretolegislativo();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Emenda à Lei Orgânica":
                     mostrarGraficoLeiorganica();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Lei Ordinária":
                     mostrarGraficoLeiordinaria();
+                    dateFilterSection.style.display = "none";
                     break;
                 case "Resolução":
                     mostrarGraficoResolucao();
+                    dateFilterSection.style.display = "none";
                     break;
                 default:
+                    console.error("Gráfico não definido para esta opção.");
+                    dateFilterSection.style.display = "none";
                     break;
             }
         });
