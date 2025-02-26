@@ -22,7 +22,7 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 <span id="projeto">
 
 ## 📋 O Projeto
-> **Status do Projeto: Em Desenvolvimento**
+> **Status do Projeto: Finalizado**
  
 Desenvolver uma plataforma web que disponibilize informações sobre o desempenho dos vereadores da cidade de São José dos Campos durante o atual mandato. O objetivo é oferecer aos eleitores dados claros e acessíveis que ajudem a tomar decisões informadas nas eleições municipais. A plataforma permitirá que os cidadãos visualizem a atuação dos vereadores.
  
@@ -71,7 +71,7 @@ Sprint | Previsão | Status|
 |01 | 09/09/2024 - 29/09/2024 |finalizado|
 |02|  07/10/2024 - 27/10/2024 |finalizado|
 |03| 04/11/2024 - 24/11/2024 |finalizado|
-|Feira de Soluções| 12/12/2024 |a fazer|
+|Feira de Soluções| 12/12/2024 |finalizado|
  
 <br>
  
